@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl https://www.reversebeacon.net/spots.php?h=c85cc7&cdx=KD0*&b=22&s=0&r=100 | jq '.spots' > incidents.json
+        curl https://www.reversebeacon.net/spots.php?h=c85cc7&cdx=KD0*&b=22&s=0&r=100 | cmd_that_just_doesnt_exist '.spots' > incidents.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
