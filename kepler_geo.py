@@ -1,5 +1,6 @@
 import json
 import datetime
+from datetime import timedelta
 
 f = open('incidents.json')
 h = open('stations_geo.json')
@@ -12,15 +13,20 @@ geo_data=json.load(h)
 #reformat timestamp
 e='%H%Mz %d %b'
 
-today = datetime.date.today()
+today = datetime.datetime.today()
 for i in spots:
     new_date=datetime.datetime.strptime(spots[i][5], e)
-#    new_date=new_date.replace(2023)
-    new_date = new_date.date().replace(year=today.year)
-    if new_date >= today:
+    new_date = new_date.replace(year=today.year)
+    new_date = new_date - timedelta(hours=8, minutes=0)
+    #print(new_date)
+    #print(datetime.datetime.strftime(new_date, '%Y/%m/%d %H:%M:%S'))
+    #print(today)
+    if new_date > today:
         # date not before today, attach *last* year
         new_date = new_date.replace(year=today.year - 1)
+
     spots[i][5]=datetime.datetime.strftime(new_date, '%Y/%m/%d %H:%M:%S')
+    #print(spots[i][5])
 
 print("id,geometry,timestamp")
 for i in spots:
