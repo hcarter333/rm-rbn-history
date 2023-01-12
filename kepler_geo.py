@@ -12,9 +12,14 @@ geo_data=json.load(h)
 #reformat timestamp
 e='%H%Mz %d %b'
 
+today = datetime.date.today()
 for i in spots:
     new_date=datetime.datetime.strptime(spots[i][5], e)
-    new_date=new_date.replace(2023)
+#    new_date=new_date.replace(2023)
+    new_date = new_date.date().replace(year=today.year)
+    if new_date >= today:
+        # date not before today, attach *last* year
+        new_date = new_date.replace(year=today.year - 1)
     spots[i][5]=datetime.datetime.strftime(new_date, '%Y/%m/%d %H:%M:%S')
 
 print("id,geometry,timestamp")
