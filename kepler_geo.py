@@ -1,7 +1,7 @@
 import json
 import datetime
 
-f = open('spots.json')
+f = open('incidents.json')
 h = open('stations_geo.json')
 
 # returns JSON object as 
