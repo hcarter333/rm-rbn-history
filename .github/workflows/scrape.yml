@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
+      with:
+          fetch-depth: 2
     - name: Fetch latest data
       run: |-
         curl 'https://www.reversebeacon.net/spots.php?h=c85cc7&cdx=KD0F*&b=22&s=0&r=100' | jq '.spots[]|= .[0:6]|.spots ' > incidents.json
