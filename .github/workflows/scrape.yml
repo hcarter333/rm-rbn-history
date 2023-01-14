@@ -20,7 +20,6 @@ jobs:
         curl 'https://www.reversebeacon.net/spots.php?h=c85cc7&cdx=KD0F*&b=22&s=0&r=100' | jq '.call_info ' > stations_geo.json
         python kepler_geo.py > rm_rnb_history.csv
         git config pager.diff false
-        git diff HEAD rm_rnb_history.csv | grep -E "^+[^\+]" >> rm_rnb_history_pres.csv
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
