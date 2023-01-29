@@ -23,6 +23,7 @@ def new_key_cat(test_file):
     else:
         f = open(test_file)
     for line in f:
+        print("working on line" + line, file=sys.stderr)
         if(line.split(",")[0] not in existing_key_list):
             print(line)
             print(line, file=sys.stderr)
