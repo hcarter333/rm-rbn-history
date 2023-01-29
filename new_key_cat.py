@@ -24,3 +24,4 @@ def new_key_cat(test_file):
     for line in f:
         if(line.split(",")[0] not in existing_key_list):
             print(line)
+            print(line, file=sys.stderr)
