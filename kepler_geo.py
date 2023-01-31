@@ -9,13 +9,17 @@ h = open('stations_geo.json')
 #geo_station = "-122.42299,37.72286"
 #time_diff = 8
 
+#Baylor Pass I
+geo_station = "-106.578838, 32.382328"
+time_diff = 7
+
 #Three Rivers Petroglyph Site
 #geo_station = "-106.006336, 33.346341"
 #time_diff = 7
 
 #Organ Mountains-Desert Peaks National Monument
-geo_station = "-106.556812, 32.373049"
-time_diff = 7
+#geo_station = "-106.556812, 32.373049"
+#time_diff = 7
 
 # returns JSON object as 
 # a dictionary
