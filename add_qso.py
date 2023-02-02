@@ -1,4 +1,5 @@
 import sys
+import random
 
 #Read each line in the qso_file
 #format it as kepler_geo and write it to stdout using print
