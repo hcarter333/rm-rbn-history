@@ -10,6 +10,10 @@ h = open('stations_geo.json')
 #time_diff = 8
 
 #Baylor Pass I
+#geo_station = "-106.578838, 32.382328"
+#time_diff = 7
+
+#Baylor Pass II
 geo_station = "-106.578838, 32.382328"
 time_diff = 7
 
