@@ -14,7 +14,7 @@ h = open('stations_geo.json')
 #time_diff = 7
 
 #Baylor Pass II
-geo_station = "-106.578838, 32.382328"
+geo_station = "-106.579229, 32.380401"
 time_diff = 7
 
 #Three Rivers Petroglyph Site
