@@ -20,7 +20,7 @@ def test_add_qso_2(capsys):  # or use "capfd" for fd-level
 #pass an empty file
 def test_add_qso_3(capsys):  # or use "capfd" for fd-level
     #call the method to add qsos
-    add_qso("qso_locs.txt", 7)
+    add_qso("qso_empty.txt", 7)
     captured = capsys.readouterr()
     #check that the output line was formatted correctly
     #Uses output directly from generating google sheet
