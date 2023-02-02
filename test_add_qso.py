@@ -16,3 +16,14 @@ def test_add_qso_2(capsys):  # or use "capfd" for fd-level
     #Uses output directly from generating google sheet
     captured_fields = captured.out.split(",")
     assert captured.out=='7,"{""type"":""LineString"",""coordinates"":[[-106.578838,32.382328],[-97.0957613946923,30.0488933199194]]}","2023/01/29 17:32",0,14058.3,KF9RX\n'
+
+#pass an empty file
+def test_add_qso_3(capsys):  # or use "capfd" for fd-level
+    #call the method to add qsos
+    add_qso("qso_locs.txt", 7)
+    captured = capsys.readouterr()
+    #check that the output line was formatted correctly
+    #Uses output directly from generating google sheet
+    #There should be no captured output
+    captured_fields = captured.out.split(",")
+    assert captured.out==''
