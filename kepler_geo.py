@@ -6,16 +6,16 @@ f = open('incidents.json')
 h = open('stations_geo.json')
 
 #San Francisco
-#geo_station = "-122.42299,37.72286"
-#time_diff = 8
+geo_station = "-122.42299,37.72286"
+time_diff = 8
 
 #Baylor Pass I
 #geo_station = "-106.578838, 32.382328"
 #time_diff = 7
 
 #Baylor Pass II
-geo_station = "-106.579229, 32.380401"
-time_diff = 7
+#geo_station = "-106.579229, 32.380401"
+#time_diff = 7
 
 #Three Rivers Petroglyph Site
 #geo_station = "-106.006336, 33.346341"
