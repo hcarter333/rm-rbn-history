@@ -25,6 +25,8 @@ jobs:
         python kepler_geo.py > rm_rnb_history.csv
         git config pager.diff false
         cat rm_rnb_history.csv | python nkc.py >> rm_rnb_history_pres.csv
+        addqsos.py >>  rm_rnb_history_pres.csv
+        echo "" > qso_locs.txt
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
