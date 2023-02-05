@@ -5,7 +5,8 @@ import random
 #format it as kepler_geo and write it to stdout using print
 #generate random 32 bit key
 def qso_spot_kml(qso_file, key=77):
-    linestart = "<Placemark> <LineString><coordinates>"
+    placestart = "<Placemark>
+    linestart = <LineString><coordinates>"
     lineend = "</coordinates></LineString>"
     qso_style = "<Style><LineStyle><color>#ff00ff00</color><width>3</width></LineStyle></Style>"
     spot_style = "<Style><LineStyle><color>#ffff0000</color><width>3</width></LineStyle></Style>"
@@ -17,6 +18,8 @@ def qso_spot_kml(qso_file, key=77):
     for line in f:
         fields = line.split(",")
         if(len(fields)==8):
+                print(placestart)
+                print("<TimeStamp>"+fields[4].replace('/','-')+"</TimeStamp>")
                 print(linestart)
                 print(fields[0]+","+fields[1]+",0.")
                 print(fields[2]+","+fields[3]+",0.")
