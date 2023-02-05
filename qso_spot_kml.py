@@ -43,3 +43,6 @@ def transform_spot_kml(fields_list):
     fields_list[4] = "<TimeStamp>"+fields_list[4]+"</TimeStamp>"
     #Then, wrap the timestamp in the appropriate tags
     return fields_list
+
+#add code to read directly from rm_rnb_history_pres.csv
+
