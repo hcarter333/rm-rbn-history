@@ -6,5 +6,5 @@ def test_add_qso_1(capsys):  # or use "capfd" for fd-level
     fields = test_spot.split(",")
     kml_fields = transform_spot_kml(fields)
     #check that the output line was formatted correctly
-    assert kml_fields[4]=='2023-01-30T09:15:00'
+    assert kml_fields[4]=='<TimeStamp>2023-01-30T09:15:00</TimeStamp>'
  
