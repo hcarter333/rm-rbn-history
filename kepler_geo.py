@@ -6,8 +6,8 @@ f = open('incidents.json')
 h = open('stations_geo.json')
 
 #San Francisco
-geo_station = "-122.42299,37.72286"
-time_diff = 8
+#geo_station = "-122.42299,37.72286"
+#time_diff = 8
 
 #Baylor Pass I
 #geo_station = "-106.578838, 32.382328"
@@ -24,6 +24,10 @@ time_diff = 8
 #Organ Mountains-Desert Peaks National Monument
 #geo_station = "-106.556812, 32.373049"
 #time_diff = 7
+
+#VillaNueva
+geo_station = "-105.3337, 35.2653944"
+time_diff = 7
 
 # returns JSON object as 
 # a dictionary
