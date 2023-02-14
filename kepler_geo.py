@@ -26,8 +26,14 @@ h = open('stations_geo.json')
 #time_diff = 7
 
 #VillaNueva
-geo_station = "-105.333232818105000,35.265642780552700"
-time_diff = 7
+#geo_station = "-105.333232818105000,35.265642780552700"
+#time_diff = 7
+
+#Cibola
+geo_station = "34.21691024351882,-105.67408870217315"
+time_diff = 0
+
+
 
 # returns JSON object as 
 # a dictionary
