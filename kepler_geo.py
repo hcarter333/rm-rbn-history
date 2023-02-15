@@ -30,7 +30,7 @@ h = open('stations_geo.json')
 #time_diff = 7
 
 #Cibola
-geo_sation = "3-105.6740871407319, 4.216829239864644"
+geo_sation = "-105.6740871407319, 34.216829239864644"
 #geo_station = "34.21691024351882,-105.67408870217315"
 time_diff = 0
 
