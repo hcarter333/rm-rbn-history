@@ -7,11 +7,20 @@ h = open('stations_geo.json')
 
 #San Francisco
 geo_station = "-122.42299,37.72286"
-time_diff = 8
+time_diff = 0
+
+#Los Angelese STate Historical Park
+#geo_station = "-118.231391054668000,34.068540984515200"
+#time_diff = 0
+
+#San Bruno Mountain Sate Park
+#geo_station = "-122.43129925155743, 37.703220169453076"
+#time_diff = 0
+
 
 #Baylor Pass I
 #geo_station = "-106.578838, 32.382328"
-#time_diff = 7
+#time_diff = 7-122.43129925155743"
 
 #Baylor Pass II
 #geo_station = "-106.579229, 32.380401"
@@ -24,6 +33,16 @@ time_diff = 8
 #Organ Mountains-Desert Peaks National Monument
 #geo_station = "-106.556812, 32.373049"
 #time_diff = 7
+
+#VillaNueva
+#geo_station = "-105.333232818105000,35.265642780552700"
+#time_diff = 7
+
+#Cibola
+#geo_station = "-105.6740871407319,34.216829239864644"
+#time_diff = 0
+
+
 
 # returns JSON object as 
 # a dictionary
