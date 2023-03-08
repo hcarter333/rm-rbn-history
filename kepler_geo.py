@@ -10,13 +10,17 @@ h = open('stations_geo.json')
 #time_diff = 0
 
 #Los Angelese STate Historical Park
-geo_station = "-118.231391054668000,34.068540984515200"
+#geo_station = "-118.231391054668000,34.068540984515200"
+#time_diff = 0
+
+#San Bruno Mountain Sate Park
+geo_station = "-122.43129925155743, 37.703220169453076"
 time_diff = 0
 
 
 #Baylor Pass I
 #geo_station = "-106.578838, 32.382328"
-#time_diff = 7
+#time_diff = 7-122.43129925155743"
 
 #Baylor Pass II
 #geo_station = "-106.579229, 32.380401"
