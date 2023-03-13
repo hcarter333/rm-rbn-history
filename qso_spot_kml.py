@@ -15,6 +15,24 @@ signal_colors = {"1": "#ff004b96",
                  "9": "#ffffffff",
                  }
 
+def db_to_s(db):
+    test_db = int(db)
+    if(test_db > 32):
+        return "9"
+    if(test_db < 27):
+        return "8"
+    if(test_db > 21):
+        return "7"
+    if(test_db > 15):
+        return "6"
+    if(test_db > 8):
+        return "5"
+    if(test_db > 2):
+        return "4"
+    if(test_db >= 1):
+        return "3"
+
+
 #Read each line in the qso_file
 #format it as as kml and write it to stdout using print
 #generate random 32 bit key
@@ -33,9 +51,9 @@ def transfom_qso_to_kml(qso_line):
     placestart = "<Placemark>"
     linestart = "<LineString><coordinates>"
     lineend = "</coordinates></LineString>"
-    qso_style = "<Style><LineStyle><color>line_color</color><width>3</width></LineStyle></Style>"
-    qso_style_no_rst = "<Style><LineStyle><color>line_color</color><width>1</width></LineStyle></Style>"
-    spot_style = "<Style><LineStyle><color>line_color</color><width>2</width></LineStyle></Style>"
+    qso_style = "<Style><LineStyle><color>line_color</color><width>4</width></LineStyle></Style>"
+    qso_style_no_rst = "<Style><LineStyle><color>line_color</color><width>4</width></LineStyle></Style>"
+    spot_style = "<Style><LineStyle><color>line_color</color><width>3</width></LineStyle></Style>"
     QSO_deets_style_table = '<description><![CDATA[<table border="0" cellpadding="0" cellspacing="0" width="322" style="border-collapse: collapse; width: 242pt;">'
     QSO_deets_style_colgroup = '<colgroup><col width="73" style="width: 55pt;"><col width="87" style="width: 65pt;">\
         <col width="81" span="2" style="width: 61pt;"></colgroup><tbody>'
@@ -67,10 +85,10 @@ def transfom_qso_to_kml(qso_line):
         if(fields[5] == "0"):
             #set for QSO line color with unknown RST
             print(qso_style_no_rst.replace("line_color", signal_colors[fields[5]]))
-        elif(fields[5].len != 3):
+        elif(len(fields[5]) != 3):
             #set for spot line color (RBN)
-            print(spot_style.replace("line_color", signal_colors[fields[5]]))
-        elif(fields[5].len == 3):
+            print(spot_style.replace("line_color", signal_colors[db_to_s(fields[5])]))
+        elif(len(fields[5]) == 3):
             #set for QSO line color with specified S of RST
             print(qso_style.replace("line_color", signal_colors[fields[5][1]]))
         print(place_end)
