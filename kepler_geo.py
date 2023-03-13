@@ -69,7 +69,10 @@ for i in spots:
 
 print("id,geometry,timestamp,dB,frequency,Spotter")
 for i in spots:
-    print(i+',"{""type"":""LineString"",""coordinates"":[['+ geo_station + '],['+\
-    	geo_data[spots[i][0]][7]+","+geo_data[spots[i][0]][6]+\
-    	']]}","'+spots[i][5]+'"'+','+str(spots[i][3])+','+str(spots[i][1])+','+spots[i][0])
+    #print(i+',"{""type"":""LineString"",""coordinates"":[['+ geo_station + '],['+\
+    #	geo_data[spots[i][0]][7]+","+geo_data[spots[i][0]][6]+\
+    #	']]}","'+spots[i][5]+'"'+','+str(spots[i][3])+','+str(spots[i][1])+','+spots[i][0])
+    print(i+','+ geo_station + ','+\
+    	geo_data[spots[i][0]][7]+','+geo_data[spots[i][0]][6]+\
+    	','+spots[i][5]+','+str(spots[i][3])+','+str(spots[i][1])+','+spots[i][0])
 
