@@ -2,7 +2,18 @@ import sys
 import random
 
 #keep track of spotting stations to avoid duplicates
-already_spotted = {};
+already_spotted = {}
+signal_colors = {"1": "#ff004b96",
+                 "0": "#ff004b96",
+                 "2": "#ff0000ff",
+                 "3": "#ff00a5ff",
+                 "4": "#ff00ffff",
+                 "5": "#ff00ff00",
+                 "6": "#ffff0000",
+                 "7": "#ff82004b",
+                 "8": "#ffff007f",
+                 "9": "#ffffffff",
+                 }
 
 #Read each line in the qso_file
 #format it as as kml and write it to stdout using print
@@ -22,8 +33,9 @@ def transfom_qso_to_kml(qso_line):
     placestart = "<Placemark>"
     linestart = "<LineString><coordinates>"
     lineend = "</coordinates></LineString>"
-    qso_style = "<Style><LineStyle><color>#ff00ff00</color><width>3</width></LineStyle></Style>"
-    spot_style = "<Style><LineStyle><color>#ffff0000</color><width>3</width></LineStyle></Style>"
+    qso_style = "<Style><LineStyle><color>line_color</color><width>3</width></LineStyle></Style>"
+    qso_style_no_rst = "<Style><LineStyle><color>line_color</color><width>1</width></LineStyle></Style>"
+    spot_style = "<Style><LineStyle><color>line_color</color><width>2</width></LineStyle></Style>"
     QSO_deets_style_table = '<description><![CDATA[<table border="0" cellpadding="0" cellspacing="0" width="322" style="border-collapse: collapse; width: 242pt;">'
     QSO_deets_style_colgroup = '<colgroup><col width="73" style="width: 55pt;"><col width="87" style="width: 65pt;">\
         <col width="81" span="2" style="width: 61pt;"></colgroup><tbody>'
@@ -41,7 +53,7 @@ def transfom_qso_to_kml(qso_line):
     qso_deets_time = qso_deets.replace("QSO_TIME", fields[4])
     qso_deets_time = '<description><![CDATA[<h1>'+fields[7]+'</h1>Date/Time GMT: <div><br></div>' + fields[4]+ ']]></description>'
     fields = transform_spot_kml(fields)
-    if((len(fields)==8) and (qso_line.find(", ") == -1)):
+    if(qso_line_error(qso_line, fields) == False):
         print(placestart)
         print('<name>' + fields[7] + '</name>' );
         #Now print the description>
@@ -53,12 +65,22 @@ def transfom_qso_to_kml(qso_line):
         print(fields[2]+","+fields[3]+",0.")
         print(lineend)
         if(fields[5] == "0"):
-            #set for QSO line color
-            print(qso_style)
-        else:
+            #set for QSO line color with unknown RST
+            print(qso_style_no_rst.replace("line_color", signal_colors[fields[5]]))
+        elif(fields[5].len != 3):
             #set for spot line color (RBN)
-            print(spot_style)
+            print(spot_style.replace("line_color", signal_colors[fields[5]]))
+        elif(fields[5].len == 3):
+            #set for QSO line color with specified S of RST
+            print(qso_style.replace("line_color", signal_colors[fields[5][1]]))
         print(place_end)
+        add_placemark(fields)
+    else:
+        return -1
+    return 0
+
+def add_placemark(fields):
+    if((is_repeated_spot(fields) == False)):
         #add a placemark for the receiving station
         print('<Placemark>')
         print('<name>'+fields[7]+'</name>')
@@ -68,15 +90,21 @@ def transfom_qso_to_kml(qso_line):
         print('</Placemark>')
         #mark any spots as already happened after the first time
         set_rbn_spot(fields)
+        
+
+
+def qso_line_error(qso_line, fields):
+    if((len(fields)==8) and (qso_line.find(", ") == -1)):
+      return False
     elif(len(fields)!=8):
         print ("Input line does not have 8 fields:", sys.stderr)
         print (qso_line, sys.stderr)
-        return -1
+        return True
     elif(qso_line.find(", ") != -1):
         print ("Input line has a space after comma:", sys.stderr)
         print (qso_line, sys.stderr)
-        return -1
-    return 0
+        return True
+
 
 def transform_spot_kml(fields_list):
     #reformat the timestamp for kml

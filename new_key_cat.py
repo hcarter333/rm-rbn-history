@@ -25,6 +25,6 @@ def new_key_cat(test_file):
     for line in f:
         #print("working on line" + line, file=sys.stderr)
         if(line.split(",")[0] not in existing_key_list):
-            print(line)    
-            #sys.stdout.write(line)
+            #print(line)    
+            sys.stdout.write(line)
             #print(line, file=sys.stderr)
