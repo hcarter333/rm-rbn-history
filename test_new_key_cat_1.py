@@ -5,9 +5,9 @@ def test_answer():
     #list of keys
     key_list = []
     key_list = make_key_list("new_key_cat_test1.csv")
-    assert("1516323033" in key_list)
-    assert("1513727969" in key_list)
-    assert("1516323033" in key_list)
+    assert("1516347974" in key_list)
+    assert("1516342315" in key_list)
+    assert("1516364560" in key_list)
 
 def test_new_key_cat_2(capsys):  # or use "capfd" for fd-level
     #call the method with a file that has both new keys and 

@@ -1,6 +1,9 @@
 import sys
 import random
 
+#keep track of spotting stations to avoid duplicates
+already_spotted = {};
+
 #Read each line in the qso_file
 #format it as as kml and write it to stdout using print
 #generate random 32 bit key
@@ -63,6 +66,8 @@ def transfom_qso_to_kml(qso_line):
         print('<coordinates>'+fields[2]+','+fields[3]+'</coordinates>')
         print('</Point>')
         print('</Placemark>')
+        #mark any spots as already happened after the first time
+        set_rbn_spot(fields)
     elif(len(fields)!=8):
         print ("Input line does not have 8 fields:", sys.stderr)
         print (qso_line, sys.stderr)
@@ -80,6 +85,19 @@ def transform_spot_kml(fields_list):
     fields_list[4] = "<TimeStamp>"+fields_list[4]+"</TimeStamp>"
     #Then, wrap the timestamp in the appropriate tags
     return fields_list
+
+def is_rbn_spot(fields_list):
+    if(fields_list[5]!= "0"):
+        return True
+    else:
+        return False
+
+def set_rbn_spot(fields_list):
+    if(is_rbn_spot(fields_list)):
+        already_spotted[fields_list[7]] = 1;
+
+def is_repeated_spot(fields_list):
+    return fields_list[7] in already_spotted
 
 #add code to read directly from rm_rnb_history_pres.csv
 
