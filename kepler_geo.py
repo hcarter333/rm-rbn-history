@@ -10,12 +10,12 @@ h = open('stations_geo.json')
 #time_diff = 0
 
 #Rosie Riveter I
-geo_station = "-122.3497911055768,37.91493229232588"
-time_diff = 0
+#geo_station = "-122.3497911055768,37.91493229232588"
+#time_diff = 0
 
 #Rosie Riveter II
-#geo_station = "-122.34654548945645,37.915318565746944"
-#time_diff = 0
+geo_station = "-122.34654548945645,37.915318565746944"
+time_diff = 0
 
 #Los Angelese STate Historical Park
 #geo_station = "-118.231391054668000,34.068540984515200"
