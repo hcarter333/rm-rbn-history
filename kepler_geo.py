@@ -10,7 +10,11 @@ h = open('stations_geo.json')
 #time_diff = 0
 
 #Fort Funston
-geo_station = "-122.503527918121000,37.718750411089600"
+#geo_station = "-122.503527918121000,37.718750411089600"
+#time_diff = 0
+
+#Fort Funston II
+geo_station = "-122.5017746265654,37.72002112924458"
 time_diff = 0
 
 #Rosie Riveter I
