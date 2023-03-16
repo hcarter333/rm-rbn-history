@@ -19,7 +19,7 @@ def db_to_s(db):
     test_db = int(db)
     if(test_db > 32):
         return "9"
-    if(test_db < 27):
+    if(test_db > 27):
         return "8"
     if(test_db > 21):
         return "7"
@@ -53,7 +53,7 @@ def transfom_qso_to_kml(qso_line):
     lineend = "</coordinates></LineString>"
     qso_style = "<Style><LineStyle><color>line_color</color><width>4</width></LineStyle></Style>"
     qso_style_no_rst = "<Style><LineStyle><color>line_color</color><width>4</width></LineStyle></Style>"
-    spot_style = "<Style><LineStyle><color>line_color</color><width>3</width></LineStyle></Style>"
+    spot_style = "<Style><LineStyle><color>line_color</color><width>4</width></LineStyle></Style>"
     QSO_deets_style_table = '<description><![CDATA[<table border="0" cellpadding="0" cellspacing="0" width="322" style="border-collapse: collapse; width: 242pt;">'
     QSO_deets_style_colgroup = '<colgroup><col width="73" style="width: 55pt;"><col width="87" style="width: 65pt;">\
         <col width="81" span="2" style="width: 61pt;"></colgroup><tbody>'
@@ -87,7 +87,9 @@ def transfom_qso_to_kml(qso_line):
             print(qso_style_no_rst.replace("line_color", signal_colors[fields[5]]))
         elif(len(fields[5]) != 3):
             #set for spot line color (RBN)
-            print(spot_style.replace("line_color", signal_colors[db_to_s(fields[5])]))
+            spot_color = spot_style.replace("line_color", signal_colors[db_to_s(fields[5])])
+            spot_color_transparent = spot_color.replace("#ff", "#33")
+            print(spot_color_transparent)
         elif(len(fields[5]) == 3):
             #set for QSO line color with specified S of RST
             print(qso_style.replace("line_color", signal_colors[fields[5][1]]))
