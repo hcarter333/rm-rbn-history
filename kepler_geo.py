@@ -6,10 +6,12 @@ f = open('incidents.json')
 h = open('stations_geo.json')
 
 #San Francisco
-geo_station = "-122.42299,37.72286"
+geo_station = "-122.4774149,37.8025536"
 time_diff = 0
+#37.8025536, -122.4774149
 
-#Fort Funston
+#122.42299,37.72286
+#Fort Fun#37.8025536, -122.4774149ston
 #geo_station = "-122.503527918121000,37.718750411089600"
 #time_diff = 0
 
