@@ -41,6 +41,8 @@ def qso_spot_kml(qso_file, key=77):
     #output the standard header
     print('<?xml version="1.0" encoding="UTF-8"?>')
     print('<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>pota_title</name>')
+    #output the styles for this map
+    print_map_style()
     for line in f:
         if(transfom_qso_to_kml(line) == -1):
           sys.exit("qso input has incorrect format, see message above")
@@ -104,6 +106,11 @@ def add_placemark(fields):
         #add a placemark for the receiving station
         print('<Placemark>')
         print('<name>'+fields[7]+'</name>')
+        #set icon style
+        if(len(fields[5]) != 3):
+            print('<styleUrl>#RBN</styleUrl>')
+        else:
+            print('<styleUrl>#QSO</styleUrl>')
         print('<Point>')
         print('<coordinates>'+fields[2]+','+fields[3]+'</coordinates>')
         print('</Point>')
@@ -146,6 +153,23 @@ def set_rbn_spot(fields_list):
 
 def is_repeated_spot(fields_list):
     return fields_list[7] in already_spotted
+
+def print_map_style():
+    print('<Style id="RBN">')
+    print('<IconStyle>')
+    print('<Icon>')
+    print('<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>')
+    print('</Icon>')
+    print('</IconStyle>')
+    print('</Style>')
+    print('<Style id="QSO">')
+    print('<IconStyle>')
+    print('<Icon>')
+    print('<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>')
+    print('</Icon>')
+    print('</IconStyle>')
+    print('</Style>')
+
 
 #add code to read directly from rm_rnb_history_pres.csv
 
