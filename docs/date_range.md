@@ -8,3 +8,9 @@ Using the date range feature:
 <pre>
 expe_kml.py -b "2023/03/25 16:15:00" -e "2023/03/25 18:19" -n -122.600424744673000  -a 37.897649811896700  > muir_woods_II_a.csv
 </pre>
+
+Out of scope for this doc, but to create a map, change the filename in qso_kml.py to the output filename above, and then run, for example  
+
+<pre>
+python qso_kml.py > muir_woods_II_all.kml
+</pre>
