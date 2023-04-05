@@ -2,6 +2,10 @@ import sys
 import argparse
 import datetime
 
+#Example use:
+#expe_kml.py -b "2023/04/04 13:10:00" -e "2023/04/04 16:23:00" -a 37.803855263605000 -n-122.476722711130000 > ggo_23_04_04_a.csv
+
+
 parser = argparse.ArgumentParser(
                     prog='expe_kml',
                     description='Creates kml maps over a time range with the input location',
