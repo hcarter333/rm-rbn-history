@@ -9,3 +9,7 @@ These lines can be copied to the QSL mailing spreadsheet
 **Methods Called**  
 get_qrz_session(username)
 This method returns a (hopefully) valid QRZ session ID based on the username and a password stored in a repository secret. The session id is used in all calls to the QRZ.com data interface.
+  
+get_qrz_call_geo_address(callsign)
+This method retrieves the address (minus zip code) that is passed to Google to get the callsigns actual location. The adddress is pulled from the QRZ.com data service subscription.
+
