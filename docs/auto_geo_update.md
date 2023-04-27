@@ -6,3 +6,6 @@ call,date,time,rx_rst,date_time,address
 These lines can be copied to the QSL mailing spreadsheet
 
 
+**Methods Called**  
+get_qrz_session(username)
+This method returns a (hopefully) valid QRZ session ID based on the username and a password stored in a repository secret. The session id is used in all calls to the QRZ.com data interface.
