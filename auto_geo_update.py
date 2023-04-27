@@ -27,6 +27,17 @@ def get_qrz_call_geo_address(callsign):
     address_geo = address_geo.replace(' ','+')
     return address_geo
 
+def get_call_lat_lng(callsign):
+    geoloc = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+get_qrz_call_geo_address(callsign)+
+             '&key='+os.getenv("MAPS_API_KEY"))
+    print(os.getenv("MAPS_API_KEY"))
+    print(geoloc)
+    y=json.loads(geoloc.text)
+
+    lat=y["results"][0]["geometry"]["location"]["lat"]
+    lng=y["results"][0]["geometry"]["location"]["lng"]
+    return str(lat) + ',' + str(lng)
+
 #get session id
 #read in csv file with 
 #call,rx_rst,tx_rst,date_time
