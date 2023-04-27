@@ -15,6 +15,8 @@ jobs:
       with:
           fetch-depth: 2
     - name: Test with pytest
+      env: # Or as an environment variable
+        QRZ_PSWD: ${{ secrets.QRZ_PSWD }}
       run: |-
         pip install pytest
         pytest 
