@@ -17,6 +17,7 @@ jobs:
     - name: Test with pytest
       env: # Or as an environment variable
         QRZ_PSWD: ${{ secrets.QRZ_PSWD }}
+        MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}        
       run: |-
         pip install pytest
         pytest 
