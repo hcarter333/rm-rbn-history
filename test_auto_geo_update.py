@@ -13,4 +13,4 @@ def test_get_qrz_call_geo_address():
 
 def test_get_call_lat_lng():
     geo_loc = get_call_lat_lng("NU6XB")
-    assert geo_loc == "37.8750364,-122.2573242"
+    assert geo_loc == "-122.2573242,37.8750364"
