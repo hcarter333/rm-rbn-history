@@ -1,6 +1,7 @@
 import sys
 import argparse
 import datetime
+from expe_kml_defs import expe_kml
 
 #Example use:
 #expe_kml.py -b "2023/04/04 13:10:00" -e "2023/04/04 16:23:00" -a 37.803855263605000 -n-122.476722711130000 > ggo_23_04_04_a.csv
@@ -36,25 +37,4 @@ if args.end_timestamp:
         print("Error parsing date input:",sys.exc_info())
         sys.exit(1)
 
-f = open('rm_rnb_history_pres.csv')
-firstline = 1
-for line in f:
-    #throw away the first line
-    fields = line.split(",")
-    if((firstline != 1) and (len(fields)==9)):
-        #print(fields[5])
-        try:
-            line_date = datetime.datetime.strptime(fields[5], '%Y/%m/%d %H:%M:%S')
-        except:
-            try:
-                line_date = datetime.datetime.strptime(fields[5], '%Y/%m/%d %H:%M')
-            except:
-                print("Error parsing date input:",sys.exc_info())
-                sys.exit(1)
-
- #       line_date = datetime.datetime.strptime(fields[5], '%Y/%m/%d %H:%M:%S')
-        if((line_date > begin_timestamp) and (line_date < end_timestamp)):
-            sys.stdout.write(str(args.lng)+','+str(args.lat)+','+fields[3]+','+fields[4]+\
-                ','+fields[5]+','+fields[6]+','+fields[7]+','+fields[8])
-    else:
-        firstline = 0
+expe_kml(args.lng, args.lat, begin_timestamp, end_timestamp)

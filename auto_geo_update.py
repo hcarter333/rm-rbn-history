@@ -67,15 +67,15 @@ def dump_rm_rbn_history(lng, lat, csv_file=''):
         qso_list.append(qso_tuple)
         #table should have
         #id	tx_lng	tx_lat	rx_lng	rx_lat	timestamp	dB	frequency	Spotter
-        print(str(random.randrange(0,4294967295)) + ',' + 
-              str(lng) + ',' + str(lat) + ',' + callsign_loc + ',' + fields[1] + 
-              ',' + fields[3][0:3] + ',14058.4,' + fields[0])
+#        print(str(random.randrange(0,4294967295)) + ',' + 
+#              str(lng) + ',' + str(lat) + ',' + callsign_loc + ',' + fields[1] + 
+#              ',' + fields[3][0:3] + ',14058.4,' + fields[0])
     result = sorted(qso_list, key=lambda x: x[4])
     for qso in result:
-        print(qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' + qso[3] + ',' + 
-              qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + qso[5] + ',14058.4,' + qso[6])
-    for qso in result:
-        print(qso)
+        result_string = qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' \
+              + qso[3] + ',' + qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + \
+              qso[5] + ',14058.4,' + qso[6]
+        print(result_string)
     return result
         
     

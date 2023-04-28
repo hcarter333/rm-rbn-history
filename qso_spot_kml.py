@@ -1,5 +1,6 @@
 import sys
 import random
+import re
 
 #keep track of spotting stations to avoid duplicates
 already_spotted = {}
@@ -36,18 +37,43 @@ def db_to_s(db):
 #Read each line in the qso_file
 #format it as as kml and write it to stdout using print
 #generate random 32 bit key
-def qso_spot_kml(qso_file, key=77):
-    f = open(qso_file)
+def qso_spot_kml(qso_file, key=77, qso_list=[], map_title=""):
+    test_lines = 0
+    if(len(qso_list) == 0):
+        f = open(qso_file)
     #output the standard header
-    print('<?xml version="1.0" encoding="UTF-8"?>')
-    print('<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>pota_title</name>')
+    if(map_title == ""):
+        print('<?xml version="1.0" encoding="UTF-8"?>')
+        print('<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>pota_title</name>')
+    else:
+        #open the output file
+        map_file = map_title.replace(" ", "_")
+        map_file = map_file.replace("-", "_")
+        map_file = map_file.replace("!", "_")
+        print("debug: map_file = " + map_file)
+        stdout_fileno = sys.stdout
+        sys.stdout = open(map_file + ".kml", 'w')
+        print('<?xml version="1.0" encoding="UTF-8"?>')
+        print('<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>' + map_title + \
+              '</name>')
     #output the styles for this map
     print_map_style()
-    for line in f:
-        if(transfom_qso_to_kml(line) == -1):
-          sys.exit("qso input has incorrect format, see message above")
+    if(len(qso_list) == 0):
+        for line in f:
+            if(transfom_qso_to_kml(line) == -1):
+                sys.exit("qso input has incorrect format, see message above")
+    else:
+        for line in qso_list:
+            test_lines = test_lines + 1
+            if(transfom_qso_to_kml(line) == -1):
+                sys.exit("qso input has incorrect format, see message above")
     #output file footer
     print('</Document> </kml>')
+    #put stdout back where we found it
+    if(map_title!=""):
+        sys.stdout = stdout_fileno
+    return test_lines
+
 
 def transfom_qso_to_kml(qso_line):
     placestart = "<Placemark>"
