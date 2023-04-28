@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 import json
 import sys
 import random
+import datetime
 
 #For now, before each usage, the following two enviornment variables must be set
 #QRZ_PSWD and MAPS_API_KEY (see auto_gen_update_keys.txt locally)
@@ -43,22 +44,39 @@ def get_call_lat_lng(callsign):
     return str(lng) + ',' + str(lat)
 
 #and then the script goes here?
-def dump_rm_rbn_history(lng, lat):
+def dump_rm_rbn_history(lng, lat, csv_file=''):
     
     #read in csv file with 
-    #call,rx_rst,tx_rst,date_time
+    #call,date_time,rx_rst,tx_rst
     #date format is '%Y/%m/%d %H:%M:%S'
-    f = open('qso_update.csv')
+    #list to store QSOs in
+    qso_list = []
+    if(csv_file==''):
+        csv_file='qso_update.csv'
+    f = open(csv_file)
     for line in f:
         #for now assume the lines are correctly formatted
         fields = line.split(",")
         #Get the geo location for the call sign
         callsign_loc = get_call_lat_lng(fields[0])
+        #get the QSO date and time for sorting
+        qso_dt = datetime.datetime.strptime(fields[1], "%Y/%m/%d %H:%M:%S")
+        #store the qso in a tuple
+        qso_tuple = str(random.randrange(0,4294967295)),lng,lat,callsign_loc,\
+                    qso_dt,fields[3][0:3],fields[0]
+        qso_list.append(qso_tuple)
         #table should have
         #id	tx_lng	tx_lat	rx_lng	rx_lat	timestamp	dB	frequency	Spotter
         print(str(random.randrange(0,4294967295)) + ',' + 
               str(lng) + ',' + str(lat) + ',' + callsign_loc + ',' + fields[1] + 
               ',' + fields[3][0:3] + ',14058.4,' + fields[0])
+    result = sorted(qso_list, key=lambda x: x[4])
+    for qso in result:
+        print(qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' + qso[3] + ',' + 
+              qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + qso[5] + ',14058.4,' + qso[6])
+    for qso in result:
+        print(qso)
+    return result
         
     
     
