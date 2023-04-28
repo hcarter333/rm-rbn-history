@@ -57,8 +57,8 @@ def dump_rm_rbn_history(lng, lat):
         #table should have
         #id	tx_lng	tx_lat	rx_lng	rx_lat	timestamp	dB	frequency	Spotter
         print(str(random.randrange(0,4294967295)) + ',' + callsign_loc + ',' + 
-              str(lng) + ',' + str(lat) + ',' + fields[3][0:3] + ',' + 
-              fields[1] + ',14058.4,' + fields[0])
+              str(lng) + ',' + str(lat) + ',' + fields[1] + ',' + 
+              fields[3][0:3] + ',14058.4,' + fields[0])
         
     
     
