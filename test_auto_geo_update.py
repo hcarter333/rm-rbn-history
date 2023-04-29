@@ -20,10 +20,11 @@ def test_get_call_lat_lng():
 
 def test_dump_rm_rbn_history(capsys):
     result = dump_rm_rbn_history(-106.7995, 34.801, 'test_qso_update.csv')
+    #Tests that the output results are sorted by date time as wexpected
     assert result[4][6] == "K6EL"
 
 def test_expe_kml():
-    #does nothing for the moment, but calls the method
+    #Tests that five QSOs go in and five QSOs come out
     result = dump_rm_rbn_history(-106.7995, 34.801, 'test_qso_update.csv')
     result = expe_kml(result[0][1], result[0][2],result[0][4],result[len(result)-1][4],result)
     assert len(result) == 5
