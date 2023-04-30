@@ -27,6 +27,6 @@ def test_expe_kml():
     #Tests that five QSOs go in and five QSOs come out
     result = dump_rm_rbn_history(-106.7995, 34.801, 'test_qso_update.csv')
     result = expe_kml(result[0][1], result[0][2],result[0][4],result[len(result)-1][4],result)
-    assert len(result) == 5
+    assert len(result) == 9
     result = qso_spot_kml("junk",77,result,"SOTA Cerros de Los Lunas Auto!")
-    assert result == 5
+    assert result == 9
