@@ -26,27 +26,27 @@ def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp):
 
 def expe_kml(lng, lat, begin_timestamp, end_timestamp, qso_list=[]):
     result = []
-    if(len(qso_list) == 0):
-        f = open('rm_rnb_history_pres.csv')
-        firstline = 1
-        print("qso processing in file")
-        for line in f:
-            #throw away the first line
-            fields = line.split(",")
-            if((firstline != 1) and (len(fields)==9)):
-                qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp)
-                if(qso_out != None):
-                    result.append(qso_out)
-            else:
-              firstline = 0
-    else:
-        for qso in qso_list:
-            #construct fields (the first one is the unused random key)
-            rx_loc=qso[3].split(",")
-            fields = [qso[0],str(qso[1]),str(qso[2]),rx_loc[0],rx_loc[1],\
-                      qso[4].strftime("%Y/%m/%d %H:%M:%S"),qso[5],'14058.4',qso[6]]
+    #Look in the RBN list and do the QSOs if any
+    f = open('rm_rnb_history_pres.csv')
+    firstline = 1
+    print("qso processing in file")
+    for line in f:
+        #throw away the first line
+        fields = line.split(",")
+        if((firstline != 1) and (len(fields)==9)):
             qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp)
-            #print("pass this on " + qso_out)
             if(qso_out != None):
                 result.append(qso_out)
+        else:
+          firstline = 0
+
+    for qso in qso_list:
+        #construct fields (the first one is the unused random key)
+        rx_loc=qso[3].split(",")
+        fields = [qso[0],str(qso[1]),str(qso[2]),rx_loc[0],rx_loc[1],\
+                  qso[4].strftime("%Y/%m/%d %H:%M:%S"),qso[5],'14058.4',qso[6]]
+        qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp)
+        #print("pass this on " + qso_out)
+        if(qso_out != None):
+            result.append(qso_out)
     return result
