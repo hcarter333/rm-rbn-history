@@ -4,6 +4,8 @@ from auto_geo_update import get_call_lat_lng
 from auto_geo_update import dump_rm_rbn_history
 from expe_kml_defs import expe_kml
 from qso_spot_kml import qso_spot_kml
+#from auto_geo_vars import kml_title, tx_lng, tx_lat
+import auto_geo_vars
 
 def test_get_qrz_session():
     #call with env_variable password
@@ -19,13 +21,16 @@ def test_get_call_lat_lng():
     assert geo_loc == "-122.2573242,37.8750364"
 
 def test_dump_rm_rbn_history(capsys):
-    result = dump_rm_rbn_history(-106.7995, 34.801, 'test_qso_update.csv')
-    #Tests that the output results are sorted by date time as wexpected
+    result = dump_rm_rbn_history('test_qso_update.csv')
+    #Tests that the output results are sorted by date time as expected
     assert result[4][6] == "K6EL"
 
 def test_expe_kml():
     #Tests that five QSOs go in and five QSOs come out
-    result = dump_rm_rbn_history(-106.7995, 34.801, 'test_qso_update.csv')
+    result = dump_rm_rbn_history('test_qso_update.csv')
+    print("kml_title is " + auto_geo_vars.kml_title)
+    print("tx_lng = " + str(auto_geo_vars.tx_lng))
+    print("tx_lat = " + str(auto_geo_vars.tx_lat))
     result = expe_kml(result[0][1], result[0][2],result[0][4],result[len(result)-1][4],result)
     assert len(result) == 9
     result = qso_spot_kml("junk",77,result,"SOTA Cerros de Los Lunas Auto!")
