@@ -20,7 +20,7 @@ def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out):
          output_string = str(lng)+','+str(lat)+','+fields[3]+','+fields[4]+\
             ','+fields[5]+','+fields[6]+','+fields[7]+','+fields[8]
          if(out == True):
-             sys.stdout.write(str(random.randrange(0,4294967295)) + ',' + output_string)
+             sys.stdout.write(str(random.randrange(0,4294967295)) + ',' + output_string + "\n")
          #print("Here's the first output string")
          #print(output_string)
          return output_string
