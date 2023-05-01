@@ -93,7 +93,7 @@ def dump_rm_rbn_history(csv_file=''):
         result_string = qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' \
               + qso[3] + ',' + qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + \
               qso[5] + ',14058.4,' + qso[6]
-        print(result_string)
+        #print(result_string)
     return result
         
     

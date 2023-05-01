@@ -30,7 +30,7 @@ def expe_kml(lng, lat, begin_timestamp, end_timestamp, qso_list=[]):
     #Look in the RBN list and do the QSOs if any
     f = open('rm_rnb_history_pres.csv')
     firstline = 1
-    print("qso processing in file")
+    #print("qso processing in file")
     for line in f:
         #throw away the first line
         fields = line.split(",")

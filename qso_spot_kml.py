@@ -52,7 +52,7 @@ def qso_spot_kml(qso_file, key=77, qso_list=[], map_title=""):
         map_file = map_file.replace("!", "_")
         #print("debug: map_file = " + map_file)
         stdout_fileno = sys.stdout
-        sys.stdout = open(map_file + ".kml", 'w')
+        sys.stdout = open('maps/'+map_file + ".kml", 'w')
         print('<?xml version="1.0" encoding="UTF-8"?>')
         print('<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>' + map_title + \
               '</name>')
