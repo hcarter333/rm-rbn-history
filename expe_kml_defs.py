@@ -1,5 +1,6 @@
 import sys
 import datetime
+import random
 from auto_geo_vars import kml_title, tx_lng, tx_lat
 
 def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out):
@@ -16,7 +17,7 @@ def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out):
 
  #       line_date = datetime.datetime.strptime(fields[5], '%Y/%m/%d %H:%M:%S')
     if((line_date >= begin_timestamp) and (line_date <= end_timestamp)):
-         output_string = str(lng)+','+str(lat)+','+fields[3]+','+fields[4]+\
+         output_string = str(random.randrange(0,4294967295)) + ',' + str(lng)+','+str(lat)+','+fields[3]+','+fields[4]+\
             ','+fields[5]+','+fields[6]+','+fields[7]+','+fields[8]
          if(out == True):
              sys.stdout.write(output_string)

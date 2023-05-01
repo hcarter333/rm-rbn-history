@@ -11,8 +11,9 @@ def map_qsos():
     #then, gathers up spotting entries from the same file, and returns a list
     #of strings formatted as lines in the file that are passed on 
     #to qso_spot_kml to produce a kml map
-    result = expe_kml(result[0][1], result[0][2],result[0][4],result[len(result)-1][4],result)
-    result = qso_spot_kml("",77,result,auto_geo_vars.kml_title)
+    if(len(result) != 0):
+        result = expe_kml(result[0][1], result[0][2],result[0][4],result[len(result)-1][4],result)
+        result = qso_spot_kml("",77,result,auto_geo_vars.kml_title)
 
 #There are no args because the tx station lng, lat, and the map title 
 #are in the first three lines of the QSOs file respectively
