@@ -11,12 +11,16 @@ import auto_geo_vars
 #QRZ_PSWD and MAPS_API_KEY (see auto_gen_update_keys.txt locally)
 
 def get_qrz_session(username):
-    qrz_pswd = os.getenv("QRZ_PSWD")
-    qrz_pswd = qrz_pswd.replace('"','')
-    request_string = 'https://xmldata.qrz.com/xml/?username='+username+';password='+qrz_pswd
-    sess = requests.get('https://xmldata.qrz.com/xml/?username='+username+';password='+qrz_pswd)
-    root = ET.fromstring(sess.text)
-    sess_id = root.find('{http://xmldata.qrz.com}Session/{http://xmldata.qrz.com}Key')
+    if(auto_geo_vars.qrz_sess == "none"):
+        qrz_pswd = os.getenv("QRZ_PSWD")
+        qrz_pswd = qrz_pswd.replace('"','')
+        request_string = 'https://xmldata.qrz.com/xml/?username='+username+';password='+qrz_pswd
+        sess = requests.get('https://xmldata.qrz.com/xml/?username='+username+';password='+qrz_pswd)
+        root = ET.fromstring(sess.text)
+        sess_id = root.find('{http://xmldata.qrz.com}Session/{http://xmldata.qrz.com}Key')
+        auto_geo_vars.qrz_sess = sess_id
+    else:
+        sess_id = auto_geo_vars.qrz_sess
     return sess_id
 
 def get_qrz_call_geo_address(callsign):
@@ -32,6 +36,25 @@ def get_qrz_call_geo_address(callsign):
     address_geo = addr1.text + ',' + addr2.text + ',' + state.text
     address_geo = address_geo.replace(' ','+')
     return address_geo
+
+def get_qrz_call_mail_address(callsign,date,time,rx_rst,tx_rst):
+    #get the session id
+    sess_id = get_qrz_session("KD0FNR")
+    #get the address for the callsign
+    r = requests.get('https://xmldata.qrz.com/xml/current/?s='+sess_id.text+';callsign='+callsign)
+    root = ET.fromstring(r.text)
+    #now, get addr1, addr2, and state
+    fname = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}fname')
+    name = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}name')
+    addr1 = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}addr1')
+    addr2 = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}addr2')
+    state = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}state')
+    zip_code = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}zip')
+    address_mail = '"' + callsign + '\n' + fname.text + ' ' + name.text + '\n' + addr1.text +\
+                   '\n' + addr2.text + ',' + state.text + ' ' + zip_code.text + '"'
+    out_string = callsign + ',' + date + ',"' + time + '",' + rx_rst + ',' + tx_rst + ',' + address_mail
+    sys.stdout.write(out_string)
+    return out_string
 
 def get_call_lat_lng(callsign):
     geoloc = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+get_qrz_call_geo_address(callsign)+
