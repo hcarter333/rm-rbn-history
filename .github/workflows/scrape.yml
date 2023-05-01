@@ -22,6 +22,9 @@ jobs:
         pip install pytest
         pytest 
     - name: Fetch latest data
+      env: # Or as an environment variable
+        QRZ_PSWD: ${{ secrets.QRZ_PSWD }}
+        MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}        
       run: |-
         curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=KD0F*&b=22&s=0&r=100' | jq '.spots[]|= .[0:6]|.spots ' > incidents.json
         curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=KD0F*&b=22&s=0&r=100' | jq '.call_info ' > stations_geo.json
