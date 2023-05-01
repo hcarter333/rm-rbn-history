@@ -5,6 +5,7 @@ import json
 import sys
 import random
 import datetime
+import auto_geo_vars
 
 #For now, before each usage, the following two enviornment variables must be set
 #QRZ_PSWD and MAPS_API_KEY (see auto_gen_update_keys.txt locally)
@@ -44,7 +45,7 @@ def get_call_lat_lng(callsign):
     return str(lng) + ',' + str(lat)
 
 #and then the script goes here?
-def dump_rm_rbn_history(lng, lat, csv_file=''):
+def dump_rm_rbn_history(csv_file=''):
     
     #read in csv file with 
     #call,date_time,rx_rst,tx_rst
@@ -54,7 +55,24 @@ def dump_rm_rbn_history(lng, lat, csv_file=''):
     if(csv_file==''):
         csv_file='qso_update.csv'
     f = open(csv_file)
+    line_num = 0
     for line in f:
+        #pull the map title, tx station lng and lat from the first 
+        #three lines of the qso file respectivevly
+        if(line_num == 0):
+            auto_geo_vars.kml_title = line.replace("\n", "")
+            line_num = line_num + 1
+            continue
+        if(line_num == 1):
+            auto_geo_vars.tx_lng = float(line.replace("\n", ""))
+            lng = auto_geo_vars.tx_lng
+            line_num = line_num + 1
+            continue
+        if(line_num == 2):
+            auto_geo_vars.tx_lat = float(line.replace("\n", ""))
+            lat = auto_geo_vars.tx_lat
+            line_num = line_num + 1
+            continue
         #for now assume the lines are correctly formatted
         fields = line.split(",")
         #Get the geo location for the call sign

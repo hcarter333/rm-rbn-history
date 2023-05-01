@@ -1,5 +1,6 @@
 import sys
 import datetime
+from auto_geo_vars import kml_title, tx_lng, tx_lat
 
 def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp):
     try:
