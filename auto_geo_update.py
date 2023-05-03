@@ -98,8 +98,14 @@ def dump_rm_rbn_history(csv_file=''):
             continue
         #for now assume the lines are correctly formatted
         fields = line.split(",")
-        #Get the geo location for the call sign
-        callsign_loc = get_call_lat_lng(fields[0])
+        #If there are 6 fields, then the location is in the file, 
+        #skip the location lookup
+        if(len(fields) == 6):
+          callsign_loc = str(fields[5].replace("\n", "")) + "," + \
+                         str(fields[4])
+        else:
+          #Get the geo location for the call sign
+          callsign_loc = get_call_lat_lng(fields[0])
         #get the QSO date and time for sorting
         qso_dt = datetime.datetime.strptime(fields[1], "%Y/%m/%d %H:%M:%S")
         #store the qso in a tuple

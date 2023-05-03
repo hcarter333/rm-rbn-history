@@ -24,14 +24,14 @@ def test_dump_rm_rbn_history(capsys):
     result = dump_rm_rbn_history('test_qso_update.csv')
     #Tests that the output results are sorted by date time as expected
     assert result[4][6] == "K6EL"
+    #Test that s2s functions corectly see issue #42
+    assert result[4][3] == "-122.2218,37.8834"
 
 def test_expe_kml():
     #Tests that five QSOs go in and five QSOs come out
     result = dump_rm_rbn_history('test_qso_update.csv')
-    print("kml_title is " + auto_geo_vars.kml_title)
-    print("tx_lng = " + str(auto_geo_vars.tx_lng))
-    print("tx_lat = " + str(auto_geo_vars.tx_lat))
     result = expe_kml(result[0][1], result[0][2],result[0][4],result[len(result)-1][4],result)
     assert len(result) == 9
     result = qso_spot_kml("junk",77,result,"SOTA Cerros de Los Lunas Auto!")
     assert result == 9
+
