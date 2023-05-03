@@ -13,6 +13,8 @@ Then, the script outputs a set of lines, (corresponding to the same calls), that
 call,date,time,rx_rst,date_time,address  
 These lines can be copied to the QSL mailing spreadsheet
 
+**Creating a new map**  
+Simply execute map_qso.py. The script will pick up data from qso_update.csv including the maps title. The map will be output to maps/map_file_name.kml where map_file_name is the map title defined in qso_update.csv with spaces replaced by underscores. Be careful about using punctuation in map titles for now as not all punctuation is converted to underscore yet.
 
 **Methods Called**  
 get_qrz_session(username)
