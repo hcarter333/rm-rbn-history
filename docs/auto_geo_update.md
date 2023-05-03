@@ -1,5 +1,9 @@
 auto_geo_update accepts a csv file as input. The csv file has the following format after the first three lines  
 call,date_time,rx_rst,tx_rst  
+where date_time is formatted as  
+%Y/%m/%d %H:%M:%S  
+or to put it more literally as in Excel rather than  Python  
+"YYYY/MM/DD HH/MM/SS"  
 The first three lines contain, repectively, the map title, the tx station longitude, and the tx station latitude
 
 The script outputs a line, with the calling stations location, compatible with [rm_rnb_history_pres.csv](https://github.com/hcarter333/rm-rbn-history/blob/main/rm_rnb_history_pres.csv) for each input line.  
