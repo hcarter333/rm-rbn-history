@@ -151,7 +151,7 @@
 <TimeStamp>2023-04-25T19:23:00</TimeStamp>
 <LineString><coordinates>
 -106.7995,34.801,0.
--122.0208075,37.3059585,0.
+27,23,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -159,7 +159,7 @@
 <name>WB6POT</name>
 <styleUrl>#QSO</styleUrl>
 <Point>
-<coordinates>-122.0208075,37.3059585</coordinates>
+<coordinates>27,23</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -168,7 +168,7 @@
 <TimeStamp>2023-04-25T19:43:00</TimeStamp>
 <LineString><coordinates>
 -106.7995,34.801,0.
--122.431079,37.757346,0.
+-122.2218,37.8834,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -176,7 +176,7 @@
 <name>K6EL</name>
 <styleUrl>#QSO</styleUrl>
 <Point>
-<coordinates>-122.431079,37.757346</coordinates>
+<coordinates>-122.2218,37.8834</coordinates>
 </Point>
 </Placemark>
 </Document> </kml>
