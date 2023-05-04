@@ -4,6 +4,7 @@ from auto_geo_update import get_call_lat_lng
 from auto_geo_update import dump_rm_rbn_history
 from expe_kml_defs import expe_kml
 from qso_spot_kml import qso_spot_kml
+import datetime
 #from auto_geo_vars import kml_title, tx_lng, tx_lat
 import auto_geo_vars
 
@@ -35,3 +36,10 @@ def test_expe_kml():
     result = qso_spot_kml("junk",77,result,"SOTA Cerros de Los Lunas Auto!")
     assert result == 9
 
+def test_time():
+    qso_dt = []
+    qso_dt.append(datetime.datetime.strptime("2023/04/25 03:30:00", "%Y/%m/%d %H:%M:%S"))
+    qso_dt.append(datetime.datetime.strptime("2023/04/25 04:30:00", "%Y/%m/%d %H:%M:%S"))
+    qso_time_range = auto_geo_vars.time_hh(qso_dt)
+    assert qso_time_range[0] == datetime.datetime.strptime("2023/04/25 03:00:00", "%Y/%m/%d %H:%M:%S")
+    assert qso_time_range[1] == datetime.datetime.strptime("2023/04/25 05:00:00", "%Y/%m/%d %H:%M:%S")
