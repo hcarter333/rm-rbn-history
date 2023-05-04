@@ -45,7 +45,7 @@ parser = argparse.ArgumentParser(
                     prog='pota_qsos',
                     description='Creates adif log file for POTA',
                     epilog='Text at the bottom of help')
-parser.add_argument('-k', dest="park_code")
+parser.add_argument('-k', dest="park_code", required=True)
 args = parser.parse_args()
 
 #There are no args because the tx station lng, lat, and the map title 
