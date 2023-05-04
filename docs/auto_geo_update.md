@@ -14,7 +14,9 @@ To dump out a csv list with qsl addresses for mailing, use mail_qsl.py > my_qsls
 
 
 **Creating a new map**  
-Simply execute map_qso.py. The script will pick up data from qso_update.csv including the maps title. The map will be output to maps/map_file_name.kml where map_file_name is the map title defined in qso_update.csv with spaces replaced by underscores. Be careful about using punctuation in map titles for now as not all punctuation is converted to underscore yet.
+Simply execute map_qso.py. The script will pick up data from qso_update.csv including the maps title. The map will be output to maps/map_file_name.kml where map_file_name is the map title defined in qso_update.csv with spaces replaced by underscores. Be careful about using punctuation in map titles for now as not all punctuation is converted to underscore yet.  
+  
+The -hh option to the script will include RBN spots from one half hour on either side of the min/max QSO date range. This is especially useful when there is only 1 QSO during the POTA or SOTA  
 
 **Methods Called**  
 get_qrz_session(username)
