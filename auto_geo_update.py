@@ -27,13 +27,26 @@ def get_qrz_call_geo_address(callsign):
     #get the session id
     sess_id = get_qrz_session("KD0FNR")
     #get the address for the callsign
+    #print("Working on " + callsign)
     r = requests.get('https://xmldata.qrz.com/xml/current/?s='+sess_id.text+';callsign='+callsign)
     root = ET.fromstring(r.text)
+    #print(r.text)
     #now, get addr1, addr2, and state
     addr1 = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}addr1')
     addr2 = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}addr2')
     state = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}state')
-    address_geo = addr1.text + ',' + addr2.text + ',' + state.text
+    country = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}country')
+    #assemble the address feields that are returned
+    address_geo = ""
+    if(addr1 != None):
+        address_geo = address_geo + addr1.text + ","
+    if(addr2 != None):
+        address_geo = address_geo + addr2.text + ","
+    if(state != None):
+        address_geo = address_geo + state.text + ","
+    if(country != None):
+        address_geo = address_geo + country.text
+    #address_geo = addr1.text + ',' + addr2.text + ',' + state.text
     address_geo = address_geo.replace(' ','+')
     return address_geo
 

@@ -38,6 +38,38 @@ def blog_qsos():
         blog_line = blog_line + "</td><td>" + fields[1] + "<td>14058.4</td></tr>"
         print(blog_line)
 
+
+def blog_qsos_comma_tag():
+    #read QSOs to be mapped, fetch geo_location data and return a list of 
+    #mappable QSOs sorted by QSO time, earliest to latest
+    csv_file='qso_update.csv'
+    f = open(csv_file)
+    line_num = 0
+    tag_line = ""
+    for line in f:
+        #print('working on ' + line)
+        #pull the map title, tx station lng and lat from the first 
+        #three lines of the qso file respectivevly
+        if(line_num == 0):
+            auto_geo_vars.kml_title = line.replace("\n", "")
+            line_num = line_num + 1
+            continue
+        if(line_num == 1):
+            auto_geo_vars.tx_lng = float(line.replace("\n", ""))
+            lng = auto_geo_vars.tx_lng
+            line_num = line_num + 1
+            continue
+        if(line_num == 2):
+            auto_geo_vars.tx_lat = float(line.replace("\n", ""))
+            lat = auto_geo_vars.tx_lat
+            line_num = line_num + 1
+            continue
+        fields = line.split(",")
+        fields[3] = fields[3].replace("\n","")
+        tag_line = tag_line + fields[0] + ", "
+        
+    print(tag_line)
+
 parser = argparse.ArgumentParser(
                     prog='blog_qsos',
                     description='Creates adif log file for POTA',
@@ -46,3 +78,4 @@ parser = argparse.ArgumentParser(
 #There are no args because the tx station lng, lat, and the map title 
 #are in the first three lines of the QSOs file respectively
 blog_qsos()
+blog_qsos_comma_tag()

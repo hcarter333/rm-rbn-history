@@ -15,7 +15,7 @@ def test_get_qrz_session():
 
 def test_get_qrz_call_geo_address():
     addr_geo = get_qrz_call_geo_address("NU6XB")
-    assert addr_geo == "506+Cory+Hall,Berkeley,CA"
+    assert addr_geo == "506+Cory+Hall,Berkeley,CA,United+States"
 
 def test_get_call_lat_lng():
     geo_loc = get_call_lat_lng("NU6XB")
