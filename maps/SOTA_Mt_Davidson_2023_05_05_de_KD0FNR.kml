@@ -488,8 +488,8 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>LE2P</name>
-<description><![CDATA[<h1>LE2P</h1>Date/Time GMT: <div><br></div>2023/05/05 13:32:00]]></description>
+<name>NE2P</name>
+<description><![CDATA[<h1>NE2P</h1>Date/Time GMT: <div><br></div>2023/05/05 13:32:00]]></description>
 <TimeStamp>2023-05-05T13:32:00</TimeStamp>
 <LineString><coordinates>
 -122.45335525903718,37.73839279031124,0.
@@ -498,7 +498,7 @@
 <Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>LE2P</name>
+<name>NE2P</name>
 <styleUrl>#QSO</styleUrl>
 <Point>
 <coordinates>-81.5625,36.6978</coordinates>
@@ -556,8 +556,8 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>LY4G</name>
-<description><![CDATA[<h1>LY4G</h1>Date/Time GMT: <div><br></div>2023/05/05 14:42:00]]></description>
+<name>NY4G</name>
+<description><![CDATA[<h1>NY4G</h1>Date/Time GMT: <div><br></div>2023/05/05 14:42:00]]></description>
 <TimeStamp>2023-05-05T14:42:00</TimeStamp>
 <LineString><coordinates>
 -122.45335525903718,37.73839279031124,0.
@@ -566,7 +566,7 @@
 <Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>LY4G</name>
+<name>NY4G</name>
 <styleUrl>#QSO</styleUrl>
 <Point>
 <coordinates>-80.854,37.2475</coordinates>
