@@ -30,8 +30,6 @@ parser = argparse.ArgumentParser(
 parser.add_argument('-hh', action='store_true')
 args = parser.parse_args()
 auto_geo_vars.hh = args.hh
-print("hh = ")
-print(args.hh)
 #There are no required args because the tx station lng, lat, and the map title 
 #are in the first three lines of the QSOs file respectively
 map_qsos()
