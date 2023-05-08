@@ -1,4 +1,4 @@
-auto_geo_update accepts a csv file as input. The csv file has the following format after the first three lines  
+auto_geo_update uses a qso_update.csv file as input. The csv file has the following format after the first three lines  
 call,date_time,rx_rst,tx_rst,<s2s_lat>,<s2s_lng>  
 where date_time is formatted as  
 %Y/%m/%d %H:%M:%S  
@@ -11,7 +11,8 @@ The script outputs a line, with the calling stations location, compatible with [
   
 To dump out a csv list with qsl addresses for mailing, use mail_qsl.py > my_qsls.csv. This is for use with the double response post card Word template at [QSL_picture_paste_MM.docx](https://github.com/hcarter333/kd0fnr_radio_ops/blob/main/QSL_picture_paste_MM.docx)  
 
-
+**Requirements**
+These scripts requires a subscription to the XML data service at qrz.com. You'll need to set an environment variable named QRZ_PSWD to your password for the service. Some of them also require a Google Maps API key. the value of this key should be stred in an environment variable named MAPS_API_KEY.
 
 **Creating a new map**  
 Simply execute map_qso.py. The script will pick up data from qso_update.csv including the maps title. The map will be output to maps/map_file_name.kml where map_file_name is the map title defined in qso_update.csv with spaces replaced by underscores. Be careful about using punctuation in map titles for now as not all punctuation is converted to underscore yet.  
