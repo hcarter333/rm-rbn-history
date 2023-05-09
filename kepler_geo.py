@@ -6,8 +6,8 @@ f = open('incidents.json')
 h = open('stations_geo.json')
 
 #San Francisco
-#geo_station = "-122.42299,37.72286"
-#time_diff = 0
+geo_station = "-122.42299,37.72286"
+time_diff = 0
 #37.8025536, -122.4774149
 
 #Golden Gate Overlook I
@@ -15,8 +15,8 @@ h = open('stations_geo.json')
 #time_diff = 0
 
 #National Maritime
-geo_station = "-122.421006408453000,37.80776743"
-time_diff = 0
+#geo_station = "-122.421006408453000,37.80776743"
+#time_diff = 0
 
 
 #122.42299,37.72286
