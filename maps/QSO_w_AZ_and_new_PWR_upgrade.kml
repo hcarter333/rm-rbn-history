@@ -15,11 +15,31 @@
 </IconStyle>
 </Style>
 <Placemark>
+<name>W0BAV
+</name>
+<description><![CDATA[<h1>W0BAV
+</h1>Date/Time GMT: <div><br></div>2023/05/09 19:55:00]]></description>
+<TimeStamp>2023-05-09T19:55:00</TimeStamp>
+<LineString><coordinates>
+-122.42299,37.72286,0.
+-110.8534612,32.207706,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W0BAV
+</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-110.8534612,32.207706</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>W0BAV</name>
 <description><![CDATA[<h1>W0BAV</h1>Date/Time GMT: <div><br></div>2023/05/09 19:55:00]]></description>
 <TimeStamp>2023-05-09T19:55:00</TimeStamp>
 <LineString><coordinates>
--122.421006408453,37.80776743,0.
+-122.42299,37.72286,0.
 -110.8534612,32.207706,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
