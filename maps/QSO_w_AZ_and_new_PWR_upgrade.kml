@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>QSO w AZ and new PWR upgrade</name>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W0BAV</name>
+<description><![CDATA[<h1>W0BAV</h1>Date/Time GMT: <div><br></div>2023/05/09 19:55:00]]></description>
+<TimeStamp>2023-05-09T19:55:00</TimeStamp>
+<LineString><coordinates>
+-122.421006408453,37.80776743,0.
+-110.8534612,32.207706,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W0BAV</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-110.8534612,32.207706</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
