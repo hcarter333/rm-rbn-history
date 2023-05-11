@@ -37,7 +37,7 @@ def db_to_s(db):
 #Read each line in the qso_file
 #format it as as kml and write it to stdout using print
 #generate random 32 bit key
-def qso_spot_kml(qso_file, key=77, qso_list=[], map_title=""):
+def qso_spot_kml(qso_file, key=77, qso_list=[], map_title="", map_desc=""):
     test_lines = 0
     if(len(qso_list) == 0):
         f = open(qso_file)
@@ -57,6 +57,7 @@ def qso_spot_kml(qso_file, key=77, qso_list=[], map_title=""):
         print('<?xml version="1.0" encoding="UTF-8"?>')
         print('<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>' + map_title + \
               '</name>')
+        print('<description>' + map_desc + '</description>')
     #output the styles for this map
     print_map_style()
     if(len(qso_list) == 0):

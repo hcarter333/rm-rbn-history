@@ -100,11 +100,15 @@ def dump_rm_rbn_history(csv_file=''):
             line_num = line_num + 1
             continue
         if(line_num == 1):
+            auto_geo_vars.kml_desc = line.replace("\\n", "\n")
+            line_num = line_num + 1
+            continue
+        if(line_num == 2):
             auto_geo_vars.tx_lng = float(line.replace("\n", ""))
             lng = auto_geo_vars.tx_lng
             line_num = line_num + 1
             continue
-        if(line_num == 2):
+        if(line_num == 3):
             auto_geo_vars.tx_lat = float(line.replace("\n", ""))
             lat = auto_geo_vars.tx_lat
             line_num = line_num + 1
@@ -113,6 +117,7 @@ def dump_rm_rbn_history(csv_file=''):
         fields = line.split(",")
         #If there are 6 fields, then the location is in the file, 
         #skip the location lookup
+        #print("Working on " + fields[0])
         if(len(fields) == 6):
             callsign_loc = str(fields[5].replace("\n", "")) + "," + \
                          str(fields[4])

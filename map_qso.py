@@ -18,10 +18,10 @@ def map_qsos():
         else:
             qso_times = [result[0][4],result[len(result)-1][4]]
             trange = auto_geo_vars.time_hh(qso_times)
-            print(trange)
+            #print(trange)
             result = expe_kml(result[0][1], result[0][2],trange[0],trange[1],result)
-            print(result)
-        result = qso_spot_kml("",77,result,auto_geo_vars.kml_title)
+            #print(result)
+        result = qso_spot_kml("",77,result,auto_geo_vars.kml_title,auto_geo_vars.kml_desc)
 
 parser = argparse.ArgumentParser(
                     prog='map_qso',

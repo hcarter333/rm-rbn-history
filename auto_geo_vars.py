@@ -1,5 +1,6 @@
 import datetime
 kml_title = ""
+kml_desc = ""
 tx_lng = 0
 tx_lat = 0
 qrz_sess = "none"
