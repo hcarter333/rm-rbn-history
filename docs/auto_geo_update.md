@@ -1,6 +1,10 @@
 auto_geo_update uses a qso_update.csv file as input. 
-The first three lines contain, repectively, the map title, the tx station longitude, and the tx station latitude.
-The csv file has the following format after the first three lines  
+The first three lines contain, repectively, the map title, the tx station longitude, and the tx station latitude, like so:  
+Map Title  
+Map Description  
+Tx station longitude  
+Tx station latitude  
+Then, it is a csv file with a QSO per line, with the following format  
 call,date_time,rx_rst,tx_rst,<s2s_lat>,<s2s_lng>  
 where date_time is formatted as  
 %Y/%m/%d %H:%M:%S  
