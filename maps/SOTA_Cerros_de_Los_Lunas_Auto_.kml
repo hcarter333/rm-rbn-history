@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>SOTA Cerros de Los Lunas Auto!</name>
+<description></description>
 <Style id="RBN">
 <IconStyle>
 <Icon>
