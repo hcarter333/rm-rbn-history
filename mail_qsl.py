@@ -21,11 +21,15 @@ def mail_qsls():
             line_num = line_num + 1
             continue
         if(line_num == 1):
+            auto_geo_vars.kml_desc = line.replace("\\n", "\n")
+            line_num = line_num + 1
+            continue
+        if(line_num == 2):
             auto_geo_vars.tx_lng = float(line.replace("\n", ""))
             lng = auto_geo_vars.tx_lng
             line_num = line_num + 1
             continue
-        if(line_num == 2):
+        if(line_num == 3):
             auto_geo_vars.tx_lat = float(line.replace("\n", ""))
             lat = auto_geo_vars.tx_lat
             line_num = line_num + 1
