@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>Leviathan Peak SOTA de KD0FNR 23_05_14</name>
+<description>Hiked the peak with the gang across a snow field. Last call came in on QRT and it was S2S! Puppy came with us. Gorgeous day, but bring snacks in packs next time.
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>KO7SS
+</name>
+<description><![CDATA[<h1>KO7SS
+</h1>Date/Time GMT: <div><br></div>2023/05/14 17:16:00]]></description>
+<TimeStamp>2023-05-14T17:16:00</TimeStamp>
+<LineString><coordinates>
+-119.61143289305508,38.68229596259878,0.
+-110.7917,32.4375,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KO7SS
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-110.7917,32.4375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KO7SS
+</name>
+<description><![CDATA[<h1>KO7SS
+</h1>Date/Time GMT: <div><br></div>2023/05/14 17:18:00]]></description>
+<TimeStamp>2023-05-14T17:18:00</TimeStamp>
+<LineString><coordinates>
+-119.61143289305508,38.68229596259878,0.
+-110.7917,32.4375,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KT5B</name>
+<description><![CDATA[<h1>KT5B</h1>Date/Time GMT: <div><br></div>2023/05/14 17:03:00]]></description>
+<TimeStamp>2023-05-14T17:03:00</TimeStamp>
+<LineString><coordinates>
+-119.61143289305508,38.68229596259878,0.
+-92.91840020000001,30.85959949999999,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KT5B</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-92.91840020000001,30.85959949999999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WW7D</name>
+<description><![CDATA[<h1>WW7D</h1>Date/Time GMT: <div><br></div>2023/05/14 17:04:00]]></description>
+<TimeStamp>2023-05-14T17:04:00</TimeStamp>
+<LineString><coordinates>
+-119.61143289305508,38.68229596259878,0.
+-122.1124961,47.6804942,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WW7D</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-122.1124961,47.6804942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6TDX</name>
+<description><![CDATA[<h1>W6TDX</h1>Date/Time GMT: <div><br></div>2023/05/14 17:24:00]]></description>
+<TimeStamp>2023-05-14T17:24:00</TimeStamp>
+<LineString><coordinates>
+-119.61143289305508,38.68229596259878,0.
+-124.429326,43.105397,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#33ffffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6TDX</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-124.429326,43.105397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE7JH</name>
+<description><![CDATA[<h1>VE7JH</h1>Date/Time GMT: <div><br></div>2023/05/24 17:44:00]]></description>
+<TimeStamp>2023-05-24T17:44:00</TimeStamp>
+<LineString><coordinates>
+-119.61143289305508,38.68229596259878,0.
+-124.1588,49.275,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE7JH</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-124.1588,49.275</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
