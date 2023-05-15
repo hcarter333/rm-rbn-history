@@ -10,6 +10,7 @@ where date_time is formatted as
 %Y/%m/%d %H:%M:%S  
 or to put it more literally as in Excel rather than  Python  
 "YYYY/MM/DD HH/MM/SS"  
+**S2S and P2P Coordinates**  
 The last two fields of the line above are optional and are used to specify the location of summits or parks in summit to summit or park to park QSOs. If the last two fields are found, then geocoding using qrz.com and the Google Maps API are skipped and the location fields are used as is. See issue [#42](https://github.com/hcarter333/rm-rbn-history/issues/42) for more details.
 
 The script outputs a line, with the calling stations location, compatible with [rm_rnb_history_pres.csv](https://github.com/hcarter333/rm-rbn-history/blob/main/rm_rnb_history_pres.csv) for each input line.  
