@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>Great Basin POTA 5_22_23</name>
+<description>First radio outing into the park. Operating cedar to conifer.
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>KU8T</name>
+<description><![CDATA[<h1>KU8T</h1>Date/Time GMT: <div><br></div>2023/05/22 16:41:00]]></description>
+<TimeStamp>2023-05-22T16:41:00</TimeStamp>
+<LineString><coordinates>
+-114.17193433469741,38.972960755586946,0.
+-85.2943323,41.0265223,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KU8T</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-85.2943323,41.0265223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WB2WGX</name>
+<description><![CDATA[<h1>WB2WGX</h1>Date/Time GMT: <div><br></div>2023/05/22 17:15:00]]></description>
+<TimeStamp>2023-05-22T17:15:00</TimeStamp>
+<LineString><coordinates>
+-114.17193433469741,38.972960755586946,0.
+-78.8520947,42.9801176,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WB2WGX</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-78.8520947,42.9801176</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
