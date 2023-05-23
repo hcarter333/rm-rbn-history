@@ -20,11 +20,15 @@ def blog_qsos():
             line_num = line_num + 1
             continue
         if(line_num == 1):
+            auto_geo_vars.kml_desc = line.replace("\\n", "\n")
+            line_num = line_num + 1
+            continue
+        if(line_num == 2):
             auto_geo_vars.tx_lng = float(line.replace("\n", ""))
             lng = auto_geo_vars.tx_lng
             line_num = line_num + 1
             continue
-        if(line_num == 2):
+        if(line_num == 3):
             auto_geo_vars.tx_lat = float(line.replace("\n", ""))
             lat = auto_geo_vars.tx_lat
             line_num = line_num + 1
@@ -48,18 +52,22 @@ def blog_qsos_comma_tag():
     tag_line = ""
     for line in f:
         #print('working on ' + line)
-        #pull the map title, tx station lng and lat from the first 
-        #three lines of the qso file respectivevly
+        #pull the map title, dexcription, tx station lng and lat from the first 
+        #four lines of the qso file respectivevly
         if(line_num == 0):
             auto_geo_vars.kml_title = line.replace("\n", "")
             line_num = line_num + 1
             continue
         if(line_num == 1):
+            auto_geo_vars.kml_desc = line.replace("\\n", "\n")
+            line_num = line_num + 1
+            continue
+        if(line_num == 2):
             auto_geo_vars.tx_lng = float(line.replace("\n", ""))
             lng = auto_geo_vars.tx_lng
             line_num = line_num + 1
             continue
-        if(line_num == 2):
+        if(line_num == 3):
             auto_geo_vars.tx_lat = float(line.replace("\n", ""))
             lat = auto_geo_vars.tx_lat
             line_num = line_num + 1
@@ -76,6 +84,6 @@ parser = argparse.ArgumentParser(
                     epilog='Text at the bottom of help')
 
 #There are no args because the tx station lng, lat, and the map title 
-#are in the first three lines of the QSOs file respectively
+#are in the first, thrid, and fourth lines of the QSOs file respectively
 blog_qsos()
 blog_qsos_comma_tag()
