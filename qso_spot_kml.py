@@ -63,11 +63,13 @@ def qso_spot_kml(qso_file, key=77, qso_list=[], map_title="", map_desc=""):
     if(len(qso_list) == 0):
         for line in f:
             if(transfom_qso_to_kml(line) == -1):
+                print("error line: " + line)
                 sys.exit("qso input has incorrect format, see message above")
     else:
         for line in qso_list:
             test_lines = test_lines + 1
             if(transfom_qso_to_kml(line) == -1):
+                print("error line: " + line)
                 sys.exit("qso input has incorrect format, see message above")
     #output file footer
     print('</Document> </kml>')
