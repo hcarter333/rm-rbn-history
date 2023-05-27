@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>Great Basin National Park K_0032 23_05_25</name>
+<description>POTA at Great Basin. Plunking around.
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W3OA
+</name>
+<description><![CDATA[<h1>W3OA
+</h1>Date/Time GMT: <div><br></div>2023/05/25 11:50:00]]></description>
+<TimeStamp>2023-05-25T11:50:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-80.9583,35.5625,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W3OA
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-80.9583,35.5625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 14:29:00]]></description>
+<TimeStamp>2023-05-25T14:29:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-112.7917,53.7292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 14:44:00]]></description>
+<TimeStamp>2023-05-25T14:44:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 14:36:00]]></description>
+<TimeStamp>2023-05-25T14:36:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 14:32:00]]></description>
+<TimeStamp>2023-05-25T14:32:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#33ff0000</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 15:17:00]]></description>
+<TimeStamp>2023-05-25T15:17:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 15:14:00]]></description>
+<TimeStamp>2023-05-25T15:14:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 15:04:00]]></description>
+<TimeStamp>2023-05-25T15:04:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/05/25 14:53:00]]></description>
+<TimeStamp>2023-05-25T14:53:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KF9R</name>
+<description><![CDATA[<h1>KF9R</h1>Date/Time GMT: <div><br></div>2023/05/25 11:15:00]]></description>
+<TimeStamp>2023-05-25T11:15:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-86.0284784,39.7973648,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KF9R</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-86.0284784,39.7973648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NV4H</name>
+<description><![CDATA[<h1>NV4H</h1>Date/Time GMT: <div><br></div>2023/05/25 11:20:00]]></description>
+<TimeStamp>2023-05-25T11:20:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-84.7478,38.8869,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NV4H</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-84.7478,38.8869</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KB9RPG</name>
+<description><![CDATA[<h1>KB9RPG</h1>Date/Time GMT: <div><br></div>2023/05/25 14:49:00]]></description>
+<TimeStamp>2023-05-25T14:49:00</TimeStamp>
+<LineString><coordinates>
+-114.17134000641137,38.97437015904573,0.
+-85.9784825,39.8040806,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KB9RPG</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-85.9784825,39.8040806</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
