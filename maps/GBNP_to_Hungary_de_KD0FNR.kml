@@ -197,20 +197,20 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>KD5K</name>
-<description><![CDATA[<h1>KD5K</h1>Date/Time GMT: <div><br></div>2023/05/29 14:37:00]]></description>
+<name>KD5KC</name>
+<description><![CDATA[<h1>KD5KC</h1>Date/Time GMT: <div><br></div>2023/05/29 14:37:00]]></description>
 <TimeStamp>2023-05-29T14:37:00</TimeStamp>
 <LineString><coordinates>
 -114.17135440892795,38.97438531422705,0.
--84.3621119,33.7195494,0.
+-106.570538,31.8184822,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>KD5K</name>
+<name>KD5KC</name>
 <styleUrl>#QSO</styleUrl>
 <Point>
-<coordinates>-84.3621119,33.7195494</coordinates>
+<coordinates>-106.570538,31.8184822</coordinates>
 </Point>
 </Placemark>
 <Placemark>
