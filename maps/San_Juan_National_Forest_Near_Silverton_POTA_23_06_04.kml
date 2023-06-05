@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>San Juan National Forest Near Silverton POTA 23_06_04</name>
+<description>First POTA from the forest. Found a great camping spot. Antenna about 20 feet up.
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>KB5EDR</name>
+<description><![CDATA[<h1>KB5EDR</h1>Date/Time GMT: <div><br></div>2023/06/04 23:15:00]]></description>
+<TimeStamp>2023-06-04T23:15:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-94.69396139999999,31.404486,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KB5EDR</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-94.69396139999999,31.404486</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KD5ZCQ</name>
+<description><![CDATA[<h1>KD5ZCQ</h1>Date/Time GMT: <div><br></div>2023/06/04 23:26:00]]></description>
+<TimeStamp>2023-06-04T23:26:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-94.1908021,33.1822275,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KD5ZCQ</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-94.1908021,33.1822275</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
