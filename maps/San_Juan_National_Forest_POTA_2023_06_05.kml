@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>San Juan National Forest POTA 2023_06_05</name>
+<description>Early morning contacts more spread out than I thought they would be given our locatoin
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W8GG</name>
+<description><![CDATA[<h1>W8GG</h1>Date/Time GMT: <div><br></div>2023/06/05 11:15:00]]></description>
+<TimeStamp>2023-06-05T11:15:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-84.6398602,42.6728421,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W8GG</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-84.6398602,42.6728421</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>N4RKK</name>
+<description><![CDATA[<h1>N4RKK</h1>Date/Time GMT: <div><br></div>2023/06/05 11:30:00]]></description>
+<TimeStamp>2023-06-05T11:30:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-82.4406817,29.6666083,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>N4RKK</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-82.4406817,29.6666083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KF9R</name>
+<description><![CDATA[<h1>KF9R</h1>Date/Time GMT: <div><br></div>2023/06/05 11:40:00]]></description>
+<TimeStamp>2023-06-05T11:40:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-86.0284784,39.7973648,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KF9R</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-86.0284784,39.7973648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KB9RPG</name>
+<description><![CDATA[<h1>KB9RPG</h1>Date/Time GMT: <div><br></div>2023/06/05 11:42:00]]></description>
+<TimeStamp>2023-06-05T11:42:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-85.9784825,39.8040806,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KB9RPG</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-85.9784825,39.8040806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AC6NT</name>
+<description><![CDATA[<h1>AC6NT</h1>Date/Time GMT: <div><br></div>2023/06/05 11:56:00]]></description>
+<TimeStamp>2023-06-05T11:56:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-86.96992689999999,35.9271156,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>AC6NT</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-86.96992689999999,35.9271156</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
