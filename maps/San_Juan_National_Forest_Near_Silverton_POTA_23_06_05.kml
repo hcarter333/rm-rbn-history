@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>San Juan National Forest Near Silverton POTA 23_06_05</name>
+<description>Playing with radios during the day. QSO to Canada!
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>NA0F</name>
+<description><![CDATA[<h1>NA0F</h1>Date/Time GMT: <div><br></div>2023/06/05 17:54:00]]></description>
+<TimeStamp>2023-06-05T17:54:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-93.1506587,47.2922806,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NA0F</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-93.1506587,47.2922806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE7HI</name>
+<description><![CDATA[<h1>VE7HI</h1>Date/Time GMT: <div><br></div>2023/06/06 02:37:00]]></description>
+<TimeStamp>2023-06-06T02:37:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-122.8490125,49.1913466,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE7HI</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-122.8490125,49.1913466</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K0HX</name>
+<description><![CDATA[<h1>K0HX</h1>Date/Time GMT: <div><br></div>2023/06/06 02:50:00]]></description>
+<TimeStamp>2023-06-06T02:50:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-90.41358579999999,36.79221649999999,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K0HX</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-90.41358579999999,36.79221649999999</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
