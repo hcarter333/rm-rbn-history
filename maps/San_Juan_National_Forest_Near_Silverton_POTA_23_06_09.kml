@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>San Juan National Forest Near Silverton POTA 23_06_09</name>
+<description>Playing with radios in the afternoon
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>N6TV
+</name>
+<description><![CDATA[<h1>N6TV
+</h1>Date/Time GMT: <div><br></div>2023/06/09 22:10:00]]></description>
+<TimeStamp>2023-06-09T22:10:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-121.7917,37.2292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>N6TV
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-121.7917,37.2292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6TDX</name>
+<description><![CDATA[<h1>W6TDX</h1>Date/Time GMT: <div><br></div>2023/06/09 22:05:00]]></description>
+<TimeStamp>2023-06-09T22:05:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-124.429326,43.105397,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6TDX</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-124.429326,43.105397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KN6VVQ</name>
+<description><![CDATA[<h1>KN6VVQ</h1>Date/Time GMT: <div><br></div>2023/06/09 22:09:00]]></description>
+<TimeStamp>2023-06-09T22:09:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-119.1610949,34.4311459,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KN6VVQ</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-119.1610949,34.4311459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>N7WPO</name>
+<description><![CDATA[<h1>N7WPO</h1>Date/Time GMT: <div><br></div>2023/06/09 22:12:00]]></description>
+<TimeStamp>2023-06-09T22:12:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-123.222637,48.1173286,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ffff0000</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>N7WPO</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-123.222637,48.1173286</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KI5DIY</name>
+<description><![CDATA[<h1>KI5DIY</h1>Date/Time GMT: <div><br></div>2023/06/09 22:13:00]]></description>
+<TimeStamp>2023-06-09T22:13:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-96.8261814,32.9106004,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KI5DIY</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-96.8261814,32.9106004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KN6LFB</name>
+<description><![CDATA[<h1>KN6LFB</h1>Date/Time GMT: <div><br></div>2023/06/09 22:23:00]]></description>
+<TimeStamp>2023-06-09T22:23:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-116.7821238,33.008325,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KN6LFB</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-116.7821238,33.008325</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>N4NN</name>
+<description><![CDATA[<h1>N4NN</h1>Date/Time GMT: <div><br></div>2023/06/09 22:30:00]]></description>
+<TimeStamp>2023-06-09T22:30:00</TimeStamp>
+<LineString><coordinates>
+-107.7179771,37.8227736,0.
+-82.967467,32.409973,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>N4NN</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-82.967467,32.409973</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
