@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>Organs First Day of Summer 2023_06_21</name>
+<description>It wsa a really hot day to be out playing radios. The Ethernet cable up to the radio felt like putty. Made three contacts on a sunny afternoon thought!
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>NX3A</name>
+<description><![CDATA[<h1>NX3A</h1>Date/Time GMT: <div><br></div>2023/06/21 23:28:00]]></description>
+<TimeStamp>2023-06-21T23:28:00</TimeStamp>
+<LineString><coordinates>
+-106.557943661198,32.3713024533475,0.
+-78.72467999999999,38.757737,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NX3A</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-78.72467999999999,38.757737</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KB9RPG</name>
+<description><![CDATA[<h1>KB9RPG</h1>Date/Time GMT: <div><br></div>2023/06/21 23:36:00]]></description>
+<TimeStamp>2023-06-21T23:36:00</TimeStamp>
+<LineString><coordinates>
+-106.557943661198,32.3713024533475,0.
+-85.9784825,39.8040806,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KB9RPG</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-85.9784825,39.8040806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K8RLE</name>
+<description><![CDATA[<h1>K8RLE</h1>Date/Time GMT: <div><br></div>2023/06/21 23:40:00]]></description>
+<TimeStamp>2023-06-21T23:40:00</TimeStamp>
+<LineString><coordinates>
+-106.557943661198,32.3713024533475,0.
+-84.666179,42.6485317,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K8RLE</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-84.666179,42.6485317</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
