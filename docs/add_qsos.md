@@ -9,7 +9,7 @@ For example, the following two pictures show propagation around Baylor Pass that
 ![image](https://user-images.githubusercontent.com/363004/218317039-e85cd0b8-5f9f-4637-85b1-073e0e2201a1.png)
   
 To add QSOs to your collection of data, do the following:
-1. Edit [qso_locs.txt]([url](https://github.com/hcarter333/rm-rbn-history/blob/6b5f8da9413afe7235bc7c880824f6ec1ad7fadd/qso_locs.txt)), (in your fork of course) adding your qsos, one per line, in the following comma separated vairable format:  
+1. Edit [qso_update.csv]([url](https://github.com/hcarter333/rm-rbn-history/blob/6b5f8da9413afe7235bc7c880824f6ec1ad7fadd/qso_update.csv)), (in your fork of course) adding your qsos, one per line, in the following comma separated vairable format:  
 sta_lat,sta_lng,rx_lat,rx_lng,yyyy/mm/dd hh:mm:ss,s(of rst),freq(kHz),rx_call
 2. Commit the file.
 
