@@ -50,6 +50,27 @@ def get_qrz_call_geo_address(callsign):
     address_geo = address_geo.replace(' ','+')
     return address_geo
 
+def check_qrz_address(call, qnamef, qnamel, addr1, addr2, state, zip_code):
+    if(qnamef == None):
+        print("no first name for " + call)
+        return  False
+    if(qnamel == None):
+        print("no last name for " + call)
+        return  False
+    if(addr1 == None):
+        print("no first address line for " + call)
+        return  False
+    if(addr2 == None):
+        print("no second address line for " + call)
+        return  False
+    if(state == None):
+        print("no state for " + call)
+        return  False
+    if(zip_code == None):
+        print("no zip_code for " + call)
+        return  False
+    return True
+
 def get_qrz_call_mail_address(callsign,date,time,rx_rst,tx_rst):
     #get the session id
     sess_id = get_qrz_session("KD0FNR")
@@ -63,8 +84,11 @@ def get_qrz_call_mail_address(callsign,date,time,rx_rst,tx_rst):
     addr2 = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}addr2')
     state = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}state')
     zip_code = root.find('{http://xmldata.qrz.com}Callsign/{http://xmldata.qrz.com}zip')
-    address_mail = '"' + callsign + '\n' + fname.text + ' ' + name.text + '\n' + addr1.text +\
-                   '\n' + addr2.text + ',' + state.text + ' ' + zip_code.text + '"'
+    if(check_qrz_address(callsign, fname, name, addr1, addr2, state, zip_code)):
+        address_mail = '"' + callsign + '\n' + fname.text + ' ' + name.text + '\n' + addr1.text +\
+                       '\n' + addr2.text + ',' + state.text + ' ' + zip_code.text + '"'
+    else:
+        address_mail = "no good address on qrz"
     out_string = callsign + ',' + date + ',"' + time + '",' + rx_rst + ',' + tx_rst + ',' + address_mail
     sys.stdout.write(out_string)
     return out_string
