@@ -10,14 +10,12 @@ tn.write(command.encode("utf-8"))
 try:
     while True:
         data = tn.read_until(b"\n")  # Read data until a newline character
-        print(data)
+        #print(data)
         # Assuming the callsign is enclosed in square brackets, e.g., [CALLSIGN]
-        callsign_start = data.find(b"[") + 1
-        callsign_end = data.find(b"]")
-
-        if callsign_start != -1 and callsign_end != -1:
-            callsign = data[callsign_start:callsign_end].decode("utf-8")
-            print("Received callsign:", callsign)
+        frequency_find = data.find(b"14058.")
+        
+        if frequency_find != -1:
+            print(data)
 
 except KeyboardInterrupt:
     print("Exiting...")
