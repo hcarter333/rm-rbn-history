@@ -19,9 +19,9 @@ useful_freqs = {"14058.0": -1,
 try:
     while True:
         data = tn.read_until(b"\n")  # Read data until a newline character
-        #print(data)
-        # Assuming the callsign is enclosed in square brackets, e.g., [CALLSIGN]
-        print_freq = 2;
+        # Search incoming data for the list of frequencies the Rockmite can 
+        #use to transmit and receive
+        print_freq = -1;
         for frequ in useful_freqs:
             print_freq = data.find(bytes(frequ, encoding='utf8'))
             if(print_freq != -1):
