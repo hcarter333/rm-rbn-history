@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>POTA from home station K90M</name>
+<description>QSO from the house using telnet to figure out to slow down the CW rate
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>K9OM</name>
+<description><![CDATA[<h1>K9OM</h1>Date/Time GMT: <div><br></div>2023/09/03 02:54:00]]></description>
+<TimeStamp>2023-09-03T02:54:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-87.7166,45.1430032,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K9OM</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-87.7166,45.1430032</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
