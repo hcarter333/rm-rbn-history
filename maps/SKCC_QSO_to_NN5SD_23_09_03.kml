@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>SKCC QSO to NN5SD 23_09_03</name>
+<description>First intentional SKCC call with this callsign
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/09/05 17:14:00]]></description>
+<TimeStamp>2023-09-05T17:14:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-112.7917,53.7292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/09/05 16:56:00]]></description>
+<TimeStamp>2023-09-05T16:56:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-122.2917,37.8958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/09/05 16:52:00]]></description>
+<TimeStamp>2023-09-05T16:52:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/09/05 17:26:00]]></description>
+<TimeStamp>2023-09-05T17:26:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>nn5sd</name>
+<description><![CDATA[<h1>nn5sd</h1>Date/Time GMT: <div><br></div>2023/09/05 17:21:00]]></description>
+<TimeStamp>2023-09-05T17:21:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-103.2914216,44.087121,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>nn5sd</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-103.2914216,44.087121</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
