@@ -500,7 +500,7 @@
 -122.4229308964198,37.72491709860308,0.
 -122.9006951,47.0378741,0.
 </coordinates></LineString>
-<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+<Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
 <name>kf7pxb</name>
