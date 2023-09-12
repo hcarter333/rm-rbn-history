@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>KF7PXB de KD0FNR on 23_09_11_23_40</name>
+<description>FB talking to you again Joe! Some QSB, but good solid signal here.
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/09/11 23:46:00]]></description>
+<TimeStamp>2023-09-11T23:46:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-112.7917,53.7292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K5EM
+</name>
+<description><![CDATA[<h1>K5EM
+</h1>Date/Time GMT: <div><br></div>2023/09/11 23:45:00]]></description>
+<TimeStamp>2023-09-11T23:45:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-122.2917,47.6875,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K5EM
+</name>
+<styleUrl>#RBN</styleUrl>
+<Point>
+<coordinates>-122.2917,47.6875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>kf7pxb</name>
+<description><![CDATA[<h1>kf7pxb</h1>Date/Time GMT: <div><br></div>2023/09/11 23:49:00]]></description>
+<TimeStamp>2023-09-11T23:49:00</TimeStamp>
+<LineString><coordinates>
+-122.4229308964198,37.72491709860308,0.
+-122.9006951,47.0378741,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>kf7pxb</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-122.9006951,47.0378741</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
