@@ -14,3 +14,5 @@ sta_lat,sta_lng,rx_lat,rx_lng,yyyy/mm/dd hh:mm:ss,transmitted rst,received rst,r
 2. Commit the file.
 
 The worklow action will pull the data from the file, add it to the database, and then delete the contents of the file as described in [#12]([url](https://github.com/hcarter333/rm-rbn-history/issues/12#issue-1568438805)) .
+
+At preent, the frquency is alwasy assigned to 14058.4. This will be changed eventually (by #53 ) so that an actual frquency can be specified.
