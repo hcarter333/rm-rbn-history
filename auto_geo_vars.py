@@ -10,7 +10,7 @@ hh = None
 #Time routines
 def time_hh(rtime):
     time_range = []
-    delta = datetime.timedelta(minutes=30)
+    delta = datetime.timedelta(minutes=60)
     time_range.append(rtime[0] - delta)
     time_range.append(rtime[1] + delta)
     return time_range
