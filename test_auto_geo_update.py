@@ -41,5 +41,5 @@ def test_time():
     qso_dt.append(datetime.datetime.strptime("2023/04/25 03:30:00", "%Y/%m/%d %H:%M:%S"))
     qso_dt.append(datetime.datetime.strptime("2023/04/25 04:30:00", "%Y/%m/%d %H:%M:%S"))
     qso_time_range = auto_geo_vars.time_hh(qso_dt)
-    assert qso_time_range[0] == datetime.datetime.strptime("2023/04/25 03:00:00", "%Y/%m/%d %H:%M:%S")
-    assert qso_time_range[1] == datetime.datetime.strptime("2023/04/25 05:00:00", "%Y/%m/%d %H:%M:%S")
+    assert qso_time_range[0] == datetime.datetime.strptime("2023/04/25 02:30:00", "%Y/%m/%d %H:%M:%S")
+    assert qso_time_range[1] == datetime.datetime.strptime("2023/04/25 05:30:00", "%Y/%m/%d %H:%M:%S")
