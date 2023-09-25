@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
 latitude,longitude,timestamp,image
 34.2167965564865,-105.6741177819854,2022/11/18 07:24:00,/img/CNFPOTA.png
 35.265605668757196, -105.33318959063865,2022/11/18 07:24:00,/img/VNPOTA.png
+=======
+latitude,longitude,image
+34.2167965564865,-105.6741177819854,'{ "img_src": "/img/CNFPOTA.png", "alt": "Kitten", "width": 200 }'
+35.265605668757196, -105.33318959063865,'{ "img_src": "/img/VNPOTA.png", "alt": "Kitten", "width": 200 }'
+>>>>>>> Stashed changes
