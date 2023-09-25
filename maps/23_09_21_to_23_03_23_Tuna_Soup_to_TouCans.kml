@@ -3902,7 +3902,7 @@
 <TimeStamp>2023-09-21T19:38:00</TimeStamp>
 <LineString><coordinates>
 -122.42293617440531,37.72489522009444,0.
--77.7279949,43.1091083,0.
+-73.2309,40.9006,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -3910,7 +3910,7 @@
 <name>N2AJK</name>
 <styleUrl>#QSO</styleUrl>
 <Point>
-<coordinates>-77.7279949,43.1091083</coordinates>
+<coordinates>-73.2309,40.9006</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -3919,7 +3919,7 @@
 <TimeStamp>2023-09-23T23:01:00</TimeStamp>
 <LineString><coordinates>
 -122.42293617440531,37.72489522009444,0.
--122.1599401,47.8628493,0.
+-122.038,47.4964,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -3927,7 +3927,7 @@
 <name>AC7PB</name>
 <styleUrl>#QSO</styleUrl>
 <Point>
-<coordinates>-122.1599401,47.8628493</coordinates>
+<coordinates>-122.038,47.4964</coordinates>
 </Point>
 </Placemark>
 </Document> </kml>
