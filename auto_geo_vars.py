@@ -5,12 +5,13 @@ tx_lng = 0
 tx_lat = 0
 qrz_sess = "none"
 hh = None
+hhwindow = 60
 
 #Routines used for the automated scripts
 #Time routines
 def time_hh(rtime):
     time_range = []
-    delta = datetime.timedelta(minutes=60)
+    delta = datetime.timedelta(minutes=hhwindow)
     time_range.append(rtime[0] - delta)
     time_range.append(rtime[1] + delta)
     return time_range
