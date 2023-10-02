@@ -148,9 +148,9 @@ def dump_rm_rbn_history(csv_file=''):
                          str(fields[4])
         elif(field_num == 4):
             #Get the geo location for the call sign
-            print("Working on " + fields[0])
+            #print("Working on " + fields[0])
             callsign_loc = get_call_lat_lng(fields[0])
-        if(field_num == 6 | field_num == 4):
+        if(field_num == 6 or field_num == 4):
             #get the QSO date and time for sorting
             qso_dt = datetime.datetime.strptime(fields[1], "%Y/%m/%d %H:%M:%S")
             #store the qso in a tuple
