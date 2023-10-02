@@ -142,18 +142,21 @@ def dump_rm_rbn_history(csv_file=''):
         #If there are 6 fields, then the location is in the file, 
         #skip the location lookup
         #print("Working on " + fields[0])
-        if(len(fields) == 6):
+        field_num = len(fields)
+        if(field_num == 6):
             callsign_loc = str(fields[5].replace("\n", "")) + "," + \
                          str(fields[4])
-        else:
+        elif(field_num == 4):
             #Get the geo location for the call sign
+            print("Working on " + fields[0])
             callsign_loc = get_call_lat_lng(fields[0])
-        #get the QSO date and time for sorting
-        qso_dt = datetime.datetime.strptime(fields[1], "%Y/%m/%d %H:%M:%S")
-        #store the qso in a tuple
-        qso_tuple = str(random.randrange(0,4294967295)),lng,lat,callsign_loc,\
-                    qso_dt,fields[3][0:3],fields[0]
-        qso_list.append(qso_tuple)
+        if(field_num == 6 | field_num == 4):
+            #get the QSO date and time for sorting
+            qso_dt = datetime.datetime.strptime(fields[1], "%Y/%m/%d %H:%M:%S")
+            #store the qso in a tuple
+            qso_tuple = str(random.randrange(0,4294967295)),lng,lat,callsign_loc,\
+                        qso_dt,fields[3][0:3],fields[0]
+            qso_list.append(qso_tuple)
         #table should have
         #id	tx_lng	tx_lat	rx_lng	rx_lat	timestamp	dB	frequency	Spotter
 #        print(str(random.randrange(0,4294967295)) + ',' + 
