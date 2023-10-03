@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>23_02_08 K0647 2nd POTA at Lands End</name>
+<description>Still nothing made it across the bridge
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>WQ7O</name>
+<description><![CDATA[<h1>WQ7O</h1>Date/Time GMT: <div><br></div>2023/02/08 21:09:00]]></description>
+<TimeStamp>2023-02-08T21:09:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-117.3647589,47.8143689,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WQ7O</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-117.3647589,47.8143689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>N7LFO</name>
+<description><![CDATA[<h1>N7LFO</h1>Date/Time GMT: <div><br></div>2023/02/08 21:12:00]]></description>
+<TimeStamp>2023-02-08T21:12:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-123.1159351,45.5244009,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>N7LFO</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-123.1159351,45.5244009</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
