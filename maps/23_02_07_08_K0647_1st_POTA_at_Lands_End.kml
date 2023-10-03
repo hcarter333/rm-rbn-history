@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>23_02_07_08 K0647 1st POTA at Lands End</name>
+<description>Nothing made it across the bridge
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>WB7UBC</name>
+<description><![CDATA[<h1>WB7UBC</h1>Date/Time GMT: <div><br></div>2023/02/08 01:34:00]]></description>
+<TimeStamp>2023-02-08T01:34:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-122.7591133,45.2205973,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WB7UBC</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-122.7591133,45.2205973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KJ7T</name>
+<description><![CDATA[<h1>KJ7T</h1>Date/Time GMT: <div><br></div>2023/02/08 01:54:00]]></description>
+<TimeStamp>2023-02-08T01:54:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-122.605853,45.3556099,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KJ7T</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-122.605853,45.3556099</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W4ZXT</name>
+<description><![CDATA[<h1>W4ZXT</h1>Date/Time GMT: <div><br></div>2023/02/08 02:02:00]]></description>
+<TimeStamp>2023-02-08T02:02:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-84.3222584,37.7724175,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W4ZXT</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-84.3222584,37.7724175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2UPD</name>
+<description><![CDATA[<h1>K2UPD</h1>Date/Time GMT: <div><br></div>2023/02/08 02:05:00]]></description>
+<TimeStamp>2023-02-08T02:05:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-76.0850932,43.0117922,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K2UPD</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-76.0850932,43.0117922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WU0A</name>
+<description><![CDATA[<h1>WU0A</h1>Date/Time GMT: <div><br></div>2023/02/08 02:10:00]]></description>
+<TimeStamp>2023-02-08T02:10:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-105.1122597,40.1661791,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WU0A</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-105.1122597,40.1661791</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AI7BM</name>
+<description><![CDATA[<h1>AI7BM</h1>Date/Time GMT: <div><br></div>2023/02/08 02:23:00]]></description>
+<TimeStamp>2023-02-08T02:23:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-111.8151301,46.6191121,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>AI7BM</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-111.8151301,46.6191121</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NA6JD</name>
+<description><![CDATA[<h1>NA6JD</h1>Date/Time GMT: <div><br></div>2023/02/08 02:55:00]]></description>
+<TimeStamp>2023-02-08T02:55:00</TimeStamp>
+<LineString><coordinates>
+-122.5015256,37.7871492,0.
+-122.0564175,48.0183171,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NA6JD</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<coordinates>-122.0564175,48.0183171</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
