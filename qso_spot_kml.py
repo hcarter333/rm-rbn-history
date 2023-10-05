@@ -111,7 +111,7 @@ def transfom_qso_to_kml(qso_line):
     fields = transform_spot_kml(fields)
     if(qso_line_error(qso_line, fields) == False):
         print(placestart)
-        print('<name>' + fields[7] + '</name>' );
+        print('<name>' + fields[7] + ' F2 skip</name>');
         #Now print the description>
         print(qso_deets_time)
         #output the formatted timestamp
@@ -143,22 +143,27 @@ def transfom_qso_to_kml(qso_line):
         print(lineend)
         #ff004b96
         print(qso_style_no_rst.replace("line_color", "3ff808080"))
+        print(place_end)
+        add_skip_placemark(mid_lng,mid_lat,f2h,fields[7])
         #Done with the F2 skip
         #################################################
         #output the clamped to Earth line between stations
-        #print(linestart)
-        #print(fields[0]+","+fields[1]+",0.")
-        #print(fields[2]+","+fields[3]+",0.")
-        #print(lineend)
-        #set_line_color(fields)
+        print(placestart)
+        print('<name>' + fields[7] + '</name>' );
+        #Now print the description>
+        print(qso_deets_time)
+        print(linestart)
+        print(fields[0]+","+fields[1]+",0.")
+        print(fields[2]+","+fields[3]+",0.")
+        print(lineend)
+        set_line_color(fields, qso_style_no_rst, spot_style, qso_style)
         print(place_end)
         add_placemark(fields)
-        add_skip_placemark(mid_lng,mid_lat,f2h,fields[7])
     else:
         return -1
     return 0
 
-def set_line_color(fields):
+def set_line_color(fields, qso_style_no_rst, spot_style, qso_style):
     if(fields[5] == "0"):
         #set for QSO line color with unknown RST
         print(qso_style_no_rst.replace("line_color", signal_colors[fields[5]]))
