@@ -1,6 +1,10 @@
 import sys
 import random
 import re
+import datetime
+from earthmid import midpoint_lng
+from earthmid import midpoint_lat
+from ionodata import get_f2m
 
 #keep track of spotting stations to avoid duplicates
 already_spotted = {}
@@ -42,6 +46,7 @@ def qso_spot_kml(qso_file, key=77, qso_list=[], map_title="", map_desc=""):
     if(len(qso_list) == 0):
         f = open(qso_file)
     #output the standard header
+    #print("made it to qso_spot_kml")
     if(map_title == ""):
         print('<?xml version="1.0" encoding="UTF-8"?>')
         print('<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>pota_title</name>')
@@ -81,7 +86,8 @@ def qso_spot_kml(qso_file, key=77, qso_list=[], map_title="", map_desc=""):
 
 def transfom_qso_to_kml(qso_line):
     placestart = "<Placemark>"
-    linestart = "<LineString><coordinates>"
+    linestart = "<LineString><tessellate>1</tessellate><coordinates>"
+    linestart_f2 = "<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>"
     lineend = "</coordinates></LineString>"
     qso_style = "<Style><LineStyle><color>line_color</color><width>4</width></LineStyle></Style>"
     qso_style_no_rst = "<Style><LineStyle><color>line_color</color><width>4</width></LineStyle></Style>"
@@ -109,27 +115,62 @@ def transfom_qso_to_kml(qso_line):
         #Now print the description>
         print(qso_deets_time)
         #output the formatted timestamp
-        print(fields[4])
-        print(linestart)
-        print(fields[0]+","+fields[1]+",0.")
-        print(fields[2]+","+fields[3]+",0.")
+        #print(fields[4])
+        #################################################
+        #output the one skip F2 hop between stations
+        #Get the top of the skip
+        qso_dt = datetime.datetime.strptime(qso_line.split(",")[4], "%Y/%m/%d %H:%M:%S")
+        delta = datetime.timedelta(minutes=5)
+        time_win_start = qso_dt - delta
+        time_win_end = qso_dt + delta
+        f2h = str(get_f2m(time_win_start, time_win_end)*1000)
+        mid_lng = str(midpoint_lng(float(fields[1]),float(fields[0]),\
+                           float(fields[3]),float(fields[2])))
+        mid_lat = str(midpoint_lat(float(fields[1]),float(fields[0]),\
+                           float(fields[3]),float(fields[2])))
+        #Start printing
+        print(linestart_f2)
+        print(fields[0]+","+fields[1]+",5")
+        #midpoint and F2 height 
+        #get the time of the qso
+        #Find debug messages in the map output
+        #be sure to turn them back off so they don't cause errors in the map
+        #print("Working on " + fields[7] + " at time " + qso_line.split(",")[4])
+        #skip up
+        print(mid_lng + ","+ mid_lat + "," + f2h)
+        #skip down
+        print(fields[2]+","+fields[3]+",5")
         print(lineend)
-        if(fields[5] == "0"):
-            #set for QSO line color with unknown RST
-            print(qso_style_no_rst.replace("line_color", signal_colors[fields[5]]))
-        elif(len(fields[5]) != 3):
-            #set for spot line color (RBN)
-            spot_color = spot_style.replace("line_color", signal_colors[db_to_s(fields[5])])
-            spot_color_transparent = spot_color.replace("#ff", "#33")
-            print(spot_color_transparent)
-        elif(len(fields[5]) == 3):
-            #set for QSO line color with specified S of RST
-            print(qso_style.replace("line_color", signal_colors[fields[5][1]]))
+        #ff004b96
+        print(qso_style_no_rst.replace("line_color", "3ff808080"))
+        #Done with the F2 skip
+        #################################################
+        #output the clamped to Earth line between stations
+        #print(linestart)
+        #print(fields[0]+","+fields[1]+",0.")
+        #print(fields[2]+","+fields[3]+",0.")
+        #print(lineend)
+        #set_line_color(fields)
         print(place_end)
         add_placemark(fields)
+        add_skip_placemark(mid_lng,mid_lat,f2h,fields[7])
     else:
         return -1
     return 0
+
+def set_line_color(fields):
+    if(fields[5] == "0"):
+        #set for QSO line color with unknown RST
+        print(qso_style_no_rst.replace("line_color", signal_colors[fields[5]]))
+    elif(len(fields[5]) != 3):
+        #set for spot line color (RBN)
+        spot_color = spot_style.replace("line_color", signal_colors[db_to_s(fields[5])])
+        spot_color_transparent = spot_color.replace("#ff", "#33")
+        print(spot_color_transparent)
+    elif(len(fields[5]) == 3):
+        #set for QSO line color with specified S of RST
+        print(qso_style.replace("line_color", signal_colors[fields[5][1]]))
+     
 
 def add_placemark(fields):
     if((is_repeated_spot(fields) == False)):
@@ -148,7 +189,17 @@ def add_placemark(fields):
         #mark any spots as already happened after the first time
         set_rbn_spot(fields)
         
-
+def add_skip_placemark(lng, lat, ele, call):
+    #add a placemark for the receiving station
+    print('<Placemark>')
+    print('<name>'+call+ ' elevation: ' + ele + 'meters</name>')
+    #set icon style
+    print('<styleUrl>#QSO</styleUrl>')
+    print('<Point>')
+    print('<altitudeMode>relativeToGround</altitudeMode>')
+    print('<coordinates>'+lng+','+lat+','+ele+'</coordinates>')
+    print('</Point>')
+    print('</Placemark>')
 
 def qso_line_error(qso_line, fields):
     if((len(fields)==8) and (qso_line.find(", ") == -1)):
