@@ -41,7 +41,7 @@ try:
                     print(data)
             except Exception as error:
                 print(fields[3][2:])
-                print("found and exception " + str(error))
+                print("found an exception " + str(error))
                 continue
 
 except KeyboardInterrupt:
