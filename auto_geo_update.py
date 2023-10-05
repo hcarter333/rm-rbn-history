@@ -152,7 +152,10 @@ def dump_rm_rbn_history(csv_file=''):
             callsign_loc = get_call_lat_lng(fields[0])
         if(field_num == 6 or field_num == 4):
             #get the QSO date and time for sorting
-            qso_dt = datetime.datetime.strptime(fields[1], "%Y/%m/%d %H:%M:%S")
+            try:
+                qso_dt = datetime.datetime.strptime(fields[1], "%Y/%m/%d %H:%M:%S")
+            except:
+                print("Date formatting for " + fields[0] + " is incorrect as " + fields[1])
             #store the qso in a tuple
             qso_tuple = str(random.randrange(0,4294967295)),lng,lat,callsign_loc,\
                         qso_dt,fields[3][0:3],fields[0]
