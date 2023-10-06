@@ -55,7 +55,7 @@ def midpoint_lng(f0,l0, f1,l1):
 
     return spherical_lng(x_mid, y_mid, z_mid)
 
-half_lat = midpoint_lat(37.72286,-122.42299, 41.0625,-112.0417)
-half_lng = midpoint_lng(37.72286,-122.42299, 41.0625,-112.0417)
+#half_lat = midpoint_lat(37.72286,-122.42299, 41.0625,-112.0417)
+#half_lng = midpoint_lng(37.72286,-122.42299, 41.0625,-112.0417)
 
-print(str(half_lat) + "," + str(half_lng))
+#print(str(half_lat) + "," + str(half_lng))
