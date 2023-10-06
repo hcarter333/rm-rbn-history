@@ -17,10 +17,27 @@
 </IconStyle>
 </Style>
 <Placemark>
+<name>WB7UBC F2 skip</name>
+<description><![CDATA[<h1>WB7UBC</h1>Date/Time GMT: <div><br></div>2023/02/08 01:34:00]]></description>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.5015256,37.7871492,5
+-122.62291639635971,41.50394485258804,282000.0
+-122.7591133,45.2205973,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WB7UBC elevation: 282000.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.62291639635971,41.50394485258804,282000.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>WB7UBC</name>
 <description><![CDATA[<h1>WB7UBC</h1>Date/Time GMT: <div><br></div>2023/02/08 01:34:00]]></description>
-<TimeStamp>2023-02-08T01:34:00</TimeStamp>
-<LineString><coordinates>
+<LineString><tessellate>1</tessellate><coordinates>
 -122.5015256,37.7871492,0.
 -122.7591133,45.2205973,0.
 </coordinates></LineString>
@@ -34,10 +51,27 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>KJ7T F2 skip</name>
+<description><![CDATA[<h1>KJ7T</h1>Date/Time GMT: <div><br></div>2023/02/08 01:54:00]]></description>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.5015256,37.7871492,5
+-122.55062906999898,41.571391297329406,282600.0
+-122.605853,45.3556099,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KJ7T elevation: 282600.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.55062906999898,41.571391297329406,282600.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>KJ7T</name>
 <description><![CDATA[<h1>KJ7T</h1>Date/Time GMT: <div><br></div>2023/02/08 01:54:00]]></description>
-<TimeStamp>2023-02-08T01:54:00</TimeStamp>
-<LineString><coordinates>
+<LineString><tessellate>1</tessellate><coordinates>
 -122.5015256,37.7871492,0.
 -122.605853,45.3556099,0.
 </coordinates></LineString>
@@ -51,10 +85,27 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>W4ZXT F2 skip</name>
+<description><![CDATA[<h1>W4ZXT</h1>Date/Time GMT: <div><br></div>2023/02/08 02:02:00]]></description>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.5015256,37.7871492,5
+-103.40991610762697,39.359287990714215,280400.0
+-84.3222584,37.7724175,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W4ZXT elevation: 280400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-103.40991610762697,39.359287990714215,280400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>W4ZXT</name>
 <description><![CDATA[<h1>W4ZXT</h1>Date/Time GMT: <div><br></div>2023/02/08 02:02:00]]></description>
-<TimeStamp>2023-02-08T02:02:00</TimeStamp>
-<LineString><coordinates>
+<LineString><tessellate>1</tessellate><coordinates>
 -122.5015256,37.7871492,0.
 -84.3222584,37.7724175,0.
 </coordinates></LineString>
@@ -68,10 +119,27 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>K2UPD F2 skip</name>
+<description><![CDATA[<h1>K2UPD</h1>Date/Time GMT: <div><br></div>2023/02/08 02:05:00]]></description>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.5015256,37.7871492,5
+-100.24713231472337,42.79518416320778,280400.0
+-76.0850932,43.0117922,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K2UPD elevation: 280400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-100.24713231472337,42.79518416320778,280400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>K2UPD</name>
 <description><![CDATA[<h1>K2UPD</h1>Date/Time GMT: <div><br></div>2023/02/08 02:05:00]]></description>
-<TimeStamp>2023-02-08T02:05:00</TimeStamp>
-<LineString><coordinates>
+<LineString><tessellate>1</tessellate><coordinates>
 -122.5015256,37.7871492,0.
 -76.0850932,43.0117922,0.
 </coordinates></LineString>
@@ -85,10 +153,27 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>WU0A F2 skip</name>
+<description><![CDATA[<h1>WU0A</h1>Date/Time GMT: <div><br></div>2023/02/08 02:10:00]]></description>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.5015256,37.7871492,5
+-113.95409649791918,39.300789754977494,281300.0
+-105.1122597,40.1661791,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WU0A elevation: 281300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-113.95409649791918,39.300789754977494,281300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>WU0A</name>
 <description><![CDATA[<h1>WU0A</h1>Date/Time GMT: <div><br></div>2023/02/08 02:10:00]]></description>
-<TimeStamp>2023-02-08T02:10:00</TimeStamp>
-<LineString><coordinates>
+<LineString><tessellate>1</tessellate><coordinates>
 -122.5015256,37.7871492,0.
 -105.1122597,40.1661791,0.
 </coordinates></LineString>
@@ -102,10 +187,27 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>AI7BM F2 skip</name>
+<description><![CDATA[<h1>AI7BM</h1>Date/Time GMT: <div><br></div>2023/02/08 02:23:00]]></description>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.5015256,37.7871492,5
+-117.5336074971729,42.32670353015548,269100.0
+-111.8151301,46.6191121,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>AI7BM elevation: 269100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-117.5336074971729,42.32670353015548,269100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>AI7BM</name>
 <description><![CDATA[<h1>AI7BM</h1>Date/Time GMT: <div><br></div>2023/02/08 02:23:00]]></description>
-<TimeStamp>2023-02-08T02:23:00</TimeStamp>
-<LineString><coordinates>
+<LineString><tessellate>1</tessellate><coordinates>
 -122.5015256,37.7871492,0.
 -111.8151301,46.6191121,0.
 </coordinates></LineString>
@@ -119,10 +221,27 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>NA6JD F2 skip</name>
+<description><![CDATA[<h1>NA6JD</h1>Date/Time GMT: <div><br></div>2023/02/08 02:55:00]]></description>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.5015256,37.7871492,5
+-122.29748741305414,42.90294719654695,215000.0
+-122.0564175,48.0183171,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NA6JD elevation: 215000.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.29748741305414,42.90294719654695,215000.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>NA6JD</name>
 <description><![CDATA[<h1>NA6JD</h1>Date/Time GMT: <div><br></div>2023/02/08 02:55:00]]></description>
-<TimeStamp>2023-02-08T02:55:00</TimeStamp>
-<LineString><coordinates>
+<LineString><tessellate>1</tessellate><coordinates>
 -122.5015256,37.7871492,0.
 -122.0564175,48.0183171,0.
 </coordinates></LineString>
