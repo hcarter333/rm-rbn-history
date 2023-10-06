@@ -3,7 +3,6 @@ from expe_kml_defs import expe_kml
 from qso_spot_kml import qso_spot_kml
 import auto_geo_vars
 import argparse
-
 def map_qsos():
     #read QSOs to be mapped, fetch geo_location data and return a list of 
     #mappable QSOs sorted by QSO time, earliest to latest
@@ -22,7 +21,6 @@ def map_qsos():
             result = expe_kml(result[0][1], result[0][2],trange[0],trange[1],result)
             #print(result)
         result = qso_spot_kml("",77,result,auto_geo_vars.kml_title,auto_geo_vars.kml_desc)
-
 parser = argparse.ArgumentParser(
                     prog='map_qso',
                     description='Creates kml maps using qso_update.csv',
