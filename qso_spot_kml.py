@@ -108,6 +108,7 @@ def transfom_qso_to_kml(qso_line):
     qso_deets = QSO_deets_style_HEADER + QSO_deets_row + QSO_deets_style_footer
     qso_deets_time = qso_deets.replace("QSO_TIME", fields[4])
     qso_deets_time = '<description><![CDATA[<h1>'+fields[7]+'</h1>Date/Time GMT: <div><br></div>' + fields[4]+ ']]></description>'
+    #After this call, the timestamp is wrapped in kml tags
     fields = transform_spot_kml(fields)
     if(qso_line_error(qso_line, fields) == False):
         print(placestart)
@@ -115,7 +116,7 @@ def transfom_qso_to_kml(qso_line):
         #Now print the description>
         print(qso_deets_time)
         #output the formatted timestamp
-        #print(fields[4])
+        print(fields[4])
         #################################################
         #output the one skip F2 hop between stations
         #Get the top of the skip
@@ -144,7 +145,7 @@ def transfom_qso_to_kml(qso_line):
         #ff004b96
         print(qso_style_no_rst.replace("line_color", "3ff808080"))
         print(place_end)
-        add_skip_placemark(mid_lng,mid_lat,f2h,fields[7])
+        add_skip_placemark(mid_lng,mid_lat,f2h,fields[7], fields[4])
         #Done with the F2 skip
         #################################################
         #output the clamped to Earth line between stations
@@ -152,6 +153,8 @@ def transfom_qso_to_kml(qso_line):
         print('<name>' + fields[7] + '</name>' );
         #Now print the description>
         print(qso_deets_time)
+        #output the formatted timestamp
+        print(fields[4])
         print(linestart)
         print(fields[0]+","+fields[1]+",0.")
         print(fields[2]+","+fields[3]+",0.")
@@ -187,6 +190,8 @@ def add_placemark(fields):
             print('<styleUrl>#RBN</styleUrl>')
         else:
             print('<styleUrl>#QSO</styleUrl>')
+        #output the formatted timestamp
+        print(fields[4])
         print('<Point>')
         print('<coordinates>'+fields[2]+','+fields[3]+'</coordinates>')
         print('</Point>')
@@ -194,12 +199,13 @@ def add_placemark(fields):
         #mark any spots as already happened after the first time
         set_rbn_spot(fields)
         
-def add_skip_placemark(lng, lat, ele, call):
+def add_skip_placemark(lng, lat, ele, call, kml_timestamp):
     #add a placemark for the receiving station
     print('<Placemark>')
     print('<name>'+call+ ' elevation: ' + ele + 'meters</name>')
     #set icon style
     print('<styleUrl>#QSO</styleUrl>')
+    print(kml_timestamp)
     print('<Point>')
     print('<altitudeMode>relativeToGround</altitudeMode>')
     print('<coordinates>'+lng+','+lat+','+ele+'</coordinates>')
