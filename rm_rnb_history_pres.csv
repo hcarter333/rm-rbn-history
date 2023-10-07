@@ -1,4 +1,4 @@
-id,tx_lng,tx_lat,rx_lng,rx_lat,timestamp,dB,frequency,Spotter
+id,tx_lng,tx_lat,rx_lng,rx_lat,timestamp,dB,frequency,Spotter,State,County,City
 1,-122.42299,37.72286,-122.2083,37.3958,2022/11/18 07:24:00,29,14058.3,W6YX
 1516347974,-122.42299,37.72286,-122.2083,37.3958,2023/01/17 05:04:00,7,14057.7,W6YX
 1516342315,-122.42299,37.72286,-122.2083,37.3958,2023/01/17 04:45:00,8,14058.4,W6YX
