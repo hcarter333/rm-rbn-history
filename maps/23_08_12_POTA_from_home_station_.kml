@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>23_08_12 POTA from home station </name>
+<description>Almost missed this one as well, goog thing I'm reviewing data
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:14:00]]></description>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,330100.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 330100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,330100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:14:00]]></description>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<Point>
+<coordinates>-122.2917,37.8958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ F2 skip</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:14:00]]></description>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.92949465298199,44.83690623476872,330100.0
+-114.4583,51.8125,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ elevation: 330100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.92949465298199,44.83690623476872,330100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:14:00]]></description>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-114.4583,51.8125,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<Point>
+<coordinates>-114.4583,51.8125</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:14:00]]></description>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,330100.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 330100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,330100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:14:00]]></description>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-08-12T17:14:00</TimeStamp>
+<Point>
+<coordinates>-122.2917,37.8958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ F2 skip</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:06:00]]></description>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.92949465298199,44.83690623476872,320700.0
+-114.4583,51.8125,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ elevation: 320700.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.92949465298199,44.83690623476872,320700.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:06:00]]></description>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-114.4583,51.8125,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:06:00]]></description>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,320700.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 320700.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,320700.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:06:00]]></description>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:06:00]]></description>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,320700.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 320700.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,320700.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:06:00]]></description>
+<TimeStamp>2023-08-12T17:06:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 16:53:00]]></description>
+<TimeStamp>2023-08-12T16:53:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,284100.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 284100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T16:53:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,284100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 16:53:00]]></description>
+<TimeStamp>2023-08-12T16:53:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 16:53:00]]></description>
+<TimeStamp>2023-08-12T16:53:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,284100.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 284100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T16:53:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,284100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 16:53:00]]></description>
+<TimeStamp>2023-08-12T16:53:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ F2 skip</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:31:00]]></description>
+<TimeStamp>2023-08-12T17:31:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.92949465298199,44.83690623476872,324300.0
+-114.4583,51.8125,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ elevation: 324300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:31:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.92949465298199,44.83690623476872,324300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:31:00]]></description>
+<TimeStamp>2023-08-12T17:31:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-114.4583,51.8125,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:30:00]]></description>
+<TimeStamp>2023-08-12T17:30:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,324300.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 324300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:30:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,324300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:30:00]]></description>
+<TimeStamp>2023-08-12T17:30:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:30:00]]></description>
+<TimeStamp>2023-08-12T17:30:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,324300.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 324300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:30:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,324300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:30:00]]></description>
+<TimeStamp>2023-08-12T17:30:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ F2 skip</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:17:00]]></description>
+<TimeStamp>2023-08-12T17:17:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.30330156280655,45.82620309386163,330100.0
+-112.7917,53.7292,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ elevation: 330100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:17:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.30330156280655,45.82620309386163,330100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:17:00]]></description>
+<TimeStamp>2023-08-12T17:17:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-08-12T17:17:00</TimeStamp>
+<Point>
+<coordinates>-112.7917,53.7292</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:16:00]]></description>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,330100.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 330100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,330100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:16:00]]></description>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ F2 skip</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:16:00]]></description>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.92949465298199,44.83690623476872,330100.0
+-114.4583,51.8125,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ elevation: 330100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.92949465298199,44.83690623476872,330100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:16:00]]></description>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-114.4583,51.8125,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:16:00]]></description>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,330100.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 330100.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,330100.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:16:00]]></description>
+<TimeStamp>2023-08-12T17:16:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ F2 skip</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:49:00]]></description>
+<TimeStamp>2023-08-12T17:49:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.30330156280655,45.82620309386163,316500.0
+-112.7917,53.7292,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ elevation: 316500.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:49:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.30330156280655,45.82620309386163,316500.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:49:00]]></description>
+<TimeStamp>2023-08-12T17:49:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ F2 skip</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:44:00]]></description>
+<TimeStamp>2023-08-12T17:44:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.92949465298199,44.83690623476872,316500.0
+-114.4583,51.8125,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ elevation: 316500.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:44:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.92949465298199,44.83690623476872,316500.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:44:00]]></description>
+<TimeStamp>2023-08-12T17:44:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-114.4583,51.8125,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6AO
+ F2 skip</name>
+<description><![CDATA[<h1>VE6AO
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:44:00]]></description>
+<TimeStamp>2023-08-12T17:44:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.67785870487432,44.49172692088322,316500.0
+-113.9583,51.1042,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6AO
+ elevation: 316500.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:44:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.67785870487432,44.49172692088322,316500.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6AO
+</name>
+<description><![CDATA[<h1>VE6AO
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:44:00]]></description>
+<TimeStamp>2023-08-12T17:44:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-113.9583,51.1042,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6AO
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-08-12T17:44:00</TimeStamp>
+<Point>
+<coordinates>-113.9583,51.1042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:43:00]]></description>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,316500.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 316500.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,316500.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:43:00]]></description>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ND7K
+ F2 skip</name>
+<description><![CDATA[<h1>ND7K
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:43:00]]></description>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-117.49563128198288,35.98992938952303,316500.0
+-112.7917,34.0625,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ND7K
+ elevation: 316500.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-117.49563128198288,35.98992938952303,316500.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ND7K
+</name>
+<description><![CDATA[<h1>ND7K
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:43:00]]></description>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.7917,34.0625,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ND7K
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<Point>
+<coordinates>-112.7917,34.0625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:43:00]]></description>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,316500.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 316500.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,316500.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:43:00]]></description>
+<TimeStamp>2023-08-12T17:43:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ND7K
+ F2 skip</name>
+<description><![CDATA[<h1>ND7K
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:42:00]]></description>
+<TimeStamp>2023-08-12T17:42:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-117.49563128198288,35.98992938952303,323400.0
+-112.7917,34.0625,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ND7K
+ elevation: 323400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:42:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-117.49563128198288,35.98992938952303,323400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ND7K
+</name>
+<description><![CDATA[<h1>ND7K
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:42:00]]></description>
+<TimeStamp>2023-08-12T17:42:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.7917,34.0625,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ F2 skip</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:40:00]]></description>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.92949465298199,44.83690623476872,323400.0
+-114.4583,51.8125,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ elevation: 323400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.92949465298199,44.83690623476872,323400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:40:00]]></description>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-114.4583,51.8125,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:40:00]]></description>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,323400.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 323400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,323400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:40:00]]></description>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:40:00]]></description>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,323400.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 323400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,323400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:40:00]]></description>
+<TimeStamp>2023-08-12T17:40:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ F2 skip</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:39:00]]></description>
+<TimeStamp>2023-08-12T17:39:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.30330156280655,45.82620309386163,323400.0
+-112.7917,53.7292,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ elevation: 323400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:39:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.30330156280655,45.82620309386163,323400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:39:00]]></description>
+<TimeStamp>2023-08-12T17:39:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ F2 skip</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:37:00]]></description>
+<TimeStamp>2023-08-12T17:37:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.30330156280655,45.82620309386163,323400.0
+-112.7917,53.7292,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6JY
+ elevation: 323400.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:37:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.30330156280655,45.82620309386163,323400.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6JY
+</name>
+<description><![CDATA[<h1>VE6JY
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:37:00]]></description>
+<TimeStamp>2023-08-12T17:37:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.7917,53.7292,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ F2 skip</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:34:00]]></description>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-118.92949465298199,44.83690623476872,324300.0
+-114.4583,51.8125,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+ elevation: 324300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-118.92949465298199,44.83690623476872,324300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE6WZ
+</name>
+<description><![CDATA[<h1>VE6WZ
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:34:00]]></description>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-114.4583,51.8125,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ F2 skip</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:34:00]]></description>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,324300.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6BB
+ elevation: 324300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,324300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6BB
+</name>
+<description><![CDATA[<h1>W6BB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:34:00]]></description>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ F2 skip</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:34:00]]></description>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-122.35739402708626,37.81036580878296,324300.0
+-122.2917,37.8958,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NU6XB
+ elevation: 324300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-122.35739402708626,37.81036580878296,324300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NU6XB
+</name>
+<description><![CDATA[<h1>NU6XB
+</h1>Date/Time GMT: <div><br></div>2023/08/12 17:34:00]]></description>
+<TimeStamp>2023-08-12T17:34:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2917,37.8958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NM5D F2 skip</name>
+<description><![CDATA[<h1>NM5D</h1>Date/Time GMT: <div><br></div>2023/08/12 16:59:00]]></description>
+<TimeStamp>2023-08-12T16:59:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.42293617440531,37.72489522009444,5
+-113.7503104613453,39.0074418166145,322300.0
+-104.842,39.6287,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NM5D elevation: 322300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T16:59:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-113.7503104613453,39.0074418166145,322300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NM5D</name>
+<description><![CDATA[<h1>NM5D</h1>Date/Time GMT: <div><br></div>2023/08/12 16:59:00]]></description>
+<TimeStamp>2023-08-12T16:59:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-104.842,39.6287,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NM5D</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-08-12T16:59:00</TimeStamp>
+<Point>
+<coordinates>-104.842,39.6287</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
