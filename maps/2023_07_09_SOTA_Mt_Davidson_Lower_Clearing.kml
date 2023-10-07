@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2023_07_09 SOTA Mt Davidson Lower Clearing</name>
+<description>The AM stations were blaring so loud I wasn't sure I'd made this QSO
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W7MTB F2 skip</name>
+<description><![CDATA[<h1>W7MTB</h1>Date/Time GMT: <div><br></div>2023/07/09 18:01:00]]></description>
+<TimeStamp>2023-07-09T18:01:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-122.45537698937866,37.73894397458999,5
+-121.9555086570007,40.86935808958711,297300.0
+-121.406,43.9974,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W7MTB elevation: 297300.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-07-09T18:01:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-121.9555086570007,40.86935808958711,297300.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W7MTB</name>
+<description><![CDATA[<h1>W7MTB</h1>Date/Time GMT: <div><br></div>2023/07/09 18:01:00]]></description>
+<TimeStamp>2023-07-09T18:01:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.45537698937866,37.73894397458999,0.
+-121.406,43.9974,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W7MTB</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-07-09T18:01:00</TimeStamp>
+<Point>
+<coordinates>-121.406,43.9974</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
