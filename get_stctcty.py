@@ -27,5 +27,5 @@ for result in q["rows"]:
     #print(ds_geo_json.text)
     z = json.loads(ds_geo_json.text)
     for localities in z["rows"]:
-        print(result[0] + ':' + localities[0] + ' ' + localities[3])
+        print(result[0] + ':' + localities[1] + ' ' + localities[3])
     
