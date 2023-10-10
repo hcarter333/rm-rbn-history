@@ -16,6 +16,182 @@
 </IconStyle>
 </Style>
 <Placemark>
+<name>W0MNA
+ F2 skip</name>
+<description><![CDATA[<h1>W0MNA
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:10:00]]></description>
+<TimeStamp>2023-04-25T19:10:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-106.7995,34.801,5
+-101.06171926523025,37.24343756244391,294000.0
+-94.96394699999999,39.3913598,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W0MNA
+ elevation: 294000.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:10:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-101.06171926523025,37.24343756244391,294000.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W0MNA
+</name>
+<description><![CDATA[<h1>W0MNA
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:10:00]]></description>
+<TimeStamp>2023-04-25T19:10:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.7995,34.801,0.
+-94.96394699999999,39.3913598,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W0MNA
+</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:10:00</TimeStamp>
+<Point>
+<coordinates>-94.96394699999999,39.3913598</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W0ERI
+ F2 skip</name>
+<description><![CDATA[<h1>W0ERI
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:12:00]]></description>
+<TimeStamp>2023-04-25T19:12:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-106.7995,34.801,5
+-101.06171926523025,37.24343756244391,294000.0
+-94.96394699999999,39.3913598,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W0ERI
+ elevation: 294000.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:12:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-101.06171926523025,37.24343756244391,294000.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W0ERI
+</name>
+<description><![CDATA[<h1>W0ERI
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:12:00]]></description>
+<TimeStamp>2023-04-25T19:12:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.7995,34.801,0.
+-94.96394699999999,39.3913598,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W0ERI
+</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:12:00</TimeStamp>
+<Point>
+<coordinates>-94.96394699999999,39.3913598</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K5VWW
+ F2 skip</name>
+<description><![CDATA[<h1>K5VWW
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:13:00]]></description>
+<TimeStamp>2023-04-25T19:13:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-106.7995,34.801,5
+-101.11793176920362,32.380186316233335,298900.0
+-95.7469567,29.7183623,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K5VWW
+ elevation: 298900.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:13:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-101.11793176920362,32.380186316233335,298900.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K5VWW
+</name>
+<description><![CDATA[<h1>K5VWW
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:13:00]]></description>
+<TimeStamp>2023-04-25T19:13:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.7995,34.801,0.
+-95.7469567,29.7183623,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K5VWW
+</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:13:00</TimeStamp>
+<Point>
+<coordinates>-95.7469567,29.7183623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WB6POT
+ F2 skip</name>
+<description><![CDATA[<h1>WB6POT
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:23:00]]></description>
+<TimeStamp>2023-04-25T19:23:00</TimeStamp>
+<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
+-106.7995,34.801,5
+-114.28830629990405,36.294961735338916,305600.0
+-122.0208075,37.3059585,5
+</coordinates></LineString>
+<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WB6POT
+ elevation: 305600.0meters</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:23:00</TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-114.28830629990405,36.294961735338916,305600.0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WB6POT
+</name>
+<description><![CDATA[<h1>WB6POT
+</h1>Date/Time GMT: <div><br></div>2023/04/25 19:23:00]]></description>
+<TimeStamp>2023-04-25T19:23:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.7995,34.801,0.
+-122.0208075,37.3059585,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WB6POT
+</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:23:00</TimeStamp>
+<Point>
+<coordinates>-122.0208075,37.3059585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>W0MNA F2 skip</name>
 <description><![CDATA[<h1>W0MNA</h1>Date/Time GMT: <div><br></div>2023/04/25 19:10:00]]></description>
 <TimeStamp>2023-04-25T19:10:00</TimeStamp>
@@ -135,134 +311,6 @@
 <TimeStamp>2023-04-25T19:23:00</TimeStamp>
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
--114.28830629990405,36.294961735338916,305600.0
--122.0208075,37.3059585,5
-</coordinates></LineString>
-<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>WB6POT elevation: 305600.0meters</name>
-<styleUrl>#QSO</styleUrl>
-<TimeStamp>2023-04-25T19:23:00</TimeStamp>
-<Point>
-<altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-114.28830629990405,36.294961735338916,305600.0</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>WB6POT</name>
-<description><![CDATA[<h1>WB6POT</h1>Date/Time GMT: <div><br></div>2023/04/25 19:23:00]]></description>
-<TimeStamp>2023-04-25T19:23:00</TimeStamp>
-<LineString><tessellate>1</tessellate><coordinates>
--106.7995,34.801,0.
--122.0208075,37.3059585,0.
-</coordinates></LineString>
-<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>WB6POT</name>
-<styleUrl>#QSO</styleUrl>
-<TimeStamp>2023-04-25T19:23:00</TimeStamp>
-<Point>
-<coordinates>-122.0208075,37.3059585</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>W0MNA F2 skip</name>
-<description><![CDATA[<h1>W0MNA</h1>Date/Time GMT: <div><br></div>2023/04/25 19:10:00]]></description>
-<TimeStamp>2023-04-25T19:10:00</TimeStamp>
-<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
--106.7995,34.801,5
--101.06171926523025,37.24343756244391,294000.0
--94.96394699999999,39.3913598,5
-</coordinates></LineString>
-<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>W0MNA elevation: 294000.0meters</name>
-<styleUrl>#QSO</styleUrl>
-<TimeStamp>2023-04-25T19:10:00</TimeStamp>
-<Point>
-<altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-101.06171926523025,37.24343756244391,294000.0</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>W0MNA</name>
-<description><![CDATA[<h1>W0MNA</h1>Date/Time GMT: <div><br></div>2023/04/25 19:10:00]]></description>
-<TimeStamp>2023-04-25T19:10:00</TimeStamp>
-<LineString><tessellate>1</tessellate><coordinates>
--106.7995,34.801,0.
--94.96394699999999,39.3913598,0.
-</coordinates></LineString>
-<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>W0ERI F2 skip</name>
-<description><![CDATA[<h1>W0ERI</h1>Date/Time GMT: <div><br></div>2023/04/25 19:12:00]]></description>
-<TimeStamp>2023-04-25T19:12:00</TimeStamp>
-<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
--106.7995,34.801,5
--101.06171926523025,37.24343756244391,294000.0
--94.96394699999999,39.3913598,5
-</coordinates></LineString>
-<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>W0ERI elevation: 294000.0meters</name>
-<styleUrl>#QSO</styleUrl>
-<TimeStamp>2023-04-25T19:12:00</TimeStamp>
-<Point>
-<altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-101.06171926523025,37.24343756244391,294000.0</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>W0ERI</name>
-<description><![CDATA[<h1>W0ERI</h1>Date/Time GMT: <div><br></div>2023/04/25 19:12:00]]></description>
-<TimeStamp>2023-04-25T19:12:00</TimeStamp>
-<LineString><tessellate>1</tessellate><coordinates>
--106.7995,34.801,0.
--94.96394699999999,39.3913598,0.
-</coordinates></LineString>
-<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>K5VWW F2 skip</name>
-<description><![CDATA[<h1>K5VWW</h1>Date/Time GMT: <div><br></div>2023/04/25 19:13:00]]></description>
-<TimeStamp>2023-04-25T19:13:00</TimeStamp>
-<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
--106.7995,34.801,5
--101.11793176920362,32.380186316233335,298900.0
--95.7469567,29.7183623,5
-</coordinates></LineString>
-<Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>K5VWW elevation: 298900.0meters</name>
-<styleUrl>#QSO</styleUrl>
-<TimeStamp>2023-04-25T19:13:00</TimeStamp>
-<Point>
-<altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-101.11793176920362,32.380186316233335,298900.0</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>K5VWW</name>
-<description><![CDATA[<h1>K5VWW</h1>Date/Time GMT: <div><br></div>2023/04/25 19:13:00]]></description>
-<TimeStamp>2023-04-25T19:13:00</TimeStamp>
-<LineString><tessellate>1</tessellate><coordinates>
--106.7995,34.801,0.
--95.7469567,29.7183623,0.
-</coordinates></LineString>
-<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>WB6POT F2 skip</name>
-<description><![CDATA[<h1>WB6POT</h1>Date/Time GMT: <div><br></div>2023/04/25 19:23:00]]></description>
-<TimeStamp>2023-04-25T19:23:00</TimeStamp>
-<LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
--106.7995,34.801,5
 -32.28127398245224,54.357982297752095,305600.0
 27,23,5
 </coordinates></LineString>
@@ -286,6 +334,14 @@
 27,23,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WB6POT</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-04-25T19:23:00</TimeStamp>
+<Point>
+<coordinates>27,23</coordinates>
+</Point>
 </Placemark>
 <Placemark>
 <name>K6EL F2 skip</name>
