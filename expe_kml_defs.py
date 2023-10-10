@@ -36,7 +36,7 @@ def expe_kml(lng, lat, begin_timestamp, end_timestamp, qso_list=[]):
     for line in f:
         #throw away the first line
         fields = line.split(",")
-        if((firstline != 1) and (len(fields)==13)):
+        if((firstline != 1) and ((len(fields)==9) or (len(fields)==13))):
             qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, 
                                         end_timestamp, False)
             if(qso_out != None):
