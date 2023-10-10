@@ -770,8 +770,8 @@
 <TimeStamp>2023-10-09T23:13:00</TimeStamp>
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -122.42293617440531,37.72489522009444,5
--130.39560638949462,-10.053377792254242,294200.0
-37.806458361746664,-122.45008245947976,5
+-122.43650183237281,37.76567756928153,294200.0
+-122.45008245947976,37.806458361746664,5
 </coordinates></LineString>
 <Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -781,7 +781,7 @@
 <TimeStamp>2023-10-09T23:13:00</TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-130.39560638949462,-10.053377792254242,294200.0</coordinates>
+<coordinates>-122.43650183237281,37.76567756928153,294200.0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -790,7 +790,7 @@
 <TimeStamp>2023-10-09T23:13:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
-37.806458361746664,-122.45008245947976,0.
+-122.45008245947976,37.806458361746664,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -799,7 +799,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-10-09T23:13:00</TimeStamp>
 <Point>
-<coordinates>37.806458361746664,-122.45008245947976</coordinates>
+<coordinates>-122.45008245947976,37.806458361746664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
