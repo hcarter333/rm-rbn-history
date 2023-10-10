@@ -39,5 +39,5 @@ for line in f:
         line_out = line + ",USA,"+id_to_state[str(fields[0])]+","+id_to_county[str(fields[0])]+","
         print(line_out)
     else:
-       print(line + ",,,,")
+       print(line)
             
