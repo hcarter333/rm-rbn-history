@@ -37,7 +37,7 @@ def mail_qsls():
         fields = line.split(",")
         fields[3] = fields[3].replace("\n","")
         dt = fields[1].split(" ")
-        get_qrz_call_mail_address(fields[0],dt[0],dt[1],fields[2],fields[3])
+        get_qrz_call_mail_address(fields[0],dt[0],dt[1],fields[3],fields[2])
         sys.stdout.write("\r")
         sys.stdout.write("\n")
     #creates a list of QSO formatted the same as rm_rnb_histor_pres.csv
