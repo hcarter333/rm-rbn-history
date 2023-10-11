@@ -6,6 +6,8 @@ tx_lat = 0
 qrz_sess = "none"
 hh = None
 hhwindow = 60
+call_country = ""
+call_state = ""
 
 #Routines used for the automated scripts
 #Time routines

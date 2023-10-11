@@ -44,8 +44,10 @@ def get_qrz_call_geo_address(callsign):
         address_geo = address_geo + addr2.text + ","
     if(state != None):
         address_geo = address_geo + state.text + ","
+        auto_geo_vars.call_state = state.text
     if(country != None):
         address_geo = address_geo + country.text
+        auto_geo_vars.call_country = country.text
     #address_geo = addr1.text + ',' + addr2.text + ',' + state.text
     address_geo = address_geo.replace(' ','+')
     return address_geo
@@ -157,8 +159,11 @@ def dump_rm_rbn_history(csv_file=''):
             except:
                 print("Date formatting for " + fields[0] + " is incorrect as " + fields[1])
             #store the qso in a tuple
+            auto_geo_vars.call_country = auto_geo_vars.call_country.\
+                                         replace("United States", "USA")
             qso_tuple = str(random.randrange(0,4294967295)),lng,lat,callsign_loc,\
-                        qso_dt,fields[3][0:3],fields[0]
+                        qso_dt,fields[3][0:3],fields[0],auto_geo_vars.call_country,\
+                        auto_geo_vars.call_state
             qso_list.append(qso_tuple)
         #table should have
         #id	tx_lng	tx_lat	rx_lng	rx_lat	timestamp	dB	frequency	Spotter
@@ -166,10 +171,13 @@ def dump_rm_rbn_history(csv_file=''):
 #              str(lng) + ',' + str(lat) + ',' + callsign_loc + ',' + fields[1] + 
 #              ',' + fields[3][0:3] + ',14058.4,' + fields[0])
     result = sorted(qso_list, key=lambda x: x[4])
+    #since we know the country and state at this point, let's add those as well
+    print("going to add country" +  auto_geo_vars.call_country)
     for qso in result:
         result_string = qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' \
               + qso[3] + ',' + qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + \
-              qso[5] + ',14058.4,' + qso[6]
+              qso[5] + ',14058.4,' + qso[6] + "," + auto_geo_vars.call_country + \
+              "," + auto_geo_vars.call_state
         #print(result_string)
     return result
         
