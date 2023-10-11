@@ -2,6 +2,7 @@ import sys
 import random
 import re
 import datetime
+import auto_geo_vars
 from earthmid import midpoint_lng
 from earthmid import midpoint_lat
 from ionodata import get_f2m
@@ -124,7 +125,14 @@ def transfom_qso_to_kml(qso_line):
         delta = datetime.timedelta(minutes=5)
         time_win_start = qso_dt - delta
         time_win_end = qso_dt + delta
-        f2h = str(get_f2m(time_win_start, time_win_end)*1000)
+        if(time_win_start != auto_geo_vars.old_start):
+            f2h = str(get_f2m(time_win_start, time_win_end)*1000)
+        else:
+            #print("skipped time win start " + str(time_win_start) + " " + str(auto_geo_vars.old_start))
+            f2h = auto_geo_vars.old_f2h
+        auto_geo_vars.old_start = time_win_start
+        auto_geo_vars.old_end = time_win_end
+        auto_geo_vars.old_f2h = f2h
         mid_lng = str(midpoint_lng(float(fields[1]),float(fields[0]),\
                            float(fields[3]),float(fields[2])))
         mid_lat = str(midpoint_lat(float(fields[1]),float(fields[0]),\
@@ -167,6 +175,7 @@ def transfom_qso_to_kml(qso_line):
     return 0
 
 def set_line_color(fields, qso_style_no_rst, spot_style, qso_style):
+    fields[5] = fields[5].replace("-1", "1")
     if(fields[5] == "0"):
         #set for QSO line color with unknown RST
         print(qso_style_no_rst.replace("line_color", signal_colors[fields[5]]))

@@ -50,6 +50,8 @@ def get_qrz_call_geo_address(callsign):
         auto_geo_vars.call_country = country.text
     #address_geo = addr1.text + ',' + addr2.text + ',' + state.text
     address_geo = address_geo.replace(' ','+')
+    address_geo = address_geo.replace('#','')
+    #print(address_geo)
     return address_geo
 
 def check_qrz_address(call, qnamef, qnamel, addr1, addr2, state, zip_code):
@@ -99,7 +101,7 @@ def get_call_lat_lng(callsign):
     geoloc = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+get_qrz_call_geo_address(callsign)+
              '&key='+os.getenv("MAPS_API_KEY"))
     #print(os.getenv("MAPS_API_KEY"))
-    #print(geoloc)
+    #print(geoloc.text)
     y=json.loads(geoloc.text)
 
     lat=y["results"][0]["geometry"]["location"]["lat"]
@@ -172,7 +174,6 @@ def dump_rm_rbn_history(csv_file=''):
 #              ',' + fields[3][0:3] + ',14058.4,' + fields[0])
     result = sorted(qso_list, key=lambda x: x[4])
     #since we know the country and state at this point, let's add those as well
-    print("going to add country" +  auto_geo_vars.call_country)
     for qso in result:
         result_string = qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' \
               + qso[3] + ',' + qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + \

@@ -8,6 +8,10 @@ hh = None
 hhwindow = 60
 call_country = ""
 call_state = ""
+old_start = ""
+old_end = ""
+old_f2h = ""
+
 
 #Routines used for the automated scripts
 #Time routines
