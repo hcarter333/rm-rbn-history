@@ -19,6 +19,8 @@
 <name>W0MNA F2 skip</name>
 <description><![CDATA[<h1>W0MNA</h1>Date/Time GMT: <div><br></div>2023/04/25 19:10:00]]></description>
 <TimeStamp>2023-04-25T19:10:00</TimeStamp>
+start_date_win 2023.04.25%2019:05:00
+end_date_win 2023.04.25%2019:15:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -101.06171926523025,37.24343756244391,294000.0
@@ -57,6 +59,8 @@
 <name>W0ERI F2 skip</name>
 <description><![CDATA[<h1>W0ERI</h1>Date/Time GMT: <div><br></div>2023/04/25 19:12:00]]></description>
 <TimeStamp>2023-04-25T19:12:00</TimeStamp>
+start_date_win 2023.04.25%2019:07:00
+end_date_win 2023.04.25%2019:17:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -101.06171926523025,37.24343756244391,294000.0
@@ -95,6 +99,8 @@
 <name>K5VWW F2 skip</name>
 <description><![CDATA[<h1>K5VWW</h1>Date/Time GMT: <div><br></div>2023/04/25 19:13:00]]></description>
 <TimeStamp>2023-04-25T19:13:00</TimeStamp>
+start_date_win 2023.04.25%2019:08:00
+end_date_win 2023.04.25%2019:18:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -101.11793176920362,32.380186316233335,298900.0
@@ -133,6 +139,8 @@
 <name>WB6POT F2 skip</name>
 <description><![CDATA[<h1>WB6POT</h1>Date/Time GMT: <div><br></div>2023/04/25 19:23:00]]></description>
 <TimeStamp>2023-04-25T19:23:00</TimeStamp>
+start_date_win 2023.04.25%2019:18:00
+end_date_win 2023.04.25%2019:28:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -114.28830629990405,36.294961735338916,305600.0
@@ -171,6 +179,8 @@
 <name>W0MNA F2 skip</name>
 <description><![CDATA[<h1>W0MNA</h1>Date/Time GMT: <div><br></div>2023/04/25 19:10:00]]></description>
 <TimeStamp>2023-04-25T19:10:00</TimeStamp>
+start_date_win 2023.04.25%2019:05:00
+end_date_win 2023.04.25%2019:15:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -101.06171926523025,37.24343756244391,294000.0
@@ -201,6 +211,8 @@
 <name>W0ERI F2 skip</name>
 <description><![CDATA[<h1>W0ERI</h1>Date/Time GMT: <div><br></div>2023/04/25 19:12:00]]></description>
 <TimeStamp>2023-04-25T19:12:00</TimeStamp>
+start_date_win 2023.04.25%2019:07:00
+end_date_win 2023.04.25%2019:17:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -101.06171926523025,37.24343756244391,294000.0
@@ -231,6 +243,8 @@
 <name>K5VWW F2 skip</name>
 <description><![CDATA[<h1>K5VWW</h1>Date/Time GMT: <div><br></div>2023/04/25 19:13:00]]></description>
 <TimeStamp>2023-04-25T19:13:00</TimeStamp>
+start_date_win 2023.04.25%2019:08:00
+end_date_win 2023.04.25%2019:18:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -101.11793176920362,32.380186316233335,298900.0
@@ -261,6 +275,8 @@
 <name>WB6POT F2 skip</name>
 <description><![CDATA[<h1>WB6POT</h1>Date/Time GMT: <div><br></div>2023/04/25 19:23:00]]></description>
 <TimeStamp>2023-04-25T19:23:00</TimeStamp>
+start_date_win 2023.04.25%2019:18:00
+end_date_win 2023.04.25%2019:28:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -32.28127398245224,54.357982297752095,305600.0
@@ -291,6 +307,8 @@
 <name>K6EL F2 skip</name>
 <description><![CDATA[<h1>K6EL</h1>Date/Time GMT: <div><br></div>2023/04/25 19:43:00]]></description>
 <TimeStamp>2023-04-25T19:43:00</TimeStamp>
+start_date_win 2023.04.25%2019:38:00
+end_date_win 2023.04.25%2019:48:00
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
 -114.35708304765718,36.590878737899864,290200.0
