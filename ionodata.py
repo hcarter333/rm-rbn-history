@@ -11,8 +11,8 @@ def get_f2m(start_time, end_time):
     #print(start_date_win)
     end_date_win = end_time.strftime("%Y.%m.%d %H:%M:%S")
     end_date_win = end_date_win.replace(" ", "%20")
-    print("start_date_win " + start_date_win)
-    print("end_date_win " + end_date_win)
+    #print("start_date_win " + start_date_win)
+    #print("end_date_win " + end_date_win)
     iono_url = "https://lgdc.uml.edu/common/DIDBGetValues?ursiCode=PA836&charName=hF2,hmF2&fromDate=" + start_date_win + \
                         "&toDate=" + end_date_win
     #print(iono_url)
