@@ -135,18 +135,18 @@
 <TimeStamp>2023-04-25T19:23:00</TimeStamp>
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
--114.28830629990405,36.294961735338916,305600.0
+-114.28830629990405,36.294961735338916,5000.0
 -122.0208075,37.3059585,5
 </coordinates></LineString>
 <Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>WB6POT elevation: 305600.0meters</name>
+<name>WB6POT elevation: 5000.0meters</name>
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-04-25T19:23:00</TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-114.28830629990405,36.294961735338916,305600.0</coordinates>
+<coordinates>-114.28830629990405,36.294961735338916,5000.0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
