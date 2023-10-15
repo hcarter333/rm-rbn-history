@@ -112,48 +112,49 @@ def transfom_qso_to_kml(qso_line):
     #After this call, the timestamp is wrapped in kml tags
     fields = transform_spot_kml(fields)
     if(qso_line_error(qso_line, fields) == False):
-        print(placestart)
-        print('<name>' + fields[7] + ' F2 skip</name>');
-        #Now print the description>
-        print(qso_deets_time)
-        #output the formatted timestamp
-        print(fields[4])
         #################################################
         #output the one skip F2 hop between stations
         #Get the top of the skip
-        qso_dt = datetime.datetime.strptime(qso_line.split(",")[4], "%Y/%m/%d %H:%M:%S")
-        delta = datetime.timedelta(minutes=5)
-        time_win_start = qso_dt - delta
-        time_win_end = qso_dt + delta
-        if(time_win_start != auto_geo_vars.old_start):
-            f2h = str(get_f2m(time_win_start, time_win_end)*1000)
-        else:
-            #print("skipped time win start " + str(time_win_start) + " " + str(auto_geo_vars.old_start))
-            f2h = auto_geo_vars.old_f2h
-        auto_geo_vars.old_start = time_win_start
-        auto_geo_vars.old_end = time_win_end
-        auto_geo_vars.old_f2h = f2h
-        mid_lng = str(midpoint_lng(float(fields[1]),float(fields[0]),\
-                           float(fields[3]),float(fields[2])))
-        mid_lat = str(midpoint_lat(float(fields[1]),float(fields[0]),\
-                           float(fields[3]),float(fields[2])))
-        #Start printing
-        print(linestart_f2)
-        print(fields[0]+","+fields[1]+",5")
-        #midpoint and F2 height 
-        #get the time of the qso
-        #Find debug messages in the map output
-        #be sure to turn them back off so they don't cause errors in the map
-        #print("Working on " + fields[7] + " at time " + qso_line.split(",")[4])
-        #skip up
-        print(mid_lng + ","+ mid_lat + "," + f2h)
-        #skip down
-        print(fields[2]+","+fields[3]+",5")
-        print(lineend)
-        #ff004b96
-        print(qso_style_no_rst.replace("line_color", "3ff808080"))
-        print(place_end)
-        add_skip_placemark(mid_lng,mid_lat,f2h,fields[7], fields[4])
+        if(auto_geo_vars.f2_skip_map):
+            print(placestart)
+            print('<name>' + fields[7] + ' F2 skip</name>');
+            #Now print the description>
+            print(qso_deets_time)
+            #output the formatted timestamp
+            print(fields[4])
+            qso_dt = datetime.datetime.strptime(qso_line.split(",")[4], "%Y/%m/%d %H:%M:%S")
+            delta = datetime.timedelta(minutes=5)
+            time_win_start = qso_dt - delta
+            time_win_end = qso_dt + delta
+            if(time_win_start != auto_geo_vars.old_start):
+                f2h = str(get_f2m(time_win_start, time_win_end)*1000)
+            else:
+                #print("skipped time win start " + str(time_win_start) + " " + str(auto_geo_vars.old_start))
+                f2h = auto_geo_vars.old_f2h
+            auto_geo_vars.old_start = time_win_start
+            auto_geo_vars.old_end = time_win_end
+            auto_geo_vars.old_f2h = f2h
+            mid_lng = str(midpoint_lng(float(fields[1]),float(fields[0]),\
+                               float(fields[3]),float(fields[2])))
+            mid_lat = str(midpoint_lat(float(fields[1]),float(fields[0]),\
+                               float(fields[3]),float(fields[2])))
+            #Start printing
+            print(linestart_f2)
+            print(fields[0]+","+fields[1]+",5")
+            #midpoint and F2 height 
+            #get the time of the qso
+            #Find debug messages in the map output
+            #be sure to turn them back off so they don't cause errors in the map
+            #print("Working on " + fields[7] + " at time " + qso_line.split(",")[4])
+            #skip up
+            print(mid_lng + ","+ mid_lat + "," + f2h)
+            #skip down
+            print(fields[2]+","+fields[3]+",5")
+            print(lineend)
+            #ff004b96
+            print(qso_style_no_rst.replace("line_color", "3ff808080"))
+            print(place_end)
+            add_skip_placemark(mid_lng,mid_lat,f2h,fields[7], fields[4])
         #Done with the F2 skip
         #################################################
         #output the clamped to Earth line between stations
