@@ -59,18 +59,18 @@
 <TimeStamp>2023-04-25T19:12:00</TimeStamp>
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
--101.06171926523025,37.24343756244391,5000.0
+-101.06171926523025,37.24343756244391,294000.0
 -94.96394699999999,39.3913598,5
 </coordinates></LineString>
 <Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>W0ERI elevation: 5000.0meters</name>
+<name>W0ERI elevation: 294000.0meters</name>
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-04-25T19:12:00</TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-101.06171926523025,37.24343756244391,5000.0</coordinates>
+<coordinates>-101.06171926523025,37.24343756244391,294000.0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -293,18 +293,18 @@
 <TimeStamp>2023-04-25T19:43:00</TimeStamp>
 <LineString><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -106.7995,34.801,5
--114.35708304765718,36.590878737899864,290200.0
+-114.35708304765718,36.590878737899864,5000.0
 -122.2218,37.8834,5
 </coordinates></LineString>
 <Style><LineStyle><color>3ff808080</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>K6EL elevation: 290200.0meters</name>
+<name>K6EL elevation: 5000.0meters</name>
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-04-25T19:43:00</TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>-114.35708304765718,36.590878737899864,290200.0</coordinates>
+<coordinates>-114.35708304765718,36.590878737899864,5000.0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
