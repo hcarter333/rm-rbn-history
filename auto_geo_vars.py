@@ -11,6 +11,7 @@ call_state = ""
 old_start = ""
 old_end = ""
 old_f2h = ""
+f2_skip_map = False
 
 
 #Routines used for the automated scripts
