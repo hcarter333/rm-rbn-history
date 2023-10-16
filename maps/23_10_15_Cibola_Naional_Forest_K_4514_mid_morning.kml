@@ -1304,6 +1304,24 @@
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
+<name>KD9VAY</name>
+<description><![CDATA[<h1>KD9VAY</h1>Date/Time GMT: <div><br></div>2023/10/15 12:33:00]]></description>
+<TimeStamp>2023-10-15T12:33:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-86.3616,41.5351,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>KD9VAY</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-10-15T12:33:00</TimeStamp>
+<Point>
+<coordinates>-86.3616,41.5351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>K3UX</name>
 <description><![CDATA[<h1>K3UX</h1>Date/Time GMT: <div><br></div>2023/10/15 13:06:00]]></description>
 <TimeStamp>2023-10-15T13:06:00</TimeStamp>
