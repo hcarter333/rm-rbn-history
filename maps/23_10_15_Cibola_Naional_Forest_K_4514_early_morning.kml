@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>23_10_15 Cibola Naional Forest K-4514 early morning</name>
-<description>Two NY QSOs SWR raspy Projecxt TouCans
+<description>Two NY QSOs SWR raspy Project TouCans Both QSOs from same station
 </description>
 <Style id="RBN">
 <IconStyle>
@@ -23,7 +23,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:13:00]]></description>
 <TimeStamp>2023-10-15T11:13:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -75.1250,40.4375,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
@@ -44,7 +44,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:13:00]]></description>
 <TimeStamp>2023-10-15T11:13:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -73.0417,42.4792,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -65,7 +65,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:13:00]]></description>
 <TimeStamp>2023-10-15T11:13:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -78.7917,35.7708,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -86,7 +86,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:13:00]]></description>
 <TimeStamp>2023-10-15T11:13:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -77.7917,38.7292,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -107,7 +107,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:29:00]]></description>
 <TimeStamp>2023-10-15T11:29:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -78.7083,33.8125,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
@@ -128,7 +128,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:26:00]]></description>
 <TimeStamp>2023-10-15T11:26:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -71.0417,42.8542,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -149,7 +149,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:25:00]]></description>
 <TimeStamp>2023-10-15T11:25:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -77.7917,38.7292,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -161,7 +161,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:25:00]]></description>
 <TimeStamp>2023-10-15T11:25:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -71.6250,42.8125,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -182,7 +182,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:25:00]]></description>
 <TimeStamp>2023-10-15T11:25:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -78.8750,43.2708,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -203,7 +203,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:24:00]]></description>
 <TimeStamp>2023-10-15T11:24:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -73.0417,42.4792,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
@@ -215,7 +215,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:23:00]]></description>
 <TimeStamp>2023-10-15T11:23:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -71.6250,42.8125,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -236,7 +236,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:22:00]]></description>
 <TimeStamp>2023-10-15T11:22:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -78.7917,35.7708,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -248,7 +248,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:22:00]]></description>
 <TimeStamp>2023-10-15T11:22:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -76.5417,39.4792,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
@@ -269,7 +269,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:22:00]]></description>
 <TimeStamp>2023-10-15T11:22:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -75.1250,40.4375,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
@@ -281,7 +281,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:19:00]]></description>
 <TimeStamp>2023-10-15T11:19:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -71.6250,42.8125,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
@@ -293,7 +293,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:18:00]]></description>
 <TimeStamp>2023-10-15T11:18:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -78.7083,33.8125,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
@@ -305,7 +305,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:17:00]]></description>
 <TimeStamp>2023-10-15T11:17:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -78.7917,35.7708,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
@@ -317,7 +317,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:17:00]]></description>
 <TimeStamp>2023-10-15T11:17:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -71.0417,42.8542,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
@@ -329,7 +329,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:17:00]]></description>
 <TimeStamp>2023-10-15T11:17:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -75.1250,40.4375,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300a5ff</color><width>4</width></LineStyle></Style>
@@ -341,7 +341,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:17:00]]></description>
 <TimeStamp>2023-10-15T11:17:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -76.5417,39.4792,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
@@ -353,7 +353,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:17:00]]></description>
 <TimeStamp>2023-10-15T11:17:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -73.0417,42.4792,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -365,7 +365,7 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:15:00]]></description>
 <TimeStamp>2023-10-15T11:15:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -76.5417,39.4792,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
@@ -377,8 +377,125 @@
 </h1>Date/Time GMT: <div><br></div>2023/10/15 11:15:00]]></description>
 <TimeStamp>2023-10-15T11:15:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -71.0417,42.8542,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W8WWV
+</name>
+<description><![CDATA[<h1>W8WWV
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:21:00]]></description>
+<TimeStamp>2023-10-15T12:21:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-81.3750,41.5208,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W8WWV
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-10-15T12:21:00</TimeStamp>
+<Point>
+<coordinates>-81.3750,41.5208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W2AXR
+</name>
+<description><![CDATA[<h1>W2AXR
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:21:00]]></description>
+<TimeStamp>2023-10-15T12:21:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-78.8750,43.2708,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W1NT-2
+</name>
+<description><![CDATA[<h1>W1NT-2
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:20:00]]></description>
+<TimeStamp>2023-10-15T12:20:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-71.0417,42.8542,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K1TTT
+</name>
+<description><![CDATA[<h1>K1TTT
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:19:00]]></description>
+<TimeStamp>2023-10-15T12:19:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-73.0417,42.4792,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W1NT-2
+</name>
+<description><![CDATA[<h1>W1NT-2
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:11:00]]></description>
+<TimeStamp>2023-10-15T12:11:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-71.0417,42.8542,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W2AXR
+</name>
+<description><![CDATA[<h1>W2AXR
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:11:00]]></description>
+<TimeStamp>2023-10-15T12:11:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-78.8750,43.2708,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W8WWV
+</name>
+<description><![CDATA[<h1>W8WWV
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:11:00]]></description>
+<TimeStamp>2023-10-15T12:11:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-81.3750,41.5208,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W2AXR
+</name>
+<description><![CDATA[<h1>W2AXR
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:10:00]]></description>
+<TimeStamp>2023-10-15T12:10:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-78.8750,43.2708,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W8WWV
+</name>
+<description><![CDATA[<h1>W8WWV
+</h1>Date/Time GMT: <div><br></div>2023/10/15 12:10:00]]></description>
+<TimeStamp>2023-10-15T12:10:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-106.40656400447673,34.60406895585743,0.
+-81.3750,41.5208,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -387,7 +504,7 @@
 <description><![CDATA[<h1>W2WC</h1>Date/Time GMT: <div><br></div>2023/10/15 11:21:00]]></description>
 <TimeStamp>2023-10-15T11:21:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -73.7495095,42.8955145,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
@@ -405,7 +522,7 @@
 <description><![CDATA[<h1>K2POF</h1>Date/Time GMT: <div><br></div>2023/10/15 11:23:00]]></description>
 <TimeStamp>2023-10-15T11:23:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
--106.3652714570599,34.56530866887299,0.
+-106.40656400447673,34.60406895585743,0.
 -73.7495095,42.8955145,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
