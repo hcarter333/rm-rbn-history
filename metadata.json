@@ -1,0 +1,9 @@
+{
+	"plugins": {
+		"datasette-media": {
+			"photo": {
+				"sql": "select path as filepath from photo_path where uuid=:key"
+			}
+		}
+	}
+}
