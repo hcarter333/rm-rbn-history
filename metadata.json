@@ -1,6 +1,9 @@
 {
 	"plugins": {
 		"datasette-media": {
+			"thumbnail": {
+				"sql": "select path as filepath, 200 as resize_height  from photo_path where uuid=:key"
+			},
 			"photo": {
 				"sql": "select path as filepath from photo_path where uuid=:key"
 			}
