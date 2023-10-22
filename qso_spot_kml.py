@@ -165,8 +165,8 @@ def transfom_qso_to_kml(qso_line):
         #output the formatted timestamp
         print(fields[4])
         print(linestart)
-        print(fields[0]+","+fields[1]+",0.")
-        print(fields[2]+","+fields[3]+",0.")
+        print(fields[0].strip()+","+fields[1].strip()+",0.")
+        print(fields[2].strip()+","+fields[3].strip()+",0.")
         print(lineend)
         set_line_color(fields, qso_style_no_rst, spot_style, qso_style)
         print(place_end)
@@ -203,7 +203,7 @@ def add_placemark(fields):
         #output the formatted timestamp
         print(fields[4])
         print('<Point>')
-        print('<coordinates>'+fields[2]+','+fields[3]+'</coordinates>')
+        print('<coordinates>'+fields[2].strip()+','+fields[3].strip()+'</coordinates>')
         print('</Point>')
         print('</Placemark>')
         #mark any spots as already happened after the first time
