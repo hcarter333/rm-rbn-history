@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>23_10_22 three waat amp</name>
+<description>just when I thought nothing worked at all 
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W6YX
+</name>
+<description><![CDATA[<h1>W6YX
+</h1>Date/Time GMT: <div><br></div>2023/10/22 12:15:00]]></description>
+<TimeStamp>2023-10-22T12:15:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2083,37.3958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6YX
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2023-10-22T12:15:00</TimeStamp>
+<Point>
+<coordinates>-122.2083,37.3958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K2UPD</name>
+<description><![CDATA[<h1>K2UPD</h1>Date/Time GMT: <div><br></div>2023/10/22 12:23:00]]></description>
+<TimeStamp>2023-10-22T12:23:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-76.0850932,43.0117922,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K2UPD</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-10-22T12:23:00</TimeStamp>
+<Point>
+<coordinates>-76.0850932,43.0117922</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
