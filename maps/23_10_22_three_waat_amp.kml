@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>23_10_22 three waat amp</name>
-<description>just when I thought nothing worked at all 
+<description>just when I thought nothing worked at all; also fixed whitespace issue #71; this is the test
 </description>
 <Style id="RBN">
 <IconStyle>
