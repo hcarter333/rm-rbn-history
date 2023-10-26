@@ -12,7 +12,7 @@ plugins:
       sql: |-
         select path as filepath from photo_path where uuid=:key
 databases:
-  rm_toucans_23_10_25:
+  rm_toucans:
     queries:
       map_qsos_at_tx_from_tx: 
         sql: |-
