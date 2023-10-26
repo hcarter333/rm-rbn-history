@@ -1,0 +1,52 @@
+title: QSO search by location
+source: KD0FNR QSO log
+source_url: https://github.com/hcarter333/rm-rbn-history/blob/482acf6ca68c4b612c5884bd995e92d8b67ac6d3/rm_rnb_history_pres.csv
+about: rm-rbn-history
+about_url: https://github.com/hcarter333/rm-rbn-history
+plugins:
+  datasette-media:
+    thumbnail:
+      sql: |-
+        select path as filepath, 200 as resize_height  from photo_path where uuid=:key
+    photo:
+      sql: |-
+        select path as filepath from photo_path where uuid=:key
+databases:
+  rm_toucans_23_10_25:
+    queries:
+      map_qsos_at_tx_from_tx: 
+        sql: |-
+          select
+            rm_rnb_history_pres.tx_lng as longitude,
+            rm_rnb_history_pres.tx_lat as latitude,
+            rm_rnb_history_pres.timestamp,
+            rm_rnb_history_pres.dB,
+            rm_rnb_history_pres.Spotter,
+            rm_rnb_history_pres.QSL_link,
+            photo_path.path,
+            photo_path.uuid,
+            json_object(
+              'image',
+              '/-/media/thumbnail/' || uuid,
+              'title',
+              Spotter || ' de KD0FNR',
+              'description',
+              'rx_rst: ' || dB || '  timestamp: ' || rm_rnb_history_pres.timestamp
+            ) as popup
+          from
+            rm_rnb_history_pres
+            LEFT JOIN photo_path ON rm_rnb_history_pres.QSL_link = photo_path.uuid
+          where
+            db > 100
+            and Intersects(
+              GeomFromGeoJSON(:freedraw),
+              MakePoint(
+                cast(longitude as float),
+                cast(latitude as float)
+              )
+            ) = 1
+          order by
+            rm_rnb_history_pres.timestamp desc
+        title: Map QSOs from transmitting station locations by searching drawn polygon
+        description_html: |-
+          <p>Map QSOs from transmitting station locations by searching drawn polygon
