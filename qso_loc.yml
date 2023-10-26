@@ -47,6 +47,44 @@ databases:
             ) = 1
           order by
             rm_rnb_history_pres.timestamp desc
-        title: Map QSOs from transmitting station locations by searching drawn polygon
+        title: Map tx side QSOs from transmitting station locations by searching drawn polygon
         description_html: |-
-          <p>Map QSOs from transmitting station locations by searching drawn polygon
+          <p>Map tx location of QSOs from transmitting station locations by searching drawn polygon around tx location
+      map_qsos_at_rx_from_tx: 
+        sql: |-
+          select
+            rm_rnb_history_pres.tx_lng as longitude_t,
+            rm_rnb_history_pres.tx_lat as latitude_t,
+            rm_rnb_history_pres.rx_lng as longitude,
+            rm_rnb_history_pres.rx_lat as latitude,
+            rm_rnb_history_pres.timestamp,
+            rm_rnb_history_pres.dB,
+            rm_rnb_history_pres.Spotter,
+            rm_rnb_history_pres.QSL_link,
+            photo_path.path,
+            photo_path.uuid,
+            json_object(
+              'image',
+              '/-/media/thumbnail/' || uuid,
+              'title',
+              Spotter || ' de KD0FNR',
+              'description',
+              'rx_rst: ' || dB || '  timestamp: ' || rm_rnb_history_pres.timestamp
+            ) as popup
+          from
+            rm_rnb_history_pres
+            LEFT JOIN photo_path ON rm_rnb_history_pres.QSL_link = photo_path.uuid
+          where
+            db > 100
+            and Intersects(
+              GeomFromGeoJSON(:freedraw),
+              MakePoint(
+                cast(longitude_t as float),
+                cast(latitude_t as float)
+              )
+            ) = 1
+          order by
+            rm_rnb_history_pres.timestamp desc
+        title: Map rx side QSOs from transmitting station locations by searching drawn polygon
+        description_html: |-
+          <p>Map rx location of QSOs from transmitting station locations by searching drawn polygon around tx location
