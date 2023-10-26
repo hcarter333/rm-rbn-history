@@ -1099,7 +1099,7 @@
 <TimeStamp>2023-10-26T21:07:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
--111.79273201339063,34.86013930819608,0.
+-111.79339715204645,34.861706290399106,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1108,7 +1108,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-10-26T21:07:00</TimeStamp>
 <Point>
-<coordinates>-111.79273201339063,34.86013930819608</coordinates>
+<coordinates>-111.79339715204645,34.861706290399106</coordinates>
 </Point>
 </Placemark>
 </Document> </kml>
