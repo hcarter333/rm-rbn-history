@@ -37,7 +37,7 @@ databases:
             rm_rnb_history_pres
             LEFT JOIN photo_path ON rm_rnb_history_pres.QSL_link = photo_path.uuid
           where
-            db > 100
+            (db > 100 or db = 0)
             and Intersects(
               GeomFromGeoJSON(:freedraw),
               MakePoint(
@@ -75,7 +75,7 @@ databases:
             rm_rnb_history_pres
             LEFT JOIN photo_path ON rm_rnb_history_pres.QSL_link = photo_path.uuid
           where
-            db > 100
+            (db > 100 or db = 0)
             and Intersects(
               GeomFromGeoJSON(:freedraw),
               MakePoint(
