@@ -88,3 +88,38 @@ databases:
         title: Map rx side QSOs from transmitting station locations by searching drawn polygon
         description_html: |-
           <p>Map rx location of QSOs from transmitting station locations by searching drawn polygon around tx location
+      for_specific_rx_map_tx_locs: 
+        sql: |-
+          select
+            rm_rnb_history_pres.tx_lng as longitude,
+            rm_rnb_history_pres.tx_lat as latitude,
+            rm_rnb_history_pres.timestamp,
+            rm_rnb_history_pres.dB,
+            rm_rnb_history_pres.Spotter,
+            rm_rnb_history_pres.QSL_link,
+            photo_path.path,
+            photo_path.uuid,
+            json_object(
+              'image',
+              '/-/media/thumbnail/' || uuid,
+              'title',
+              Spotter || ' de KD0FNR',
+              'description',
+              'rx_rst: ' || dB || '  timestamp: ' || rm_rnb_history_pres.timestamp
+            ) as popup
+          from
+            rm_rnb_history_pres
+            LEFT JOIN photo_path ON rm_rnb_history_pres.QSL_link = photo_path.uuid
+          where
+            (
+              db > 100
+              or db = 0
+            )
+            and ("Spotter" like :p0)
+          order by
+            rm_rnb_history_pres.timestamp desc
+          
+
+        title: Search for rx callsign and map tx site locations per QSO
+        description_html: |-
+          <p>Search for rx callsign and map tx site locations per QSO
