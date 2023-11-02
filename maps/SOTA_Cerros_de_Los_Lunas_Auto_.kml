@@ -113,7 +113,7 @@
 <TimeStamp>2023-04-25T19:13:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.7995,34.801,0.
--95.5306876,30.2128488,0.
+-95.53071980167266,30.21285450864828,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
 </Placemark>
