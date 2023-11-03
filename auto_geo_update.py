@@ -147,6 +147,9 @@ def dump_rm_rbn_history(csv_file=''):
         #skip the location lookup
         #print("Working on " + fields[0])
         field_num = len(fields)
+        if(field_num != 0):
+              if(fields[0] == "CALL"):
+                  return {}
         if(field_num == 6):
             callsign_loc = str(fields[5].replace("\n", "")) + "," + \
                          str(fields[4])
