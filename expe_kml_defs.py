@@ -1,7 +1,7 @@
 import sys
 import datetime
 import random
-from auto_geo_vars import kml_title, tx_lng, tx_lat, rbn_off
+import auto_geo_vars
 
 def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out, country="", state=""):
     try:
@@ -31,7 +31,7 @@ def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out, cou
 def expe_kml(lng, lat, begin_timestamp, end_timestamp, qso_list=[]):
     result = []
     #Look in the RBN list and do the QSOs if any
-    if(rbn_off == False):
+    if(auto_geo_vars.rbn_off == False):
         result = process_rbn_file(lng, lat, begin_timestamp, end_timestamp)
 
     for qso in qso_list:

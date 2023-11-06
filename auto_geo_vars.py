@@ -12,7 +12,7 @@ old_start = ""
 old_end = ""
 old_f2h = ""
 f2_skip_map = False
-rbn_off = None
+rbn_off = False
 
 
 #Routines used for the automated scripts
