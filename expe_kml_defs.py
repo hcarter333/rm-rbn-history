@@ -1,7 +1,7 @@
 import sys
 import datetime
 import random
-from auto_geo_vars import kml_title, tx_lng, tx_lat
+from auto_geo_vars import kml_title, tx_lng, tx_lat, rbn_off
 
 def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out, country="", state=""):
     try:
@@ -31,6 +31,23 @@ def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out, cou
 def expe_kml(lng, lat, begin_timestamp, end_timestamp, qso_list=[]):
     result = []
     #Look in the RBN list and do the QSOs if any
+    if(rbn_off == False):
+        result = process_rbn_file(lng, lat, begin_timestamp, end_timestamp)
+
+    for qso in qso_list:
+        #construct fields (the first one is the unused random key)
+        rx_loc=qso[3].split(",")
+        fields = [qso[0],str(qso[1]),str(qso[2]),rx_loc[0],rx_loc[1],\
+                  qso[4].strftime("%Y/%m/%d %H:%M:%S"),qso[5],'14058.4',qso[6]]
+        qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, 
+                                    end_timestamp, True, qso[7], qso[8])
+        #print("pass this on " + qso_out)
+        if(qso_out != None):
+            result.append(qso_out)
+    return result
+
+def process_rbn_file(lng, lat, begin_timestamp, end_timestamp):
+    result = []
     f = open('rm_rnb_history_pres.csv')
     firstline = 1
     #print("qso processing in file")
@@ -44,15 +61,4 @@ def expe_kml(lng, lat, begin_timestamp, end_timestamp, qso_list=[]):
                 result.append(qso_out)
         else:
           firstline = 0
-
-    for qso in qso_list:
-        #construct fields (the first one is the unused random key)
-        rx_loc=qso[3].split(",")
-        fields = [qso[0],str(qso[1]),str(qso[2]),rx_loc[0],rx_loc[1],\
-                  qso[4].strftime("%Y/%m/%d %H:%M:%S"),qso[5],'14058.4',qso[6]]
-        qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, 
-                                    end_timestamp, True, qso[7], qso[8])
-        #print("pass this on " + qso_out)
-        if(qso_out != None):
-            result.append(qso_out)
     return result
