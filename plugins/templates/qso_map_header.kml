@@ -30,12 +30,12 @@
 {{ row['tx_lng'] }},{{ row['tx_lat'] }},0.
 {{ row['rx_lng'] }},{{ row['rx_lat'] }},0.
 </coordinates></LineString>
-<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+<Style><LineStyle><color>{{ line_color(row['dB']) }}</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
 <name>{{ row['Spotter'] }}
 </name>
-<styleUrl>#RBN</styleUrl>
+<styleUrl>{% if row['rst_len'] == 3 %}#QSO{% else %}#RBN{% endif %}</styleUrl>
 <TimeStamp>{{ row['timestamp'] }}</TimeStamp>
 <Point>
 <coordinates>{{ row['rx_lng'] }},{{ row['rx_lat'] }}</coordinates>

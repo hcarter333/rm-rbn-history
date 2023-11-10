@@ -2,6 +2,38 @@ from datasette import hookimpl
 from datasette.utils.asgi import Response
 from jinja2 import Template
 
+signal_colors = {"1": "#ff004b96",
+                 "0": "#ff004b96",
+                 "2": "#ff0000ff",
+                 "3": "#ff00a5ff",
+                 "4": "#ff00ffff",
+                 "5": "#ff00ff00",
+                 "6": "#ffff0000",
+                 "7": "#ff82004b",
+                 "8": "#ffff007f",
+                 "9": "#ffffffff",
+                 }
+
+def db_to_s(db):
+    test_db = int(db)
+    if(test_db > 32):
+        return "9"
+    if(test_db > 27):
+        return "8"
+    if(test_db > 21):
+        return "7"
+    if(test_db > 15):
+        return "6"
+    if(test_db > 8):
+        return "5"
+    if(test_db > 2):
+        return "4"
+    if(test_db >= 1):
+        return "3"
+    return "0"
+
+
+
 REQUIRED_COLUMNS = {"tx_lat", "tx_lng", "rx_lat", "rx_lng", "Spotter", "dB"}
 
 
@@ -35,12 +67,21 @@ def render_kml(
 def can_render_atom(columns):
     return REQUIRED_COLUMNS.issubset(columns)
 
+def line_color(rst):
+    if(len(str(rst)) == 3):
+        return signal_colors[str(rst)[1]] 
+    else:
+        return signal_colors[db_to_s(rst)]
+
+
 def get_kml(rows):
     from jinja2 import Template
+
     for row in rows:
         print(row[1])
     with open('/home/hcarter333/rm-rbn-history/plugins/templates/qso_map_header.kml') as f:
         tmpl = Template(f.read())
+        tmpl.globals['line_color'] = line_color
     return(tmpl.render(
         kml_name = 'my first map',
         Rows = rows
