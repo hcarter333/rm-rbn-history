@@ -9,4 +9,4 @@ To create the underlying database use
 To generate a kml map use  
 
 On the current Chromebook use  
-`python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=/usr/lib/x86_64-linux-gnu/mod_spatialite.so`
+`python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=/usr/lib/x86_64-linux-gnu/mod_spatialite.so --template-dir plugins/templates`
