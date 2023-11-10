@@ -59,7 +59,7 @@ def render_kml(
         )
     return Response(
             get_kml(rows),
-            content_type="an/xpplicatioml; charset=utf-8",
+            content_type="application/vnd.google-earth.kml+xml; charset=utf-8",
             status=200,
         )
 
