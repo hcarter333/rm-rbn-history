@@ -135,8 +135,6 @@ databases:
             rm_rnb_history_pres.rx_lng,
             rm_rnb_history_pres.timestamp,
             rm_rnb_history_pres.dB,
-            length(rm_rnb_history_pres.dB) as rst_len,
-            "neutral_tone" as color,
             rm_rnb_history_pres.Spotter,
             rm_rnb_history_pres.QSL_link,
             photo_path.path,

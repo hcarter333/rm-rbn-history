@@ -73,6 +73,11 @@ def line_color(rst):
     else:
         return signal_colors[db_to_s(rst)]
 
+def is_qso(rst):
+    if(len(str(rst)) == 3):
+        return True
+    else:
+        return False
 
 def get_kml(rows):
     from jinja2 import Template
@@ -82,6 +87,7 @@ def get_kml(rows):
     with open('/home/hcarter333/rm-rbn-history/plugins/templates/qso_map_header.kml') as f:
         tmpl = Template(f.read())
         tmpl.globals['line_color'] = line_color
+        tmpl.globals['is_qso'] = is_qso
     return(tmpl.render(
         kml_name = 'my first map',
         Rows = rows
