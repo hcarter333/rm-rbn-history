@@ -1,0 +1,46 @@
+{% block kml_head %}<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>{{ kml_name }}</name>
+<description>Out to Indiana without even menaing to
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+{% endblock %}
+
+{% block line_per_qso %}
+{%- for row in Rows %}
+<Placemark>
+<name>{{ row['Spotter'] }}
+</name>
+<description><![CDATA[<h1>W2AXR
+</h1>Date/Time GMT: <div><br></div>"{{ row['timestamp'] }}"]]></description>
+<TimeStamp>{{ row['timestamp'] }}</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+{{ row['tx_lng'] }},{{ row['tx_lat'] }},0.
+{{ row['rx_lng'] }},{{ row['rx_lat'] }},0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>{{ row['Spotter'] }}
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>{{ row['timestamp'] }}</TimeStamp>
+<Point>
+<coordinates>{{ row['rx_lng'] }},{{ row['rx_lat'] }}</coordinates>
+</Point>
+</Placemark>
+{%- endfor %}
+</Document> </kml>
+{% endblock %}
