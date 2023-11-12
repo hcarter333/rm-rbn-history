@@ -20,7 +20,7 @@ tn = telnetlib.Telnet("telnet.reversebeacon.net", 7000)
 data = tn.read_until(b"Please enter your call:")
 command = "kd0fnr\r\n"
 tn.write(command.encode("utf-8"))
-
+print("Connected to RBN waiting for calls")
 try:
     while True:
         data = tn.read_until(b"\n")  # Read data until a newline character
