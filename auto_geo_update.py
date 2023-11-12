@@ -168,7 +168,7 @@ def dump_rm_rbn_history(csv_file=''):
                                          replace("United States", "USA")
             qso_tuple = str(random.randrange(0,4294967295)),lng,lat,callsign_loc,\
                         qso_dt,fields[3][0:3],fields[0],auto_geo_vars.call_country,\
-                        auto_geo_vars.call_state
+                        auto_geo_vars.call_state,fields[2][0:3]
             qso_list.append(qso_tuple)
         #table should have
         #id	tx_lng	tx_lat	rx_lng	rx_lat	timestamp	dB	frequency	Spotter
@@ -181,7 +181,7 @@ def dump_rm_rbn_history(csv_file=''):
         result_string = qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' \
               + qso[3] + ',' + qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + \
               qso[5] + ',14058.4,' + qso[6] + "," + auto_geo_vars.call_country + \
-              "," + auto_geo_vars.call_state
+              "," + auto_geo_vars.call_state+",,,,,,,"+fields[2]
         #print(result_string)
     return result
         

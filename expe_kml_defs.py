@@ -19,7 +19,7 @@ def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out, cou
     if((line_date >= begin_timestamp) and (line_date <= end_timestamp)):
          output_string = str(lng)+','+str(lat)+','+fields[3]+','+fields[4]+\
             ','+fields[5]+','+fields[6]+','+fields[7]+','+fields[8]+','+country+\
-            ','+state
+            ','+state+",,,,,,,"+fields[9]
          if(out == True):
              sys.stdout.write(str(random.randrange(0,4294967295)) + ',' + output_string + "\n")
          #print("Here's the first output string")
@@ -38,7 +38,7 @@ def expe_kml(lng, lat, begin_timestamp, end_timestamp, qso_list=[]):
         #construct fields (the first one is the unused random key)
         rx_loc=qso[3].split(",")
         fields = [qso[0],str(qso[1]),str(qso[2]),rx_loc[0],rx_loc[1],\
-                  qso[4].strftime("%Y/%m/%d %H:%M:%S"),qso[5],'14058.4',qso[6]]
+                  qso[4].strftime("%Y/%m/%d %H:%M:%S"),qso[5],'14058.4',qso[6], qso[9]]
         qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, 
                                     end_timestamp, True, qso[7], qso[8])
         #print("pass this on " + qso_out)

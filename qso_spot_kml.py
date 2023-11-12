@@ -223,11 +223,12 @@ def add_skip_placemark(lng, lat, ele, call, kml_timestamp):
     print('</Placemark>')
 
 def qso_line_error(qso_line, fields):
-    if(((len(fields)==8) or (len(fields)==10)) and (qso_line.find(", ") == -1)):
+    if(((len(fields)==8) or (len(fields)==10) or (len(fields)==17)) and (qso_line.find(", ") == -1)):
       return False
-    elif(len(fields)!=8):
+    elif((len(fields)!=8) and (len(fields)!=17)):
         print ("Input line does not have 8 fields:", sys.stderr)
         print (qso_line, sys.stderr)
+        print("Input line has "+str(len(fields))+" fields", sys.stderr)
         return True
     elif(qso_line.find(", ") != -1):
         print ("Input line has a space after comma:", sys.stderr)
