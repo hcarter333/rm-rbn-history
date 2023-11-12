@@ -51,7 +51,7 @@ def render_kml(
     datasette, request, sql, columns, rows, database, table, query_name, view_name, 
     data):
     from datasette.views.base import DatasetteError
-
+    #print(datasette.plugin_config)
     if not REQUIRED_COLUMNS.issubset(columns):
         raise DatasetteError(
             "SQL query must return columns {}".format(", ".join(REQUIRED_COLUMNS)),
@@ -84,7 +84,7 @@ def get_kml(rows):
 
     for row in rows:
         print(row[1])
-    with open('/home/hcarter333/rm-rbn-history/plugins/templates/qso_map_header.kml') as f:
+    with open('./plugins/templates/qso_map_header.kml') as f:
         tmpl = Template(f.read())
         tmpl.globals['line_color'] = line_color
         tmpl.globals['is_qso'] = is_qso
