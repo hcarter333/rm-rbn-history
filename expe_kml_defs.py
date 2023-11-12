@@ -53,7 +53,9 @@ def process_rbn_file(lng, lat, begin_timestamp, end_timestamp):
     #print("qso processing in file")
     for line in f:
         #throw away the first line
-        fields = line.split(",")
+        #add one more field to patch for tx rst if necessary
+        line_patch = line + ",patch"
+        fields = line_patch.split(",")
         if((firstline != 1) and ((len(fields)==9) or (len(fields)==13))):
             qso_out = expe_kml_per_line(lng, lat, fields, begin_timestamp, 
                                         end_timestamp, False)
