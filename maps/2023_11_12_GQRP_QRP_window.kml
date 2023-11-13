@@ -701,21 +701,21 @@
 <Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>NC7X</name>
-<description><![CDATA[<h1>NC7X</h1>Date/Time GMT: <div><br></div>2023/11/12 19:46:00]]></description>
+<name>NC7K</name>
+<description><![CDATA[<h1>NC7K</h1>Date/Time GMT: <div><br></div>2023/11/12 19:46:00]]></description>
 <TimeStamp>2023-11-12T19:46:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
--112.4428963,34.5765613,0.
+-112.2834649,33.6606237,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>NC7X</name>
+<name>NC7K</name>
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-11-12T19:46:00</TimeStamp>
 <Point>
-<coordinates>-112.4428963,34.5765613</coordinates>
+<coordinates>-112.2834649,33.6606237</coordinates>
 </Point>
 </Placemark>
 </Document> </kml>
