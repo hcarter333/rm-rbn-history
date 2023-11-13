@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2023_11_12 GQRP QRP window</name>
+<description>Finally had a QSO in the Sunday GQRP window!!!
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>NC7X</name>
+<description><![CDATA[<h1>NC7X</h1>Date/Time GMT: <div><br></div>2023/10/30 19:46:00]]></description>
+<TimeStamp>2023-10-30T19:46:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.4428963,34.5765613,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>NC7X</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-10-30T19:46:00</TimeStamp>
+<Point>
+<coordinates>-112.4428963,34.5765613</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
