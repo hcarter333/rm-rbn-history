@@ -1019,21 +1019,21 @@
 <Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>K6MUF</name>
-<description><![CDATA[<h1>K6MUF</h1>Date/Time GMT: <div><br></div>2023/11/24 22:30:00]]></description>
+<name>N6MUF</name>
+<description><![CDATA[<h1>N6MUF</h1>Date/Time GMT: <div><br></div>2023/11/24 22:30:00]]></description>
 <TimeStamp>2023-11-24T22:30:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
--119.4610201,36.5956088,0.
+-117.1088034,33.2244598,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>K6MUF</name>
+<name>N6MUF</name>
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-11-24T22:30:00</TimeStamp>
 <Point>
-<coordinates>-119.4610201,36.5956088</coordinates>
+<coordinates>-117.1088034,33.2244598</coordinates>
 </Point>
 </Placemark>
 <Placemark>
