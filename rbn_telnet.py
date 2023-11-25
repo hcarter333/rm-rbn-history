@@ -1,5 +1,8 @@
 import telnetlib
 import argparse
+from threading import Thread, Event
+import time
+
 
 #host = "your_host_address"
 #port = 23  # The telnet port
@@ -15,11 +18,28 @@ parser.add_argument('-e', type=float, dest="end_freq", default=14058.2,\
                      help="start of frquency range to watch")
 
 args = parser.parse_args()
+processed_lines = 0
+processed_limit = 0
+exit = 0
+
+def print_lines():
+    global processed_limit
+    global processed_lines
+    global exit
+    while True:
+        time.sleep(1)
+        if(exit == 1):
+            return
+        if(processed_limit > 1000):
+            processed_limit = 0
+            print("Received "+str(processed_lines)+" lines")
 
 tn = telnetlib.Telnet("telnet.reversebeacon.net", 7000)
 data = tn.read_until(b"Please enter your call:")
 command = "kd0fnr\r\n"
 tn.write(command.encode("utf-8"))
+t = Thread(target=print_lines)
+t.start()
 print("Connected to RBN waiting for calls")
 try:
     while True:
@@ -28,6 +48,8 @@ try:
         #use to transmit and receive
         #dump the fields split on space
         #print(data)
+        processed_lines+=1
+        processed_limit+=1
         fields = data.split()
         #print(str(len(fields)))
         #print(fields)
@@ -48,4 +70,5 @@ try:
 except KeyboardInterrupt:
     print("Exiting...")
     tn.close()
+    exit = 1
 
