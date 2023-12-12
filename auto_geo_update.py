@@ -98,13 +98,20 @@ def get_qrz_call_mail_address(callsign,date,time,rx_rst,tx_rst):
     return out_string
 
 def get_call_lat_lng(callsign):
-    geoloc = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+get_qrz_call_geo_address(callsign)+
+    stree_address = get_qrz_call_geo_address(callsign)
+    geoloc = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+stree_address+
              '&key='+os.getenv("MAPS_API_KEY"))
     #print(os.getenv("MAPS_API_KEY"))
     #print(geoloc.text)
     y=json.loads(geoloc.text)
 
-    lat=y["results"][0]["geometry"]["location"]["lat"]
+    try:
+        lat=y["results"][0]["geometry"]["location"]["lat"]
+    except IndexError:
+        print("Couldn't find location for " + callsign)
+        print("QRZ returned " + stree_address)
+        exit()
+
     lng=y["results"][0]["geometry"]["location"]["lng"]
     return str(lng) + ',' + str(lat)
 
