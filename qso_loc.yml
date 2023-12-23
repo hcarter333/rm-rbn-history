@@ -11,6 +11,9 @@ plugins:
     photo:
       sql: |-
         select path as filepath from photo_path where uuid=:key
+  enrichments-gmap-geocode:
+    api_key:
+      $env: MAPS_API_KEY
 databases:
   rm_toucans:
     queries:
