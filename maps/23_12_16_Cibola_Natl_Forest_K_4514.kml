@@ -541,7 +541,7 @@
 <TimeStamp>2023-12-16T14:55:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.43492107194669,34.53363566160963,0.
--86.4749434,30.50020169999999,0.
+-86.47497249999999,30.5001811,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -550,7 +550,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-12-16T14:55:00</TimeStamp>
 <Point>
-<coordinates>-86.4749434,30.50020169999999</coordinates>
+<coordinates>-86.47497249999999,30.5001811</coordinates>
 </Point>
 </Placemark>
 <Placemark>
