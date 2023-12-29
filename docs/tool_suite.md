@@ -10,3 +10,8 @@ To generate a kml map use
 
 On the current Chromebook use  
 `python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=/usr/lib/x86_64-linux-gnu/mod_spatialite.so --template-dir plugins/templates`
+
+To run on any machine with the kml plugin, use the following extra plugins-dir argument
+```
+python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=/usr/lib/x86_64-linux-gnu/mod_spatialite.so --plugins-dir=plugins --template-dir plugins/templates --root
+```
