@@ -23,7 +23,7 @@
 <Placemark>
 <name>{{ row['Spotter'] }}
 </name>
-<description><![CDATA[<h1>W2AXR
+<description><![CDATA[<h1>{{ row['Spotter'] }}
 </h1>Date/Time GMT: <div><br></div>"{{ row['timestamp'] }}"]]></description>
 <TimeStamp>{{ row['timestamp'] }}</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
