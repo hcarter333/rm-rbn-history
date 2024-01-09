@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>24_01_09 10 meter lunch </name>
+<description>Quick number exchange with K4WOP out of the habit of logging
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>K4WOP</name>
+<description><![CDATA[<h1>K4WOP</h1>Date/Time GMT: <div><br></div>2024/01/09 19:50:00]]></description>
+<TimeStamp>2024-01-09T19:50:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-77.9373433,39.7674071,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K4WOP</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-09T19:50:00</TimeStamp>
+<Point>
+<coordinates>-77.9373433,39.7674071</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
