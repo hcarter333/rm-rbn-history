@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2024_01_10 K3Y_6 20 and 10</name>
+<description>France had a 579!
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>K5YQF</name>
+<description><![CDATA[<h1>K5YQF</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-97.8033675,30.9673165,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K5YQF</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<Point>
+<coordinates>-97.8033675,30.9673165</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WA8KAN</name>
+<description><![CDATA[<h1>WA8KAN</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-81.56151349999999,39.2667418,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WA8KAN</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<Point>
+<coordinates>-81.56151349999999,39.2667418</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K5YQF</name>
+<description><![CDATA[<h1>K5YQF</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-97.8033675,30.9673165,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ffff0000</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WA3KCP</name>
+<description><![CDATA[<h1>WA3KCP</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-77.4089857,40.0909678,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WA3KCP</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<Point>
+<coordinates>-77.4089857,40.0909678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K7IOL</name>
+<description><![CDATA[<h1>K7IOL</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-96.811027,33.0097216,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K7IOL</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<Point>
+<coordinates>-96.811027,33.0097216</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>F6HKA</name>
+<description><![CDATA[<h1>F6HKA</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-0.7170181999999999,45.8390624,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>F6HKA</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<Point>
+<coordinates>-0.7170181999999999,45.8390624</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
