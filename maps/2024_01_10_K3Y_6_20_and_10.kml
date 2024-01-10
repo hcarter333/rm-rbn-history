@@ -17,9 +17,72 @@
 </IconStyle>
 </Style>
 <Placemark>
+<name>K3PA-1
+</name>
+<description><![CDATA[<h1>K3PA-1
+</h1>Date/Time GMT: <div><br></div>2024/01/10 14:02:00]]></description>
+<TimeStamp>2024-01-10T14:02:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-94.9583,39.1458,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K3PA-1
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2024-01-10T14:02:00</TimeStamp>
+<Point>
+<coordinates>-94.9583,39.1458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AC0C-1
+</name>
+<description><![CDATA[<h1>AC0C-1
+</h1>Date/Time GMT: <div><br></div>2024/01/10 14:00:00]]></description>
+<TimeStamp>2024-01-10T14:00:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-94.6250,38.6458,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>AC0C-1
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2024-01-10T14:00:00</TimeStamp>
+<Point>
+<coordinates>-94.6250,38.6458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6YX
+</name>
+<description><![CDATA[<h1>W6YX
+</h1>Date/Time GMT: <div><br></div>2024/01/10 14:00:00]]></description>
+<TimeStamp>2024-01-10T14:00:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-122.2083,37.3958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6YX
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2024-01-10T14:00:00</TimeStamp>
+<Point>
+<coordinates>-122.2083,37.3958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>K5YQF</name>
-<description><![CDATA[<h1>K5YQF</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<description><![CDATA[<h1>K5YQF</h1>Date/Time GMT: <div><br></div>2024/01/10 14:07:00]]></description>
+<TimeStamp>2024-01-10T14:07:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
 -97.8033675,30.9673165,0.
@@ -29,15 +92,15 @@
 <Placemark>
 <name>K5YQF</name>
 <styleUrl>#QSO</styleUrl>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<TimeStamp>2024-01-10T14:07:00</TimeStamp>
 <Point>
 <coordinates>-97.8033675,30.9673165</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>WA8KAN</name>
-<description><![CDATA[<h1>WA8KAN</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<description><![CDATA[<h1>WA8KAN</h1>Date/Time GMT: <div><br></div>2024/01/10 14:12:00]]></description>
+<TimeStamp>2024-01-10T14:12:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
 -81.56151349999999,39.2667418,0.
@@ -47,15 +110,15 @@
 <Placemark>
 <name>WA8KAN</name>
 <styleUrl>#QSO</styleUrl>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<TimeStamp>2024-01-10T14:12:00</TimeStamp>
 <Point>
 <coordinates>-81.56151349999999,39.2667418</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>K5YQF</name>
-<description><![CDATA[<h1>K5YQF</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<description><![CDATA[<h1>K5YQF</h1>Date/Time GMT: <div><br></div>2024/01/10 15:42:00]]></description>
+<TimeStamp>2024-01-10T15:42:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
 -97.8033675,30.9673165,0.
@@ -64,8 +127,8 @@
 </Placemark>
 <Placemark>
 <name>WA3KCP</name>
-<description><![CDATA[<h1>WA3KCP</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<description><![CDATA[<h1>WA3KCP</h1>Date/Time GMT: <div><br></div>2024/01/10 15:46:00]]></description>
+<TimeStamp>2024-01-10T15:46:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
 -77.4089857,40.0909678,0.
@@ -75,15 +138,15 @@
 <Placemark>
 <name>WA3KCP</name>
 <styleUrl>#QSO</styleUrl>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<TimeStamp>2024-01-10T15:46:00</TimeStamp>
 <Point>
 <coordinates>-77.4089857,40.0909678</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>K7IOL</name>
-<description><![CDATA[<h1>K7IOL</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<description><![CDATA[<h1>K7IOL</h1>Date/Time GMT: <div><br></div>2024/01/10 15:50:00]]></description>
+<TimeStamp>2024-01-10T15:50:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
 -96.811027,33.0097216,0.
@@ -93,15 +156,15 @@
 <Placemark>
 <name>K7IOL</name>
 <styleUrl>#QSO</styleUrl>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<TimeStamp>2024-01-10T15:50:00</TimeStamp>
 <Point>
 <coordinates>-96.811027,33.0097216</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>F6HKA</name>
-<description><![CDATA[<h1>F6HKA</h1>Date/Time GMT: <div><br></div>2024/01/10 18:28:00]]></description>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<description><![CDATA[<h1>F6HKA</h1>Date/Time GMT: <div><br></div>2024/01/10 15:56:00]]></description>
+<TimeStamp>2024-01-10T15:56:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.42293617440531,37.72489522009444,0.
 -0.7170181999999999,45.8390624,0.
@@ -111,7 +174,7 @@
 <Placemark>
 <name>F6HKA</name>
 <styleUrl>#QSO</styleUrl>
-<TimeStamp>2024-01-10T18:28:00</TimeStamp>
+<TimeStamp>2024-01-10T15:56:00</TimeStamp>
 <Point>
 <coordinates>-0.7170181999999999,45.8390624</coordinates>
 </Point>
