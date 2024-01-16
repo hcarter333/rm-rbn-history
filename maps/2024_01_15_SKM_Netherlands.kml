@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2024_01_15 SKM Netherlands</name>
+<description>First QSO to the Netherlands
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>AF5Z</name>
+<description><![CDATA[<h1>AF5Z</h1>Date/Time GMT: <div><br></div>2024/01/15 15:46:00]]></description>
+<TimeStamp>2024-01-15T15:46:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-97.6153824,30.8213248,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>AF5Z</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-15T15:46:00</TimeStamp>
+<Point>
+<coordinates>-97.6153824,30.8213248</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AK4EX</name>
+<description><![CDATA[<h1>AK4EX</h1>Date/Time GMT: <div><br></div>2024/01/15 15:50:00]]></description>
+<TimeStamp>2024-01-15T15:50:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-87.260317,36.4891397,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>AK4EX</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-15T15:50:00</TimeStamp>
+<Point>
+<coordinates>-87.260317,36.4891397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PG4I</name>
+<description><![CDATA[<h1>PG4I</h1>Date/Time GMT: <div><br></div>2024/01/15 15:55:00]]></description>
+<TimeStamp>2024-01-15T15:55:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+5.240044800000001,51.9561076,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>PG4I</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-15T15:55:00</TimeStamp>
+<Point>
+<coordinates>5.240044800000001,51.9561076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>WO5W</name>
+<description><![CDATA[<h1>WO5W</h1>Date/Time GMT: <div><br></div>2024/01/15 15:59:00]]></description>
+<TimeStamp>2024-01-15T15:59:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-94.8376813,32.5136387,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>WO5W</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-15T15:59:00</TimeStamp>
+<Point>
+<coordinates>-94.8376813,32.5136387</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>K8NB</name>
+<description><![CDATA[<h1>K8NB</h1>Date/Time GMT: <div><br></div>2024/01/15 16:06:00]]></description>
+<TimeStamp>2024-01-15T16:06:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-87.6076164,45.4152511,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>K8NB</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-01-15T16:06:00</TimeStamp>
+<Point>
+<coordinates>-87.6076164,45.4152511</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
