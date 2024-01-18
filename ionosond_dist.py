@@ -1,3 +1,4 @@
+︠21419f9f-5a6c-4f2c-8274-835ac2023d89s︠
 import numpy
 import math
 
@@ -74,12 +75,21 @@ tp_x = t_x/t_mag
 tp_y = t_y/t_mag
 tp_z = t_z/t_mag
 
+earth = sphere(color='pink', center=(0,0,0), size=1, opacity=0.4)
+
 print("stations and ionosonde")
-line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]),color='purple')
+line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]),color='purple')+earth
 print("g: plane of the path")
-line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]), color='purple')+line3d(numpy.array([(0,0,0), (g_x,g_y,g_z)]), radius=0.01, color='green')+polygon3d([[0,0,0], [tx_x,tx_y,tx_z], [rx_x,rx_y,rx_z]],color=(0,1,0), opacity=0.7)
+line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]), color='purple')+line3d(numpy.array([(0,0,0), (g_x,g_y,g_z)]), radius=0.01, color='green')+polygon3d([[0,0,0], [tx_x,tx_y,tx_z], [rx_x,rx_y,rx_z]],color=(0,1,0), opacity=0.7)+earth
 print("f: plane of c and g")
-line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]), color='purple')+line3d(numpy.array([(0,0,0), (g_x,g_y,g_z)]), radius=0.01, color='green')+line3d(numpy.array([(0,0,0), (f_x,f_y,f_z)]), radius=0.01, color='red')+polygon3d([[0,0,0], [tx_x,tx_y,tx_z], [rx_x,rx_y,rx_z]],color=(0,1,0), opacity=0.7)+polygon3d([[0,0,0], [c_x,c_y,c_z], [g_x,g_y,g_z]],color=(1,0,0), opacity=0.5)
+line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]), color='purple')+line3d(numpy.array([(0,0,0), (g_x,g_y,g_z)]), radius=0.01, color='green')+line3d(numpy.array([(0,0,0), (f_x,f_y,f_z)]), radius=0.01, color='red')+polygon3d([[0,0,0], [tx_x,tx_y,tx_z], [rx_x,rx_y,rx_z]],color=(0,1,0), opacity=0.7)+polygon3d([[0,0,0], [c_x,c_y,c_z], [g_x,g_y,g_z]],color=(1,0,0), opacity=0.5)+earth
 print("t: plane of g and f")
-line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]), color='purple')+line3d(numpy.array([(0,0,0), (g_x,g_y,g_z)]), radius=0.01, color='green')+line3d(numpy.array([(0,0,0), (f_x,f_y,f_z)]), radius=0.01, color='red')+line3d(numpy.array([(0,0,0), (tp_x,tp_y,tp_z)]), radius=0.01, color='black')+polygon3d([[0,0,0], [tx_x,tx_y,tx_z], [rx_x,rx_y,rx_z]],color=(0,1,0), opacity=0.7)+polygon3d([[0,0,0], [c_x,c_y,c_z], [g_x,g_y,g_z]],color=(1,0,0), opacity=0.5)+polygon3d([[0,0,0], [g_x,g_y,g_z], [f_x,f_y,f_z]],color=(1,1,0), opacity=0.3)
+line3d(numpy.array([(0,0,0), (tx_x,tx_y,tx_z)]))+line3d(numpy.array([(0,0,0), (rx_x,rx_y,rx_z)]))+line3d(numpy.array([(0,0,0), (c_x,c_y,c_z)]), color='purple')+line3d(numpy.array([(0,0,0), (g_x,g_y,g_z)]), radius=0.01, color='green')+line3d(numpy.array([(0,0,0), (f_x,f_y,f_z)]), radius=0.01, color='red')+line3d(numpy.array([(0,0,0), (tp_x,tp_y,tp_z)]), radius=0.01, color='black')+polygon3d([[0,0,0], [tx_x,tx_y,tx_z], [rx_x,rx_y,rx_z]],color=(0,1,0), opacity=0.7)+polygon3d([[0,0,0], [c_x,c_y,c_z], [g_x,g_y,g_z]],color=(1,0,0), opacity=0.5)+polygon3d([[0,0,0], [g_x,g_y,g_z], [f_x,f_y,f_z]],color=(1,1,0), opacity=0.3)+earth
 print("path on point lat,lng: " + str(spherical_lat(tp_x,tp_y,tp_z)) + "," + str(spherical_lng(tp_x,tp_y,tp_z)))
+
+
+
+
+
+
+
