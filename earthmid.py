@@ -86,7 +86,16 @@ def swept_angle(f0,l0,f1,l1):
     g_mag = math.sqrt(g[0]**2 + g[1]**2 + g[2]**2)
     return math.asin(g_mag)*rad2deg
 
+#Returns lenght of third side of triangle for launch angle
+def law_cosines(re, fmax, swangl):
+    return math.sqrt(re**2 + (re+fmax)**2 - 2*re*(re+fmax)*math.cos(swangl*deg2rad))
 
+#returns the third angle of the triangle for the launch angle
+def law_sines(re, c_side, swangle):
+    return math.asin((re*math.sin(swangle*deg2rad))/c_side)*rad2deg
+
+def launch_angle(swangle, sine_angle):
+    return ((math.pi - (sine_angle*deg2rad) - (swangle*deg2rad))-(math.pi/2))*rad2deg
 
 
 
