@@ -1459,7 +1459,7 @@
 <TimeStamp>2024-02-10T02:52:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.40230904680568,34.60729578158882,0.
--122.4979832,45.4721263,0.
+-122.6783853,45.515232,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1468,7 +1468,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2024-02-10T02:52:00</TimeStamp>
 <Point>
-<coordinates>-122.4979832,45.4721263</coordinates>
+<coordinates>-122.6783853,45.515232</coordinates>
 </Point>
 </Placemark>
 <Placemark>
