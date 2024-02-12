@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 #ham radio stuff
-#.adif
+*.adif
