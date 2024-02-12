@@ -48,7 +48,7 @@ def get_qrz_call_geo_address(callsign):
     if(country != None):
         address_geo = address_geo + country.text
         auto_geo_vars.call_country = country.text
-    #address_geo = addr1.text + ',' + addr2.text + ',' + state.text
+    #format the address so that it can be used as a URL
     address_geo = address_geo.replace(' ','+')
     address_geo = address_geo.replace('#','')
     #print(address_geo)
@@ -99,12 +99,8 @@ def get_qrz_call_mail_address(callsign,date,time,rx_rst,tx_rst):
 
 def get_call_lat_lng(callsign):
     stree_address = get_qrz_call_geo_address(callsign)
-    print(stree_address)
     geoloc = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+stree_address+
              '&key='+os.getenv("MAPS_API_KEY"))
-    #print(os.getenv("MAPS_API_KEY"))
-    if(callsign == "EA1FIC"):
-        print(geoloc.text)
     y=json.loads(geoloc.text)
 
     try:
@@ -115,10 +111,11 @@ def get_call_lat_lng(callsign):
         exit()
 
     lng=y["results"][0]["geometry"]["location"]["lng"]
-    print("call "+callsign+str(lng)+" "+str(lat))
     return str(lng) + ',' + str(lat)
 
-#and then the script goes here?
+#Use the map metadata and the list of qsos in qso_update.csv to create the rows 
+#that will be stored in rm_rnb_history_pres.csv. That file is used to create 
+#the database used in the datasette portions of the app for data analsysis
 def dump_rm_rbn_history(csv_file=''):
     
     #read in csv file with 
