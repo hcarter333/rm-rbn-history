@@ -42,5 +42,19 @@
 </Point>
 </Placemark>
 {%- endfor %}
+{% for map_minute in Map_minutes %}
+	<ScreenOverlay>
+		<name>Map Time</name>
+		<Icon>
+			<href><![CDATA[https://chart.apis.google.com/chart?chst=d_bubble_icon_texts_big&chld=glyphish_clock|bb|00ff00|000000|{{ map_minute }}]]></href>
+		</Icon>
+		<drawOrder>{{loop.index}}</drawOrder>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.2" y="0.1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<TimeStamp>{{ map_minute }}</TimeStamp>
+	</ScreenOverlay>
+{% endfor %}
 </Document> </kml>
 {% endblock %}
