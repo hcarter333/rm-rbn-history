@@ -20,6 +20,18 @@
 
 {% block line_per_qso %}
 {%- for row in Rows %}
+	<ScreenOverlay>
+		<name>Map Time</name>
+		<Icon>
+			<href><![CDATA[https://chart.apis.google.com/chart?chst=d_bubble_icon_texts_big&chld=glyphish_clock|bbT|00ff00|000000|{{ row['Spotter'] }}|Received+RST+{{ row['dB'] }}|{{ row['timestamp'] }}]]></href>
+		</Icon>
+		<drawOrder>{{loop.index}}</drawOrder>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.6" y="0.1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<TimeStamp>{{ row['timestamp'] }}</TimeStamp>
+	</ScreenOverlay>
 <Placemark>
 <name>{{ row['Spotter'] }}
 </name>
@@ -50,7 +62,7 @@
 		</Icon>
 		<drawOrder>{{loop.index}}</drawOrder>
 		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
-		<screenXY x="0.2" y="0.1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.4" y="0.1" xunits="fraction" yunits="fraction"/>
 		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
 		<TimeStamp>{{ map_minute }}</TimeStamp>
