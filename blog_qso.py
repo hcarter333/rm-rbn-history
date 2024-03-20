@@ -39,7 +39,7 @@ def blog_qsos():
         blog_line = "<tr><td>"
         blog_line = blog_line + fields[0] + "</td><td>" + fields[2]
         blog_line = blog_line + "</td><td>" + fields[3]
-        blog_line = blog_line + "</td><td>" + fields[1] + "<td>14058.4</td></tr>"
+        blog_line = blog_line + "</td><td>" + fields[1] + "<td>14057.4</td></tr>"
         print(blog_line)
 
 

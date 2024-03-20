@@ -1,6 +1,8 @@
 from datasette import hookimpl
 from datasette.utils.asgi import Response
 from jinja2 import Template
+import datetime
+import math
 
 signal_colors = {"1": "#ff004b96",
                  "0": "#ff004b96",
@@ -78,17 +80,53 @@ def is_qso(rst):
         return True
     else:
         return False
+    
+def minimum_time(rows):
+    min_time = datetime.datetime.strptime('2124-02-02 00:00:00', "%Y-%m-%d %H:%M:%S")
+    for row in rows:
+        new_time = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S")
+        if new_time < min_time:
+            min_time = new_time
+    return min_time
+    
+
+#Returns the total number of minutes before the first and last QSOs + 5
+def time_span(rows):
+    #find the largest time
+    max_time = datetime.datetime.strptime('1968-02-02 00:00:00', "%Y-%m-%d %H:%M:%S")
+    for row in rows:
+        new_time = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S")
+        if new_time > max_time:
+            max_time = new_time
+    print("max time is " + str(max_time))
+    
+    min_time = minimum_time(rows)
+    print("min time is " + str(max_time))
+    span = max_time - min_time
+    mins = int(math.ceil(span.seconds/60))
+    print('minutes ' + str(mins))
+    return mins
 
 def get_kml(rows):
     from jinja2 import Template
-
+    map_minutes = []
+    mins = time_span(rows)
+    print("mins " + str(mins))
+    #get the array of minutes ready to go
+    map_time = minimum_time(rows)
+    for minute in range(mins):
+      map_time_str = str(map_time + datetime.timedelta(0,60))
+      map_time_str = map_time_str.replace(' ', 'T')
+      map_minutes.append(map_time_str)
+      map_time = map_time + datetime.timedelta(0,60)
     for row in rows:
-        print(row[1])
+        print(row['timestamp'])
     with open('./plugins/templates/qso_map_header.kml') as f:
         tmpl = Template(f.read())
         tmpl.globals['line_color'] = line_color
         tmpl.globals['is_qso'] = is_qso
     return(tmpl.render(
         kml_name = 'my first map',
-        Rows = rows
+        Rows = rows,
+        Map_minutes = map_minutes
     ))

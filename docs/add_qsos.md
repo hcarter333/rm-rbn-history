@@ -12,6 +12,9 @@ To add QSOs to your collection of data, do the following:
 1. Edit [qso_update.csv]([url](https://github.com/hcarter333/rm-rbn-history/blob/6b5f8da9413afe7235bc7c880824f6ec1ad7fadd/qso_update.csv)), (in your fork of course) adding your qsos, one per line, in the following comma separated vairable format:  
 sta_lat,sta_lng,rx_lat,rx_lng,yyyy/mm/dd hh:mm:ss,transmitted rst,received rst,rx_call
 2. Commit the file.
+  
+To add specific location P2P, for example, add the lattitude, then the longitude at the end of the QSO line. For example:  
+k7shr,2023/03/09 17:00:00,559,559,45.4265,-108.549
 
 The worklow action will pull the data from the file, add it to the database, and then delete the contents of the file as described in [#12]([url](https://github.com/hcarter333/rm-rbn-history/issues/12#issue-1568438805)) .
 

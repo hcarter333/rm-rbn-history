@@ -29,14 +29,10 @@ jobs:
         echo "{" > incidents.json
         curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=KD0F*&s=0&r=100' | jq '.spots[]|= .[0:6]|.spots ' | sed '/\}/d' | sed '/{/d' >> incidents.json
         echo "," >> incidents.json
-        curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=K3Y/6&s=0&r=100' | jq '.spots[]|= .[0:6]|.spots ' | sed '/\}/d' | sed '/{/d' >> incidents.json
-        echo "," >> incidents.json
         curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=KO6B*&s=0&r=100' | jq '.spots[]|= .[0:6]|.spots ' | sed '/\}/d' | sed '/{/d' >> incidents.json
         echo "}" >> incidents.json
         echo "{" > stations_geo.json
         curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=KD0F*&s=0&r=100' | jq '.call_info ' | sed '/\}/d' | sed '/{/d' >> stations_geo.json
-        echo "," >> stations_geo.json
-        curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=K3Y/6&s=0&r=100' | jq '.call_info ' | sed '/\}/d' | sed '/{/d' >> stations_geo.json
         echo "," >> stations_geo.json
         curl 'https://www.reversebeacon.net/spots.php?h=fb94a8&cdx=KO6B*&s=0&r=100' | jq '.call_info ' | sed '/\}/d' | sed '/{/d' >> stations_geo.json
         echo "}" >> stations_geo.json
