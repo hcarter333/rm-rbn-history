@@ -17,9 +17,10 @@ def expe_kml_per_line(lng, lat, fields, begin_timestamp, end_timestamp, out, cou
 
  #       line_date = datetime.datetime.strptime(fields[5], '%Y/%m/%d %H:%M:%S')
     if((line_date >= begin_timestamp) and (line_date <= end_timestamp)):
+         #id,tx_lng,tx_lat,rx_lng,rx_lat,timestamp,dB,frequency,Spotter,Country,State,County,City,QSL_Sent,QSL_Rx,QSL_link,QSL_rx_link,tx_rst
          output_string = str(lng)+','+str(lat)+','+fields[3]+','+fields[4]+\
             ','+fields[5]+','+fields[6]+','+fields[7]+','+fields[8]+','+country+\
-            ','+state+",,,,,,,"+fields[9]
+            ','+state+",county,city,0,0,tx_lnk,rx_lnk,"+fields[9]
          if(out == True):
              sys.stdout.write(str(random.randrange(0,4294967295)) + ',' + output_string + "\n")
          #print("Here's the first output string")
