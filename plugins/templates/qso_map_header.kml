@@ -35,6 +35,20 @@
 <Placemark>
 <name>{{ row['Spotter'] }}
 </name>
+
+<Camera>
+      <longitude>{{ row['tx_lng'] }}</longitude>
+      <latitude>{{ row['tx_lat'] }}</latitude>
+      <altitude>200</altitude>
+      <heading>90</heading>
+      <!-- east -->
+      <tilt>90</tilt>
+      <!-- level -->
+      <altitudeMode>absolute</altitudeMode>
+	  <TimeStamp>{{ row['timestamp'] }}</TimeStamp>
+    </Camera>
+
+
 <description><![CDATA[<h1>{{ row['Spotter'] }}
 </h1>Date/Time GMT: <div><br></div>"{{ row['timestamp'] }}"]]></description>
 <TimeStamp>{{ row['timestamp'] }}</TimeStamp>
