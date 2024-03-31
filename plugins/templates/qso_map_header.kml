@@ -49,6 +49,7 @@
     </Camera>
 
 
+
 <description><![CDATA[<h1>{{ row['Spotter'] }}
 </h1>Date/Time GMT: <div><br></div>"{{ row['timestamp'] }}"]]></description>
 <TimeStamp>{{ row['timestamp'] }}</TimeStamp>
@@ -58,6 +59,33 @@
 </coordinates></LineString>
 <Style><LineStyle><color>{{ line_color(row['dB']) }}</color><width>4</width></LineStyle></Style>
 </Placemark>
+
+
+
+	<Placemark>
+		<name>
+			{{ row['Spotter'] }} Elevation
+		</name>
+
+		<description>
+			<![CDATA[<h1>{{ row['Spotter'] }}
+</h1>Date/Time GMT: <div><br></div>"{{ row['timestamp'] }}"]]>
+		</description>
+		<TimeStamp>{{ row['timestamp'] }}</TimeStamp>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+               {{ row['tx_lng'] }},{{ row['tx_lat'] }},0.
+               {{ row['el_lng'] }},{{ row['el_lat'] }},0.
+			</coordinates>
+		</LineString>
+        <Style><LineStyle><color>{{ line_color(row['dB']) }}</color><width>4</width></LineStyle></Style>
+</Placemark>	
+
+
+
+
+
 <Placemark>
 <name>{{ row['Spotter'] }}
 </name>
