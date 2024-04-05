@@ -185,11 +185,13 @@ def dump_rm_rbn_history(csv_file=''):
     result = sorted(qso_list, key=lambda x: x[4])
     #since we know the country and state at this point, let's add those as well
     for qso in result:
-        print("working on " + qso[6])
+        #print("working on " + qso[6])
+        #print(fields)
+        #print(qso)
         result_string = qso[0] + ',' + str(qso[1]) + ',' + str(qso[2]) + ',' \
               + qso[3] + ',' + qso[4].strftime("%Y/%m/%d %H:%M:%S") + ',' + \
               qso[5] + ',14058.4,' + qso[6] + "," + auto_geo_vars.call_country + \
-              "," + auto_geo_vars.call_state+",,,,,,,"+fields[2]
+              "," + auto_geo_vars.call_state+",,,,,,,"+qso[9]
         #print(result_string)
     return result
         
