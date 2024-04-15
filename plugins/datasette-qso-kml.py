@@ -47,6 +47,7 @@ def prepare_connection(conn):
 
 @hookimpl
 def register_output_renderer():
+    print("made it into the plugin")
     return {"extension": "kml", "render": render_kml, "can_render": can_render_atom}
 
 def render_kml(
@@ -67,6 +68,10 @@ def render_kml(
 
 
 def can_render_atom(columns):
+    return True
+    print(str(REQUIRED_COLUMNS))
+    print(str(columns))
+    print(str(REQUIRED_COLUMNS.issubset(columns)))
     return REQUIRED_COLUMNS.issubset(columns)
 
 def line_color(rst):
@@ -103,7 +108,7 @@ def time_span(rows):
     min_time = minimum_time(rows)
     print("min time is " + str(max_time))
     span = max_time - min_time
-    mins = int(math.ceil(span.seconds/60))
+    mins = int(math.ceil(span.seconds/(24*60*60)))
     print('minutes ' + str(mins))
     return mins
 
