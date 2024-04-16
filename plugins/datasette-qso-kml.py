@@ -1,6 +1,8 @@
 from datasette import hookimpl
 from datasette.utils.asgi import Response
 from jinja2 import Template
+from jinja2 import Environment
+from jinja2 import FileSystemLoader
 import datetime
 import math
 
@@ -92,6 +94,7 @@ def minimum_time(rows):
         new_time = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S")
         if new_time < min_time:
             min_time = new_time
+    print('found min_time = ' + str(min_time))
     return min_time
     
 
@@ -106,9 +109,10 @@ def time_span(rows):
     print("max time is " + str(max_time))
     
     min_time = minimum_time(rows)
-    print("min time is " + str(max_time))
+    print("min time is " + str(min_time))
     span = max_time - min_time
-    mins = int(math.ceil(span.seconds/(24*60*60)))
+    print(str(span.seconds))
+    mins = int(math.ceil(span.seconds/(60)))
     print('minutes ' + str(mins))
     return mins
 
@@ -127,7 +131,8 @@ def get_kml(rows):
     for row in rows:
         print(row['timestamp'])
     with open('./plugins/templates/qso_map_header.kml') as f:
-        tmpl = Template(f.read())
+        #tmpl = Template(f.read())
+        tmpl = Environment(loader=FileSystemLoader("./plugins/templates")).from_string(f.read())
         tmpl.globals['line_color'] = line_color
         tmpl.globals['is_qso'] = is_qso
     return(tmpl.render(
