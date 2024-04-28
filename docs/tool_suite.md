@@ -17,7 +17,7 @@ python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=/usr/
 ```
 
 Let's talk about SpatiaLite and Windows
-For new datasette installs, until the proposed Windows fix is accepted, make sure to add the fix shown [here]([url](https://github.com/simonw/datasette/issues/2198#issuecomment-2081257809)).
+For new datasette installs, until the proposed Windows fix is accepted, make sure to add the fix shown [here](https://github.com/simonw/datasette/issues/2198#issuecomment-2081257809).
 Then, you can simply use the command:
 ```
 python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=spatialite --plugins-dir=plugins --template-dir plugins/templates --root
