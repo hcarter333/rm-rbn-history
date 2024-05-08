@@ -1,15 +1,15 @@
-[
+const czml = [
   {
     id: "document",
     name: "CZML Geometries: Polyline",
     version: "1.0",
   },
   {
-    id: "redLine",
+    id: "K9LC",
     name: "Red line clamped to terain",
     polyline: {
       positions: {
-        cartographicDegrees: [-106.55691216026221,32.371370471129424,0., -88.9583,42.2708,0],
+        cartographicDegrees: [-106.55691216026221,32.371370471129424,0, -88.9583,42.2708,0],
       },
       material: {
         solidColor: {
@@ -18,8 +18,20 @@
           },
         },
       },
+      "show": [
+          {
+              "interval": "2024-05-07T23:26:00Z/2024-05-09T23:29:00Z",
+              "boolean": true
+          },
+      ],
+      
       width: 5,
       clampToGround: true,
     },
   },
 ];
+const viewer = new Cesium.Viewer("cesiumContainer");
+const dataSourcePromise = Cesium.CzmlDataSource.load(czml);
+viewer.dataSources.add(dataSourcePromise);
+viewer.zoomTo(dataSourcePromise);
+
