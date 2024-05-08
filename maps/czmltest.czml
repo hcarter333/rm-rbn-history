@@ -4,27 +4,27 @@
 [
   {
     "id":"document",
-    name:"my first map",
-    version:"1.0",
-    clock:{
-      interval:"2024-03-14T23:28:00Z/2024-03-15T00:00:00Z",
-      currentTime:"2024-03-14T23:24:00Z",
-      multiplier:60,
-      range:"LOOP_STOP",
-      step:"SYSTEM_CLOCK_MULTIPLIER",
-    }
+    "name":"my first map",
+    "version":"1.0",
+    "clock":{
+      "interval":"2024-03-14T23:28:00Z/2024-03-15T00:00:00Z",
+      "currentTime":"2024-03-14T23":24":00Z",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER",
+    },
   },
   {
-    id:"k6mdg",
-    name:"k6mdg",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -117.0176855,32.7866426,0],
+    "id":"k6mdg",
+    "name":"k6mdg",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -117.0176855,32.7866426,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -35,20 +35,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"k1bz",
-    name:"k1bz",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -69.7738749,44.3340425,0],
+    "id":"k1bz",
+    "name":"k1bz",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -69.7738749,44.3340425,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -59,20 +59,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"km0rse",
-    name:"km0rse",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -122.0294174,37.5576944,0],
+    "id":"km0rse",
+    "name":"km0rse",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -122.0294174,37.5576944,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -83,20 +83,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"w6grt",
-    name:"w6grt",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -118.4028235,34.4380653,0],
+    "id":"w6grt",
+    "name":"w6grt",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -118.4028235,34.4380653,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -107,20 +107,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"w7bdj",
-    name:"w7bdj",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -123.1144457,45.6178088,0],
+    "id":"w7bdj",
+    "name":"w7bdj",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -123.1144457,45.6178088,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -131,20 +131,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"n5yco",
-    name:"n5yco",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -105.0556958,39.6603112,0],
+    "id":"n5yco",
+    "name":"n5yco",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -105.0556958,39.6603112,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -155,20 +155,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"w8nga",
-    name:"w8nga",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -83.06870839999999,39.8727114,0],
+    "id":"w8nga",
+    "name":"w8nga",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -83.06870839999999,39.8727114,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -179,20 +179,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"wa7brl",
-    name:"wa7brl",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -122.2729042,47.81235179999999,0],
+    "id":"wa7brl",
+    "name":"wa7brl",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -122.2729042,47.81235179999999,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -203,20 +203,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"na6jd",
-    name:"na6jd",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -122.0564175,48.0183171,0],
+    "id":"na6jd",
+    "name":"na6jd",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -122.0564175,48.0183171,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -227,20 +227,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"al7kc",
-    name:"al7kc",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -147.4612627,64.83337759999999,0],
+    "id":"al7kc",
+    "name":"al7kc",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -147.4612627,64.83337759999999,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -251,20 +251,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"k6df",
-    name:"k6df",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -122.0294174,37.5576944,0],
+    "id":"k6df",
+    "name":"k6df",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -122.0294174,37.5576944,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -275,20 +275,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"n6kz",
-    name:"n6kz",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -112.4604847,34.6286481,0],
+    "id":"n6kz",
+    "name":"n6kz",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -112.4604847,34.6286481,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -299,20 +299,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"kf9r",
-    name:"kf9r",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -86.0284784,39.7973648,0],
+    "id":"kf9r",
+    "name":"kf9r",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -86.0284784,39.7973648,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -323,20 +323,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"ad0im",
-    name:"ad0im",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -94.7501703,38.9207585,0],
+    "id":"ad0im",
+    "name":"ad0im",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -94.7501703,38.9207585,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -347,20 +347,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"ke7f",
-    name:"ke7f",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -122.9430219,42.3718707,0],
+    "id":"ke7f",
+    "name":"ke7f",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -122.9430219,42.3718707,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -371,20 +371,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"kb0hp",
-    name:"kb0hp",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -107.7643844,39.5387748,0],
+    "id":"kb0hp",
+    "name":"kb0hp",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -107.7643844,39.5387748,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -395,20 +395,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"n2epe",
-    name:"n2epe",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -77.51005339999999,43.0716286,0],
+    "id":"n2epe",
+    "name":"n2epe",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -77.51005339999999,43.0716286,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -419,20 +419,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"kb9rpg",
-    name:"kb9rpg",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -85.9785224,39.804082,0],
+    "id":"kb9rpg",
+    "name":"kb9rpg",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -85.9785224,39.804082,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -443,20 +443,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"ki7mjr",
-    name:"ki7mjr",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -111.9788875,40.663801,0],
+    "id":"ki7mjr",
+    "name":"ki7mjr",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -111.9788875,40.663801,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -467,20 +467,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"we9k",
-    name:"we9k",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -87.8573925,42.9662064,0],
+    "id":"we9k",
+    "name":"we9k",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -87.8573925,42.9662064,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -491,20 +491,20 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },  {
-    id:"ea1ec",
-    name:"ea1ec",
-    polyline:{
-      positions:{
-        cartographicDegrees:[-106.5569121602622,32.371370471129424,0, -3.689354499999999,42.3504659,0],
+    "id":"ea1ec",
+    "name":"ea1ec",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -3.689354499999999,42.3504659,0],
       },
-      material:{
-        solidColor:{
-          color:{
-            rgba:[255, 0, 0, 255],
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255],
           },
         },
       },
@@ -515,8 +515,8 @@
           },
       ],
       
-      width:5,
-      clampToGround:true,
+      "width":5,
+      "clampToGround":true,
     },
   },
 ]
