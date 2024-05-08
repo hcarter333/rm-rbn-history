@@ -3,6 +3,13 @@ const czml = [
     id: "document",
     name: "CZML Geometries: Polyline",
     version: "1.0",
+    clock: {
+      interval: "2024-03-14T23:24:00Z/2024-03-14T23:27:00Z",
+      currentTime: "2024-03-14T23:24:00Z",
+      multiplier: 60,
+      range: "LOOP_STOP",
+      step: "SYSTEM_CLOCK_MULTIPLIER",
+    },
   },
   {
     id: "K9LC",
@@ -20,7 +27,7 @@ const czml = [
       },
       "show": [
           {
-              "interval": "2024-05-07T23:26:00Z/2024-05-09T23:29:00Z",
+              "interval": "2024-03-14T23:25:00Z/2024-03-14T23:26:00Z",
               "boolean": true
           },
       ],
