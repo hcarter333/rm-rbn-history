@@ -11,7 +11,7 @@
       "currentTime":"2024-03-14T23:24:00Z",
       "multiplier":60,
       "range":"LOOP_STOP",
-      "step":"SYSTEM_CLOCK_MULTIPLIER",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
     },
   },
   {
@@ -19,12 +19,12 @@
     "name":"k6mdg",
     "polyline":{
       "positions":{
-        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -117.0176855,32.7866426,0],
+        "cartographicDegrees":[-106.5569121602622,32.371370471129424,0, -117.0176855,32.7866426,0]
       },
       "material":{
         "solidColor":{
           "color":{
-            "rgba":[255, 0, 0, 255],
+            "rgba":[255, 0, 0, 255]
           },
         },
       },
@@ -36,7 +36,7 @@
       ],
       
       "width":5,
-      "clampToGround":true,
+      "clampToGround":true
     },
   },  {
     "id":"k1bz",
