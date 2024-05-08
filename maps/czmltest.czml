@@ -9,7 +9,7 @@
     "clock":{
       "interval":"2024-03-14T23:28:00Z/2024-03-15T00:00:00Z",
       "currentTime":"2024-03-14T23:24:00Z",
-      "multiplier":"60",
+      "multiplier":60,
       "range":"LOOP_STOP",
       "step":"SYSTEM_CLOCK_MULTIPLIER"
     }
@@ -25,8 +25,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -49,8 +49,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -73,8 +73,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -97,8 +97,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -121,8 +121,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -145,8 +145,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -169,8 +169,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -193,8 +193,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -217,8 +217,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -241,8 +241,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -265,8 +265,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -289,8 +289,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -313,8 +313,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -337,8 +337,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -361,8 +361,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -385,8 +385,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -409,8 +409,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -433,8 +433,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -457,8 +457,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -481,8 +481,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
@@ -505,8 +505,8 @@
         "solidColor":{
           "color":{
             "rgba":[255, 0, 0, 255]
-          },
-        },
+          }
+        }
       },
       "show":[
           {
