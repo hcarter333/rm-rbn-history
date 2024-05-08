@@ -3,7 +3,7 @@
 
 [
   {
-    id:"document",
+    "id":"document",
     name:"my first map",
     version:"1.0",
     clock:{
