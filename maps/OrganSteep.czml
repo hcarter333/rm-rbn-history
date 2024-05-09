@@ -4,7 +4,7 @@
     "name":"my first map",
     "version":"1.0",
     "clock":{
-      "interval":"2023-01-30T10:42:00Z/2023-01-30T16:38:00Z",
+      "interval":"2023-01-30T16:15:00Z/2023-01-30T16:38:00Z",
       "currentTime":"2024-03-14T23:24:00Z",
       "multiplier":60,
       "range":"LOOP_STOP",
@@ -244,54 +244,6 @@
       "show":[
           {
               "interval":"2023-01-30T16:16:00Z/2023-01-30T16:17:00Z",
-              "boolean":true
-          }
-      ],
-      
-      "width":5,
-      "clampToGround":true
-    }
-  },  {
-    "id":"KC0ZPS",
-    "name":"KC0ZPS",
-    "polyline":{
-      "positions":{
-        "cartographicDegrees":[-106.578838,32.382328,0, -104.9525005,39.8983694,0]
-      },
-      "material":{
-        "solidColor":{
-          "color":{
-            "rgba":[255, 0, 0, 255]
-          }
-        }
-      },
-      "show":[
-          {
-              "interval":"2023-01-30T10:49:00Z/2023-01-30T10:50:00Z",
-              "boolean":true
-          }
-      ],
-      
-      "width":5,
-      "clampToGround":true
-    }
-  },  {
-    "id":"NN9K",
-    "name":"NN9K",
-    "polyline":{
-      "positions":{
-        "cartographicDegrees":[-106.578838,32.382328,0, -90.3550100117382,41.4721178800016,0]
-      },
-      "material":{
-        "solidColor":{
-          "color":{
-            "rgba":[255, 0, 0, 255]
-          }
-        }
-      },
-      "show":[
-          {
-              "interval":"2023-01-30T10:43:00Z/2023-01-30T10:44:00Z",
               "boolean":true
           }
       ],
