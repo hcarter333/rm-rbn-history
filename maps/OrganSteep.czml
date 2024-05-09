@@ -5,7 +5,7 @@
     "version":"1.0",
     "clock":{
       "interval":"2023-01-30T16:15:00Z/2023-01-30T16:38:00Z",
-      "currentTime":"2024-03-14T23:24:00Z",
+      "currentTime":"2023-01-30T16:12:00Z",
       "multiplier":60,
       "range":"LOOP_STOP",
       "step":"SYSTEM_CLOCK_MULTIPLIER"
