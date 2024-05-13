@@ -1,0 +1,40 @@
+[
+  {
+    "id":"document",
+    "name":"{{ kml_name }}",
+    "version":"1.0",
+    "clock":{
+      "interval":"{{ MinTime }}Z/{{ MaxTime }}Z",
+      "currentTime":"2024-03-14T23:24:00Z",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+{% block czml_line_per_qso %}{%- for row in Rows %}  {
+    "id":"{{ row['Spotter'] }}",
+    "name":"{{ row['Spotter'] }}",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[{{ row['tx_lng'] }},{{ row['tx_lat'] }},0, {{ row['rx_lng'] }},{{ row['rx_lat'] }},0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255, 0, 0, 255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"{{ row['timestamp'] }}Z/{{ QSO_ends[loop.index0] }}Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  }{{ "," if not loop.last }}
+{%- endfor %}{% endblock %}
+]

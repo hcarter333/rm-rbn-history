@@ -1798,7 +1798,7 @@
 <TimeStamp>2023-10-15T00:49:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.40656400447673,34.60406895585743,0.
--118.2325362,34.2311289,0.
+-118.972079,37.648546,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1807,7 +1807,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-10-15T00:49:00</TimeStamp>
 <Point>
-<coordinates>-118.2325362,34.2311289</coordinates>
+<coordinates>-118.972079,37.648546</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -1942,7 +1942,7 @@
 <TimeStamp>2023-10-15T01:06:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.40656400447673,34.60406895585743,0.
--78.9784681,35.1006485,0.
+-78.9785123,35.1006525,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1951,7 +1951,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-10-15T01:06:00</TimeStamp>
 <Point>
-<coordinates>-78.9784681,35.1006485</coordinates>
+<coordinates>-78.9785123,35.1006525</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -2032,7 +2032,7 @@
 <TimeStamp>2023-10-15T01:20:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.40656400447673,34.60406895585743,0.
--79.87345549999999,36.1267239,0.
+-79.8734118,36.1267622,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ffff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -2041,7 +2041,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-10-15T01:20:00</TimeStamp>
 <Point>
-<coordinates>-79.87345549999999,36.1267239</coordinates>
+<coordinates>-79.8734118,36.1267622</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -2212,7 +2212,7 @@
 <TimeStamp>2023-10-15T01:39:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.40656400447673,34.60406895585743,0.
--91.72457159999999,42.0383257,0.
+-91.72457159999999,42.038403,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -2221,7 +2221,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-10-15T01:39:00</TimeStamp>
 <Point>
-<coordinates>-91.72457159999999,42.0383257</coordinates>
+<coordinates>-91.72457159999999,42.038403</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -2338,7 +2338,7 @@
 <TimeStamp>2023-10-15T02:17:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.40656400447673,34.60406895585743,0.
--83.83569179999999,42.7277369,0.
+-83.8304186,42.7288282,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -2347,7 +2347,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2023-10-15T02:17:00</TimeStamp>
 <Point>
-<coordinates>-83.83569179999999,42.7277369</coordinates>
+<coordinates>-83.8304186,42.7288282</coordinates>
 </Point>
 </Placemark>
 </Document> </kml>

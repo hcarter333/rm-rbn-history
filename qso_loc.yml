@@ -3,6 +3,8 @@ source: KD0FNR QSO log
 source_url: https://github.com/hcarter333/rm-rbn-history/blob/482acf6ca68c4b612c5884bd995e92d8b67ac6d3/rm_rnb_history_pres.csv
 about: rm-rbn-history
 about_url: https://github.com/hcarter333/rm-rbn-history
+extra_js_urls:
+- https://www.gstatic.com/charts/loader.js
 plugins:
   datasette-media:
     thumbnail:
@@ -12,6 +14,9 @@ plugins:
       sql: |-
         select path as filepath from photo_path where uuid=:key
   datasette-enrichments-gmap-geocode:
+    api_key:
+      $env: MAPS_API_KEY
+  datasette-enrichments-gmap-elevation:
     api_key:
       $env: MAPS_API_KEY
 databases:

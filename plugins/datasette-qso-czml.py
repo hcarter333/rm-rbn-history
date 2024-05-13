@@ -50,9 +50,9 @@ def prepare_connection(conn):
 @hookimpl
 def register_output_renderer():
     print("made it into the plugin")
-    return {"extension": "kml", "render": render_kml, "can_render": can_render_atom}
+    return {"extension": "czml", "render": render_czml, "can_render": can_render_atom}
 
-def render_kml(
+def render_czml(
     datasette, request, sql, columns, rows, database, table, query_name, view_name, 
     data):
     from datasette.views.base import DatasetteError
@@ -63,7 +63,7 @@ def render_kml(
             status=400,
         )
     return Response(
-            get_kml(rows),
+            get_czml(rows),
             content_type="application/vnd.google-earth.kml+xml; charset=utf-8",
             status=200,
         )
@@ -98,6 +98,14 @@ def minimum_time(rows):
     return min_time
     
 
+def maximum_time(rows):
+    max_time = datetime.datetime.strptime('1968-02-02 00:00:00', "%Y-%m-%d %H:%M:%S")
+    for row in rows:
+        new_time = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S")
+        if new_time > max_time:
+            max_time = new_time
+    return max_time    
+
 #Returns the total number of minutes before the first and last QSOs + 5
 def time_span(rows):
     #find the largest time
@@ -116,9 +124,10 @@ def time_span(rows):
     print('minutes ' + str(mins))
     return mins
 
-def get_kml(rows):
+def get_czml(rows):
     from jinja2 import Template
     map_minutes = []
+    qso_ends = []
     mins = time_span(rows)
     print("mins " + str(mins))
     #get the array of minutes ready to go
@@ -130,13 +139,27 @@ def get_kml(rows):
       map_time = map_time + datetime.timedelta(0,60)
     for row in rows:
         print(row['timestamp'])
-    with open('./plugins/templates/qso_map_header.kml') as f:
+        start_time = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S")
+        delta = datetime.timedelta(minutes=1)
+        end_time = start_time + delta
+        qso_ends.append(datetime.datetime.strftime(end_time, '%Y-%m-%d %H:%M:%S').replace(' ','T'))
+        
+    #Add an end time for each QSO of one minute later (for now)
+
+    with open('./plugins/templates/qso_map_header.czml') as f:
         #tmpl = Template(f.read())
         tmpl = Environment(loader=FileSystemLoader("./plugins/templates")).from_string(f.read())
         tmpl.globals['line_color'] = line_color
         tmpl.globals['is_qso'] = is_qso
+        mit = minimum_time(rows) - delta
+        mat = maximum_time(rows) + delta
+        mintime = str(mit).replace(' ', 'T')
+        maxtime=str(mat).replace(' ', 'T')
     return(tmpl.render(
         kml_name = 'my first map',
         Rows = rows,
-        Map_minutes = map_minutes
+        Map_minutes = map_minutes,
+        QSO_ends = qso_ends,
+        MinTime = mintime,
+        MaxTime = maxtime,
     ))

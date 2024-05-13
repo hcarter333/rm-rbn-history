@@ -93,7 +93,7 @@
 <TimeStamp>2023-04-25T19:10:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.7995,34.801,0.
--94.96394699999999,39.3913598,0.
+-94.96394509999999,39.3913353,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -103,7 +103,7 @@
 <TimeStamp>2023-04-25T19:12:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.7995,34.801,0.
--94.96394699999999,39.3913598,0.
+-94.96394509999999,39.3913353,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>

@@ -15,3 +15,10 @@ To run on any machine with the kml plugin, use the following extra plugins-dir a
 ```
 python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=/usr/lib/x86_64-linux-gnu/mod_spatialite.so --plugins-dir=plugins --template-dir plugins/templates --root
 ```
+
+Let's talk about SpatiaLite and Windows
+For new datasette installs, until the proposed Windows fix is accepted, make sure to add the fix shown [here](https://github.com/simonw/datasette/issues/2198#issuecomment-2081257809).
+Then, you can simply use the command:
+```
+python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=spatialite --plugins-dir=plugins --template-dir plugins/templates --root
+```
