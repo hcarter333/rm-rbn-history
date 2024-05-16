@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2024_05_15 TouCans back up aad running</name>
+<description>Not sure what the power is but TouCans is up and running
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>wn1z</name>
+<description><![CDATA[<h1>wn1z</h1>Date/Time GMT: <div><br></div>2024/05/15 02:43:00]]></description>
+<TimeStamp>2024-05-15T02:43:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-120.639197,40.4153646,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>wn1z</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-05-15T02:43:00</TimeStamp>
+<Point>
+<coordinates>-120.639197,40.4153646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ka6jlt</name>
+<description><![CDATA[<h1>ka6jlt</h1>Date/Time GMT: <div><br></div>2024/05/15 02:51:00]]></description>
+<TimeStamp>2024-05-15T02:51:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-119.7887518,39.4812001,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ffff007f</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ka6jlt</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-05-15T02:51:00</TimeStamp>
+<Point>
+<coordinates>-119.7887518,39.4812001</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
