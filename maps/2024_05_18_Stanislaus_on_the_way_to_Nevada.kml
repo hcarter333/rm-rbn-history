@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2024_05_18 Stanislaus on the way to Nevada</name>
+<description>The rig had issues with lots of things. Basically, the relay wiring was breaking off
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>ag6ck</name>
+<description><![CDATA[<h1>ag6ck</h1>Date/Time GMT: <div><br></div>2024/05/21 18:09:00]]></description>
+<TimeStamp>2024-05-21T18:09:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-120.24475620778877,38.33274562116729,0.
+-117.7664335,33.7019852,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ag6ck</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-05-21T18:09:00</TimeStamp>
+<Point>
+<coordinates>-117.7664335,33.7019852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>wm6t</name>
+<description><![CDATA[<h1>wm6t</h1>Date/Time GMT: <div><br></div>2024/05/21 18:12:00]]></description>
+<TimeStamp>2024-05-21T18:12:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-120.24475620778877,38.33274562116729,0.
+-116.9294284,33.9119206,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>wm6t</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-05-21T18:12:00</TimeStamp>
+<Point>
+<coordinates>-116.9294284,33.9119206</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>k6pb</name>
+<description><![CDATA[<h1>k6pb</h1>Date/Time GMT: <div><br></div>2024/05/21 18:15:00]]></description>
+<TimeStamp>2024-05-21T18:15:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-120.24475620778877,38.33274562116729,0.
+-117.791151,33.7048598,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>k6pb</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-05-21T18:15:00</TimeStamp>
+<Point>
+<coordinates>-117.791151,33.7048598</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
