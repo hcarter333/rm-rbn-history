@@ -36,6 +36,19 @@ def db_to_s(db):
         return "3"
     return "0"
 
+def load_colors():
+    global signal_colors
+    signal_colors["1"] = "[" + str(int("96", 16)) + "," + str(int("4b", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["0"] = "[" + str(int("96", 16)) + "," + str(int("4b", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["2"] = "[" + str(int("ff", 16)) + "," + str(int("00", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["3"] = "[" + str(int("ff", 16)) + "," + str(int("a5", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["4"] = "[" + str(int("ff", 16)) + "," + str(int("ff", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["5"] = "[" + str(int("00", 16)) + "," + str(int("ff", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["6"] = "[" + str(int("00", 16)) + "," + str(int("00", 16)) + "," +str(int("ff", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["7"] = "[" + str(int("4b", 16)) + "," + str(int("00", 16)) + "," +str(int("82", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["8"] = "[" + str(int("7f", 16)) + "," + str(int("00", 16)) + "," +str(int("ff", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["9"] = "[" + str(int("ff", 16)) + "," + str(int("ff", 16)) + "," +str(int("ff", 16)) + "," +str(int("ff", 16)) + "]"
+    
 
 
 REQUIRED_COLUMNS = {"tx_lat", "tx_lng", "rx_lat", "rx_lng", "Spotter", "dB"}
@@ -50,6 +63,7 @@ def prepare_connection(conn):
 @hookimpl
 def register_output_renderer():
     print("made it into the plugin")
+    load_colors()
     return {"extension": "czml", "render": render_czml, "can_render": can_render_atom}
 
 def render_czml(

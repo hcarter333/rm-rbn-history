@@ -5,7 +5,7 @@
     "version":"1.0",
     "clock":{
       "interval":"{{ MinTime }}Z/{{ MaxTime }}Z",
-      "currentTime":"2024-03-14T23:24:00Z",
+      "currentTime":"{{ MinTime }}",
       "multiplier":60,
       "range":"LOOP_STOP",
       "step":"SYSTEM_CLOCK_MULTIPLIER"
@@ -21,7 +21,7 @@
       "material":{
         "solidColor":{
           "color":{
-            "rgba":[255, 0, 0, 255]
+            "rgba":{{ line_color(row['dB']) }}
           }
         }
       },
