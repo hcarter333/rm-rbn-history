@@ -1,0 +1,303 @@
+[
+  {
+    "id":"document",
+    "name":"Great Basin National Park to Japan",
+    "version":"1.0",
+    "clock":{
+      "interval":"2024-05-22T13:59:00Z/2024-05-22T14:50:00Z",
+      "currentTime":"2024-05-22T13:59:00",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id":"jg0awe",
+    "name":"jg0awe",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, 138.188353,36.6584466,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:49:00Z/2024-05-22T14:50:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"wb8dtt",
+    "name":"wb8dtt",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -83.83043239999999,42.7288273,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:45:00Z/2024-05-22T14:46:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"k9qy",
+    "name":"k9qy",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -91.336082,39.9408804,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:40:00Z/2024-05-22T14:41:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"n9edl",
+    "name":"n9edl",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -84.92986150000002,41.1942354,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:36:00Z/2024-05-22T14:37:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ve7vak",
+    "name":"ve7vak",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -124.884498,49.58090360000001,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:36:00Z/2024-05-22T14:37:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w5nxk",
+    "name":"w5nxk",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -94.7887068,31.2866818,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:31:00Z/2024-05-22T14:32:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"n9gz",
+    "name":"n9gz",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -89.2249233,41.1603805,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:26:00Z/2024-05-22T14:27:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"wr4p",
+    "name":"wr4p",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -82.070735,34.98362729999999,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:25:00Z/2024-05-22T14:26:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"nz7q",
+    "name":"nz7q",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -106.7267942,35.3138231,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:20:00Z/2024-05-22T14:21:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"n9dgl",
+    "name":"n9dgl",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -85.1206691,41.1427658,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:13:00Z/2024-05-22T14:14:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ve3cwm",
+    "name":"ve3cwm",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -76.0448548,45.3517289,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:08:00Z/2024-05-22T14:09:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"k2jvb",
+    "name":"k2jvb",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-114.1714013413972,38.97455224711155,0, -73.3409,40.7364,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-22T14:00:00Z/2024-05-22T14:01:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  }
+]
