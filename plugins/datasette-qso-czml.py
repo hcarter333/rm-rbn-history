@@ -168,6 +168,12 @@ def get_czml(rows):
         mit = minimum_time(rows) - delta
         mat = maximum_time(rows) + delta
         mintime = str(mit).replace(' ', 'T')
+        #display all the QSOs for a few seconds at the beginning of the maps
+        delta = datetime.timedelta(minutes=0.3)
+        tmb = mit - delta
+        tme = mit + delta
+        totmapend=str(tme).replace(' ', 'T')
+        totmapbegin=str(tmb).replace(' ', 'T')
         maxtime=str(mat).replace(' ', 'T')
     return(tmpl.render(
         kml_name = 'my first map',
@@ -176,4 +182,6 @@ def get_czml(rows):
         QSO_ends = qso_ends,
         MinTime = mintime,
         MaxTime = maxtime,
+        TotMapEnd = totmapend,
+        TotMapBegin = totmapbegin,
     ))

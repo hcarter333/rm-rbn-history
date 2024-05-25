@@ -11,9 +11,37 @@
       "step":"SYSTEM_CLOCK_MULTIPLIER"
     }
   },
+{% block czml_all_qsos %}{%- for row in Rows %}  {
+    "id":"{{ row['Spotter'] }}",
+    "name":"{{ row['Spotter'] }}",
+    "description":"<H2>{{ row['Spotter'] }}</H2><table><tr><td>datetime = {{ row['timestamp'] }}</td></tr><tr><td>rst = {{ row['dB'] }}</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[{{ row['tx_lng'] }},{{ row['tx_lat'] }},0, {{ row['rx_lng'] }},{{ row['rx_lat'] }},0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":{{ line_color(row['dB']) }}
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"{{ MinTime }}Z/{{ TotMapEnd }}Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },
+{%- endfor %}{% endblock %}
 {% block czml_line_per_qso %}{%- for row in Rows %}  {
     "id":"{{ row['Spotter'] }}",
     "name":"{{ row['Spotter'] }}",
+    "description":"<H2>{{ row['Spotter'] }}</H2><table><tr><td>datetime = {{ row['timestamp'] }}</td></tr><tr><td>rst = {{ row['dB'] }}</td></tr></table>",
     "polyline":{
       "positions":{
         "cartographicDegrees":[{{ row['tx_lng'] }},{{ row['tx_lat'] }},0, {{ row['rx_lng'] }},{{ row['rx_lat'] }},0]
