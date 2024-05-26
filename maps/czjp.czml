@@ -31,6 +31,25 @@
     }
   },
   {
+    "id": "JJ2JQFDEK06BTY",
+    "name": "JJ2JQFDEK06BTY",
+    "description": "Apogee of JJ2JQF de K06BTY",
+    "position": {
+      "cartographicDegrees": [ -169.09169765468462, 51.878485992292354, 329300.0 ]
+    },
+    "point": {
+      "color": {
+        "rgba": [ 255, 255, 255, 255 ]
+      },
+      "outlineColor": {
+        "rgba": [ 200, 0, 200, 255 ]
+      },
+      "pixelSize": {
+        "number": 10
+      }
+    }
+  },
+  {
     "id": "wa5rml",
     "name": "wa5rml",
     "description": "<H2>wa5rml</H2><table><tr><td>datetime = 2024-05-24T14:27:00</td></tr><tr><td>rst = 559</td></tr></table>",
