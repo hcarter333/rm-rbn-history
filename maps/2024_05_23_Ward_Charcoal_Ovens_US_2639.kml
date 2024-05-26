@@ -536,6 +536,42 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>kj7rpl</name>
+<description><![CDATA[<h1>kj7rpl</h1>Date/Time GMT: <div><br></div>2024/05/23 21:52:00]]></description>
+<TimeStamp>2024-05-23T21:52:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-114.85193801674805,39.0417213299567,0.
+-122.2303934,45.3482367,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>kj7rpl</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-05-23T21:52:00</TimeStamp>
+<Point>
+<coordinates>-122.2303934,45.3482367</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>k5sjc</name>
+<description><![CDATA[<h1>k5sjc</h1>Date/Time GMT: <div><br></div>2024/05/23 21:55:00]]></description>
+<TimeStamp>2024-05-23T21:55:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-114.85193801674805,39.0417213299567,0.
+-96.7439757,33.0755439,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>k5sjc</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-05-23T21:55:00</TimeStamp>
+<Point>
+<coordinates>-96.7439757,33.0755439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>kd3ca</name>
 <description><![CDATA[<h1>kd3ca</h1>Date/Time GMT: <div><br></div>2024/05/23 21:58:00]]></description>
 <TimeStamp>2024-05-23T21:58:00</TimeStamp>
