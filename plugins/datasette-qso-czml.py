@@ -5,6 +5,9 @@ from jinja2 import Environment
 from jinja2 import FileSystemLoader
 import datetime
 import math
+from ionodata import get_f2m
+from earthmid import midpoint_lng
+from earthmid import midpoint_lat
 
 signal_colors = {"1": "#ff004b96",
                  "0": "#ff004b96",
@@ -142,6 +145,13 @@ def get_czml(rows):
     from jinja2 import Template
     map_minutes = []
     qso_ends = []
+    f2_start = []
+    f2_end = []
+    f2_height = []
+    f2_lat = []
+    f2_lng = []
+    #not used yet; eventually pass into get_f2m
+    f2_station = "EA653"
     mins = time_span(rows)
     print("mins " + str(mins))
     #get the array of minutes ready to go
@@ -151,14 +161,30 @@ def get_czml(rows):
       map_time_str = map_time_str.replace(' ', 'T')
       map_minutes.append(map_time_str)
       map_time = map_time + datetime.timedelta(0,60)
+    #Add an end time for each QSO of one minute later (for now)
+    f2delta = datetime.timedelta(minutes=5)
+    delta = datetime.timedelta(minutes=1)
     for row in rows:
         print(row['timestamp'])
         start_time = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S")
-        delta = datetime.timedelta(minutes=1)
         end_time = start_time + delta
         qso_ends.append(datetime.datetime.strftime(end_time, '%Y-%m-%d %H:%M:%S').replace(' ','T'))
+        #F2 window
+        f2s = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S") - f2delta
+        f2_start.append(f2s)
+        f2e = f2s + f2delta + f2delta
+        f2_end.append(f2e)
+        f2h = get_f2m(f2s, f2e)
+        print(row['Spotter'] + " f2 height = " + str(f2h) + "km")
+        f2_height.append(f2h*1000)
+        mid_lng = str(midpoint_lng(float(row['tx_lat']),float(row['tx_lng']),\
+                           float(row['rx_lat']),float(row['rx_lng'])))
+        mid_lat = str(midpoint_lat(float(row['tx_lat']),float(row['tx_lng']),\
+                           float(row['rx_lat']),float(row['rx_lng'])))
+        f2_lat.append(mid_lat)
+        f2_lng.append(mid_lng)
         
-    #Add an end time for each QSO of one minute later (for now)
+            
 
     with open('./plugins/templates/qso_map_header.czml') as f:
         #tmpl = Template(f.read())
@@ -184,4 +210,7 @@ def get_czml(rows):
         MaxTime = maxtime,
         TotMapEnd = totmapend,
         TotMapBegin = totmapbegin,
+        F2Height = f2_height,
+        F2Lat = f2_lat,
+        F2Lng = f2_lng,
     ))
