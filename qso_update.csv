@@ -1,15 +1,5 @@
-2024_05_30 Japan and Coumbia from Silverton
-Two DX contacts; antenna broke immediately afterwards; rig about half wavelength up
--107.7179358
-37.8227611
-w4gss,2024/05/30 12:04:00,559,599
-ne4tn,2024/05/30 12:07:00,559,529
-ab4kn,2024/05/30 12:08:00,559,559
-k4ds,2024/05/30 12:10:00,559,559
-ne4tn,2024/05/30 12:04:00,559,599
-k4ctf,2024/05/30 12:38:00,559,449
-vk3yv,2024/05/30 12:40:00,449,559
-jr2iub,2024/05/30 12:43:00,559,559
-nm8o,2024/05/30 12:52:00,449,559
-n9fz,2024/05/30 12:53:00,559,559
-hk4km,2024/05/30 12:56:00,339,449
+Title of map
+Any notes you would like to add; next two lines are location of tx station; final line has call,date time,transmitted rst, received rst
+-122.42293617440531
+37.72489522009444
+CALL,2023/10/30 18:28:00,539,449
