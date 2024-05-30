@@ -174,7 +174,7 @@ def get_czml(rows):
         f2_start.append(f2s)
         f2e = f2s + f2delta + f2delta
         f2_end.append(f2e)
-        f2h = get_f2m(f2s, f2e)
+        f2h = get_f2m(f2s, f2e, row['ionosonde'])
         print(row['Spotter'] + " f2 height = " + str(f2h) + "km")
         f2_height.append(f2h*1000)
         mid_lng = str(midpoint_lng(float(row['tx_lat']),float(row['tx_lng']),\

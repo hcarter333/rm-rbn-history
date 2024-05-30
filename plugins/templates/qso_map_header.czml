@@ -44,7 +44,7 @@
     "description":"<H2>{{ row['Spotter'] }}</H2><table><tr><td>datetime = {{ row['timestamp'] }}</td></tr><tr><td>rst = {{ row['dB'] }}</td></tr></table>",
     "polyline":{
       "positions":{
-        "cartographicDegrees":[{{ row['tx_lng'] }},{{ row['tx_lat'] }},0, {{ F2Lng[loop.index0] }},{{ F2Lat[loop.index0] }},{{ F2Height[loop.index0] }}]
+        "cartographicDegrees":[{{ row['tx_lng'] }},{{ row['tx_lat'] }},{{ row['elev_tx'] }}, {{ F2Lng[loop.index0] }},{{ F2Lat[loop.index0] }},{{ F2Height[loop.index0] }}]
       },
       "material":{
         "solidColor":{
@@ -61,7 +61,7 @@
       ],
       
       "width":5,
-      "clampToGround":false
+      "relativeToGround":true
     }
   },
 {%- endfor %}{% endblock %}
@@ -88,7 +88,7 @@
       ],
       
       "width":5,
-      "clampToGround":false
+      "relativeToGround":true
     }
   },
 {%- endfor %}{% endblock %}
@@ -98,7 +98,7 @@
     "description":"<H2>{{ row['Spotter'] }}</H2><table><tr><td>datetime = {{ row['timestamp'] }}</td></tr><tr><td>rst = {{ row['dB'] }}</td></tr></table>",
     "polyline":{
       "positions":{
-        "cartographicDegrees":[{{ row['tx_lng'] }},{{ row['tx_lat'] }},0, {{ F2Lng[loop.index0] }},{{ F2Lat[loop.index0] }},{{ F2Height[loop.index0] }}]
+        "cartographicDegrees":[{{ row['tx_lng'] }},{{ row['tx_lat'] }},{{ row['elev_tx'] }}, {{ F2Lng[loop.index0] }},{{ F2Lat[loop.index0] }},{{ F2Height[loop.index0] }}]
       },
       "material":{
         "solidColor":{
@@ -115,7 +115,7 @@
       ],
       
       "width":5,
-      "clampToGround":false
+      "relativeToGround":true
     }
   },
 {%- endfor %}{% endblock %}
@@ -128,8 +128,6 @@
         "cartographicDegrees":[{{ F2Lng[loop.index0] }},{{ F2Lat[loop.index0] }},{{ F2Height[loop.index0] }},{{ row['rx_lng'] }},{{ row['rx_lat'] }},0]
       },
       "material":{
-,May 16, 11:44?AM,
-Today
         "solidColor":{
           "color":{
             "rgba":{{ line_color(row['dB']) }}

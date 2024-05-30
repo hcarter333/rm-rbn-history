@@ -3,7 +3,7 @@ import datetime
 import urllib3
 
 #returns the first hmF2 from DADBGetValues for the time window specified
-def get_f2m(start_time, end_time):
+def get_f2m(start_time, end_time, station = "EA653"):
 #def get_f2m():
     hmF2 = "5"
     station = "EA653"
@@ -17,7 +17,7 @@ def get_f2m(start_time, end_time):
     #print("start_date_win " + start_date_win)
     #print("end_date_win " + end_date_win)
     urllib3.disable_warnings()
-    iono_url = "https://lgdc.uml.edu/common/DIDBGetValues?ursiCode=EA653&charName=hF2,hmF2&fromDate=" + start_date_win + \
+    iono_url = "https://lgdc.uml.edu/common/DIDBGetValues?ursiCode="+station+"&charName=hF2,hmF2&fromDate=" + start_date_win + \
                         "&toDate=" + end_date_win
     #print("iono_url = " + iono_url)
     #                                                                                                        2023.02.08%2002:50:00
