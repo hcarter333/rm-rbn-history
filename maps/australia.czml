@@ -1,0 +1,171 @@
+[
+  {
+    "id":"document",
+    "name":"my first map",
+    "version":"1.0",
+    "clock":{
+      "interval":"2024-05-30T12:39:00Z/2024-05-30T12:41:00Z",
+      "currentTime":"2024-05-30T12:39:00",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id":"vk3yv",
+    "name":"vk3yv",
+    "description":"<H2>vk3yv</H2><table><tr><td>datetime = 2024-05-30T12:40:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-107.7179358,37.8227611,0, 146.0620106,-38.2037492,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-30T12:39:00Z/2024-05-30T12:39:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },
+  {
+    "id":"f2vk3yv",
+    "name":"vk3yv",
+    "description":"<H2>vk3yv</H2><table><tr><td>datetime = 2024-05-30T12:40:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-107.7179358,37.8227611,2947.468, -160.6295725226788,-0.3173378692687284,319300.0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-30T12:39:00Z/2024-05-30T12:39:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },
+  {
+    "id":"f2downvk3yv",
+    "name":"vk3yv",
+    "description":"<H2>vk3yv</H2><table><tr><td>datetime = 2024-05-30T12:40:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-160.6295725226788,-0.3173378692687284,319300.0,146.0620106,-38.2037492,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-30T12:39:00Z/2024-05-30T12:39:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },
+  {
+    "id":"f2perqsovk3yv",
+    "name":"vk3yv",
+    "description":"<H2>vk3yv</H2><table><tr><td>datetime = 2024-05-30T12:40:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-107.7179358,37.8227611,2947.468, -160.6295725226788,-0.3173378692687284,319300.0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-30T12:40:00Z/2024-05-30T12:41:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },
+  {
+    "id":"f2downperqsovk3yv",
+    "name":"vk3yv",
+    "description":"<H2>vk3yv</H2><table><tr><td>datetime = 2024-05-30T12:40:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-160.6295725226788,-0.3173378692687284,319300.0,146.0620106,-38.2037492,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-30T12:40:00Z/2024-05-30T12:41:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },
+  {
+    "id":"vk3yv",
+    "name":"vk3yv",
+    "description":"<H2>vk3yv</H2><table><tr><td>datetime = 2024-05-30T12:40:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-107.7179358,37.8227611,0, 146.0620106,-38.2037492,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-05-30T12:40:00Z/2024-05-30T12:41:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  }
+
+]

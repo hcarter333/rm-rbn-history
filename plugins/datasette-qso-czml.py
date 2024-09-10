@@ -5,6 +5,9 @@ from jinja2 import Environment
 from jinja2 import FileSystemLoader
 import datetime
 import math
+from ionodata import get_f2m
+from earthmid import midpoint_lng
+from earthmid import midpoint_lat
 
 signal_colors = {"1": "#ff004b96",
                  "0": "#ff004b96",
@@ -36,6 +39,19 @@ def db_to_s(db):
         return "3"
     return "0"
 
+def load_colors():
+    global signal_colors
+    signal_colors["1"] = "[" + str(int("96", 16)) + "," + str(int("4b", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["0"] = "[" + str(int("96", 16)) + "," + str(int("4b", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["2"] = "[" + str(int("ff", 16)) + "," + str(int("00", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["3"] = "[" + str(int("ff", 16)) + "," + str(int("a5", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["4"] = "[" + str(int("ff", 16)) + "," + str(int("ff", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["5"] = "[" + str(int("00", 16)) + "," + str(int("ff", 16)) + "," +str(int("00", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["6"] = "[" + str(int("00", 16)) + "," + str(int("00", 16)) + "," +str(int("ff", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["7"] = "[" + str(int("4b", 16)) + "," + str(int("00", 16)) + "," +str(int("82", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["8"] = "[" + str(int("7f", 16)) + "," + str(int("00", 16)) + "," +str(int("ff", 16)) + "," +str(int("ff", 16)) + "]"
+    signal_colors["9"] = "[" + str(int("ff", 16)) + "," + str(int("ff", 16)) + "," +str(int("ff", 16)) + "," +str(int("ff", 16)) + "]"
+    
 
 
 REQUIRED_COLUMNS = {"tx_lat", "tx_lng", "rx_lat", "rx_lng", "Spotter", "dB"}
@@ -50,6 +66,7 @@ def prepare_connection(conn):
 @hookimpl
 def register_output_renderer():
     print("made it into the plugin")
+    load_colors()
     return {"extension": "czml", "render": render_czml, "can_render": can_render_atom}
 
 def render_czml(
@@ -128,6 +145,13 @@ def get_czml(rows):
     from jinja2 import Template
     map_minutes = []
     qso_ends = []
+    f2_start = []
+    f2_end = []
+    f2_height = []
+    f2_lat = []
+    f2_lng = []
+    #not used yet; eventually pass into get_f2m
+    f2_station = "EA653"
     mins = time_span(rows)
     print("mins " + str(mins))
     #get the array of minutes ready to go
@@ -137,14 +161,30 @@ def get_czml(rows):
       map_time_str = map_time_str.replace(' ', 'T')
       map_minutes.append(map_time_str)
       map_time = map_time + datetime.timedelta(0,60)
+    #Add an end time for each QSO of one minute later (for now)
+    f2delta = datetime.timedelta(minutes=5)
+    delta = datetime.timedelta(minutes=1)
     for row in rows:
         print(row['timestamp'])
         start_time = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S")
-        delta = datetime.timedelta(minutes=1)
         end_time = start_time + delta
         qso_ends.append(datetime.datetime.strftime(end_time, '%Y-%m-%d %H:%M:%S').replace(' ','T'))
+        #F2 window
+        f2s = datetime.datetime.strptime(row['timestamp'].replace('T',' '), "%Y-%m-%d %H:%M:%S") - f2delta
+        f2_start.append(f2s)
+        f2e = f2s + f2delta + f2delta
+        f2_end.append(f2e)
+        f2h = get_f2m(f2s, f2e, row['ionosonde'])
+        print(row['Spotter'] + " f2 height = " + str(f2h) + "km")
+        f2_height.append(f2h*1000)
+        mid_lng = str(midpoint_lng(float(row['tx_lat']),float(row['tx_lng']),\
+                           float(row['rx_lat']),float(row['rx_lng'])))
+        mid_lat = str(midpoint_lat(float(row['tx_lat']),float(row['tx_lng']),\
+                           float(row['rx_lat']),float(row['rx_lng'])))
+        f2_lat.append(mid_lat)
+        f2_lng.append(mid_lng)
         
-    #Add an end time for each QSO of one minute later (for now)
+            
 
     with open('./plugins/templates/qso_map_header.czml') as f:
         #tmpl = Template(f.read())
@@ -154,6 +194,12 @@ def get_czml(rows):
         mit = minimum_time(rows) - delta
         mat = maximum_time(rows) + delta
         mintime = str(mit).replace(' ', 'T')
+        #display all the QSOs for a few seconds at the beginning of the maps
+        delta = datetime.timedelta(minutes=0.3)
+        tmb = mit - delta
+        tme = mit + delta
+        totmapend=str(tme).replace(' ', 'T')
+        totmapbegin=str(tmb).replace(' ', 'T')
         maxtime=str(mat).replace(' ', 'T')
     return(tmpl.render(
         kml_name = 'my first map',
@@ -162,4 +208,9 @@ def get_czml(rows):
         QSO_ends = qso_ends,
         MinTime = mintime,
         MaxTime = maxtime,
+        TotMapEnd = totmapend,
+        TotMapBegin = totmapbegin,
+        F2Height = f2_height,
+        F2Lat = f2_lat,
+        F2Lng = f2_lng,
     ))

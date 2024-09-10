@@ -1,10 +1,13 @@
 import requests
 import datetime
+import urllib3
 
 #returns the first hmF2 from DADBGetValues for the time window specified
-def get_f2m(start_time, end_time):
+def get_f2m(start_time, end_time, station = "EA653"):
 #def get_f2m():
     hmF2 = "5"
+    #station = "EA653"
+    ptargstation = "PA836"
     #2023/02/08 01:34:00
     start_date_win = start_time.strftime("%Y.%m.%d %H:%M:%S")
     start_date_win = start_date_win.replace(" ", "%20")
@@ -13,11 +16,12 @@ def get_f2m(start_time, end_time):
     end_date_win = end_date_win.replace(" ", "%20")
     #print("start_date_win " + start_date_win)
     #print("end_date_win " + end_date_win)
-    iono_url = "https://lgdc.uml.edu/common/DIDBGetValues?ursiCode=PA836&charName=hF2,hmF2&fromDate=" + start_date_win + \
+    urllib3.disable_warnings()
+    iono_url = "https://lgdc.uml.edu/common/DIDBGetValues?ursiCode="+station+"&charName=hF2,hmF2&fromDate=" + start_date_win + \
                         "&toDate=" + end_date_win
-    #print(iono_url)
+    print("iono_url = " + iono_url)
     #                                                                                                        2023.02.08%2002:50:00
-    iodata=requests.get(iono_url)
+    iodata=requests.get(iono_url, verify=False)
     #print(iodata.text)
     iono_data = iodata.text
     iono_lines = iono_data.split("\n")
@@ -28,6 +32,7 @@ def get_f2m(start_time, end_time):
             #We've arrived at the data
             #Split on space and print the max F2
             data_fields = data_line.split()
+            print(data_fields)
             hmF2 = data_fields[4]
             #print("hmF2 " + data_fields[4])
             break
