@@ -1193,21 +1193,21 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>k1ld</name>
-<description><![CDATA[<h1>k1ld</h1>Date/Time GMT: <div><br></div>2024/11/05 17:22:00]]></description>
+<name>k1lb</name>
+<description><![CDATA[<h1>k1lb</h1>Date/Time GMT: <div><br></div>2024/11/05 17:22:00]]></description>
 <TimeStamp>2024-11-05T17:22:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.421365883329,37.8083580182222,0.
--71.0817172,42.8357476,0.
+-119.7700107,39.41151790000001,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>k1ld</name>
+<name>k1lb</name>
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2024-11-05T17:22:00</TimeStamp>
 <Point>
-<coordinates>-71.0817172,42.8357476</coordinates>
+<coordinates>-119.7700107,39.41151790000001</coordinates>
 </Point>
 </Placemark>
 <Placemark>
