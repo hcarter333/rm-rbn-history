@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2024_12_08 Juan Bautista near Za</name>
+<description>No noise no AM RFI
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>kl7ac</name>
+<description><![CDATA[<h1>kl7ac</h1>Date/Time GMT: <div><br></div>2024/12/08 02:36:00]]></description>
+<TimeStamp>2024-12-08T02:36:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.41929312629972,37.7976637805968,0.
+-147.353425,64.7552465,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>kl7ac</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-08T02:36:00</TimeStamp>
+<Point>
+<coordinates>-147.353425,64.7552465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>al7kc</name>
+<description><![CDATA[<h1>al7kc</h1>Date/Time GMT: <div><br></div>2024/12/08 02:40:00]]></description>
+<TimeStamp>2024-12-08T02:40:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.41929312629972,37.7976637805968,0.
+-147.4612627,64.83337759999999,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>al7kc</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-08T02:40:00</TimeStamp>
+<Point>
+<coordinates>-147.4612627,64.83337759999999</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
