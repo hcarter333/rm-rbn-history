@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>World War I Monument</name>
+<description>Noisy in the static sort of way
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>na2b</name>
+<description><![CDATA[<h1>na2b</h1>Date/Time GMT: <div><br></div>2024/12/16 09:08:00]]></description>
+<TimeStamp>2024-12-16T09:08:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-77.03238596015187,38.8961106387262,0.
+-82.369727,27.688079,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>na2b</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-16T09:08:00</TimeStamp>
+<Point>
+<coordinates>-82.369727,27.688079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>k5ohy</name>
+<description><![CDATA[<h1>k5ohy</h1>Date/Time GMT: <div><br></div>2024/12/16 09:30:00]]></description>
+<TimeStamp>2024-12-16T09:30:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-77.03238596015187,38.8961106387262,0.
+-102.1581787,31.9991556,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>k5ohy</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-16T09:30:00</TimeStamp>
+<Point>
+<coordinates>-102.1581787,31.9991556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ac4fs</name>
+<description><![CDATA[<h1>ac4fs</h1>Date/Time GMT: <div><br></div>2024/12/16 09:35:00]]></description>
+<TimeStamp>2024-12-16T09:35:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-77.03238596015187,38.8961106387262,0.
+-81.1997767,29.5667065,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ac4fs</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-16T09:35:00</TimeStamp>
+<Point>
+<coordinates>-81.1997767,29.5667065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>kf9rx</name>
+<description><![CDATA[<h1>kf9rx</h1>Date/Time GMT: <div><br></div>2024/12/16 09:37:00]]></description>
+<TimeStamp>2024-12-16T09:37:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-77.03238596015187,38.8961106387262,0.
+-97.09578529999999,30.0489079,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>kf9rx</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-16T09:37:00</TimeStamp>
+<Point>
+<coordinates>-97.09578529999999,30.0489079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>wd4dan</name>
+<description><![CDATA[<h1>wd4dan</h1>Date/Time GMT: <div><br></div>2024/12/16 09:51:00]]></description>
+<TimeStamp>2024-12-16T09:51:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-77.03238596015187,38.8961106387262,0.
+-83.2771957,30.8328597,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>wd4dan</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-16T09:51:00</TimeStamp>
+<Point>
+<coordinates>-83.2771957,30.8328597</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ki1h</name>
+<description><![CDATA[<h1>ki1h</h1>Date/Time GMT: <div><br></div>2024/12/16 09:52:00]]></description>
+<TimeStamp>2024-12-16T09:52:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-77.03238596015187,38.8961106387262,0.
+-80.6828429,28.3547048,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ki1h</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2024-12-16T09:52:00</TimeStamp>
+<Point>
+<coordinates>-80.6828429,28.3547048</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
