@@ -1190,21 +1190,21 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>ve7omk</name>
-<description><![CDATA[<h1>ve7omk</h1>Date/Time GMT: <div><br></div>2024/12/21 00:42:00]]></description>
+<name>ve7om</name>
+<description><![CDATA[<h1>ve7om</h1>Date/Time GMT: <div><br></div>2024/12/21 00:42:00]]></description>
 <TimeStamp>2024-12-21T00:42:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -106.56130760801172,32.37164204356541,0.
--117.2956868,49.48066619999999,0.
+-122.7897266,49.0348792,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
 </Placemark>
 <Placemark>
-<name>ve7omk</name>
+<name>ve7om</name>
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2024-12-21T00:42:00</TimeStamp>
 <Point>
-<coordinates>-117.2956868,49.48066619999999</coordinates>
+<coordinates>-122.7897266,49.0348792</coordinates>
 </Point>
 </Placemark>
 <Placemark>
