@@ -22,3 +22,10 @@ Then, you can simply use the command:
 ```
 python3 -m datasette rm_toucans.db --metadata qso_loc.yml --load-extension=spatialite --plugins-dir=plugins --template-dir plugins/templates --root
 ```
+
+**POTA Analysis tools**  
+To find calls that may have been miscopied use  
+python3 extract_callsigns.py qso_update.csv | python3 missingpota.py | grep "cannot be found"  
+
+extract_callsigns.py outputs a list of callsigns from the input file passed in.
+missingpota.py queries the POTA database for each callsign. If the callsign is not found, then a line containing "cannot be found" is output. See issue [100](https://github.com/hcarter333/rm-rbn-history/issues/100) for more details.  
