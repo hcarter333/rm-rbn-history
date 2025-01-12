@@ -1,8 +1,5 @@
-2025_01_12  US_7493 Candlestick Vertical II
-Started on the pier Way less AM interference from the ground
--122.37498804784921
-37.70909431882571
-n9ohw,2025/01/12 00:48:00,599,599,37.709754705236385,-122.38066461480264
-wa6pkb,2025/01/12 01:07:00,599,599
-w9blw,2025/01/12 01:41:00,449,559
-nl7v,2025/01/12 01:43:00,559,339
+Title of map
+Any notes you would like to add; next two lines are location of tx station; final line has call,date time,transmitted rst, received rst
+-122.42293617440531
+37.72489522009444
+CALL,2023/10/30 18:28:00,539,449
