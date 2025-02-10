@@ -2188,7 +2188,7 @@
 <TimeStamp>2024-12-27T22:44:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.45015547881034,37.72509947349236,0.
--121.320506,45.6432,0.
+-121.289,45.6833,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -2197,7 +2197,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2024-12-27T22:44:00</TimeStamp>
 <Point>
-<coordinates>-121.320506,45.6432</coordinates>
+<coordinates>-121.289,45.6833</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -2296,7 +2296,7 @@
 <TimeStamp>2024-12-27T23:04:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.45015547881034,37.72509947349236,0.
--122.4645257,45.895203,0.
+-122.49,45.804,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -2305,7 +2305,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2024-12-27T23:04:00</TimeStamp>
 <Point>
-<coordinates>-122.4645257,45.895203</coordinates>
+<coordinates>-122.49,45.804</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -2332,7 +2332,7 @@
 <TimeStamp>2024-12-27T23:17:00</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.45015547881034,37.72509947349236,0.
--93.9480682,45.0549147,0.
+-104.331,33.3156,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -2341,7 +2341,7 @@
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2024-12-27T23:17:00</TimeStamp>
 <Point>
-<coordinates>-93.9480682,45.0549147</coordinates>
+<coordinates>-104.331,33.3156</coordinates>
 </Point>
 </Placemark>
 <Placemark>

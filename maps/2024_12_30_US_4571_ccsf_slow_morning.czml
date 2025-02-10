@@ -1,0 +1,517 @@
+[
+  {
+    "id":"document",
+    "name":"my first map",
+    "version":"1.0",
+    "clock":{
+      "interval":"2024-12-30T17:29:00Z/2024-12-30T18:57:00Z",
+      "currentTime":"2024-12-30T17:29:00",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id":"kd6xu",
+    "name":"kd6xu",
+    "description":"<H2>kd6xu</H2><table><tr><td>datetime = 2024-12-30T17:30:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -117.1126642,32.5726679,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"nz7q",
+    "name":"nz7q",
+    "description":"<H2>nz7q</H2><table><tr><td>datetime = 2024-12-30T17:33:00</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -106.7267942,35.3138231,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"k7de",
+    "name":"k7de",
+    "description":"<H2>k7de</H2><table><tr><td>datetime = 2024-12-30T17:40:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -122.5815235,45.6110851,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"n7ytf",
+    "name":"n7ytf",
+    "description":"<H2>n7ytf</H2><table><tr><td>datetime = 2024-12-30T17:43:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -111.8291771,41.7418646,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"aj9bm",
+    "name":"aj9bm",
+    "description":"<H2>aj9bm</H2><table><tr><td>datetime = 2024-12-30T17:52:00</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -122.4080167,37.72817,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w1nd",
+    "name":"w1nd",
+    "description":"<H2>w1nd</H2><table><tr><td>datetime = 2024-12-30T18:02:00</td></tr><tr><td>rst = 339</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -103.8593698,44.4908172,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ab9ca",
+    "name":"ab9ca",
+    "description":"<H2>ab9ca</H2><table><tr><td>datetime = 2024-12-30T18:08:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -114.6252141373104,32.67401334489727,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ae5o",
+    "name":"ae5o",
+    "description":"<H2>ae5o</H2><table><tr><td>datetime = 2024-12-30T18:22:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -111.756226,33.2177302,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w6smk",
+    "name":"w6smk",
+    "description":"<H2>w6smk</H2><table><tr><td>datetime = 2024-12-30T18:44:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -116.9510625,32.6331729,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"wb3kuz",
+    "name":"wb3kuz",
+    "description":"<H2>wb3kuz</H2><table><tr><td>datetime = 2024-12-30T18:56:00</td></tr><tr><td>rst = 589</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -122.4136986,37.7369776,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[127,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:29:00Z/2024-12-30T17:29:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },
+  {
+    "id":"kd6xu",
+    "name":"kd6xu",
+    "description":"<H2>kd6xu</H2><table><tr><td>datetime = 2024-12-30T17:30:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -117.1126642,32.5726679,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:30:00Z/2024-12-30T17:31:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"nz7q",
+    "name":"nz7q",
+    "description":"<H2>nz7q</H2><table><tr><td>datetime = 2024-12-30T17:33:00</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -106.7267942,35.3138231,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:33:00Z/2024-12-30T17:34:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"k7de",
+    "name":"k7de",
+    "description":"<H2>k7de</H2><table><tr><td>datetime = 2024-12-30T17:40:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -122.5815235,45.6110851,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:40:00Z/2024-12-30T17:41:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"n7ytf",
+    "name":"n7ytf",
+    "description":"<H2>n7ytf</H2><table><tr><td>datetime = 2024-12-30T17:43:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -111.8291771,41.7418646,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:43:00Z/2024-12-30T17:44:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"aj9bm",
+    "name":"aj9bm",
+    "description":"<H2>aj9bm</H2><table><tr><td>datetime = 2024-12-30T17:52:00</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -122.4080167,37.72817,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T17:52:00Z/2024-12-30T17:53:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w1nd",
+    "name":"w1nd",
+    "description":"<H2>w1nd</H2><table><tr><td>datetime = 2024-12-30T18:02:00</td></tr><tr><td>rst = 339</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -103.8593698,44.4908172,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T18:02:00Z/2024-12-30T18:03:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ab9ca",
+    "name":"ab9ca",
+    "description":"<H2>ab9ca</H2><table><tr><td>datetime = 2024-12-30T18:08:00</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -114.6252141373104,32.67401334489727,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T18:08:00Z/2024-12-30T18:09:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ae5o",
+    "name":"ae5o",
+    "description":"<H2>ae5o</H2><table><tr><td>datetime = 2024-12-30T18:22:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -111.756226,33.2177302,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T18:22:00Z/2024-12-30T18:23:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w6smk",
+    "name":"w6smk",
+    "description":"<H2>w6smk</H2><table><tr><td>datetime = 2024-12-30T18:44:00</td></tr><tr><td>rst = 579</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -116.9510625,32.6331729,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T18:44:00Z/2024-12-30T18:45:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"wb3kuz",
+    "name":"wb3kuz",
+    "description":"<H2>wb3kuz</H2><table><tr><td>datetime = 2024-12-30T18:56:00</td></tr><tr><td>rst = 589</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.45015441124198,37.72510110696399,0, -122.4136986,37.7369776,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[127,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2024-12-30T18:56:00Z/2024-12-30T18:57:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  }
+
+]

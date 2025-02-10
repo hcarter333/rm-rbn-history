@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2025_01_31 SKCC QSO with WiFi Straight KEy</name>
+<description>Straight key worked really well Only had to reboot once
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W6YX
+</name>
+<description><![CDATA[<h1>W6YX
+</h1>Date/Time GMT: <div><br></div>2025/01/31 13:45:00]]></description>
+<TimeStamp>2025-01-31T13:45:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-122.2083,37.3958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6YX
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2025-01-31T13:45:00</TimeStamp>
+<Point>
+<coordinates>-122.2083,37.3958</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W8WWV
+</name>
+<description><![CDATA[<h1>W8WWV
+</h1>Date/Time GMT: <div><br></div>2025/01/31 13:54:00]]></description>
+<TimeStamp>2025-01-31T13:54:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-81.3750,41.5208,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W8WWV
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2025-01-31T13:54:00</TimeStamp>
+<Point>
+<coordinates>-81.3750,41.5208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>VE3EID
+</name>
+<description><![CDATA[<h1>VE3EID
+</h1>Date/Time GMT: <div><br></div>2025/01/31 13:53:00]]></description>
+<TimeStamp>2025-01-31T13:53:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-79.4583,45.4375,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>VE3EID
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2025-01-31T13:53:00</TimeStamp>
+<Point>
+<coordinates>-79.4583,45.4375</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AC0C-1
+</name>
+<description><![CDATA[<h1>AC0C-1
+</h1>Date/Time GMT: <div><br></div>2025/01/31 13:53:00]]></description>
+<TimeStamp>2025-01-31T13:53:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-94.6250,38.6458,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>AC0C-1
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2025-01-31T13:53:00</TimeStamp>
+<Point>
+<coordinates>-94.6250,38.6458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>W6YX
+</name>
+<description><![CDATA[<h1>W6YX
+</h1>Date/Time GMT: <div><br></div>2025/01/31 13:53:00]]></description>
+<TimeStamp>2025-01-31T13:53:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-122.2083,37.3958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6YX
+</name>
+<description><![CDATA[<h1>W6YX
+</h1>Date/Time GMT: <div><br></div>2025/01/31 14:24:00]]></description>
+<TimeStamp>2025-01-31T14:24:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-122.2083,37.3958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W6YX
+</name>
+<description><![CDATA[<h1>W6YX
+</h1>Date/Time GMT: <div><br></div>2025/01/31 15:19:00]]></description>
+<TimeStamp>2025-01-31T15:19:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-122.2083,37.3958,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>n2kpj</name>
+<description><![CDATA[<h1>n2kpj</h1>Date/Time GMT: <div><br></div>2025/01/31 14:45:00]]></description>
+<TimeStamp>2025-01-31T14:45:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42296459160475,37.72489824306413,0.
+-76.1179831,44.1892123,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>n2kpj</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2025-01-31T14:45:00</TimeStamp>
+<Point>
+<coordinates>-76.1179831,44.1892123</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
