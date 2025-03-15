@@ -1,10 +1,5 @@
-2026_03_15 milk run wonky f2
-slow morning
--122.4501500
-37.7251000
-af8p,2025/03/15 17:07:41,559,569
-aa7mk,2025/03/15 17:09:14,559,599
-n4kgy,2025/03/15 17:13:09,559,559
-wa6gfe,2025/03/15 17:29:48,559,559
-ab4ba,2025/03/15 15:13:18,559,559
-ae0zv,2025/03/15 15:23:30,559,579
+Title of map
+Any notes you would like to add; next two lines are location of tx station; final line has call,date time,transmitted rst, received rst
+-122.42293617440531
+37.72489522009444
+CALL,2023/10/30 18:28:00,539,449
