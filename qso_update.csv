@@ -1,5 +1,7 @@
-Title of map
-Any notes you would like to add; next two lines are location of tx station; final line has call,date time,transmitted rst, received rst
--122.42293617440531
-37.72489522009444
-CALL,2023/10/30 18:28:00,539,449
+SFRC Simul_SOTA
+The AM interference was really bad again and propagation was only ok
+-122.43035434294984
+37.861782535869914
+k6tor,2025/04/05 19:07:56,559,599,37.92398370798679,-122.59822420566347
+w6pho,2025/04/05 19:14:56,559,599
+wt5o,2025/04/05 19:41:40,559,559
