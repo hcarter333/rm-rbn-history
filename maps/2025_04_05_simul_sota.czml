@@ -1,0 +1,5271 @@
+[
+  {
+    "id":"document",
+    "name":"my first map",
+    "version":"1.0",
+    "clock":{
+      "interval":"2025-04-05T18:56:00Z/2025-04-05T20:19:00Z",
+      "currentTime":"2025-04-05T18:56:00",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime1 = 2025-04-05T18:58:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime1 = 2025-04-05T18:59:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime1 = 2025-04-05T19:06:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 22</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"k6tor",
+    "name":"k6tor",
+    "description":"<H2>k6tor</H2><table><tr><td>datetime1 = 2025-04-05T19:07:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,0, -122.59822420566348,37.92398370798679,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime1 = 2025-04-05T19:08:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime1 = 2025-04-05T19:10:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w6pho",
+    "name":"w6pho",
+    "description":"<H2>w6pho</H2><table><tr><td>datetime1 = 2025-04-05T19:14:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,0, -122.4442141,37.769181,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime1 = 2025-04-05T19:16:00</td></tr><tr><td>rst = 17</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 24</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime1 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ND7K",
+    "name":"ND7K",
+    "description":"<H2>ND7K</H2><table><tr><td>datetime1 = 2025-04-05T19:19:00</td></tr><tr><td>rst = 2</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,34.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime1 = 2025-04-05T19:20:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime1 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime1 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime1 = 2025-04-05T19:32:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"NT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime1 = 2025-04-05T19:33:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime1 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime1 = 2025-04-05T19:39:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"wt5o",
+    "name":"wt5o",
+    "description":"<H2>wt5o</H2><table><tr><td>datetime1 = 2025-04-05T19:41:40</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,0, -117.2315399,32.7211164,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"NT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime1 = 2025-04-05T19:43:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime1 = 2025-04-05T19:44:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime1 = 2025-04-05T19:50:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"NG7M",
+    "name":"NG7M",
+    "description":"<H2>NG7M</H2><table><tr><td>datetime1 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.0417,41.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime1 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 21</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"WA7LNW",
+    "name":"WA7LNW",
+    "description":"<H2>WA7LNW</H2><table><tr><td>datetime1 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -113.4583,37.1458,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },
+  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,315000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,315000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime2 = 2025-04-05T18:58:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,298000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime2 = 2025-04-05T18:59:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,303000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime2 = 2025-04-05T19:06:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,312000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 22</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2k6tor",
+    "name":"k6tor",
+    "description":"<H2>k6tor</H2><table><tr><td>datetime2 = 2025-04-05T19:07:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,21.96189880371094, -122.514253815468,37.892912920744294,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime2 = 2025-04-05T19:08:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,299000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime2 = 2025-04-05T19:10:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,305000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2w6pho",
+    "name":"w6pho",
+    "description":"<H2>w6pho</H2><table><tr><td>datetime2 = 2025-04-05T19:14:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,21.96189880371094, -122.43728856773686,37.81548197092072,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime2 = 2025-04-05T19:16:00</td></tr><tr><td>rst = 17</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,313000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 24</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime2 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,300000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2ND7K",
+    "name":"ND7K",
+    "description":"<H2>ND7K</H2><table><tr><td>datetime2 = 2025-04-05T19:19:00</td></tr><tr><td>rst = 2</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.49572384940349,35.98891179932708,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime2 = 2025-04-05T19:20:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,305000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime2 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,313000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime2 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,301000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime2 = 2025-04-05T19:32:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,306000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2NT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime2 = 2025-04-05T19:33:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -119.65513828647885,35.44335821567642,323000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime2 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,314000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime2 = 2025-04-05T19:39:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,302000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2wt5o",
+    "name":"wt5o",
+    "description":"<H2>wt5o</H2><table><tr><td>datetime2 = 2025-04-05T19:41:40</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,21.96189880371094, -119.74829568473712,35.31924139398633,323000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2NT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime2 = 2025-04-05T19:43:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -119.65513828647885,35.44335821567642,323000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime2 = 2025-04-05T19:44:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,307000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime2 = 2025-04-05T19:50:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,315000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2NG7M",
+    "name":"NG7M",
+    "description":"<H2>NG7M</H2><table><tr><td>datetime2 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.35694771933225,39.50813279172022,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,320000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime2 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 21</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,320000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2WA7LNW",
+    "name":"WA7LNW",
+    "description":"<H2>WA7LNW</H2><table><tr><td>datetime2 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.92333033732032,37.519074937413016,319000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },
+  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,315000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,315000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime3 = 2025-04-05T18:58:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,298000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime3 = 2025-04-05T18:59:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,303000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime3 = 2025-04-05T19:06:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,312000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 22</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,316000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,316000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downk6tor",
+    "name":"k6tor",
+    "description":"<H2>k6tor</H2><table><tr><td>datetime3 = 2025-04-05T19:07:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.514253815468,37.892912920744294,316000,-122.59822420566348,37.92398370798679,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime3 = 2025-04-05T19:08:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,299000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime3 = 2025-04-05T19:10:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,305000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downw6pho",
+    "name":"w6pho",
+    "description":"<H2>w6pho</H2><table><tr><td>datetime3 = 2025-04-05T19:14:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43728856773686,37.81548197092072,317000,-122.4442141,37.769181,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime3 = 2025-04-05T19:16:00</td></tr><tr><td>rst = 17</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,313000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,317000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 24</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,317000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime3 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,300000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downND7K",
+    "name":"ND7K",
+    "description":"<H2>ND7K</H2><table><tr><td>datetime3 = 2025-04-05T19:19:00</td></tr><tr><td>rst = 2</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.49572384940349,35.98891179932708,317000,-112.7917,34.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime3 = 2025-04-05T19:20:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,305000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime3 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,313000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime3 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,301000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime3 = 2025-04-05T19:32:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,306000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downNT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime3 = 2025-04-05T19:33:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-119.65513828647885,35.44335821567642,323000,-117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime3 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,314000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime3 = 2025-04-05T19:39:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,302000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downwt5o",
+    "name":"wt5o",
+    "description":"<H2>wt5o</H2><table><tr><td>datetime3 = 2025-04-05T19:41:40</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-119.74829568473712,35.31924139398633,323000,-117.2315399,32.7211164,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downNT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime3 = 2025-04-05T19:43:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-119.65513828647885,35.44335821567642,323000,-117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime3 = 2025-04-05T19:44:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,307000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime3 = 2025-04-05T19:50:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,315000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downNG7M",
+    "name":"NG7M",
+    "description":"<H2>NG7M</H2><table><tr><td>datetime3 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.35694771933225,39.50813279172022,316000,-112.0417,41.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,320000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime3 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 21</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,320000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2downWA7LNW",
+    "name":"WA7LNW",
+    "description":"<H2>WA7LNW</H2><table><tr><td>datetime3 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.92333033732032,37.519074937413016,319000,-113.4583,37.1458,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:56:00Z/2025-04-05T18:56:18Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },
+  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,315000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:57:00Z/2025-04-05T18:58:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,315000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:57:00Z/2025-04-05T18:58:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime4 = 2025-04-05T18:58:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,298000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:58:00Z/2025-04-05T18:59:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime4 = 2025-04-05T18:59:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,303000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:59:00Z/2025-04-05T19:00:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime4 = 2025-04-05T19:06:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,312000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:06:00Z/2025-04-05T19:07:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 22</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:00Z/2025-04-05T19:08:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:00Z/2025-04-05T19:08:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsok6tor",
+    "name":"k6tor",
+    "description":"<H2>k6tor</H2><table><tr><td>datetime4 = 2025-04-05T19:07:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,21.96189880371094, -122.514253815468,37.892912920744294,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:56Z/2025-04-05T19:08:56Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime4 = 2025-04-05T19:08:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,299000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:08:00Z/2025-04-05T19:09:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime4 = 2025-04-05T19:10:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,305000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:10:00Z/2025-04-05T19:11:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsow6pho",
+    "name":"w6pho",
+    "description":"<H2>w6pho</H2><table><tr><td>datetime4 = 2025-04-05T19:14:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,21.96189880371094, -122.43728856773686,37.81548197092072,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:14:56Z/2025-04-05T19:15:56Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime4 = 2025-04-05T19:16:00</td></tr><tr><td>rst = 17</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,313000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:16:00Z/2025-04-05T19:17:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 24</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime4 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,300000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoND7K",
+    "name":"ND7K",
+    "description":"<H2>ND7K</H2><table><tr><td>datetime4 = 2025-04-05T19:19:00</td></tr><tr><td>rst = 2</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.49572384940349,35.98891179932708,317000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:19:00Z/2025-04-05T19:20:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime4 = 2025-04-05T19:20:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,305000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:20:00Z/2025-04-05T19:21:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime4 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,313000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime4 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,301000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime4 = 2025-04-05T19:32:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,306000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:32:00Z/2025-04-05T19:33:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoNT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime4 = 2025-04-05T19:33:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -119.65513828647885,35.44335821567642,323000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:33:00Z/2025-04-05T19:34:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,318000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime4 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,314000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime4 = 2025-04-05T19:39:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.30339731213164,45.82518629449234,302000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:39:00Z/2025-04-05T19:40:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsowt5o",
+    "name":"wt5o",
+    "description":"<H2>wt5o</H2><table><tr><td>datetime4 = 2025-04-05T19:41:40</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,21.96189880371094, -119.74829568473712,35.31924139398633,323000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:41:40Z/2025-04-05T19:42:40Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoNT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime4 = 2025-04-05T19:43:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -119.65513828647885,35.44335821567642,323000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:43:00Z/2025-04-05T19:44:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime4 = 2025-04-05T19:44:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -118.92957885384028,44.8358893003566,307000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:44:00Z/2025-04-05T19:45:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime4 = 2025-04-05T19:50:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.50003424771417,39.77365515483142,315000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:50:00Z/2025-04-05T19:51:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoNG7M",
+    "name":"NG7M",
+    "description":"<H2>NG7M</H2><table><tr><td>datetime4 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.35694771933225,39.50813279172022,316000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,320000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime4 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 21</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -122.31540940303947,37.55937859180793,320000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },  {
+    "id":"f2perqsoWA7LNW",
+    "name":"WA7LNW",
+    "description":"<H2>WA7LNW</H2><table><tr><td>datetime4 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,21.96189880371094, -117.92333033732032,37.519074937413016,319000]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "relativeToGround":true
+    }
+  },
+  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,315000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:57:00Z/2025-04-05T18:58:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,315000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:57:00Z/2025-04-05T18:58:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime5 = 2025-04-05T18:58:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,298000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:58:00Z/2025-04-05T18:59:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime5 = 2025-04-05T18:59:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,303000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:59:00Z/2025-04-05T19:00:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime5 = 2025-04-05T19:06:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,312000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:06:00Z/2025-04-05T19:07:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 22</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,316000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:00Z/2025-04-05T19:08:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,316000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:00Z/2025-04-05T19:08:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsok6tor",
+    "name":"k6tor",
+    "description":"<H2>k6tor</H2><table><tr><td>datetime5 = 2025-04-05T19:07:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.514253815468,37.892912920744294,316000,-122.59822420566348,37.92398370798679,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:56Z/2025-04-05T19:08:56Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime5 = 2025-04-05T19:08:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,299000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:08:00Z/2025-04-05T19:09:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime5 = 2025-04-05T19:10:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,305000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:10:00Z/2025-04-05T19:11:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsow6pho",
+    "name":"w6pho",
+    "description":"<H2>w6pho</H2><table><tr><td>datetime5 = 2025-04-05T19:14:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43728856773686,37.81548197092072,317000,-122.4442141,37.769181,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:14:56Z/2025-04-05T19:15:56Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime5 = 2025-04-05T19:16:00</td></tr><tr><td>rst = 17</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,313000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:16:00Z/2025-04-05T19:17:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,317000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 24</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,317000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime5 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,300000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoND7K",
+    "name":"ND7K",
+    "description":"<H2>ND7K</H2><table><tr><td>datetime5 = 2025-04-05T19:19:00</td></tr><tr><td>rst = 2</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.49572384940349,35.98891179932708,317000,-112.7917,34.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:19:00Z/2025-04-05T19:20:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime5 = 2025-04-05T19:20:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,305000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:20:00Z/2025-04-05T19:21:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime5 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,313000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime5 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,301000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime5 = 2025-04-05T19:32:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,306000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:32:00Z/2025-04-05T19:33:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoNT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime5 = 2025-04-05T19:33:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-119.65513828647885,35.44335821567642,323000,-117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:33:00Z/2025-04-05T19:34:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,318000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime5 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,314000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime5 = 2025-04-05T19:39:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.30339731213164,45.82518629449234,302000,-112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:39:00Z/2025-04-05T19:40:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsowt5o",
+    "name":"wt5o",
+    "description":"<H2>wt5o</H2><table><tr><td>datetime5 = 2025-04-05T19:41:40</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-119.74829568473712,35.31924139398633,323000,-117.2315399,32.7211164,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:41:40Z/2025-04-05T19:42:40Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoNT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime5 = 2025-04-05T19:43:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-119.65513828647885,35.44335821567642,323000,-117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:43:00Z/2025-04-05T19:44:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoVE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime5 = 2025-04-05T19:44:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-118.92957885384028,44.8358893003566,307000,-114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:44:00Z/2025-04-05T19:45:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoKA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime5 = 2025-04-05T19:50:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.50003424771417,39.77365515483142,315000,-112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:50:00Z/2025-04-05T19:51:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoNG7M",
+    "name":"NG7M",
+    "description":"<H2>NG7M</H2><table><tr><td>datetime5 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.35694771933225,39.50813279172022,316000,-112.0417,41.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,320000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoW6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime5 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 21</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.31540940303947,37.55937859180793,320000,-122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },  {
+    "id":"f2downperqsoWA7LNW",
+    "name":"WA7LNW",
+    "description":"<H2>WA7LNW</H2><table><tr><td>datetime5 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-117.92333033732032,37.519074937413016,319000,-113.4583,37.1458,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":false
+    }
+  },
+  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:57:00Z/2025-04-05T18:58:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T18:57:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:57:00Z/2025-04-05T18:58:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime6 = 2025-04-05T18:58:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:58:00Z/2025-04-05T18:59:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime6 = 2025-04-05T18:59:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T18:59:00Z/2025-04-05T19:00:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime6 = 2025-04-05T19:06:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:06:00Z/2025-04-05T19:07:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 22</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:00Z/2025-04-05T19:08:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:07:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:00Z/2025-04-05T19:08:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"k6tor",
+    "name":"k6tor",
+    "description":"<H2>k6tor</H2><table><tr><td>datetime6 = 2025-04-05T19:07:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,0, -122.59822420566348,37.92398370798679,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:07:56Z/2025-04-05T19:08:56Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime6 = 2025-04-05T19:08:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:08:00Z/2025-04-05T19:09:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime6 = 2025-04-05T19:10:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:10:00Z/2025-04-05T19:11:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w6pho",
+    "name":"w6pho",
+    "description":"<H2>w6pho</H2><table><tr><td>datetime6 = 2025-04-05T19:14:56</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,0, -122.4442141,37.769181,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:14:56Z/2025-04-05T19:15:56Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime6 = 2025-04-05T19:16:00</td></tr><tr><td>rst = 17</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:16:00Z/2025-04-05T19:17:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 9</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 24</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime6 = 2025-04-05T19:18:00</td></tr><tr><td>rst = 18</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:18:00Z/2025-04-05T19:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"ND7K",
+    "name":"ND7K",
+    "description":"<H2>ND7K</H2><table><tr><td>datetime6 = 2025-04-05T19:19:00</td></tr><tr><td>rst = 2</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,34.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,165,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:19:00Z/2025-04-05T19:20:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime6 = 2025-04-05T19:20:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:20:00Z/2025-04-05T19:21:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime6 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime6 = 2025-04-05T19:28:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:28:00Z/2025-04-05T19:29:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime6 = 2025-04-05T19:32:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:32:00Z/2025-04-05T19:33:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"NT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime6 = 2025-04-05T19:33:00</td></tr><tr><td>rst = 6</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:33:00Z/2025-04-05T19:34:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 11</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 23</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[75,0,130,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime6 = 2025-04-05T19:38:00</td></tr><tr><td>rst = 16</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:38:00Z/2025-04-05T19:39:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6JY",
+    "name":"VE6JY",
+    "description":"<H2>VE6JY</H2><table><tr><td>datetime6 = 2025-04-05T19:39:00</td></tr><tr><td>rst = 19</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.7917,53.7292,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:39:00Z/2025-04-05T19:40:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"wt5o",
+    "name":"wt5o",
+    "description":"<H2>wt5o</H2><table><tr><td>datetime6 = 2025-04-05T19:41:40</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.43035434294984,37.86178253586992,0, -117.2315399,32.7211164,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:41:40Z/2025-04-05T19:42:40Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"NT6Q",
+    "name":"NT6Q",
+    "description":"<H2>NT6Q</H2><table><tr><td>datetime6 = 2025-04-05T19:43:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -117.0417,33.1042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:43:00Z/2025-04-05T19:44:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"VE6WZ",
+    "name":"VE6WZ",
+    "description":"<H2>VE6WZ</H2><table><tr><td>datetime6 = 2025-04-05T19:44:00</td></tr><tr><td>rst = 7</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -114.4583,51.8125,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:44:00Z/2025-04-05T19:45:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"KA7OEI",
+    "name":"KA7OEI",
+    "description":"<H2>KA7OEI</H2><table><tr><td>datetime6 = 2025-04-05T19:50:00</td></tr><tr><td>rst = 13</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.2917,41.6042,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T19:50:00Z/2025-04-05T19:51:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"NG7M",
+    "name":"NG7M",
+    "description":"<H2>NG7M</H2><table><tr><td>datetime6 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 5</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -112.0417,41.0625,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"W6YX",
+    "name":"W6YX",
+    "description":"<H2>W6YX</H2><table><tr><td>datetime6 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 21</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -122.2083,37.3958,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,0,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"WA7LNW",
+    "name":"WA7LNW",
+    "description":"<H2>WA7LNW</H2><table><tr><td>datetime6 = 2025-04-05T20:18:00</td></tr><tr><td>rst = 12</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.42299,37.72286,0, -113.4583,37.1458,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-04-05T20:18:00Z/2025-04-05T20:19:00Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  }
+
+]
