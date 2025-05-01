@@ -14,10 +14,18 @@ jobs:
       uses: actions/checkout@v2
       with:
           fetch-depth: 2
+      # 1) Diff the push range and count how many .py files changed
+      - name: Detect Python changes
+        id: py_check
+        run: |
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+                   | grep -E '\.py$' || true)
+          echo "count=$(echo \"$files\" | wc -l)" >> $GITHUB_OUTPUT
     - name: Test with pytest
       env: # Or as an environment variable
         QRZ_PSWD: ${{ secrets.QRZ_PSWD }}
         MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}        
+      if: ${{ steps.py_check.outputs.count != '0' }}
       run: |-
         pip install pytest
         pytest 
