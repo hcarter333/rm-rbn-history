@@ -15,12 +15,12 @@ jobs:
       with:
           fetch-depth: 2
       # 1) Diff the push range and count how many .py files changed
-      - name: Detect Python changes
-        id: py_check
-        run: |
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
-                   | grep -E '\.py$' || true)
-          echo "count=$(echo \"$files\" | wc -l)" >> $GITHUB_OUTPUT
+    - name: Detect Python changes
+      id: py_check
+      run: |
+        files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+                 | grep -E '\.py$' || true)
+        echo "count=$(echo \"$files\" | wc -l)" >> $GITHUB_OUTPUT
     - name: Test with pytest
       env: # Or as an environment variable
         QRZ_PSWD: ${{ secrets.QRZ_PSWD }}
