@@ -18,9 +18,11 @@ jobs:
     - name: Detect Python changes
       id: py_check
       run: |
+        echo "Looking for .py diffs between ${{ github.event.before }} and ${{ github.sha }}…"
+        # -c makes grep print the number of matching lines (0 if none)
         count=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
                   | grep -cE '\.py$')
-        echo "count=$(echo \"$files\" | wc -l)" >> $GITHUB_OUTPUT
+        echo "count=$count" >> $GITHUB_OUTPUT
     - name: Test with pytest
       if: ${{ steps.py_check.outputs.count != '0' }}
       env: # Or as an environment variable
