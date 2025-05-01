@@ -5,7 +5,7 @@
     "version":"1.0",
     "clock":{
       "interval":"2025-04-26T23:08:45Z/2025-04-27T01:00:00Z",
-      "currentTime":"2025-04-26T23:08:45",
+      "currentTime":"2025-04-26T23:08:45Z",
       "multiplier":60,
       "range":"LOOP_STOP",
       "step":"SYSTEM_CLOCK_MULTIPLIER"
