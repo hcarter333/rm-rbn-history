@@ -18,14 +18,14 @@ jobs:
     - name: Detect Python changes
       id: py_check
       run: |
-        files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
-                 | grep -E '\.py$' || true)
+        count=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+                  | grep -cE '\.py$')
         echo "count=$(echo \"$files\" | wc -l)" >> $GITHUB_OUTPUT
     - name: Test with pytest
+      if: ${{ steps.py_check.outputs.count != '0' }}
       env: # Or as an environment variable
         QRZ_PSWD: ${{ secrets.QRZ_PSWD }}
         MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}        
-      if: ${{ steps.py_check.outputs.count != '0' }}
       run: |-
         pip install pytest
         pytest 
