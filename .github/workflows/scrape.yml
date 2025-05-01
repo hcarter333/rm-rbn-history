@@ -19,9 +19,18 @@ jobs:
       id: py_check
       run: |
         echo "Looking for .py diffs between ${{ github.event.before }} and ${{ github.sha }}…"
-        # -c makes grep print the number of matching lines (0 if none)
-        count=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
-                  | grep -cE '\.py$')
+        # 1) get the raw diff (ignore errors)
+        diff_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }}) || true
+
+        # 2) count only the .py lines (suppress grep’s exit code)
+        count=$(printf "%s\n" "$diff_files" \
+                  | grep -cE '\.py$' \
+                  || true)
+
+        echo "diff_files=$diff_files"
+        echo "count=$count"
+
+        # 3) expose it to later steps
         echo "count=$count" >> $GITHUB_OUTPUT
     - name: Test with pytest
       if: ${{ steps.py_check.outputs.count != '0' }}
