@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>RTTY Decoder (Web‑Audio POC)</title>
+<title>RTTY Decoder (mic input)</title>
 <style>
   body {font-family:sans-serif;padding:1rem;max-width:500px;margin:auto;}
   input,button{font-size:1rem;margin:.3rem 0;padding:.3rem;}
@@ -18,7 +18,8 @@
   <label>Shift&nbsp;Hz&nbsp;<input id="shift" type="number" value="450" min="50" max="2000"></label><br>
 
   <button id="btnStart">Start Decoding</button>
-  <button id="btnStop" disabled>Stop</button>
+  <button id="btnStop"  disabled>Stop</button>
+  <button id="btnReverse">Reverse Mark/Space</button>
   <div id="status">Idle</div>
 
   <div id="log"></div>
@@ -26,31 +27,32 @@
 <script>
 /* ------------ Logging helpers ------------------------------------------- */
 const logPane = document.getElementById('log');
-function log(...a){
-  logPane.textContent += a.join(' ') + '\n';
-  logPane.scrollTop = logPane.scrollHeight;
-}
+function log(...a){logPane.textContent+=a.join(' ')+'\n';logPane.scrollTop=1e9;}
 function setStatus(t){document.getElementById('status').textContent=t;}
 
 /* ------------ Baudot tables --------------------------------------------- */
-const MARK_FREQ = 1000;   // Hz – adjust to your receiver’s mark tone
-const ITA2_LTRS={0b00011:'A',0b11001:'B',0b01110:'C',0b01001:'D',0b00001:'E',
+const MARK_FREQ = 1000;                 // base mark tone (Hz)
+const ITA2_LTRS = {0b00011:'A',0b11001:'B',0b01110:'C',0b01001:'D',0b00001:'E',
   0b01101:'F',0b11010:'G',0b10100:'H',0b00110:'I',0b01011:'J',0b01111:'K',
   0b10010:'L',0b11100:'M',0b01100:'N',0b11000:'O',0b10110:'P',0b10111:'Q',
   0b01010:'R',0b00101:'S',0b10000:'T',0b00111:'U',0b11110:'V',0b10011:'W',
   0b11101:'X',0b10101:'Y',0b10001:'Z',0b00100:' '};
-const ITA2_FIGS={0b10110:'0',0b00011:'1',0b11001:'2',0b01110:'3',0b01001:'4',
+const ITA2_FIGS = {0b10110:'0',0b00011:'1',0b11001:'2',0b01110:'3',0b01001:'4',
   0b00001:'5',0b01101:'6',0b11010:'7',0b10100:'8',0b00110:'9',0b00100:' '};
 const SHIFT_LTRS=0b11111, SHIFT_FIGS=0b11011;
 
 /* ------------ Globals ---------------------------------------------------- */
 let audioCtx, analyser, micStream, timerId;
 let baud=45, shift=450, bitMs=1000/45;
-let markBin=0, spaceBin=0, lastBit=1, collecting=false, bitBuf=[];
-let shiftState='LTRS';
+let markBin=0, spaceBin=0, reverse=false;
+let lastBit=1, collecting=false, bitBuf=[], shiftState='LTRS';
 
 /* ------------ Utility ---------------------------------------------------- */
 function hzToBin(hz){return Math.round(hz/(audioCtx.sampleRate/analyser.fftSize));}
+function recalcBins(){
+  markBin  = hzToBin(reverse ? MARK_FREQ+shift : MARK_FREQ);
+  spaceBin = hzToBin(reverse ? MARK_FREQ : MARK_FREQ+shift);
+}
 function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
 
 /* ------------ Demodulation ---------------------------------------------- */
@@ -61,51 +63,38 @@ function sampleBit(){
   const spaceAmp = fft[spaceBin];
   return (spaceAmp > markAmp) ? 0 : 1;
 }
-
 function bitsToVal(arr){return arr.reduce((v,b,i)=>v|(b<<i),0);}
-
 function processChar(bits){
-  const v = bitsToVal(bits);
+  const v=bitsToVal(bits);
   if(v===SHIFT_LTRS){shiftState='LTRS';return;}
   if(v===SHIFT_FIGS){shiftState='FIGS';return;}
-  const ch = (shiftState==='LTRS'?ITA2_LTRS:ITA2_FIGS)[v] || '?';
+  const ch=(shiftState==='LTRS'?ITA2_LTRS:ITA2_FIGS)[v]||'?';
   log(ch);
 }
-
 function handleBit(bit){
-  // Detect start bit edge (mark 1 → space 0)
   if(!collecting){
-    if(lastBit===1 && bit===0){
-      collecting=true; bitBuf=[bit];
-    }
+    if(lastBit===1 && bit===0){collecting=true;bitBuf=[bit];}
   }else{
     bitBuf.push(bit);
-    if(bitBuf.length===1+5+2){ // start + 5 data + 2 stop
-      processChar(bitBuf.slice(1,6));
-      collecting=false;
-    }
+    if(bitBuf.length===8){processChar(bitBuf.slice(1,6));collecting=false;}
   }
   lastBit=bit;
 }
 
 /* ------------ Start / Stop logic ---------------------------------------- */
 async function startDecoding(){
-  // disable/enable buttons
   document.getElementById('btnStart').disabled=true;
   document.getElementById('btnStop').disabled=false;
 
-  baud = +document.getElementById('baud').value || 45;
-  shift= +document.getElementById('shift').value || 450;
+  baud = +document.getElementById('baud').value||45;
+  shift= +document.getElementById('shift').value||450;
   bitMs = 1000/baud;
 
   logPane.textContent='';
-  log('>> Starting (',baud,'baud, shift',shift,'Hz)');
+  log('>> Starting (',baud,'baud, shift',shift,'Hz', reverse? ', reversed':'',')');
   setStatus('Requesting microphone…');
 
   try{
-    if(location.protocol!=='https:' && location.hostname!=='localhost'){
-      log('⚠ Microphone access usually requires HTTPS or localhost.');
-    }
     audioCtx = new (window.AudioContext||window.webkitAudioContext)();
     micStream = await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false}});
     const src = audioCtx.createMediaStreamSource(micStream);
@@ -113,34 +102,35 @@ async function startDecoding(){
     analyser.fftSize = 2048;
     src.connect(analyser);
 
-    markBin  = hzToBin(MARK_FREQ);
-    spaceBin = hzToBin(MARK_FREQ+shift);
     collecting=false; lastBit=1; shiftState='LTRS';
+    recalcBins();
 
-    // 2× oversample the nominal bit rate
     timerId = setInterval(()=>handleBit(sampleBit()), bitMs/2);
     setStatus('Decoding…');
   }catch(err){
-    log('ERROR:',err.name||err, err.message||'');
+    log('ERROR:',err);
+    stopDecoding();
     setStatus('Mic error');
-    document.getElementById('btnStart').disabled=false;
-    document.getElementById('btnStop').disabled=true;
   }
 }
-
 function stopDecoding(){
-  if(timerId){clearInterval(timerId); timerId=null;}
-  if(micStream){micStream.getTracks().forEach(t=>t.stop()); micStream=null;}
-  if(audioCtx){audioCtx.close(); audioCtx=null;}
+  if(timerId){clearInterval(timerId);timerId=null;}
+  if(micStream){micStream.getTracks().forEach(t=>t.stop());micStream=null;}
+  if(audioCtx){audioCtx.close();audioCtx=null;}
   setStatus('Idle');
   log('>> Stopped.');
   document.getElementById('btnStart').disabled=false;
   document.getElementById('btnStop').disabled=true;
 }
 
-/* ------------ Hook up buttons ------------------------------------------- */
+/* ------------ Button hooks ---------------------------------------------- */
 document.getElementById('btnStart').addEventListener('click',startDecoding);
-document.getElementById('btnStop').addEventListener('click',stopDecoding);
+document.getElementById('btnStop' ).addEventListener('click',stopDecoding);
+document.getElementById('btnReverse').addEventListener('click',()=>{
+  reverse=!reverse;
+  recalcBins();
+  log('>> Mark/Space reversed →', reverse? 'HIGH tone = mark':'LOW tone = mark');
+});
 </script>
 </body>
 </html>
