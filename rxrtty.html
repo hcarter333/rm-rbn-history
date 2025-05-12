@@ -71,15 +71,62 @@ function processChar(bits){
   const ch=(shiftState==='LTRS'?ITA2_LTRS:ITA2_FIGS)[v]||'?';
   log(ch);
 }
-function handleBit(bit){
-  if(!collecting){
-    if(lastBit===1 && bit===0){collecting=true;bitBuf=[bit];}
-  }else{
-    bitBuf.push(bit);
-    if(bitBuf.length===8){processChar(bitBuf.slice(1,6));collecting=false;}
-  }
-  lastBit=bit;
+/* ---------- Config ---------------------------------------------------- */
+const OVERSAMPLE = 4;          // 4× oversampling
+/* ... keep baud, shift, MARK_FREQ, etc. ... */
+
+/* ---------- Utility --------------------------------------------------- */
+function hzToBin(hz){return Math.round(hz/(audioCtx.sampleRate/analyser.fftSize));}
+function majority(arr){          // return 0 or 1 for given array of 0/1s
+  return arr.reduce((a,b)=>a+b,0) >= (arr.length/2) ? 1 : 0;
 }
+
+/* ---------- Per‑bit state -------------------------------------------- */
+let lastRaw   = 1;               // previous *raw* sample (for start‑edge)
+let collecting=false;
+let rawBuf    = [];              // holds the OVERSAMPLE raw samples of current bit
+let bitBuf    = [];              // holds decided bits of current frame (start+5+2)
+let shiftState='LTRS';
+
+/* ---------- Sampling -------------------------------------------------- */
+function sampleRawBit(){          // 0 or 1 from FFT magnitudes
+  const fft = new Uint8Array(analyser.frequencyBinCount);
+  analyser.getByteFrequencyData(fft);
+  return (fft[spaceBin] > fft[markBin]) ? 0 : 1;
+}
+
+function processRawSample(raw){
+  /* --- Detect Start edge (mark→space) when NOT collecting ------------- */
+  if(!collecting){
+    if(lastRaw===1 && raw===0){
+      collecting=true;
+      rawBuf =[raw];             // start new per‑bit buffer
+      bitBuf =[];                // fresh frame buffer
+    }
+  }else{
+    rawBuf.push(raw);
+
+    /* When we have OVERSAMPLE raw samples, decide the bit -------------- */
+    if(rawBuf.length === OVERSAMPLE){
+      const bit = majority(rawBuf);     // or simply rawBuf[2]
+      bitBuf.push(bit);
+      rawBuf = [];                      // reset for next bit
+
+      if(bitBuf.length === 1+5+2){      // full frame: start+5 data+2 stop
+        const dataBits = bitBuf.slice(1,6);
+        processChar(dataBits);
+        collecting=false;               // wait for next start edge
+      }
+    }
+  }
+  lastRaw = raw;
+}
+
+/* ---------- Start / Stop timer --------------------------------------- */
+timerId = setInterval(() => {
+  const raw = sampleRawBit();
+  processRawSample(raw);
+}, bitMs / OVERSAMPLE);
 
 /* ------------ Start / Stop logic ---------------------------------------- */
 async function startDecoding(){
@@ -105,7 +152,7 @@ async function startDecoding(){
     collecting=false; lastBit=1; shiftState='LTRS';
     recalcBins();
 
-    timerId = setInterval(()=>handleBit(sampleBit()), bitMs/2);
+    //timerId = setInterval(()=>handleBit(sampleBit()), bitMs/2);
     setStatus('Decoding…');
   }catch(err){
     log('ERROR:',err);
