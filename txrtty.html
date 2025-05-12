@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RTTY JS Prototype (Mobile)</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 15px;
+    }
+    input, button {
+      font-size: 1em;
+      padding: 5px;
+    }
+    #freqDisplay {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: darkgreen;
+    }
+    #bitBlinker {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-top: 10px;
+      background-color: gray;
+      transition: background-color 0.1s;
+    }
+    #log {
+      margin-top: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f4f4f4;
+      height: 150px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      font-family: monospace;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h2>RTTY Sender (Mobile)</h2>
+  <input type="text" id="rttyInput" placeholder="cq de kd0fnr kd0fnr k" size="30">
+  <button onclick="onSendClicked()">Send</button>
+
+  <div id="freqDisplay">Tone: — Hz</div>
+  <div id="bitBlinker"></div>
+  <div id="log"></div>
+
+  <script>
+    // Console override for mobile debug
+    const logPane = document.getElementById("log");
+    ['log', 'error', 'warn'].forEach(fn => {
+      const original = console[fn];
+      console[fn] = function(...args) {
+        logPane.textContent += args.map(a => typeof a === 'object' ? JSON.stringify(a) : a).join(' ') + '\n';
+        logPane.scrollTop = logPane.scrollHeight;
+        original.apply(console, args);
+      };
+    });
+
+    const BIT_RATE = 50;
+    const BIT_TIME_MS = 1000 / BIT_RATE;
+    const STOP_BITS = 2;
+
+    const SHIFT_FIGS = 0b11011;
+    const SHIFT_LTRS = 0b11111;
+
+    const LTRS = {
+      'A': 0b00011, 'B': 0b11001, 'C': 0b01110, 'D': 0b01001,
+      'E': 0b00001, 'F': 0b01101, 'G': 0b11010, 'H': 0b10100,
+      'I': 0b00110, 'J': 0b01011, 'K': 0b01111, 'L': 0b10010,
+      'M': 0b11100, 'N': 0b01100, 'O': 0b11000, 'P': 0b10110,
+      'Q': 0b10111, 'R': 0b01010, 'S': 0b00101, 'T': 0b10000,
+      'U': 0b00111, 'V': 0b11110, 'W': 0b10011, 'X': 0b11101,
+      'Y': 0b10101, 'Z': 0b10001, ' ': 0b00100,
+    };
+
+    const FIGS = {
+      '0': 0b10110,
+      '6': 0b01101,
+      ' ': 0b00100,
+    };
+
+    let audioCtx = null;
+    let oscillator = null;
+    const freqDisplay = document.getElementById("freqDisplay");
+    const bitBlinker = document.getElementById("bitBlinker");
+
+    function updateFreqDisplay(freq) {
+      freqDisplay.textContent = `Tone: ${freq} Hz`;
+    }
+
+    function blinkBit(bit) {
+      bitBlinker.style.backgroundColor = bit ? 'green' : 'blue';
+    }
+
+    function freqshift(shift) {
+      const freq = shift ? 1450 : 1000;
+      if (oscillator) {
+        oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime);
+      }
+      updateFreqDisplay(freq);
+      blinkBit(shift);
+    }
+
+    async function _send_baudot(code) {
+      freqshift(0);
+      await sleep(BIT_TIME_MS);
+      for (let i = 0; i < 5; i++) {
+        const bit = (code >> i) & 1;
+        freqshift(bit);
+        await sleep(BIT_TIME_MS);
+      }
+      freqshift(1);
+      await sleep(BIT_TIME_MS * STOP_BITS);
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function sendrtty(message) {
+      console.log("Preparing to send message:", message);
+
+      if (!audioCtx || audioCtx.state === 'closed') {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+
+      if (audioCtx.state === 'suspended') {
+        await audioCtx.resume();
+        console.log("Resumed AudioContext");
+      }
+
+      oscillator = audioCtx.createOscillator();
+      oscillator.type = 'sine';
+      oscillator.frequency.setValueAtTime(1000, audioCtx.currentTime);
+      oscillator.connect(audioCtx.destination);
+      oscillator.start();
+
+      let shiftState = 'LTRS';
+      const msg = message.toUpperCase();
+
+      for (let ch of msg) {
+        if (LTRS[ch]) {
+          if (shiftState !== 'LTRS') {
+            await _send_baudot(SHIFT_LTRS);
+            shiftState = 'LTRS';
+          }
+          await _send_baudot(LTRS[ch]);
+        } else if (FIGS[ch]) {
+          if (shiftState !== 'FIGS') {
+            await _send_baudot(SHIFT_FIGS);
+            shiftState = 'FIGS';
+          }
+          await _send_baudot(FIGS[ch]);
+        } else {
+          console.warn("Unknown character:", ch);
+          await _send_baudot(LTRS[' ']);
+        }
+      }
+
+      if (shiftState !== 'LTRS') {
+        await _send_baudot(SHIFT_LTRS);
+      }
+
+      oscillator.stop();
+      oscillator.disconnect();
+      oscillator = null;
+      audioCtx.close();
+      audioCtx = null;
+      updateFreqDisplay('—');
+      bitBlinker.style.backgroundColor = 'gray';
+      console.log("Message complete.");
+    }
+
+    function onSendClicked() {
+      const input = document.getElementById("rttyInput").value;
+      if (input.trim()) {
+        sendrtty(input.trim()).catch(console.error);
+      } else {
+        console.log("No message entered.");
+      }
+    }
+  </script>
+</body>
+</html>
