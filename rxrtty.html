@@ -83,7 +83,6 @@ function majority(arr){          // return 0 or 1 for given array of 0/1s
 
 /* ---------- Per‑bit state -------------------------------------------- */
 let lastRaw   = 1;               // previous *raw* sample (for start‑edge)
-let collecting=false;
 let rawBuf    = [];              // holds the OVERSAMPLE raw samples of current bit
 
 /* ---------- Sampling -------------------------------------------------- */
