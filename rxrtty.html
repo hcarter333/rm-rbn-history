@@ -85,8 +85,6 @@ function majority(arr){          // return 0 or 1 for given array of 0/1s
 let lastRaw   = 1;               // previous *raw* sample (for start‑edge)
 let collecting=false;
 let rawBuf    = [];              // holds the OVERSAMPLE raw samples of current bit
-let bitBuf    = [];              // holds decided bits of current frame (start+5+2)
-let shiftState='LTRS';
 
 /* ---------- Sampling -------------------------------------------------- */
 function sampleRawBit(){          // 0 or 1 from FFT magnitudes
