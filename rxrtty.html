@@ -119,12 +119,6 @@ function processRawSample(raw){
   lastRaw = raw;
 }
 
-/* ---------- Start / Stop timer --------------------------------------- */
-timerId = setInterval(() => {
-  const raw = sampleRawBit();
-  processRawSample(raw);
-}, bitMs / OVERSAMPLE);
-
 /* ------------ Start / Stop logic ---------------------------------------- */
 async function startDecoding(){
   document.getElementById('btnStart').disabled=true;
@@ -145,6 +139,17 @@ async function startDecoding(){
     analyser = audioCtx.createAnalyser();
     analyser.fftSize = 2048;
     src.connect(analyser);
+/* -- INSIDE startDecoding(), after src.connect(analyser); -------------- */
+recalcBins();                       // <- your existing helper
+collecting=false; lastRaw=1; shiftState='LTRS';
+
+/* start 4×‑oversample timer ONLY now that analyser exists */
+timerId = setInterval(() => {
+  const raw = sampleRawBit();
+  processRawSample(raw);
+}, bitMs / OVERSAMPLE);              // 4 samples per nominal bit
+setStatus('Decoding…');
+
 
     collecting=false; lastBit=1; shiftState='LTRS';
     recalcBins();
