@@ -99,7 +99,7 @@ async function startDecoding(){
     micStream = await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false}});
     const src = audioCtx.createMediaStreamSource(micStream);
     analyser = audioCtx.createAnalyser();
-    analyser.fftSize = 2048;
+    analyser.fftSize = 10192;
     src.connect(analyser);
 
     collecting=false; lastBit=1; shiftState='LTRS';
