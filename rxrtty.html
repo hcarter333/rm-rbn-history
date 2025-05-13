@@ -80,7 +80,7 @@ function setStatus(t){statusEl.textContent=t;}
 const majority = arr => arr.reduce((s,b)=>s+b,0) >= arr.length/2 ? 1 : 0;
 
 /* ---------- Decoder state ------------------------------------------- */
-const OVERSAMPLE = 2;
+const OVERSAMPLE = 4;
 let audioCtx, analyser, micStream, timerId, drawId;
 let baud=50, shift=450, bitMs=22.22, reverse=false;
 let markBin=0, spaceBin=0;
@@ -217,7 +217,7 @@ async function startDecoding(){
     collecting=false; lastRaw=1; shiftState='LTRS';
 
     timerId=setInterval(()=>processRawSample(sampleRawBit()), bitMs/OVERSAMPLE);
-    //drawId =setInterval(drawHistogram,1000);
+    drawId =setInterval(drawHistogram,1000);
 
     setStatus('Decoding…');
   }catch(e){log('Mic error:', e); stopDecoding();}
