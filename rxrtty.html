@@ -76,6 +76,7 @@ function sampleRawBit(){
   histCnts[peakIdx]++; if(histCnts[peakIdx]>maxCnt)maxCnt=histCnts[peakIdx];
 
   /* raw bit decision for demod */
+  log(' space ', fft[spaceBin], ' mark ', fft[markBin]);
   return (fft[spaceBin] > fft[markBin]) ? 0 : 1;
 }
 
