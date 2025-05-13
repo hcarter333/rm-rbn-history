@@ -142,8 +142,6 @@ micStream = await navigator.mediaDevices.getDisplayMedia({
 micStream.getVideoTracks().forEach(t => t.stop()); // we only need audio
 
 const src = audioCtx.createMediaStreamSource(micStream); // feed decoder
-
-const analyser = audioCtx.createAnalyser();
     
     //const src    = audioCtx.createMediaStreamSource(micStream);
 /* 1.  Create the band‑pass filter 900‑1700 Hz ----------------------- */
