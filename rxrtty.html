@@ -97,22 +97,33 @@ function sampleRawBit(){
   const fft = new Uint8Array(analyser.frequencyBinCount);
   analyser.getByteFrequencyData(fft);
 
-  // histogram update
+  /* ---------- histogram (still 800‑1600 Hz) ------------------------- */
   let peak=-1, peakVal=0;
   for(let b=histLowBin; b<=histHighBin; b++){
     if(fft[b] > peakVal){peakVal = fft[b]; peak = b;}
   }
-  if(peak!==-1){
+  if(peak !== -1){
     const idx = peak - histLowBin;
     histCnts[idx]++; if(histCnts[idx] > maxCnt) maxCnt = histCnts[idx];
   }
 
-  // debug
-  //log('space:', fft[spaceBin], 'mark:', fft[markBin]);
+  /* ---------- mark / space decision -------------------------------- */
+  const win = 5;                     // look ±5 bins = 10‑bin window
+  const markStart  = Math.max(markBin  - win, 0);
+  const markEnd    = Math.min(markBin  + win - 1, fft.length-1);
+  const spaceStart = Math.max(spaceBin - win, 0);
+  const spaceEnd   = Math.min(spaceBin + win - 1, fft.length-1);
 
-  return (fft[spaceBin] > fft[markBin]) ? 0 : 1;
+  let markSum = 0, spaceSum = 0;
+  for(let b = markStart; b <= markEnd;   b++) markSum  += fft[b];
+  for(let b = spaceStart; b <= spaceEnd; b++) spaceSum += fft[b];
+
+  /* debug */
+  log(`spaceWin=${spaceSum}  markWin=${markSum}`);
+
+  /* space > mark → bit 0 ; otherwise bit 1 */
+  return (spaceSum > markSum) ? 0 : 1;
 }
-
 /* ---------- Bit / char processing ----------------------------------- */
 const bitsToVal = a => a.reduce((v,b,i)=>v|(b<<i),0);
 
