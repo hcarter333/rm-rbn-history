@@ -27,7 +27,7 @@
   <fieldset style="border:1px solid #ccc; padding:.6rem; margin-top:.6rem;">
     <legend><b>Filter parameters</b></legend>
     <label>High‑pass cutoff (Hz)
-      <input id="hpCut" type="number" value="900"  min="100"  max="5000">
+      <input id="hpCut" type="number" value="1225"  min="100"  max="5000">
     </label><br>
     <label>High‑pass Q
       <input id="hpQ"   type="number" value="0.707" step="0.01" min="0.1" max="20">
@@ -179,7 +179,7 @@ async function startDecoding(){
   bitMs = 1000/baud;
 
   // read filter UI values
-  const hpCut = +document.getElementById('hpCut').value ||900;
+  const hpCut = +document.getElementById('hpCut').value ||1225;
   const hpQ   = +document.getElementById('hpQ'  ).value ||0.707;
   const lpCut = +document.getElementById('lpCut').value ||1700;
   const lpQ   = +document.getElementById('lpQ'  ).value ||0.707;
@@ -195,7 +195,10 @@ async function startDecoding(){
 
     const src = audioCtx.createMediaStreamSource(micStream);
 
-    // HP + LP filters
+const bp     = audioCtx.createBiquadFilter();
+bp.type      = 'bandpass';
+bp.frequency.value = hpCut;          // centre ≈ (900+1700)/2
+bp.Q.value         = hpQ;    // Q = centre / bandwidth      // HP + LP filters
     const hp = audioCtx.createBiquadFilter();
     hp.type='highpass'; hp.frequency.value=hpCut; hp.Q.value=hpQ;
 
@@ -204,7 +207,7 @@ async function startDecoding(){
 
     analyser = audioCtx.createAnalyser(); analyser.fftSize=2048;
 
-    src.connect(analyser); //hp.connect(lp); lp.connect(analyser);
+    src.connect(bp); bp.connect(analyser); //hp.connect(lp); lp.connect(analyser);
 
     // histogram bins
     histLowBin  = hzToBin(HIST_LO_HZ);
