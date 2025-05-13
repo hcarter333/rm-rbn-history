@@ -131,8 +131,6 @@ async function startDecoding(){
   histCnts.fill(0); maxCnt=1; drawHistogram();
 
   try{
-    audioCtx=new (window.AudioContext||window.webkitAudioContext)();
-    micStream=await navigator.mediaDevices.getUserMedia({audio:true});
 
 // inside startDecoding(), instead of micStream code
 audioCtx = new (window.AudioContext || window.webkitAudioContext)();
