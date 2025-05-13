@@ -132,10 +132,15 @@ async function startDecoding(){
   try{
     audioCtx=new (window.AudioContext||window.webkitAudioContext)();
     micStream=await navigator.mediaDevices.getUserMedia({audio:true});
-    const src=audioCtx.createMediaStreamSource(micStream);
-    analyser=audioCtx.createAnalyser();
-    analyser.fftSize=2048;
-    src.connect(analyser);
+/* 1.  Create the band‑pass filter 900‑1700 Hz ----------------------- */
+const bp     = audioCtx.createBiquadFilter();
+bp.type      = 'bandpass';
+bp.frequency.value = 1300;          // centre ≈ (900+1700)/2
+bp.Q.value         = 1300 / 800;    // Q = centre / bandwidth  (≈1.625)    const src=audioCtx.createMediaStreamSource(micStream);
+analyser  = audioCtx.createAnalyser();
+analyser.fftSize = 2048;
+src.connect(bp);
+bp.connect(analyser);                //  ↖︎ previously you had src.connect(analyser)
 
     markBin =hzToBin(reverse? MARK_FREQ+shift:MARK_FREQ);
     spaceBin=hzToBin(reverse? MARK_FREQ:MARK_FREQ+shift);
