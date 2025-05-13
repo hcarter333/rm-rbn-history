@@ -1,187 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>RTTY JS Prototype (Mobile)</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 15px;
-    }
-    input, button {
-      font-size: 1em;
-      padding: 5px;
-    }
-    #freqDisplay {
-      font-size: 1.2em;
-      margin-top: 10px;
-      color: darkgreen;
-    }
-    #bitBlinker {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      margin-top: 10px;
-      background-color: gray;
-      transition: background-color 0.1s;
-    }
-    #log {
-      margin-top: 15px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      background-color: #f4f4f4;
-      height: 150px;
-      overflow-y: auto;
-      white-space: pre-wrap;
-      font-family: monospace;
-      font-size: 0.9em;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>RTTY Decoder + Histogram</title>
+<style>
+  body{font-family:sans-serif;padding:1rem;max-width:540px;margin:auto;}
+  input,button{font-size:1rem;margin:.3rem 0;padding:.3rem;}
+  #log{margin:.6rem 0;font-family:monospace;background:#f4f4f4;border:1px solid #ccc;
+       height:240px;overflow-y:auto;white-space:pre-wrap;padding:.5rem;}
+  #status{font-weight:bold;margin-top:.3rem;}
+  canvas{border:1px solid #ccc;}
+</style>
 </head>
 <body>
-  <h2>RTTY Sender (Mobile)</h2>
-  <input type="text" id="rttyInput" placeholder="cq de kd0fnr kd0fnr k" size="30">
-  <button onclick="onSendClicked()">Send</button>
+  <h2>RTTY Decoder (mic)</h2>
 
-  <div id="freqDisplay">Tone: — Hz</div>
-  <div id="bitBlinker"></div>
+  <label>Baud <input id="baud"  type="number" value="45"  min="10" max="100"></label><br>
+  <label>Shift Hz <input id="shift" type="number" value="450" min="50" max="2000"></label><br>
+
+  <button id="btnStart">Start Decoding</button>
+  <button id="btnStop"  disabled>Stop</button>
+  <button id="btnReverse">Reverse Mark/Space</button>
+  <div id="status">Idle</div>
+
+  <canvas id="hist" width="520" height="120"></canvas>
   <div id="log"></div>
 
-  <script>
-    // Console override for mobile debug
-    const logPane = document.getElementById("log");
-    ['log', 'error', 'warn'].forEach(fn => {
-      const original = console[fn];
-      console[fn] = function(...args) {
-        logPane.textContent += args.map(a => typeof a === 'object' ? JSON.stringify(a) : a).join(' ') + '\n';
-        logPane.scrollTop = logPane.scrollHeight;
-        original.apply(console, args);
-      };
-    });
+<script>
+/* ---------- Constants & tables --------------------------------------- */
+const MARK_FREQ = 1000;                 // low tone (Hz)
+const SHIFT_LTRS=0b11111, SHIFT_FIGS=0b11011;
+const LTRS={0b00011:'A',0b11001:'B',0b01110:'C',0b01001:'D',0b00001:'E',
+  0b01101:'F',0b11010:'G',0b10100:'H',0b00110:'I',0b01011:'J',0b01111:'K',
+  0b10010:'L',0b11100:'M',0b01100:'N',0b11000:'O',0b10110:'P',0b10111:'Q',
+  0b01010:'R',0b00101:'S',0b10000:'T',0b00111:'U',0b11110:'V',0b10011:'W',
+  0b11101:'X',0b10101:'Y',0b10001:'Z',0b00100:' '};
+const FIGS={0b10110:'0',0b00011:'1',0b11001:'2',0b01110:'3',0b01001:'4',
+  0b00001:'5',0b01101:'6',0b11010:'7',0b10100:'8',0b00110:'9',0b00100:' '};
 
-    const BIT_RATE = 50;
-    const BIT_TIME_MS = 1000 / BIT_RATE;
-    const STOP_BITS = 2;
+/* ---------- DOM shortcuts -------------------------------------------- */
+const logPane = document.getElementById('log');
+const statusEl= document.getElementById('status');
+const ctxHist = document.getElementById('hist').getContext('2d');
 
-    const SHIFT_FIGS = 0b11011;
-    const SHIFT_LTRS = 0b11111;
+/* ---------- Helpers --------------------------------------------------- */
+function log(...a){logPane.textContent+=a.join(' ')+'\n';logPane.scrollTop=1e9;}
+function setStatus(t){statusEl.textContent=t;}
+function majority(arr){return arr.reduce((s,b)=>s+b,0) >= arr.length/2?1:0;}
 
-    const LTRS = {
-      'A': 0b00011, 'B': 0b11001, 'C': 0b01110, 'D': 0b01001,
-      'E': 0b00001, 'F': 0b01101, 'G': 0b11010, 'H': 0b10100,
-      'I': 0b00110, 'J': 0b01011, 'K': 0b01111, 'L': 0b10010,
-      'M': 0b11100, 'N': 0b01100, 'O': 0b11000, 'P': 0b10110,
-      'Q': 0b10111, 'R': 0b01010, 'S': 0b00101, 'T': 0b10000,
-      'U': 0b00111, 'V': 0b11110, 'W': 0b10011, 'X': 0b11101,
-      'Y': 0b10101, 'Z': 0b10001, ' ': 0b00100,
-    };
+/* ---------- Decoder state -------------------------------------------- */
+const OVERSAMPLE=4;
+let audioCtx, analyser, micStream, timerId, drawId;
+let baud=45, shift=450, bitMs=1000/45, reverse=false;
+let markBin=0, spaceBin=0;
+let lastRaw=1, collecting=false, rawBuf=[], bitBuf=[], shiftState='LTRS';
 
-    const FIGS = {
-      '0': 0b10110,
-      '6': 0b01101,
-      ' ': 0b00100,
-    };
+/* ---------- Histogram state ------------------------------------------ */
+let histBins=64;                // draw first 64 FFT bins (~0‑3 kHz @48 k)
+let histCnts=new Uint32Array(histBins);
+let maxCnt=1;                   // prevents div‑by‑zero
 
-    let audioCtx = null;
-    let oscillator = null;
-    const freqDisplay = document.getElementById("freqDisplay");
-    const bitBlinker = document.getElementById("bitBlinker");
+/* ---------- Math helpers --------------------------------------------- */
+function hzToBin(hz){return Math.round(hz/(audioCtx.sampleRate/analyser.fftSize));}
 
-    function updateFreqDisplay(freq) {
-      freqDisplay.textContent = `Tone: ${freq} Hz`;
+/* ---------- FFT sampling --------------------------------------------- */
+function sampleRawBit(){
+  const fft=new Uint8Array(analyser.frequencyBinCount);
+  analyser.getByteFrequencyData(fft);
+
+  /* --- populate histogram --- */
+  let peakIdx=0, peakVal=0;
+  for(let i=0;i<histBins;i++){
+    if(fft[i]>peakVal){peakVal=fft[i];peakIdx=i;}
+  }
+  histCnts[peakIdx]++; if(histCnts[peakIdx]>maxCnt)maxCnt=histCnts[peakIdx];
+
+  /* raw bit decision for demod */
+  return (fft[spaceBin] > fft[markBin]) ? 0 : 1;
+}
+
+/* ---------- Bit processing ------------------------------------------- */
+function bitsToVal(a){return a.reduce((v,b,i)=>v|(b<<i),0);}
+function processChar(bits){
+  const v=bitsToVal(bits);
+  if(v===SHIFT_LTRS){shiftState='LTRS';return;}
+  if(v===SHIFT_FIGS){shiftState='FIGS';return;}
+  const ch=(shiftState==='LTRS'? LTRS:FIGS)[v]||'?';
+  log(ch);
+}
+function processRawSample(raw){
+  if(!collecting){
+    if(lastRaw===1&&raw===0){collecting=true;rawBuf=[];bitBuf=[];}
+  }
+  if(collecting){
+    rawBuf.push(raw);
+    if(rawBuf.length===OVERSAMPLE){
+      const bit=majority(rawBuf);
+      bitBuf.push(bit);
+      rawBuf=[];
+      if(bitBuf.length===8){processChar(bitBuf.slice(1,6));collecting=false;}
     }
+  }
+  lastRaw=raw;
+}
 
-    function blinkBit(bit) {
-      bitBlinker.style.backgroundColor = bit ? 'green' : 'blue';
-    }
+/* ---------- Histogram drawing ---------------------------------------- */
+function drawHistogram(){
+  const w=ctxHist.canvas.width, h=ctxHist.canvas.height;
+  const barW=w/histBins;
+  ctxHist.clearRect(0,0,w,h);
+  ctxHist.fillStyle='#3b82f6';
+  for(let i=0;i<histBins;i++){
+    const val=histCnts[i]/maxCnt;
+    const barH=val*h;
+    ctxHist.fillRect(i*barW, h-barH, barW-1, barH);
+  }
+}
 
-    function freqshift(shift) {
-      const freq = shift ? 1450 : 1000;
-      if (oscillator) {
-        oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime);
-      }
-      updateFreqDisplay(freq);
-      blinkBit(shift);
-    }
-
-    async function _send_baudot(code) {
-      freqshift(0);
-      await sleep(BIT_TIME_MS);
-      for (let i = 0; i < 5; i++) {
-        const bit = (code >> i) & 1;
-        freqshift(bit);
-        await sleep(BIT_TIME_MS);
-      }
-      freqshift(1);
-      await sleep(BIT_TIME_MS * STOP_BITS);
-    }
-
-    function sleep(ms) {
-      return new Promise(resolve => setTimeout(resolve, ms));
-    }
-
-    async function sendrtty(message) {
-      console.log("Preparing to send message:", message);
-
-      if (!audioCtx || audioCtx.state === 'closed') {
-        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      }
-
-      if (audioCtx.state === 'suspended') {
-        await audioCtx.resume();
-        console.log("Resumed AudioContext");
-      }
-
-      oscillator = audioCtx.createOscillator();
-      oscillator.type = 'sine';
-      oscillator.frequency.setValueAtTime(1000, audioCtx.currentTime);
-      oscillator.connect(audioCtx.destination);
-      oscillator.start();
-
-      let shiftState = 'LTRS';
-      const msg = message.toUpperCase();
-
-      for (let ch of msg) {
-        if (LTRS[ch]) {
-          if (shiftState !== 'LTRS') {
-            await _send_baudot(SHIFT_LTRS);
-            shiftState = 'LTRS';
-          }
-          await _send_baudot(LTRS[ch]);
-        } else if (FIGS[ch]) {
-          if (shiftState !== 'FIGS') {
-            await _send_baudot(SHIFT_FIGS);
-            shiftState = 'FIGS';
-          }
-          await _send_baudot(FIGS[ch]);
-        } else {
-          console.warn("Unknown character:", ch);
-          await _send_baudot(LTRS[' ']);
-        }
-      }
-
-      if (shiftState !== 'LTRS') {
-        await _send_baudot(SHIFT_LTRS);
-      }
-
-      oscillator.stop();
-      oscillator.disconnect();
-      oscillator = null;
-      audioCtx.close();
-      audioCtx = null;
-      updateFreqDisplay('—');
-      bitBlinker.style.backgroundColor = 'gray';
-      console.log("Message complete.");
-    }
-
-    function onSendClicked() {
-      const input = document.getElementById("rttyInput").value;
-      if (input.trim()) {
-        sendrtty(input.trim()).catch(console.error);
-      } else {
-        console.log("No message entered.");
-      }
-    }
-  </script>
-</body>
-</html>
+/* ---------- Start / Stop --------------------------------------------- */
+async function startDecoding(){
+  document.getElementById('btnStart').disabled
