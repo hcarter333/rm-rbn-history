@@ -135,13 +135,13 @@ async function startDecoding(){
 // inside startDecoding(), instead of micStream code
 audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
-stream = await navigator.mediaDevices.getDisplayMedia({
+micStream = await navigator.mediaDevices.getDisplayMedia({
   video: { cursor: 'never' },      // mandatory in Chrome
   audio: { echoCancellation: false }
 });
-stream.getVideoTracks().forEach(t => t.stop()); // we only need audio
+micStream.getVideoTracks().forEach(t => t.stop()); // we only need audio
 
-const src = audioCtx.createMediaStreamSource(stream); // feed decoder
+const src = audioCtx.createMediaStreamSource(micStream); // feed decoder
 
 const analyser = audioCtx.createAnalyser();
     
