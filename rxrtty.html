@@ -217,7 +217,7 @@ async function startDecoding(){
     collecting=false; lastRaw=1; shiftState='LTRS';
 
     timerId=setInterval(()=>processRawSample(sampleRawBit()), bitMs/OVERSAMPLE);
-    drawId =setInterval(drawHistogram,1000);
+    //drawId =setInterval(drawHistogram,1000);
 
     setStatus('Decoding…');
   }catch(e){log('Mic error:', e); stopDecoding();}
