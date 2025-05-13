@@ -129,6 +129,8 @@ const bitsToVal = a => a.reduce((v,b,i)=>v|(b<<i),0);
 
 function processChar(bits){
   const v = bitsToVal(bits);
+  log(bits);
+  log(v);
   if(v === SHIFT_LTRS){shiftState='LTRS'; return;}
   if(v === SHIFT_FIGS){shiftState='FIGS'; return;}
   const ch = (shiftState==='LTRS'? LTRS : FIGS)[v] || '?';
@@ -202,7 +204,7 @@ async function startDecoding(){
 
     analyser = audioCtx.createAnalyser(); analyser.fftSize=2048;
 
-    src.connect(hp); hp.connect(lp); lp.connect(analyser);
+    src.connect(analyser); //hp.connect(lp); lp.connect(analyser);
 
     // histogram bins
     histLowBin  = hzToBin(HIST_LO_HZ);
