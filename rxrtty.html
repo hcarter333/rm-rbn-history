@@ -161,10 +161,26 @@ async function startDecoding(){
 
     /* graph: tab → BP 900‑1700 → analyser */
     const src = audioCtx.createMediaStreamSource(micStream);
-    const bp  = audioCtx.createBiquadFilter();
-    bp.type='bandpass'; bp.frequency.value=1300; bp.Q.value=1300/800;
-    analyser = audioCtx.createAnalyser(); analyser.fftSize=2048;
-    src.connect(bp); bp.connect(analyser);
+/* 1.  2‑pole high‑pass at 900 Hz */
+const hp = audioCtx.createBiquadFilter();
+hp.type = 'highpass';
+hp.frequency.value = 900;      // –3 dB corner
+hp.Q.value = 0.707;            // Butterworth (maximally flat)
+
+/* 2.  2‑pole low‑pass at 1700 Hz */
+const lp = audioCtx.createBiquadFilter();
+lp.type = 'lowpass';
+lp.frequency.value = 1700;     // –3 dB corner
+lp.Q.value = 0.707;
+
+/* 3.  analyser */
+analyser = audioCtx.createAnalyser();
+analyser.fftSize = 2048;
+
+/* connect the chain */
+src.connect(hp);
+hp.connect(lp);
+lp.connect(analyser);
 
     /* histogram bins for 800‑1600 Hz */
     histLowBin  = hzToBin(HIST_LO_HZ);
