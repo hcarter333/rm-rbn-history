@@ -132,6 +132,7 @@ async function startDecoding(){
   try{
     audioCtx=new (window.AudioContext||window.webkitAudioContext)();
     micStream=await navigator.mediaDevices.getUserMedia({audio:true});
+const src    = audioCtx.createMediaStreamSource(micStream);
 /* 1.  Create the band‑pass filter 900‑1700 Hz ----------------------- */
 const bp     = audioCtx.createBiquadFilter();
 bp.type      = 'bandpass';
