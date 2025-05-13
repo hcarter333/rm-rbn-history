@@ -85,7 +85,7 @@ function sampleRawBit(){
   }
 
   /* DEBUG print mark / space amplitudes */
-  log('space:', fft[spaceBin], 'mark:', fft[markBin]);
+  //log('space:', fft[spaceBin], 'mark:', fft[markBin]);
 
   /* Bit decision */
   return (fft[spaceBin] > fft[markBin]) ? 0 : 1;
