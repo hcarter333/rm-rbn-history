@@ -170,7 +170,7 @@ hp.Q.value = 0.707;            // Butterworth (maximally flat)
 /* 2.  2‑pole low‑pass at 1700 Hz */
 const lp = audioCtx.createBiquadFilter();
 lp.type = 'lowpass';
-lp.frequency.value = 1700;     // –3 dB corner
+lp.frequency.value = 1550;     // –3 dB corner
 lp.Q.value = 0.707;
 
 /* 3.  analyser */
