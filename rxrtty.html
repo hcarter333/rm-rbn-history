@@ -119,7 +119,7 @@ function sampleRawBit(){
   for(let b = spaceStart; b <= spaceEnd; b++) spaceSum += fft[b];
 
   /* debug */
-  log(`spaceWin=${spaceSum}  markWin=${markSum}`);
+  //log(`spaceWin=${spaceSum}  markWin=${markSum}`);
 
   /* space > mark → bit 0 ; otherwise bit 1 */
   return (spaceSum > markSum) ? 0 : 1;
@@ -217,7 +217,7 @@ async function startDecoding(){
     collecting=false; lastRaw=1; shiftState='LTRS';
 
     timerId=setInterval(()=>processRawSample(sampleRawBit()), bitMs/OVERSAMPLE);
-    drawId =setInterval(drawHistogram,100);
+    drawId =setInterval(drawHistogram,1000);
 
     setStatus('Decoding…');
   }catch(e){log('Mic error:', e); stopDecoding();}
