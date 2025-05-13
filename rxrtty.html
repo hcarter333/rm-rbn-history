@@ -135,7 +135,7 @@ async function startDecoding(){
 // inside startDecoding(), instead of micStream code
 audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
-const stream = await navigator.mediaDevices.getDisplayMedia({
+stream = await navigator.mediaDevices.getDisplayMedia({
   video: { cursor: 'never' },      // mandatory in Chrome
   audio: { echoCancellation: false }
 });
