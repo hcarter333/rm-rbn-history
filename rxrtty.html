@@ -80,9 +80,9 @@ function setStatus(t){statusEl.textContent=t;}
 const majority = arr => arr.reduce((s,b)=>s+b,0) >= arr.length/2 ? 1 : 0;
 
 /* ---------- Decoder state ------------------------------------------- */
-const OVERSAMPLE = 4;
+const OVERSAMPLE = 2;
 let audioCtx, analyser, micStream, timerId, drawId;
-let baud=45, shift=450, bitMs=22.22, reverse=false;
+let baud=50, shift=450, bitMs=22.22, reverse=false;
 let markBin=0, spaceBin=0;
 let lastRaw=1, collecting=false, rawBuf=[], bitBuf=[], shiftState='LTRS';
 
