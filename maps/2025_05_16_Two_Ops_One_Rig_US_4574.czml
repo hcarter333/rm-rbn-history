@@ -1,0 +1,318 @@
+[
+  {
+    "id":"document",
+    "name":"my first map",
+    "version":"1.0",
+    "clock":{
+      "interval":"2025-05-16T01:08:31Z/2025-05-16T02:02:16Z",
+      "currentTime":"2025-05-16T01:08:31Z",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id":"ka5awf",
+    "name":"ka5awf",
+    "description":"<H2>ka5awf</H2><table><tr><td>datetime1 = 2025-05-16T01:09:31</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -97.2387985,31.6804688,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:08:31Z/2025-05-16T01:08:49Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"af5z",
+    "name":"af5z",
+    "description":"<H2>af5z</H2><table><tr><td>datetime1 = 2025-05-16T01:21:11</td></tr><tr><td>rst = 449</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -97.6153707,30.8213352,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:08:31Z/2025-05-16T01:08:49Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w4afb",
+    "name":"w4afb",
+    "description":"<H2>w4afb</H2><table><tr><td>datetime1 = 2025-05-16T01:27:04</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -81.1387718,28.6402912,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:08:31Z/2025-05-16T01:08:49Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"n5agm",
+    "name":"n5agm",
+    "description":"<H2>n5agm</H2><table><tr><td>datetime1 = 2025-05-16T01:45:42</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -105.925194,32.866336,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:08:31Z/2025-05-16T01:08:49Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"kb5edr",
+    "name":"kb5edr",
+    "description":"<H2>kb5edr</H2><table><tr><td>datetime1 = 2025-05-16T01:49:21</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -94.6939614,31.404486,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:08:31Z/2025-05-16T01:08:49Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"xe2s",
+    "name":"xe2s",
+    "description":"<H2>xe2s</H2><table><tr><td>datetime1 = 2025-05-16T02:01:16</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -110.9935707,29.1282307,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:08:31Z/2025-05-16T01:08:49Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },
+
+  {
+    "id":"ka5awf",
+    "name":"ka5awf",
+    "description":"<H2>ka5awf</H2><table><tr><td>datetime6 = 2025-05-16T01:09:31</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -97.2387985,31.6804688,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:09:31Z/2025-05-16T01:10:31Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"af5z",
+    "name":"af5z",
+    "description":"<H2>af5z</H2><table><tr><td>datetime6 = 2025-05-16T01:21:11</td></tr><tr><td>rst = 449</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -97.6153707,30.8213352,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:21:11Z/2025-05-16T01:22:11Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"w4afb",
+    "name":"w4afb",
+    "description":"<H2>w4afb</H2><table><tr><td>datetime6 = 2025-05-16T01:27:04</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -81.1387718,28.6402912,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:27:04Z/2025-05-16T01:28:04Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"n5agm",
+    "name":"n5agm",
+    "description":"<H2>n5agm</H2><table><tr><td>datetime6 = 2025-05-16T01:45:42</td></tr><tr><td>rst = 599</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -105.925194,32.866336,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,255,255,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:45:42Z/2025-05-16T01:46:42Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"kb5edr",
+    "name":"kb5edr",
+    "description":"<H2>kb5edr</H2><table><tr><td>datetime6 = 2025-05-16T01:49:21</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -94.6939614,31.404486,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T01:49:21Z/2025-05-16T01:50:21Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  },  {
+    "id":"xe2s",
+    "name":"xe2s",
+    "description":"<H2>xe2s</H2><table><tr><td>datetime6 = 2025-05-16T02:01:16</td></tr><tr><td>rst = 559</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-122.39431121864746,37.80010265036138,0, -110.9935707,29.1282307,0]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[0,255,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-05-16T02:01:16Z/2025-05-16T02:02:16Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  }
+
+]
