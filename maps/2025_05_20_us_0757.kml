@@ -737,6 +737,24 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>k4mw</name>
+<description><![CDATA[<h1>k4mw</h1>Date/Time GMT: <div><br></div>2025/05/20 23:40:39]]></description>
+<TimeStamp>2025-05-20T23:40:39</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.421,37.8083,0.
+-78.38535999999999,38.15223599999999,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>k4mw</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2025-05-20T23:40:39</TimeStamp>
+<Point>
+<coordinates>-78.38535999999999,38.15223599999999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>kd5rxp</name>
 <description><![CDATA[<h1>kd5rxp</h1>Date/Time GMT: <div><br></div>2025/05/20 23:59:46]]></description>
 <TimeStamp>2025-05-20T23:59:46</TimeStamp>
