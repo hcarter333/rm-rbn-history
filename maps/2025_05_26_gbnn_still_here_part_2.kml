@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2025_05_26 gbnn still here part 2</name>
+<description> Europe cool the next morning
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>W3OA
+</name>
+<description><![CDATA[<h1>W3OA
+</h1>Date/Time GMT: <div><br></div>2025/05/26 11:07:00]]></description>
+<TimeStamp>2025-05-26T11:07:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-114.17,38.9743,0.
+-80.9583,35.5625,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#3300ff00</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>W3OA
+</name>
+<styleUrl>#RBN</styleUrl>
+<TimeStamp>2025-05-26T11:07:00</TimeStamp>
+<Point>
+<coordinates>-80.9583,35.5625</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>kj4r</name>
+<description><![CDATA[<h1>kj4r</h1>Date/Time GMT: <div><br></div>2025/05/26 11:04:13]]></description>
+<TimeStamp>2025-05-26T11:04:13</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-114.17,38.9743,0.
+-80.42948419999999,33.8976361,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff0000ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>kj4r</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2025-05-26T11:04:13</TimeStamp>
+<Point>
+<coordinates>-80.42948419999999,33.8976361</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
