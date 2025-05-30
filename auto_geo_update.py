@@ -106,9 +106,9 @@ def get_call_lat_lng(callsign):
     try:
         lat=y["results"][0]["geometry"]["location"]["lat"]
     except IndexError:
-        print("Couldn't find location for " + callsign)
+        print("gmaps couldn't find location for " + callsign)
         print("QRZ returned " + stree_address)
-        exit()
+        exit(1)
 
     lng=y["results"][0]["geometry"]["location"]["lng"]
     return str(lng) + ',' + str(lat)
