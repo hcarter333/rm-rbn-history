@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ADIF Generator</title>
+
+  <style>
+
+    body { font-family: Arial, sans-serif; margin: 20px; }
+
+    label { display: block; margin-top: 10px; }
+
+    input { padding: 5px; width: 100%; max-width: 400px; }
+
+    button { margin-top: 15px; padding: 10px 20px; }
+
+    pre { background: #f4f4f4; padding: 10px; margin-top: 20px; white-space: pre-wrap; }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>ADIF Line Generator</h1>
+
+  <label for="csvUrl">CSV File URL:</label>
+
+  <input type="text" id="csvUrl" placeholder="Enter raw GitHub CSV URL" /><label for="parkId">Park Identifier:</label> <input type="text" id="parkId" placeholder="e.g. US-0032" />
+
+<button id="generateBtn">Generate ADIF</button>
+
+  <pre id="output"></pre>  <script>
+
+    document.getElementById('generateBtn').addEventListener('click', function() {
+
+      const url = document.getElementById('csvUrl').value.trim();
+
+      const park = document.getElementById('parkId').value.trim();
+
+      const outputEl = document.getElementById('output');
+
+      outputEl.textContent = 'Fetching and generating...';
+
+      if (!url || !park) {
+
+        outputEl.textContent = 'Please provide both the CSV URL and a park identifier.';
+
+        return;
+
+      }
+
+      fetch(url)
+
+        .then(resp => {
+
+          if (!resp.ok) throw new Error('Network response was not ok');
+
+          return resp.text();
+
+        })
+
+        .then(text => {
+
+          const lines = text.split(/\r?\n/);
+
+          // Assume header is first 4 lines
+
+          const dataLines = lines.slice(4).filter(line => line.trim());
+
+          const adifLines = dataLines.map(line => {
+
+            const [call, ts, rstTx, rstRx] = line.split(',');
+
+            // Parse timestamp 'YYYY/MM/DD HH:MM:SS'
+
+            const [datePart, timePart] = ts.split(' ');
+
+            const date = datePart.replace(/\//g, ''); // YYYYMMDD
+
+            const time = timePart.slice(0,5).replace(':', ''); // HHMM
+
+            const callLen = call.length;
+
+            const parkLen = park.length;
+
+            return `<station_callsign:6>KD0FNR<Call:${callLen}>${call}<QSO_DATE:8>${date}<TIME_ON:4>${time}<BAND:3>20M<MODE:2>CW<MY_SIG:4>POTA<MY_SIG_INFO:${parkLen}>${park}<eor>`;
+
+          });
+
+          outputEl.textContent = adifLines.join('\n');
+
+        })
+
+        .catch(err => {
+
+          outputEl.textContent = 'Error: ' + err.message;
+
+        });
+
+    });
+
+  </script></body>
+
+</html>
