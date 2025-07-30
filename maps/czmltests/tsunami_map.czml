@@ -7,6 +7,13 @@
       "currentTime": "2025-07-30T00:25:00Z",
       "multiplier": 60,
       "step": "SYSTEM_CLOCK_MULTIPLIER"
+    },
+    "viewFrom": {
+      "cartographicDegrees": [
+        -120.0,
+        40.0,
+        20000000
+      ]
     }
   },
   {
@@ -42,14 +49,23 @@
     },
     "label": {
       "text": "DART 21415",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -85,14 +101,23 @@
     },
     "label": {
       "text": "Karab Cove",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -128,14 +153,23 @@
     },
     "label": {
       "text": "Attu",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -171,14 +205,23 @@
     },
     "label": {
       "text": "Shemya",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -214,14 +257,23 @@
     },
     "label": {
       "text": "Nizki Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -257,14 +309,23 @@
     },
     "label": {
       "text": "Alaid Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -300,14 +361,23 @@
     },
     "label": {
       "text": "Amchitka Pass",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -343,14 +413,23 @@
     },
     "label": {
       "text": "DART 21414",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -386,14 +465,23 @@
     },
     "label": {
       "text": "Amchitka",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -429,14 +517,23 @@
     },
     "label": {
       "text": "False Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -472,14 +569,23 @@
     },
     "label": {
       "text": "Agony Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -515,14 +621,23 @@
     },
     "label": {
       "text": "DART 46413",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -558,14 +673,23 @@
     },
     "label": {
       "text": "West Atka Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -601,14 +725,23 @@
     },
     "label": {
       "text": "Adak",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -644,14 +777,23 @@
     },
     "label": {
       "text": "Atka",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -687,14 +829,23 @@
     },
     "label": {
       "text": "DART 46408",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -730,14 +881,23 @@
     },
     "label": {
       "text": "Samalga Pass",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -773,14 +933,23 @@
     },
     "label": {
       "text": "Samalga Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -816,14 +985,23 @@
     },
     "label": {
       "text": "DART 46402",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -859,14 +1037,23 @@
     },
     "label": {
       "text": "Nikolski",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -902,14 +1089,23 @@
     },
     "label": {
       "text": "Sedanka Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -945,14 +1141,23 @@
     },
     "label": {
       "text": "Avatanak Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -988,14 +1193,23 @@
     },
     "label": {
       "text": "DART 46403",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1031,14 +1245,23 @@
     },
     "label": {
       "text": "Unalaska",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1074,14 +1297,23 @@
     },
     "label": {
       "text": "Akutan",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1117,14 +1349,23 @@
     },
     "label": {
       "text": "Saint Paul",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1160,14 +1401,23 @@
     },
     "label": {
       "text": "Unimak Pass",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1203,14 +1453,23 @@
     },
     "label": {
       "text": "Sanak",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1246,14 +1505,23 @@
     },
     "label": {
       "text": "Sand Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1289,14 +1557,23 @@
     },
     "label": {
       "text": "King Cove",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1332,14 +1609,23 @@
     },
     "label": {
       "text": "False Pass",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1375,14 +1661,23 @@
     },
     "label": {
       "text": "Belkofski",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1418,14 +1713,23 @@
     },
     "label": {
       "text": "DART 46409",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1461,14 +1765,23 @@
     },
     "label": {
       "text": "DART 46410",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1504,14 +1817,23 @@
     },
     "label": {
       "text": "Perryville",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1547,14 +1869,23 @@
     },
     "label": {
       "text": "Ivanof Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1590,14 +1921,23 @@
     },
     "label": {
       "text": "Gull Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1633,14 +1973,23 @@
     },
     "label": {
       "text": "Cold Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1676,14 +2025,23 @@
     },
     "label": {
       "text": "Kodiak",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1719,14 +2077,23 @@
     },
     "label": {
       "text": "Chignik Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1762,14 +2129,23 @@
     },
     "label": {
       "text": "Cape Suckling",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1805,14 +2181,23 @@
     },
     "label": {
       "text": "Selezen Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1848,14 +2233,23 @@
     },
     "label": {
       "text": "Montague Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1891,14 +2285,23 @@
     },
     "label": {
       "text": "Old Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1934,14 +2337,23 @@
     },
     "label": {
       "text": "Ouzinkie",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -1977,14 +2389,23 @@
     },
     "label": {
       "text": "Hinchinbrook Entrance",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2020,14 +2441,23 @@
     },
     "label": {
       "text": "Cape Hinchinbrook",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2063,14 +2493,23 @@
     },
     "label": {
       "text": "Port Lions",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2106,14 +2545,23 @@
     },
     "label": {
       "text": "Biorka Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2149,14 +2597,23 @@
     },
     "label": {
       "text": "Cape Bingham",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2192,14 +2649,23 @@
     },
     "label": {
       "text": "Kruzof Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2235,14 +2701,23 @@
     },
     "label": {
       "text": "Icy Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2278,14 +2753,23 @@
     },
     "label": {
       "text": "Seward",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2321,14 +2805,23 @@
     },
     "label": {
       "text": "Alitak Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2364,14 +2857,23 @@
     },
     "label": {
       "text": "Schooner Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2407,14 +2909,23 @@
     },
     "label": {
       "text": "Elfin Cove",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2450,14 +2961,23 @@
     },
     "label": {
       "text": "Saint Matthew Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2493,14 +3013,23 @@
     },
     "label": {
       "text": "Situk River Mouth",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2536,14 +3065,23 @@
     },
     "label": {
       "text": "Kennedy Entrance",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2579,14 +3117,23 @@
     },
     "label": {
       "text": "Cape Fairweather",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2622,14 +3169,23 @@
     },
     "label": {
       "text": "Salisbury Sound",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2665,14 +3221,23 @@
     },
     "label": {
       "text": "Yakutat",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2708,14 +3273,23 @@
     },
     "label": {
       "text": "Sitka",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2751,14 +3325,23 @@
     },
     "label": {
       "text": "Port Alexander",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2794,14 +3377,23 @@
     },
     "label": {
       "text": "Tatitlek",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2837,14 +3429,23 @@
     },
     "label": {
       "text": "Povorotni Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2880,14 +3481,23 @@
     },
     "label": {
       "text": "The BC/Alaska Border",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2923,14 +3533,23 @@
     },
     "label": {
       "text": "Krestof Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -2966,14 +3585,23 @@
     },
     "label": {
       "text": "Langara",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3009,14 +3637,23 @@
     },
     "label": {
       "text": "Gustavus",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3052,14 +3689,23 @@
     },
     "label": {
       "text": "Valdez",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3095,14 +3741,23 @@
     },
     "label": {
       "text": "Whittier",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3138,14 +3793,23 @@
     },
     "label": {
       "text": "White Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3181,14 +3845,23 @@
     },
     "label": {
       "text": "English Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3224,14 +3897,23 @@
     },
     "label": {
       "text": "Cordova",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3267,14 +3949,23 @@
     },
     "label": {
       "text": "Cape Decision",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3310,14 +4001,23 @@
     },
     "label": {
       "text": "Hoonah",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3353,14 +4053,23 @@
     },
     "label": {
       "text": "Seldovia",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3396,14 +4105,23 @@
     },
     "label": {
       "text": "DART 46419",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3439,14 +4157,23 @@
     },
     "label": {
       "text": "West Flank Endeavour",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3482,14 +4209,23 @@
     },
     "label": {
       "text": "RCM South Endeavour",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3525,14 +4261,23 @@
     },
     "label": {
       "text": "Endeavour South",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3568,14 +4313,23 @@
     },
     "label": {
       "text": "Neptune8C",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3611,14 +4365,23 @@
     },
     "label": {
       "text": "Mothra Endeavour",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3654,14 +4417,23 @@
     },
     "label": {
       "text": "Main Endeavour Field",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3697,14 +4469,23 @@
     },
     "label": {
       "text": "Homer",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3740,14 +4521,23 @@
     },
     "label": {
       "text": "Cascadia Basin W",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3783,14 +4573,23 @@
     },
     "label": {
       "text": "Auke Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3826,14 +4625,23 @@
     },
     "label": {
       "text": "Cascadia Basin ODP 1026",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3869,14 +4677,23 @@
     },
     "label": {
       "text": "Cascadia Basin NE",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3912,14 +4729,23 @@
     },
     "label": {
       "text": "North Vancouver Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3955,14 +4781,23 @@
     },
     "label": {
       "text": "Winter Harbour",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -3998,14 +4833,23 @@
     },
     "label": {
       "text": "Neptune ODP1027",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4041,14 +4885,23 @@
     },
     "label": {
       "text": "Halibut Cove",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4084,14 +4937,23 @@
     },
     "label": {
       "text": "DART 46404",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4127,14 +4989,23 @@
     },
     "label": {
       "text": "Cascadia Basin SE",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4170,14 +5041,23 @@
     },
     "label": {
       "text": "Neptune88",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4213,14 +5093,23 @@
     },
     "label": {
       "text": "Clayquout Slope Bullseye",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4256,14 +5145,23 @@
     },
     "label": {
       "text": "Craig",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4299,14 +5197,23 @@
     },
     "label": {
       "text": "DART 46407",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4342,14 +5249,23 @@
     },
     "label": {
       "text": "Neptune Barkley Canyon",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4385,14 +5301,23 @@
     },
     "label": {
       "text": "Juneau",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4428,14 +5353,23 @@
     },
     "label": {
       "text": "Ketchikan",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4471,14 +5405,23 @@
     },
     "label": {
       "text": "Dart46451PC Oregon Coast",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4514,14 +5457,23 @@
     },
     "label": {
       "text": "Queen Charlotte",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4557,14 +5509,23 @@
     },
     "label": {
       "text": "Matlahaw Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4600,14 +5561,23 @@
     },
     "label": {
       "text": "Gambell",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4643,14 +5613,23 @@
     },
     "label": {
       "text": "DART 46411",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4686,14 +5665,23 @@
     },
     "label": {
       "text": "Tofino",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4729,14 +5717,23 @@
     },
     "label": {
       "text": "Neptune05",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4772,14 +5769,23 @@
     },
     "label": {
       "text": "La Push",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4815,14 +5821,23 @@
     },
     "label": {
       "text": "Folger Deep",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4858,14 +5873,23 @@
     },
     "label": {
       "text": "Prince Rupert",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4901,14 +5925,23 @@
     },
     "label": {
       "text": "Prince Rupert",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4944,14 +5977,23 @@
     },
     "label": {
       "text": "The Wash./BC Border",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -4987,14 +6029,23 @@
     },
     "label": {
       "text": "Neah Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5030,14 +6081,23 @@
     },
     "label": {
       "text": "Cascade Head",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5073,14 +6133,23 @@
     },
     "label": {
       "text": "Port Orford",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5116,14 +6185,23 @@
     },
     "label": {
       "text": "Waatch",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5159,14 +6237,23 @@
     },
     "label": {
       "text": "Taholah",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5202,14 +6289,23 @@
     },
     "label": {
       "text": "Cape Blanco",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5245,14 +6341,23 @@
     },
     "label": {
       "text": "Gold Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5288,14 +6393,23 @@
     },
     "label": {
       "text": "Pistol River",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5331,14 +6445,23 @@
     },
     "label": {
       "text": "Neskowin",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5374,14 +6497,23 @@
     },
     "label": {
       "text": "Port Moller",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5417,14 +6549,23 @@
     },
     "label": {
       "text": "Nestucca Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5460,14 +6601,23 @@
     },
     "label": {
       "text": "Umpqua River Mouth",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5503,14 +6653,23 @@
     },
     "label": {
       "text": "Long Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5546,14 +6705,23 @@
     },
     "label": {
       "text": "Bastendorf Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5589,14 +6757,23 @@
     },
     "label": {
       "text": "Coquille Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5632,14 +6809,23 @@
     },
     "label": {
       "text": "The Oregon/Wash. Border",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5675,14 +6861,23 @@
     },
     "label": {
       "text": "Douglas/Lane Line",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5718,14 +6913,23 @@
     },
     "label": {
       "text": "Oceanside Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5761,14 +6965,23 @@
     },
     "label": {
       "text": "Queets",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5804,14 +7017,23 @@
     },
     "label": {
       "text": "Charleston",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5847,14 +7069,23 @@
     },
     "label": {
       "text": "Depoe Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5890,14 +7121,23 @@
     },
     "label": {
       "text": "Point Grenville",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5933,14 +7173,23 @@
     },
     "label": {
       "text": "Mattole River",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -5976,14 +7225,23 @@
     },
     "label": {
       "text": "Lost Coast Shoreline",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6019,14 +7277,23 @@
     },
     "label": {
       "text": "Clatsop Spit",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6062,14 +7329,23 @@
     },
     "label": {
       "text": "Mendocino",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6105,14 +7381,23 @@
     },
     "label": {
       "text": "Humboldt Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6148,14 +7433,23 @@
     },
     "label": {
       "text": "Manzanita",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6191,14 +7485,23 @@
     },
     "label": {
       "text": "Rockaway Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6234,14 +7537,23 @@
     },
     "label": {
       "text": "Garibaldi",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6277,14 +7589,23 @@
     },
     "label": {
       "text": "Bayocean Peninsula",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6320,14 +7641,23 @@
     },
     "label": {
       "text": "Hoh",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6363,14 +7693,23 @@
     },
     "label": {
       "text": "Netarts",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6406,14 +7745,23 @@
     },
     "label": {
       "text": "Brookings",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6449,14 +7797,23 @@
     },
     "label": {
       "text": "Fort Bragg",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6492,14 +7849,23 @@
     },
     "label": {
       "text": "Empire",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6535,14 +7901,23 @@
     },
     "label": {
       "text": "Port Hardy",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6578,14 +7953,23 @@
     },
     "label": {
       "text": "Siuslaw River Mouth",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6621,14 +8005,23 @@
     },
     "label": {
       "text": "Florence",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6664,14 +8057,23 @@
     },
     "label": {
       "text": "Moclips",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6707,14 +8109,23 @@
     },
     "label": {
       "text": "Cape Mendocino",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6750,14 +8161,23 @@
     },
     "label": {
       "text": "Siletz Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6793,14 +8213,23 @@
     },
     "label": {
       "text": "Cannon Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6836,14 +8265,23 @@
     },
     "label": {
       "text": "Newport coast",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6879,14 +8317,23 @@
     },
     "label": {
       "text": "Westport",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6922,14 +8369,23 @@
     },
     "label": {
       "text": "Yachats",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -6965,14 +8421,23 @@
     },
     "label": {
       "text": "Seaside",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7008,14 +8473,23 @@
     },
     "label": {
       "text": "Nikiski",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7051,14 +8525,23 @@
     },
     "label": {
       "text": "Newport",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7094,14 +8577,23 @@
     },
     "label": {
       "text": "Crescent City",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7137,14 +8629,23 @@
     },
     "label": {
       "text": "Trinidad",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7180,14 +8681,23 @@
     },
     "label": {
       "text": "North Spit coast",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7223,14 +8733,23 @@
     },
     "label": {
       "text": "Eureka",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7266,14 +8785,23 @@
     },
     "label": {
       "text": "Seaside City",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7309,14 +8837,23 @@
     },
     "label": {
       "text": "Necanicum R. Mouth",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7352,14 +8889,23 @@
     },
     "label": {
       "text": "The Oregon/Cal. Border",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7395,14 +8941,23 @@
     },
     "label": {
       "text": "Mendo/Hum County Line",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7438,14 +8993,23 @@
     },
     "label": {
       "text": "South Spit",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7481,14 +9045,23 @@
     },
     "label": {
       "text": "Arena Cove",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7524,14 +9097,23 @@
     },
     "label": {
       "text": "Westport South Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7567,14 +9149,23 @@
     },
     "label": {
       "text": "Ten Mile River Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7610,14 +9201,23 @@
     },
     "label": {
       "text": "Elk",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7653,14 +9253,23 @@
     },
     "label": {
       "text": "Bamfield",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7696,14 +9305,23 @@
     },
     "label": {
       "text": "Gualala River",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7739,14 +9357,23 @@
     },
     "label": {
       "text": "Hammond",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7782,14 +9409,23 @@
     },
     "label": {
       "text": "Yaquina John Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7825,14 +9461,23 @@
     },
     "label": {
       "text": "Humboldt/Del Norte Line",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7868,14 +9513,23 @@
     },
     "label": {
       "text": "Klamath River Mouth",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7911,14 +9565,23 @@
     },
     "label": {
       "text": "Carmel",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7954,14 +9617,23 @@
     },
     "label": {
       "text": "Russian River Mouth",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -7997,14 +9669,23 @@
     },
     "label": {
       "text": "Point Reyes",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8040,14 +9721,23 @@
     },
     "label": {
       "text": "Moss Landing",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8083,14 +9773,23 @@
     },
     "label": {
       "text": "Davenport",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8126,14 +9825,23 @@
     },
     "label": {
       "text": "Bodega Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8169,14 +9877,23 @@
     },
     "label": {
       "text": "Toke Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8212,14 +9929,23 @@
     },
     "label": {
       "text": "Astoria",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8255,14 +9981,23 @@
     },
     "label": {
       "text": "Santa Cruz",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8298,14 +10033,23 @@
     },
     "label": {
       "text": "Monterey",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8341,14 +10085,23 @@
     },
     "label": {
       "text": "Point Reyes Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8384,14 +10137,23 @@
     },
     "label": {
       "text": "Point Sur",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8427,14 +10189,23 @@
     },
     "label": {
       "text": "Patricia Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8470,14 +10241,23 @@
     },
     "label": {
       "text": "Ragged Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8513,14 +10293,23 @@
     },
     "label": {
       "text": "Victoria Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8556,14 +10345,23 @@
     },
     "label": {
       "text": "Port Angeles",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8599,14 +10397,23 @@
     },
     "label": {
       "text": "Rio Del Mar",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8642,14 +10449,23 @@
     },
     "label": {
       "text": "Bolinas",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8685,14 +10501,23 @@
     },
     "label": {
       "text": "Platform Harvest",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8728,14 +10553,23 @@
     },
     "label": {
       "text": "Half Moon Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8771,14 +10605,23 @@
     },
     "label": {
       "text": "Bella Bella",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8814,14 +10657,23 @@
     },
     "label": {
       "text": "DART 46412",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8857,14 +10709,23 @@
     },
     "label": {
       "text": "Pacifica",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8900,14 +10761,23 @@
     },
     "label": {
       "text": "Stinson Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8943,14 +10813,23 @@
     },
     "label": {
       "text": "Morro Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -8986,14 +10865,23 @@
     },
     "label": {
       "text": "Bolinas Lagoon",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9029,14 +10917,23 @@
     },
     "label": {
       "text": "Point Conception",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9072,14 +10969,23 @@
     },
     "label": {
       "text": "Diablo Canyon",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9115,14 +11021,23 @@
     },
     "label": {
       "text": "Gaviota",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9158,14 +11073,23 @@
     },
     "label": {
       "text": "Surf",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9201,14 +11125,23 @@
     },
     "label": {
       "text": "Port San Luis",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9244,14 +11177,23 @@
     },
     "label": {
       "text": "Ocean Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9287,14 +11229,23 @@
     },
     "label": {
       "text": "Whidbey Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9330,14 +11281,23 @@
     },
     "label": {
       "text": "Pismo Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9373,14 +11333,23 @@
     },
     "label": {
       "text": "Lions Head",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9416,14 +11385,23 @@
     },
     "label": {
       "text": "Friday Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9459,14 +11437,23 @@
     },
     "label": {
       "text": "San Francisco",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9502,14 +11489,23 @@
     },
     "label": {
       "text": "Cape Newenham",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9545,14 +11541,23 @@
     },
     "label": {
       "text": "Naples",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9588,14 +11593,23 @@
     },
     "label": {
       "text": "Santa Cruz Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9631,14 +11645,23 @@
     },
     "label": {
       "text": "Fort Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9674,14 +11697,23 @@
     },
     "label": {
       "text": "Sausalito",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9717,14 +11749,23 @@
     },
     "label": {
       "text": "Port Townsend",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9760,14 +11801,23 @@
     },
     "label": {
       "text": "Goleta",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9803,14 +11853,23 @@
     },
     "label": {
       "text": "North San Clemente Is.",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9846,14 +11905,23 @@
     },
     "label": {
       "text": "Port Hueneme",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9889,14 +11957,23 @@
     },
     "label": {
       "text": "Treasure Island Marina",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9932,14 +12009,23 @@
     },
     "label": {
       "text": "Santa Barbara",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -9975,14 +12061,23 @@
     },
     "label": {
       "text": "Channel Islands Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10018,14 +12113,23 @@
     },
     "label": {
       "text": "Oakland Outer Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10061,14 +12165,23 @@
     },
     "label": {
       "text": "Carpinteria",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10104,14 +12217,23 @@
     },
     "label": {
       "text": "Indian Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10147,14 +12269,23 @@
     },
     "label": {
       "text": "Richmond",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10190,14 +12321,23 @@
     },
     "label": {
       "text": "Oak Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10233,14 +12373,23 @@
     },
     "label": {
       "text": "Anacortes",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10276,14 +12425,23 @@
     },
     "label": {
       "text": "Eastsound",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10319,14 +12477,23 @@
     },
     "label": {
       "text": "Alameda",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10362,14 +12529,23 @@
     },
     "label": {
       "text": "Avalon",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10405,14 +12581,23 @@
     },
     "label": {
       "text": "Two Harbors",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10448,14 +12633,23 @@
     },
     "label": {
       "text": "Rincon Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10491,14 +12685,23 @@
     },
     "label": {
       "text": "Redondo Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10534,14 +12737,23 @@
     },
     "label": {
       "text": "Malibu",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10577,14 +12789,23 @@
     },
     "label": {
       "text": "Two Harbors (west)",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10620,14 +12841,23 @@
     },
     "label": {
       "text": "Los Angeles Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10663,14 +12893,23 @@
     },
     "label": {
       "text": "Ventura",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10706,14 +12945,23 @@
     },
     "label": {
       "text": "Cherry Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10749,14 +12997,23 @@
     },
     "label": {
       "text": "Santa Monica",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10792,14 +13049,23 @@
     },
     "label": {
       "text": "Newport Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10835,14 +13101,23 @@
     },
     "label": {
       "text": "Laguna Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10878,14 +13153,23 @@
     },
     "label": {
       "text": "Bangor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10921,14 +13205,23 @@
     },
     "label": {
       "text": "Orange/San Diego Line",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -10964,14 +13257,23 @@
     },
     "label": {
       "text": "Bellingham",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11007,14 +13309,23 @@
     },
     "label": {
       "text": "Dana Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11050,14 +13361,23 @@
     },
     "label": {
       "text": "Middle Harbor",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11093,14 +13413,23 @@
     },
     "label": {
       "text": "Everett",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11136,14 +13465,23 @@
     },
     "label": {
       "text": "Ballast Point",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11179,14 +13517,23 @@
     },
     "label": {
       "text": "Encinitas",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11222,14 +13569,23 @@
     },
     "label": {
       "text": "Mission Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11265,14 +13621,23 @@
     },
     "label": {
       "text": "Long Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11308,14 +13673,23 @@
     },
     "label": {
       "text": "Point Loma",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11351,14 +13725,23 @@
     },
     "label": {
       "text": "Seattle Pier 4",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11394,14 +13777,23 @@
     },
     "label": {
       "text": "Seattle",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11437,14 +13829,23 @@
     },
     "label": {
       "text": "Oceanside",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11480,14 +13881,23 @@
     },
     "label": {
       "text": "Huntington Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11523,14 +13933,23 @@
     },
     "label": {
       "text": "San Diego Harbor Ent.",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11566,14 +13985,23 @@
     },
     "label": {
       "text": "La Jolla",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11609,14 +14037,23 @@
     },
     "label": {
       "text": "North Imperial Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11652,14 +14089,23 @@
     },
     "label": {
       "text": "Seal Beach",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11695,14 +14141,23 @@
     },
     "label": {
       "text": "North Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11738,14 +14193,23 @@
     },
     "label": {
       "text": "Stanwood",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11781,14 +14245,23 @@
     },
     "label": {
       "text": "The Cal./Mexico Border",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11824,14 +14297,23 @@
     },
     "label": {
       "text": "La Conner",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11867,14 +14349,23 @@
     },
     "label": {
       "text": "K Pier, NAS Coronado",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11910,14 +14401,23 @@
     },
     "label": {
       "text": "Naval Station",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11953,14 +14453,23 @@
     },
     "label": {
       "text": "San Diego",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -11996,14 +14505,23 @@
     },
     "label": {
       "text": "Mare Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12039,14 +14557,23 @@
     },
     "label": {
       "text": "Lynch Cove",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12082,14 +14609,23 @@
     },
     "label": {
       "text": "Port Sonoma Marina",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12125,14 +14661,23 @@
     },
     "label": {
       "text": "Anchorage",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12168,14 +14713,23 @@
     },
     "label": {
       "text": "Bremerton",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12211,14 +14765,23 @@
     },
     "label": {
       "text": "Port Chicago",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12254,14 +14817,23 @@
     },
     "label": {
       "text": "San Carlos",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12297,14 +14869,23 @@
     },
     "label": {
       "text": "Redwood City",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12340,14 +14921,23 @@
     },
     "label": {
       "text": "Tacoma",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12383,14 +14973,23 @@
     },
     "label": {
       "text": "Nisqually delta",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12426,14 +15025,23 @@
     },
     "label": {
       "text": "Hooper Bay",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12469,14 +15077,23 @@
     },
     "label": {
       "text": "Alviso",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12512,14 +15129,23 @@
     },
     "label": {
       "text": "Little Diomede Island",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12555,14 +15181,23 @@
     },
     "label": {
       "text": "Port of Tacoma",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12598,14 +15233,23 @@
     },
     "label": {
       "text": "Dillingham",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12641,14 +15285,23 @@
     },
     "label": {
       "text": "Nome",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   },
   {
@@ -12684,14 +15337,23 @@
     },
     "label": {
       "text": "Unalakleet",
-      "scale": 0.4,
+      "scale": 0.8,
+      "fillColor": {
+        "rgba": [
+          0,
+          0,
+          255,
+          128
+        ]
+      },
       "horizontalOrigin": "LEFT",
       "pixelOffset": {
         "cartesian2": [
           8,
           0
         ]
-      }
+      },
+      "showBackground": false
     }
   }
 ]
