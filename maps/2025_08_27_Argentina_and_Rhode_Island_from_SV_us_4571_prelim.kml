@@ -1775,24 +1775,6 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>wb9cyy</name>
-<description><![CDATA[<h1>wb9cyy</h1>Date/Time GMT: <div><br></div>2025/08/27 02:49:44]]></description>
-<TimeStamp>2025-08-27T02:49:44</TimeStamp>
-<LineString><tessellate>1</tessellate><coordinates>
--122.45014631980361,37.7251353308826,0.
--87.8552546,42.9152706,0.
-</coordinates></LineString>
-<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
-</Placemark>
-<Placemark>
-<name>wb9cyy</name>
-<styleUrl>#QSO</styleUrl>
-<TimeStamp>2025-08-27T02:49:44</TimeStamp>
-<Point>
-<coordinates>-87.8552546,42.9152706</coordinates>
-</Point>
-</Placemark>
-<Placemark>
 <name>wm2v</name>
 <description><![CDATA[<h1>wm2v</h1>Date/Time GMT: <div><br></div>2025/08/27 02:54:03]]></description>
 <TimeStamp>2025-08-27T02:54:03</TimeStamp>
