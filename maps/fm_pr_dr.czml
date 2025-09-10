@@ -1,0 +1,41 @@
+[
+  {
+    "id":"document",
+    "name":"Bills FM Station",
+    "version":"1.0",
+    "clock":{
+      "interval":"2025-08-28T00:17:24Z/2025-08-28T01:09:28Z",
+      "currentTime":"2025-08-28T00:17:24Z",
+      "multiplier":60,
+      "range":"LOOP_STOP",
+      "step":"SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id":"FMPR",
+    "name":"fmpr",
+    "description":"<H2>fmpr</H2><table><tr><td>datetime1 = 2025-08-28T00:18:24</td></tr><tr><td>rst = 529</td></tr></table>",
+    "polyline":{
+      "positions":{
+        "cartographicDegrees":[-67.20410854927076, 18.308122886825036, 0.02, -68.36830084922661, 18.554841943333333, 2.1]
+      },
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[255,0,0,255]
+          }
+        }
+      },
+      "show":[
+          {
+              "interval":"2025-08-28T00:17:24Z/2025-08-28T00:17:42Z",
+              "boolean":true
+          }
+      ],
+      
+      "width":5,
+      "clampToGround":true
+    }
+  }
+
+]
