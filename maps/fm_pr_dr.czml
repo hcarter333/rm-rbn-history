@@ -4,7 +4,7 @@
     "name":"Bills FM Station",
     "version":"1.0",
     "clock":{
-      "interval":"2025-08-28T00:17:24Z/2025-08-28T17:55:28Z",
+      "interval":"2025-08-28T00:17:24Z/2025-08-28T19:55:28Z",
       "currentTime":"2025-08-28T00:17:24Z",
       "multiplier":60,
       "range":"LOOP_STOP",
@@ -28,7 +28,7 @@
       },
       "show":[
           {
-              "interval":"2025-08-28T00:17:25Z/2025-08-28T00:17:50Z",
+              "interval":"2025-08-28T00:17:25Z/2025-08-28T00:18:50Z",
               "boolean":false
           }
       ],
