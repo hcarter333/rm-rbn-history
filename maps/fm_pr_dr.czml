@@ -17,7 +17,7 @@
     "description":"<H2>fmpr</H2><table><tr><td>datetime1 = 2025-08-28T00:18:24</td></tr><tr><td>rst = 529</td></tr></table>",
     "polyline":{
       "positions":{
-        "cartographicDegrees":[-68.36830084922661, 18.554841943333333,22,-66.9829444,18.1480278,810]
+        "cartographicDegrees":[-68.36830084922661, 18.554841943333333,22,-66.9829444,18.1480278,840]
       },
       "material":{
         "solidColor":{
