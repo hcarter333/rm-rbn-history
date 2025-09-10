@@ -34,7 +34,7 @@
       ],
       
       "width":5,
-      "clampToGround":true
+      "clampToGround":false
     }
   }
 
