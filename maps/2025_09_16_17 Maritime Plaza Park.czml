@@ -12,6 +12,26 @@
     }
   },
   {
+    "id": "interference-overlay",
+    "name": "Interference 200yd overlay",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          -122.40205109725115,
+          37.794189439381114,
+          -122.39784014737064,
+          37.79751692932301
+        ]
+      },
+      "material": {
+        "image": {
+          "image": "https://raw.githubusercontent.com/hcarter333/rm-rbn-history/refs/heads/main/maps/interference_200yd_overlay.png",
+          "transparent": true
+        }
+      }
+    }
+  }
+  {
     "id":"al7kc",
     "name":"al7kc",
     "description":"<H2>al7kc</H2><table><tr><td>datetime1 = 2025-09-17T23:12:15</td></tr><tr><td>rst = 549</td></tr></table>",
