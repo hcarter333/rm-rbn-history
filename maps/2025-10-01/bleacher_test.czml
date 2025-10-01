@@ -1,0 +1,52 @@
+[
+  {
+    "id": "document",
+    "name": "Bleacher Polygon",
+    "version": "1.0"
+  },
+  {
+    "id": "bleachers-poly",
+    "name": "Bleachers (filled)",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+          -122.44526292388183, 37.7257211095946, 0,
+          -122.44542698947987, 37.72581053547451, 0,
+          -122.44480352227613, 37.7265570767084, 0,
+          -122.44463768358435, 37.72647454744803, 0,
+          -122.44526292388183, 37.7257211095946, 0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": { "rgba": [0, 255, 255, 120] }
+        }
+      },
+      "outline": true,
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "height": 0
+    }
+  },
+  {
+    "id": "bleachers-outline",
+    "name": "Bleachers (outline)",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -122.44526292388183, 37.7257211095946, 0,
+          -122.44542698947987, 37.72581053547451, 0,
+          -122.44480352227613, 37.7265570767084, 0,
+          -122.44463768358435, 37.72647454744803, 0,
+          -122.44526292388183, 37.7257211095946, 0
+        ]
+      },
+      "width": 3,
+      "material": {
+        "solidColor": {
+          "color": { "rgba": [0, 0, 0, 255] }
+        }
+      },
+      "clampToGround": true
+    }
+  }
+]
