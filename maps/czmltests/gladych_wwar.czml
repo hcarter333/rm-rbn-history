@@ -1,0 +1,2066 @@
+[
+  {
+    "id": "document",
+    "name": "Bolesław Gładych — Travels (QSO-style)",
+    "version": "1.0",
+    "clock": {
+      "interval": "1937-05-01T12:00:00Z/1946-01-15T12:00:00Z",
+      "currentTime": "1937-05-01T12:00:00Z",
+      "multiplier": 60,
+      "range": "LOOP_STOP",
+      "step": "SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id": "seg-1937-05-01-0",
+    "name": "Radom (72nd Infantry Regiment)",
+    "description": "<h2>Lviv (Secondary Certificate) ➜ Radom (72nd Infantry Regiment)</h2><table><tr><td>start = 1937-05-01T12:00:00</td></tr><tr><td>note_from = Secondary school leaving certificate</td></tr><tr><td>note_to = Reserve officer cadet course begins</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          24.0297,
+          49.8397,
+          0,
+          21.1471,
+          51.4027,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1937-05-01T12:00:00Z/1937-05-31T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1937-09-21-1",
+    "name": "Dęblin (Aviation Cadet School)",
+    "description": "<h2>Radom (72nd Infantry Regiment) ➜ Dęblin (Aviation Cadet School)</h2><table><tr><td>start = 1937-09-21T12:00:00</td></tr><tr><td>note_from = Reserve officer cadet course begins</td></tr><tr><td>note_to = Accepted into Aviation Cadet School</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          21.1471,
+          51.4027,
+          0,
+          21.8486,
+          51.561,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1937-09-21T12:00:00Z/1937-10-21T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1938-01-02-2",
+    "name": "Ułęż Flying School",
+    "description": "<h2>Dęblin (Aviation Cadet School) ➜ Ułęż Flying School</h2><table><tr><td>start = 1938-01-02T12:00:00</td></tr><tr><td>note_from = Accepted into Aviation Cadet School</td></tr><tr><td>note_to = Fighter course on PZL P.7 (Jul–Aug 1939)</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          21.8486,
+          51.561,
+          0,
+          22.119,
+          51.616,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1938-01-02T12:00:00Z/1938-02-01T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-07-15-3",
+    "name": "Dreux / 15th Bomber Sqn area via Wielicka*",
+    "description": "<h2>Ułęż Flying School ➜ Dreux / 15th Bomber Sqn area via Wielicka*</h2><table><tr><td>start = 1939-07-15T12:00:00</td></tr><tr><td>note_from = Fighter course on PZL P.7 (Jul–Aug 1939)</td></tr><tr><td>note_to = Assigned around 9 Sep; operational confusion—transits in early fighting</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          22.119,
+          51.616,
+          0,
+          1.365,
+          48.736,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-07-15T12:00:00Z/1939-08-14T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-09-09-4",
+    "name": "Frecăței (Tulcea), Romania",
+    "description": "<h2>Dreux / 15th Bomber Sqn area via Wielicka* ➜ Frecăței (Tulcea), Romania</h2><table><tr><td>start = 1939-09-09T12:00:00</td></tr><tr><td>note_from = Assigned around 9 Sep; operational confusion—transits in early fighting</td></tr><tr><td>note_to = Interned after crossing border at 18:30</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          1.365,
+          48.736,
+          0,
+          28.7819,
+          45.0405,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-09-09T12:00:00Z/1939-10-09T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-09-17-5",
+    "name": "Turnu Severin, Romania",
+    "description": "<h2>Frecăței (Tulcea), Romania ➜ Turnu Severin, Romania</h2><table><tr><td>start = 1939-09-17T12:00:00</td></tr><tr><td>note_from = Interned after crossing border at 18:30</td></tr><tr><td>note_to = Failed Yugoslavia crossing; moved to camp</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          28.7819,
+          45.0405,
+          0,
+          22.6597,
+          44.6369,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-09-17T12:00:00Z/1939-10-17T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-10-09-6",
+    "name": "Turnu Severin, Romania (Escape)",
+    "description": "<h2>Turnu Severin, Romania ➜ Turnu Severin, Romania (Escape)</h2><table><tr><td>start = 1939-10-09T12:00:00</td></tr><tr><td>note_from = Failed Yugoslavia crossing; moved to camp</td></tr><tr><td>note_to = Escapes from camp</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          22.6597,
+          44.6369,
+          0,
+          22.6597,
+          44.6369,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-10-09T12:00:00Z/1939-11-08T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-10-20-7",
+    "name": "Balchik, Bulgaria",
+    "description": "<h2>Turnu Severin, Romania (Escape) ➜ Balchik, Bulgaria</h2><table><tr><td>start = 1939-10-20T12:00:00</td></tr><tr><td>note_from = Escapes from camp</td></tr><tr><td>note_to = Awaiting transport to France</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          22.6597,
+          44.6369,
+          0,
+          28.1581,
+          43.4215,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-10-20T12:00:00Z/1939-11-19T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-10-25-8",
+    "name": "Malta (SS Patris stop)",
+    "description": "<h2>Balchik, Bulgaria ➜ Malta (SS Patris stop)</h2><table><tr><td>start = 1939-10-25T12:00:00</td></tr><tr><td>note_from = Awaiting transport to France</td></tr><tr><td>note_to = Transit stop en route to France</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          28.1581,
+          43.4215,
+          0,
+          14.5146,
+          35.8989,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-10-25T12:00:00Z/1939-11-24T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-11-05-9",
+    "name": "Marseille, France",
+    "description": "<h2>Malta (SS Patris stop) ➜ Marseille, France</h2><table><tr><td>start = 1939-11-05T12:00:00</td></tr><tr><td>note_from = Transit stop en route to France</td></tr><tr><td>note_to = Arrives in France</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          14.5146,
+          35.8989,
+          0,
+          5.3698,
+          43.2965,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-11-05T12:00:00Z/1939-12-05T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-11-12-10",
+    "name": "Lyon-Bron, France",
+    "description": "<h2>Marseille, France ➜ Lyon-Bron, France</h2><table><tr><td>start = 1939-11-12T12:00:00</td></tr><tr><td>note_from = Arrives in France</td></tr><tr><td>note_to = Reports to assembly; later ATC</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          5.3698,
+          43.2965,
+          0,
+          4.938,
+          45.733,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-11-12T12:00:00Z/1939-12-12T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1939-11-13-11",
+    "name": "Lyon (CR.714 / MS.406 training)",
+    "description": "<h2>Lyon-Bron, France ➜ Lyon (CR.714 / MS.406 training)</h2><table><tr><td>start = 1939-11-13T12:00:00</td></tr><tr><td>note_from = Reports to assembly; later ATC</td></tr><tr><td>note_to = Volunteers for 3rd Fighter Sqn ('Finland Sqn')</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          4.938,
+          45.733,
+          0,
+          4.8357,
+          45.764,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1939-11-13T12:00:00Z/1939-12-13T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1940-03-01-12",
+    "name": "Villacoublay, France",
+    "description": "<h2>Lyon (CR.714 / MS.406 training) ➜ Villacoublay, France</h2><table><tr><td>start = 1940-03-01T12:00:00</td></tr><tr><td>note_from = Volunteers for 3rd Fighter Sqn ('Finland Sqn')</td></tr><tr><td>note_to = Unit receives CR.714; defends Paris sectors</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          4.8357,
+          45.764,
+          0,
+          2.2,
+          48.774,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1940-03-01T12:00:00Z/1940-03-31T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1940-05-15-13",
+    "name": "Dreux Airfield, France",
+    "description": "<h2>Villacoublay, France ➜ Dreux Airfield, France</h2><table><tr><td>start = 1940-05-15T12:00:00</td></tr><tr><td>note_from = Unit receives CR.714; defends Paris sectors</td></tr><tr><td>note_to = 1/145 'Warsaw' Sqn operations over front</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          2.2,
+          48.774,
+          0,
+          1.365,
+          48.736,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1940-05-15T12:00:00Z/1940-06-14T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1940-06-01-14",
+    "name": "La Rochelle, France (Evacuation)",
+    "description": "<h2>Dreux Airfield, France ➜ La Rochelle, France (Evacuation)</h2><table><tr><td>start = 1940-06-01T12:00:00</td></tr><tr><td>note_from = 1/145 'Warsaw' Sqn operations over front</td></tr><tr><td>note_to = Sails on SS Alderpool</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          1.365,
+          48.736,
+          0,
+          -1.1511,
+          46.1603,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1940-06-01T12:00:00Z/1940-07-01T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1940-06-19-15",
+    "name": "Plymouth, England",
+    "description": "<h2>La Rochelle, France (Evacuation) ➜ Plymouth, England</h2><table><tr><td>start = 1940-06-19T12:00:00</td></tr><tr><td>note_from = Sails on SS Alderpool</td></tr><tr><td>note_to = Arrives in UK</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -1.1511,
+          46.1603,
+          0,
+          -4.1427,
+          50.3755,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1940-06-19T12:00:00Z/1940-07-19T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1940-06-22-16",
+    "name": "West Kirby (Pilot Camp)",
+    "description": "<h2>Plymouth, England ➜ West Kirby (Pilot Camp)</h2><table><tr><td>start = 1940-06-22T12:00:00</td></tr><tr><td>note_from = Arrives in UK</td></tr><tr><td>note_to = Temporary pilot camp</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -4.1427,
+          50.3755,
+          0,
+          -3.183,
+          53.373,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1940-06-22T12:00:00Z/1940-07-22T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1940-07-01-17",
+    "name": "Blackpool (Ground Training)",
+    "description": "<h2>West Kirby (Pilot Camp) ➜ Blackpool (Ground Training)</h2><table><tr><td>start = 1940-07-01T12:00:00</td></tr><tr><td>note_from = Temporary pilot camp</td></tr><tr><td>note_to = Ground Training Centre; later translator 302 Sqn</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -3.183,
+          53.373,
+          0,
+          -3.055,
+          53.817,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1940-07-01T12:00:00Z/1940-07-31T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1940-09-03-18",
+    "name": "Hawarden, Wales (57 OTU)",
+    "description": "<h2>Blackpool (Ground Training) ➜ Hawarden, Wales (57 OTU)</h2><table><tr><td>start = 1940-09-03T12:00:00</td></tr><tr><td>note_from = Ground Training Centre; later translator 302 Sqn</td></tr><tr><td>note_to = Spitfire fighter training (to Apr 20)</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -3.055,
+          53.817,
+          0,
+          -2.977,
+          53.178,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1940-09-03T12:00:00Z/1940-10-03T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1941-03-21-19",
+    "name": "RAF Northolt (No. 303 Sqn)",
+    "description": "<h2>Hawarden, Wales (57 OTU) ➜ RAF Northolt (No. 303 Sqn)</h2><table><tr><td>start = 1941-03-21T12:00:00</td></tr><tr><td>note_from = Spitfire fighter training (to Apr 20)</td></tr><tr><td>note_to = Assigned to 303 Sqn (Spitfire II)</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -2.977,
+          53.178,
+          0,
+          -0.418,
+          51.548,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1941-03-21T12:00:00Z/1941-04-20T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1941-04-21-20",
+    "name": "Margate area, England",
+    "description": "<h2>RAF Northolt (No. 303 Sqn) ➜ Margate area, England</h2><table><tr><td>start = 1941-04-21T12:00:00</td></tr><tr><td>note_from = Assigned to 303 Sqn (Spitfire II)</td></tr><tr><td>note_to = Intercept over Kent coast</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.418,
+          51.548,
+          0,
+          1.386,
+          51.381,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1941-04-21T12:00:00Z/1941-05-21T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1941-05-09-21",
+    "name": "Béthune / Desvres, France",
+    "description": "<h2>Margate area, England ➜ Béthune / Desvres, France</h2><table><tr><td>start = 1941-05-09T12:00:00</td></tr><tr><td>note_from = Intercept over Kent coast</td></tr><tr><td>note_to = Circus 19/20 combats; collision; wounded</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          1.386,
+          51.381,
+          0,
+          2.64,
+          50.53,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1941-05-09T12:00:00Z/1941-06-08T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1941-06-23-22",
+    "name": "Manston (forced landing)",
+    "description": "<h2>Béthune / Desvres, France ➜ Manston (forced landing)</h2><table><tr><td>start = 1941-06-23T12:00:00</td></tr><tr><td>note_from = Circus 19/20 combats; collision; wounded</td></tr><tr><td>note_to = Lands gear-up near Manston after collision</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          2.64,
+          50.53,
+          0,
+          1.346,
+          51.342,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1941-06-23T12:00:00Z/1941-07-23T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1941-06-23-23",
+    "name": "Calais / Cap Gris-Nez area",
+    "description": "<h2>Manston (forced landing) ➜ Calais / Cap Gris-Nez area</h2><table><tr><td>start = 1941-06-23T12:00:00</td></tr><tr><td>note_from = Lands gear-up near Manston after collision</td></tr><tr><td>note_to = Fw 190 downed</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          1.346,
+          51.342,
+          0,
+          1.858,
+          50.951,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1941-06-23T12:00:00Z/1941-07-23T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1941-10-24-24",
+    "name": "Le Havre, France",
+    "description": "<h2>Calais / Cap Gris-Nez area ➜ Le Havre, France</h2><table><tr><td>start = 1941-10-24T12:00:00</td></tr><tr><td>note_from = Fw 190 downed</td></tr><tr><td>note_to = Circus 188B: Fw 190 victory</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          1.858,
+          50.951,
+          0,
+          0.107,
+          49.494,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1941-10-24T12:00:00Z/1941-11-23T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1942-06-05-25",
+    "name": "North Sea E of Grimsby",
+    "description": "<h2>Le Havre, France ➜ North Sea E of Grimsby</h2><table><tr><td>start = 1942-06-05T12:00:00</td></tr><tr><td>note_from = Circus 188B: Fw 190 victory</td></tr><tr><td>note_to = Ju 88 engaged/damaged</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          0.107,
+          49.494,
+          0,
+          0.5,
+          53.5,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1942-06-05T12:00:00Z/1942-07-05T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1942-06-25-26",
+    "name": "Heston (302 'Poznań' Sqn)",
+    "description": "<h2>North Sea E of Grimsby ➜ Heston (302 'Poznań' Sqn)</h2><table><tr><td>start = 1942-06-25T12:00:00</td></tr><tr><td>note_from = Ju 88 engaged/damaged</td></tr><tr><td>note_to = Posted to 302 Sqn (1st Fighter Wing)</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          0.5,
+          53.5,
+          0,
+          -0.373,
+          51.482,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1942-06-25T12:00:00Z/1942-07-25T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1942-07-09-27",
+    "name": "Kirton-in-Lindsey",
+    "description": "<h2>Heston (302 'Poznań' Sqn) ➜ Kirton-in-Lindsey</h2><table><tr><td>start = 1942-07-09T12:00:00</td></tr><tr><td>note_from = Posted to 302 Sqn (1st Fighter Wing)</td></tr><tr><td>note_to = 302 Sqn rest</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.373,
+          51.482,
+          0,
+          -0.59,
+          53.49,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1942-07-09T12:00:00Z/1942-08-08T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1943-02-01-28",
+    "name": "Hutton Cranswick",
+    "description": "<h2>Kirton-in-Lindsey ➜ Hutton Cranswick</h2><table><tr><td>start = 1943-02-01T12:00:00</td></tr><tr><td>note_from = 302 Sqn rest</td></tr><tr><td>note_to = Takes over B Flt on May 17</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.59,
+          53.49,
+          0,
+          -0.43,
+          53.95,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1943-02-01T12:00:00Z/1943-03-03T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1943-04-01-29",
+    "name": "Belgium coast (Knocke–Ostend)",
+    "description": "<h2>Hutton Cranswick ➜ Belgium coast (Knocke–Ostend)</h2><table><tr><td>start = 1943-04-01T12:00:00</td></tr><tr><td>note_from = Takes over B Flt on May 17</td></tr><tr><td>note_to = Ramrod 86: Fw 190 downed</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.43,
+          53.95,
+          0,
+          2.92,
+          51.217,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1943-04-01T12:00:00Z/1943-05-01T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1943-06-10-30",
+    "name": "Perranporth",
+    "description": "<h2>Belgium coast (Knocke–Ostend) ➜ Perranporth</h2><table><tr><td>start = 1943-06-10T12:00:00</td></tr><tr><td>note_from = Ramrod 86: Fw 190 downed</td></tr><tr><td>note_to = 302 Sqn moved</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          2.92,
+          51.217,
+          0,
+          -5.155,
+          50.344,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1943-06-10T12:00:00Z/1943-07-10T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1943-06-20-31",
+    "name": "Fairlop (3rd Wing ops)",
+    "description": "<h2>Perranporth ➜ Fairlop (3rd Wing ops)</h2><table><tr><td>start = 1943-06-20T12:00:00</td></tr><tr><td>note_from = 302 Sqn moved</td></tr><tr><td>note_to = Transfers to Fairlop</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -5.155,
+          50.344,
+          0,
+          0.083,
+          51.593,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1943-06-20T12:00:00Z/1943-07-20T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1943-08-19-32",
+    "name": "Lille area, France",
+    "description": "<h2>Fairlop (3rd Wing ops) ➜ Lille area, France</h2><table><tr><td>start = 1943-08-19T12:00:00</td></tr><tr><td>note_from = Transfers to Fairlop</td></tr><tr><td>note_to = Major battle: Bf 109 (sure) + Fw 190 (prob)</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          0.083,
+          51.593,
+          0,
+          3.057,
+          50.629,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1943-08-19T12:00:00Z/1943-09-18T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1943-09-08-33",
+    "name": "RAF Northolt (Spitfire F.IX)",
+    "description": "<h2>Lille area, France ➜ RAF Northolt (Spitfire F.IX)</h2><table><tr><td>start = 1943-09-08T12:00:00</td></tr><tr><td>note_from = Major battle: Bf 109 (sure) + Fw 190 (prob)</td></tr><tr><td>note_to = Re-equipped; flies F.IX 3.5 months</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          3.057,
+          50.629,
+          0,
+          -0.418,
+          51.548,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1943-09-08T12:00:00Z/1943-10-08T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1943-09-30-34",
+    "name": "Blackpool (retired, briefly)",
+    "description": "<h2>RAF Northolt (Spitfire F.IX) ➜ Blackpool (retired, briefly)</h2><table><tr><td>start = 1943-09-30T12:00:00</td></tr><tr><td>note_from = Re-equipped; flies F.IX 3.5 months</td></tr><tr><td>note_to = Formally retired; soon volunteers USAAF</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.418,
+          51.548,
+          0,
+          -3.055,
+          53.817,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1943-09-30T12:00:00Z/1943-10-30T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-01-10-35",
+    "name": "Halesworth (61st FS, 56th FG)",
+    "description": "<h2>Blackpool (retired, briefly) ➜ Halesworth (61st FS, 56th FG)</h2><table><tr><td>start = 1944-01-10T12:00:00</td></tr><tr><td>note_from = Formally retired; soon volunteers USAAF</td></tr><tr><td>note_to = Joins USAAF; P-47 Thunderbolt</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -3.055,
+          53.817,
+          0,
+          1.5,
+          52.35,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-01-10T12:00:00Z/1944-02-09T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-02-02-36",
+    "name": "IJsselmeer, Netherlands",
+    "description": "<h2>Halesworth (61st FS, 56th FG) ➜ IJsselmeer, Netherlands</h2><table><tr><td>start = 1944-02-02T12:00:00</td></tr><tr><td>note_from = Joins USAAF; P-47 Thunderbolt</td></tr><tr><td>note_to = Shoots down two Bf 109</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          1.5,
+          52.35,
+          0,
+          5.3,
+          52.8,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-02-02T12:00:00Z/1944-03-03T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-02-21-37",
+    "name": "Vechta Airfield, Germany",
+    "description": "<h2>IJsselmeer, Netherlands ➜ Vechta Airfield, Germany</h2><table><tr><td>start = 1944-02-21T12:00:00</td></tr><tr><td>note_from = Shoots down two Bf 109</td></tr><tr><td>note_to = Fw 190 destroyed on ground</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          5.3,
+          52.8,
+          0,
+          8.29,
+          52.736,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-02-21T12:00:00Z/1944-03-22T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-03-06-38",
+    "name": "Berlin (sortie)/Alderton ditch",
+    "description": "<h2>Vechta Airfield, Germany ➜ Berlin (sortie)/Alderton ditch</h2><table><tr><td>start = 1944-03-06T12:00:00</td></tr><tr><td>note_from = Fw 190 destroyed on ground</td></tr><tr><td>note_to = Fw 190 down; fuel out; bails near coast</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          8.29,
+          52.736,
+          0,
+          13.405,
+          52.52,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-03-06T12:00:00Z/1944-04-05T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-03-08-39",
+    "name": "Alderton/Hollesley, Suffolk",
+    "description": "<h2>Berlin (sortie)/Alderton ditch ➜ Alderton/Hollesley, Suffolk</h2><table><tr><td>start = 1944-03-08T12:00:00</td></tr><tr><td>note_from = Fw 190 down; fuel out; bails near coast</td></tr><tr><td>note_to = Parachutes; P-47 crashes at Aviary Farm</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          13.405,
+          52.52,
+          0,
+          1.42,
+          52.05,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-03-08T12:00:00Z/1944-04-07T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-03-08-40",
+    "name": "Angers, France",
+    "description": "<h2>Alderton/Hollesley, Suffolk ➜ Angers, France</h2><table><tr><td>start = 1944-03-08T12:00:00</td></tr><tr><td>note_from = Parachutes; P-47 crashes at Aviary Farm</td></tr><tr><td>note_to = Bf 109 shot after pilot bailed; certain</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          1.42,
+          52.05,
+          0,
+          -0.563,
+          47.478,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-03-08T12:00:00Z/1944-04-07T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-03-27-41",
+    "name": "Boxted (61st FS moved)",
+    "description": "<h2>Angers, France ➜ Boxted (61st FS moved)</h2><table><tr><td>start = 1944-03-27T12:00:00</td></tr><tr><td>note_from = Bf 109 shot after pilot bailed; certain</td></tr><tr><td>note_to = 56th FG base shift</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.563,
+          47.478,
+          0,
+          0.91,
+          51.93,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-03-27T12:00:00Z/1944-04-26T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-04-15-42",
+    "name": "Metz Airfield attack",
+    "description": "<h2>Boxted (61st FS moved) ➜ Metz Airfield attack</h2><table><tr><td>start = 1944-04-15T12:00:00</td></tr><tr><td>note_from = 56th FG base shift</td></tr><tr><td>note_to = Damages multiple aircraft on ground</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          0.91,
+          51.93,
+          0,
+          6.175,
+          49.119,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-04-15T12:00:00Z/1944-05-15T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-04-25-43",
+    "name": "Normandy beachhead",
+    "description": "<h2>Metz Airfield attack ➜ Normandy beachhead</h2><table><tr><td>start = 1944-04-25T12:00:00</td></tr><tr><td>note_from = Damages multiple aircraft on ground</td></tr><tr><td>note_to = D-Day air battles start</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          6.175,
+          49.119,
+          0,
+          -0.56,
+          49.33,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-04-25T12:00:00Z/1944-05-25T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-06-06-44",
+    "name": "Normandy beachhead",
+    "description": "<h2>Normandy beachhead ➜ Normandy beachhead</h2><table><tr><td>start = 1944-06-06T12:00:00</td></tr><tr><td>note_from = D-Day air battles start</td></tr><tr><td>note_to = Continued D-Day air combat</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.56,
+          49.33,
+          0,
+          -0.56,
+          49.33,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-06-06T12:00:00Z/1944-07-06T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-06-07-45",
+    "name": "Watnall (12 Group HQ)",
+    "description": "<h2>Normandy beachhead ➜ Watnall (12 Group HQ)</h2><table><tr><td>start = 1944-06-07T12:00:00</td></tr><tr><td>note_from = Continued D-Day air combat</td></tr><tr><td>note_to = Assigned liaison to RAF 12 Group</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -0.56,
+          49.33,
+          0,
+          -1.25,
+          53.03,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-06-07T12:00:00Z/1944-07-07T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-06-15-46",
+    "name": "France (Operation Shuttle cover)",
+    "description": "<h2>Watnall (12 Group HQ) ➜ France (Operation Shuttle cover)</h2><table><tr><td>start = 1944-06-15T12:00:00</td></tr><tr><td>note_from = Assigned liaison to RAF 12 Group</td></tr><tr><td>note_to = Bf 109 shot down (unauthorised sortie)</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -1.25,
+          53.03,
+          0,
+          2.3522,
+          48.8566,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-06-15T12:00:00Z/1944-07-15T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-07-05-47",
+    "name": "Maubeuge, France",
+    "description": "<h2>France (Operation Shuttle cover) ➜ Maubeuge, France</h2><table><tr><td>start = 1944-07-05T12:00:00</td></tr><tr><td>note_from = Bf 109 shot down (unauthorised sortie)</td></tr><tr><td>note_to = Ju 88 shot down</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          2.3522,
+          48.8566,
+          0,
+          3.97,
+          50.28,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-07-05T12:00:00Z/1944-08-04T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-08-12-48",
+    "name": "Back to 61st FS (Boxted)",
+    "description": "<h2>Maubeuge, France ➜ Back to 61st FS (Boxted)</h2><table><tr><td>start = 1944-08-12T12:00:00</td></tr><tr><td>note_from = Ju 88 shot down</td></tr><tr><td>note_to = Reassigned to Americans</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          3.97,
+          50.28,
+          0,
+          0.91,
+          51.93,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-08-12T12:00:00Z/1944-09-11T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-08-25-49",
+    "name": "Arnhem, Netherlands",
+    "description": "<h2>Back to 61st FS (Boxted) ➜ Arnhem, Netherlands</h2><table><tr><td>start = 1944-08-25T12:00:00</td></tr><tr><td>note_from = Reassigned to Americans</td></tr><tr><td>note_to = Two Bf 109 shot down (Market Garden)</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          0.91,
+          51.93,
+          0,
+          5.898,
+          51.985,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-08-25T12:00:00Z/1944-09-24T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1944-09-21-50",
+    "name": "Boxted (last combat mission)",
+    "description": "<h2>Arnhem, Netherlands ➜ Boxted (last combat mission)</h2><table><tr><td>start = 1944-09-21T12:00:00</td></tr><tr><td>note_from = Two Bf 109 shot down (Market Garden)</td></tr><tr><td>note_to = Last mission with 61st FS</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          5.898,
+          51.985,
+          0,
+          0.91,
+          51.93,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1944-09-21T12:00:00Z/1944-10-21T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1945-04-06-51",
+    "name": "UK (56th FG departs)",
+    "description": "<h2>Boxted (last combat mission) ➜ UK (56th FG departs)</h2><table><tr><td>start = 1945-04-06T12:00:00</td></tr><tr><td>note_from = Last mission with 61st FS</td></tr><tr><td>note_to = FG leaves Britain; Gladych remains, soon retires</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          0.91,
+          51.93,
+          0,
+          0.0,
+          52.0,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1945-04-06T12:00:00Z/1945-05-06T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1945-10-18-52",
+    "name": "Saint John, New Brunswick",
+    "description": "<h2>UK (56th FG departs) ➜ Saint John, New Brunswick</h2><table><tr><td>start = 1945-10-18T12:00:00</td></tr><tr><td>note_from = FG leaves Britain; Gladych remains, soon retires</td></tr><tr><td>note_to = Arrives via SS Manchester Shipper</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          0.0,
+          52.0,
+          0,
+          -66.063,
+          45.273,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1945-10-18T12:00:00Z/1945-11-17T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  },
+  {
+    "id": "seg-1945-11-30-53",
+    "name": "New York, USA",
+    "description": "<h2>Saint John, New Brunswick ➜ New York, USA</h2><table><tr><td>start = 1945-11-30T12:00:00</td></tr><tr><td>note_from = Arrives via SS Manchester Shipper</td></tr><tr><td>note_to = Settles; flies cargo/passenger</td></tr></table>",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -66.063,
+          45.273,
+          0,
+          -74.006,
+          40.7128,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              0,
+              255,
+              0,
+              255
+            ]
+          }
+        }
+      },
+      "show": [
+        {
+          "interval": "1945-11-30T12:00:00Z/1945-12-30T12:00:00Z",
+          "boolean": true
+        }
+      ],
+      "arcType": "NONE",
+      "width": 5,
+      "relativeToGround": true
+    }
+  }
+]
