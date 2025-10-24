@@ -6,7 +6,7 @@
     "clock": {
       "interval": "1918-05-17T12:00:00Z/2011-08-01T12:00:00Z",
       "currentTime": "1918-05-17T12:00:00Z",
-      "multiplier": 400000,
+      "multiplier": 400,
       "range": "LOOP_STOP"
     }
   },
