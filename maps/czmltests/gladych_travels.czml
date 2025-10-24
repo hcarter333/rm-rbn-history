@@ -1,0 +1,4129 @@
+[
+  {
+    "id": "document",
+    "name": "Bolesław Gładych — Travels & Service Timeline",
+    "version": "1.0",
+    "clock": {
+      "interval": "1918-05-17T12:00:00Z/2011-08-01T12:00:00Z",
+      "currentTime": "1918-05-17T12:00:00Z",
+      "multiplier": 400000,
+      "range": "LOOP_STOP"
+    }
+  },
+  {
+    "id": "gladych-travel",
+    "name": "Gladych — Animated Path",
+    "availability": "1918-05-17T12:00:00Z/2011-08-01T12:00:00Z",
+    "position": {
+      "epoch": "1918-05-17T12:00:00Z",
+      "cartographicDegrees": [
+        0,
+        21.0122,
+        52.2297,
+        0.0,
+        430012800,
+        24.0297,
+        49.8397,
+        0.0,
+        598233600,
+        24.0297,
+        49.8397,
+        0.0,
+        610588800,
+        21.1471,
+        51.4027,
+        0.0,
+        619488000,
+        21.8486,
+        51.561,
+        0.0,
+        667785600,
+        22.119,
+        51.616,
+        0.0,
+        672624000,
+        1.365,
+        48.736,
+        0.0,
+        673315200,
+        28.7819,
+        45.0405,
+        0.0,
+        675216000,
+        22.6597,
+        44.6369,
+        0.0,
+        676166400,
+        22.6597,
+        44.6369,
+        0.0,
+        676598400,
+        28.1581,
+        43.4215,
+        0.0,
+        677548800,
+        14.5146,
+        35.8989,
+        0.0,
+        678153600,
+        5.3698,
+        43.2965,
+        0.0,
+        678240000,
+        4.938,
+        45.733,
+        0.0,
+        687657600,
+        4.8357,
+        45.764,
+        0.0,
+        694137600,
+        2.2,
+        48.774,
+        0.0,
+        695606400,
+        1.365,
+        48.736,
+        0.0,
+        697161600,
+        -1.1511,
+        46.1603,
+        0.0,
+        697420800,
+        -4.1427,
+        50.3755,
+        0.0,
+        698198400,
+        -3.183,
+        53.373,
+        0.0,
+        703728000,
+        -3.055,
+        53.817,
+        0.0,
+        720921600,
+        -2.977,
+        53.178,
+        0.0,
+        723600000,
+        -0.418,
+        51.548,
+        0.0,
+        725155200,
+        1.386,
+        51.381,
+        0.0,
+        729043200,
+        2.64,
+        50.53,
+        0.0,
+        729043200,
+        1.346,
+        51.342,
+        0.0,
+        739670400,
+        1.858,
+        50.951,
+        0.0,
+        759024000,
+        0.107,
+        49.494,
+        0.0,
+        760752000,
+        0.5,
+        53.5,
+        0.0,
+        761961600,
+        -0.373,
+        51.482,
+        0.0,
+        779846400,
+        -0.59,
+        53.49,
+        0.0,
+        784944000,
+        -0.43,
+        53.95,
+        0.0,
+        790992000,
+        2.92,
+        51.217,
+        0.0,
+        791856000,
+        -5.155,
+        50.344,
+        0.0,
+        797040000,
+        0.083,
+        51.593,
+        0.0,
+        798768000,
+        3.057,
+        50.629,
+        0.0,
+        800668800,
+        -0.418,
+        51.548,
+        0.0,
+        809481600,
+        -3.055,
+        53.817,
+        0.0,
+        811468800,
+        1.5,
+        52.35,
+        0.0,
+        813110400,
+        5.3,
+        52.8,
+        0.0,
+        814320000,
+        8.29,
+        52.736,
+        0.0,
+        814492800,
+        13.405,
+        52.52,
+        0.0,
+        814492800,
+        1.42,
+        52.05,
+        0.0,
+        816134400,
+        -0.563,
+        47.478,
+        0.0,
+        817776000,
+        0.91,
+        51.93,
+        0.0,
+        818640000,
+        6.175,
+        49.119,
+        0.0,
+        822268800,
+        -0.56,
+        49.33,
+        0.0,
+        822355200,
+        -0.56,
+        49.33,
+        0.0,
+        823046400,
+        -1.25,
+        53.03,
+        0.0,
+        824774400,
+        2.3522,
+        48.8566,
+        0.0,
+        828057600,
+        3.97,
+        50.28,
+        0.0,
+        829180800,
+        0.91,
+        51.93,
+        0.0,
+        831513600,
+        5.898,
+        51.985,
+        0.0,
+        848534400,
+        0.91,
+        51.93,
+        0.0,
+        865382400,
+        0.0,
+        52.0,
+        0.0,
+        869097600,
+        -66.063,
+        45.273,
+        0.0,
+        873072000,
+        -74.006,
+        40.7128,
+        0.0,
+        1047945600,
+        -79.55,
+        8.983,
+        0.0,
+        1263600000,
+        -122.332,
+        47.606,
+        0.0,
+        1736985600,
+        -122.332,
+        47.606,
+        0.0,
+        2102630400,
+        -122.2015,
+        47.6101,
+        0.0,
+        2431209600,
+        21.0122,
+        52.2297,
+        0.0,
+        2939673600,
+        -122.177,
+        48.051,
+        0.0,
+        2941401600,
+        -122.032,
+        47.53,
+        0.0
+      ],
+      "interpolationAlgorithm": "LAGRANGE",
+      "interpolationDegree": 1
+    },
+    "path": {
+      "show": true,
+      "width": 3,
+      "material": {
+        "polylineOutline": {
+          "color": {
+            "rgba": [
+              0,
+              153,
+              255,
+              255
+            ]
+          },
+          "outlineColor": {
+            "rgba": [
+              255,
+              255,
+              255,
+              200
+            ]
+          },
+          "outlineWidth": 1
+        }
+      },
+      "leadTime": 0,
+      "trailTime": 9460800000
+    },
+    "billboard": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Airplane_silhouette.png",
+      "scale": 0.6,
+      "eyeOffset": {
+        "cartesian": [
+          0,
+          0,
+          0
+        ]
+      },
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          0
+        ]
+      }
+    },
+    "label": {
+      "text": "Bolesław Gładych",
+      "font": "16pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -30
+        ]
+      }
+    }
+  },
+  {
+    "id": "wp-1918-05-17-Warsaw,_Poland_(Birt",
+    "position": {
+      "cartographicDegrees": [
+        21.0122,
+        52.2297,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1918-05-17 • Warsaw, Poland (Birth)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1918-05-17</b><br/>Warsaw, Poland (Birth)<br/>Born in Warsaw</p>"
+  },
+  {
+    "id": "wp-1932-01-01-Lviv_(Cadet_Corps_No",
+    "position": {
+      "cartographicDegrees": [
+        24.0297,
+        49.8397,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1932-01-01 • Lviv (Cadet Corps No. 1)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1932-01-01</b><br/>Lviv (Cadet Corps No. 1)<br/>Transferred to Cadet Corps No.1</p>"
+  },
+  {
+    "id": "wp-1937-05-01-Lviv_(Secondary_Cert",
+    "position": {
+      "cartographicDegrees": [
+        24.0297,
+        49.8397,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1937-05-01 • Lviv (Secondary Certificate)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1937-05-01</b><br/>Lviv (Secondary Certificate)<br/>Secondary school leaving certificate</p>"
+  },
+  {
+    "id": "wp-1937-09-21-Radom_(72nd_Infantry",
+    "position": {
+      "cartographicDegrees": [
+        21.1471,
+        51.4027,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1937-09-21 • Radom (72nd Infantry Regiment)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1937-09-21</b><br/>Radom (72nd Infantry Regiment)<br/>Reserve officer cadet course begins</p>"
+  },
+  {
+    "id": "wp-1938-01-02-Dęblin_(Aviation_Cad",
+    "position": {
+      "cartographicDegrees": [
+        21.8486,
+        51.561,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1938-01-02 • Dęblin (Aviation Cadet School)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1938-01-02</b><br/>Dęblin (Aviation Cadet School)<br/>Accepted into Aviation Cadet School</p>"
+  },
+  {
+    "id": "wp-1939-07-15-Ułęż_Flying_School",
+    "position": {
+      "cartographicDegrees": [
+        22.119,
+        51.616,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-07-15 • Ułęż Flying School",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-07-15</b><br/>Ułęż Flying School<br/>Fighter course on PZL P.7 (Jul–Aug 1939)</p>"
+  },
+  {
+    "id": "wp-1939-09-09-Dreux_/_15th_Bomber_",
+    "position": {
+      "cartographicDegrees": [
+        1.365,
+        48.736,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-09-09 • Dreux / 15th Bomber Sqn area noted as relocation via Wielicka*",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-09-09</b><br/>Dreux / 15th Bomber Sqn area noted as relocation via Wielicka*<br/>Assigned around 9 Sep; operational confusion—transits in early fighting</p>"
+  },
+  {
+    "id": "wp-1939-09-17-Frecăței_(Tulcea),_R",
+    "position": {
+      "cartographicDegrees": [
+        28.7819,
+        45.0405,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-09-17 • Frecăței (Tulcea), Romania",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-09-17</b><br/>Frecăței (Tulcea), Romania<br/>Interned after crossing border at 18:30</p>"
+  },
+  {
+    "id": "wp-1939-10-09-Turnu_Severin,_Roman",
+    "position": {
+      "cartographicDegrees": [
+        22.6597,
+        44.6369,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-10-09 • Turnu Severin, Romania",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-10-09</b><br/>Turnu Severin, Romania<br/>Failed Yugoslavia crossing; moved to camp</p>"
+  },
+  {
+    "id": "wp-1939-10-20-Turnu_Severin,_Roman",
+    "position": {
+      "cartographicDegrees": [
+        22.6597,
+        44.6369,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-10-20 • Turnu Severin, Romania (Escape)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-10-20</b><br/>Turnu Severin, Romania (Escape)<br/>Escapes from camp</p>"
+  },
+  {
+    "id": "wp-1939-10-25-Balchik,_Bulgaria",
+    "position": {
+      "cartographicDegrees": [
+        28.1581,
+        43.4215,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-10-25 • Balchik, Bulgaria",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-10-25</b><br/>Balchik, Bulgaria<br/>Awaiting transport to France</p>"
+  },
+  {
+    "id": "wp-1939-11-05-Aboard_SS_Patris_(vi",
+    "position": {
+      "cartographicDegrees": [
+        14.5146,
+        35.8989,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-11-05 • Aboard SS Patris (via Malta)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-11-05</b><br/>Aboard SS Patris (via Malta)<br/>Transit stop at Malta en route to France</p>"
+  },
+  {
+    "id": "wp-1939-11-12-Marseille,_France",
+    "position": {
+      "cartographicDegrees": [
+        5.3698,
+        43.2965,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-11-12 • Marseille, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-11-12</b><br/>Marseille, France<br/>Arrives in France</p>"
+  },
+  {
+    "id": "wp-1939-11-13-Lyon-Bron,_France",
+    "position": {
+      "cartographicDegrees": [
+        4.938,
+        45.733,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1939-11-13 • Lyon-Bron, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1939-11-13</b><br/>Lyon-Bron, France<br/>Reports to assembly; later ATC</p>"
+  },
+  {
+    "id": "wp-1940-03-01-Lyon_(CR.714_/_MS.40",
+    "position": {
+      "cartographicDegrees": [
+        4.8357,
+        45.764,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1940-03-01 • Lyon (CR.714 / MS.406 training)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1940-03-01</b><br/>Lyon (CR.714 / MS.406 training)<br/>Volunteers for 3rd Fighter Sqn ('Finland Sqn')</p>"
+  },
+  {
+    "id": "wp-1940-05-15-Villacoublay,_France",
+    "position": {
+      "cartographicDegrees": [
+        2.2,
+        48.774,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1940-05-15 • Villacoublay, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1940-05-15</b><br/>Villacoublay, France<br/>Unit receives CR.714; defends Paris sectors</p>"
+  },
+  {
+    "id": "wp-1940-06-01-Dreux_Airfield,_Fran",
+    "position": {
+      "cartographicDegrees": [
+        1.365,
+        48.736,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1940-06-01 • Dreux Airfield, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1940-06-01</b><br/>Dreux Airfield, France<br/>1/145 'Warsaw' Sqn operations over front</p>"
+  },
+  {
+    "id": "wp-1940-06-19-La_Rochelle,_France_",
+    "position": {
+      "cartographicDegrees": [
+        -1.1511,
+        46.1603,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1940-06-19 • La Rochelle, France (Evacuation)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1940-06-19</b><br/>La Rochelle, France (Evacuation)<br/>Sails on SS Alderpool</p>"
+  },
+  {
+    "id": "wp-1940-06-22-Plymouth,_England",
+    "position": {
+      "cartographicDegrees": [
+        -4.1427,
+        50.3755,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1940-06-22 • Plymouth, England",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1940-06-22</b><br/>Plymouth, England<br/>Arrives in UK</p>"
+  },
+  {
+    "id": "wp-1940-07-01-West_Kirby_(Pilot_Ca",
+    "position": {
+      "cartographicDegrees": [
+        -3.183,
+        53.373,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1940-07-01 • West Kirby (Pilot Camp)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1940-07-01</b><br/>West Kirby (Pilot Camp)<br/>Temporary pilot camp</p>"
+  },
+  {
+    "id": "wp-1940-09-03-Blackpool_(Ground_Tr",
+    "position": {
+      "cartographicDegrees": [
+        -3.055,
+        53.817,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1940-09-03 • Blackpool (Ground Training)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1940-09-03</b><br/>Blackpool (Ground Training)<br/>Ground Training Centre; later translator 302 Sqn</p>"
+  },
+  {
+    "id": "wp-1941-03-21-Hawarden,_Wales_(57_",
+    "position": {
+      "cartographicDegrees": [
+        -2.977,
+        53.178,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1941-03-21 • Hawarden, Wales (57 OTU)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1941-03-21</b><br/>Hawarden, Wales (57 OTU)<br/>Spitfire fighter training (to Apr 20)</p>"
+  },
+  {
+    "id": "wp-1941-04-21-RAF_Northolt_(No._30",
+    "position": {
+      "cartographicDegrees": [
+        -0.418,
+        51.548,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1941-04-21 • RAF Northolt (No. 303 Sqn)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1941-04-21</b><br/>RAF Northolt (No. 303 Sqn)<br/>Assigned to 303 Sqn (Spitfire II)</p>"
+  },
+  {
+    "id": "wp-1941-05-09-Margate_area,_Englan",
+    "position": {
+      "cartographicDegrees": [
+        1.386,
+        51.381,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1941-05-09 • Margate area, England",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1941-05-09</b><br/>Margate area, England<br/>Intercept over Kent coast</p>"
+  },
+  {
+    "id": "wp-1941-06-23-Béthune_/_Desvres,_F",
+    "position": {
+      "cartographicDegrees": [
+        2.64,
+        50.53,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1941-06-23 • Béthune / Desvres, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1941-06-23</b><br/>Béthune / Desvres, France<br/>Circus 19/20 combats; collision; wounded</p>"
+  },
+  {
+    "id": "wp-1941-06-23-Manston_(forced_land",
+    "position": {
+      "cartographicDegrees": [
+        1.346,
+        51.342,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1941-06-23 • Manston (forced landing)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1941-06-23</b><br/>Manston (forced landing)<br/>Lands gear-up near Manston after collision</p>"
+  },
+  {
+    "id": "wp-1941-10-24-Calais_/_Cap_Gris-Ne",
+    "position": {
+      "cartographicDegrees": [
+        1.858,
+        50.951,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1941-10-24 • Calais / Cap Gris-Nez area",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1941-10-24</b><br/>Calais / Cap Gris-Nez area<br/>Fw 190 downed</p>"
+  },
+  {
+    "id": "wp-1942-06-05-Le_Havre,_France",
+    "position": {
+      "cartographicDegrees": [
+        0.107,
+        49.494,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1942-06-05 • Le Havre, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1942-06-05</b><br/>Le Havre, France<br/>Circus 188B: Fw 190 victory</p>"
+  },
+  {
+    "id": "wp-1942-06-25-North_Sea_E_of_Grims",
+    "position": {
+      "cartographicDegrees": [
+        0.5,
+        53.5,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1942-06-25 • North Sea E of Grimsby",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1942-06-25</b><br/>North Sea E of Grimsby<br/>Ju 88 engaged/damaged</p>"
+  },
+  {
+    "id": "wp-1942-07-09-Heston_(302_'Poznań'",
+    "position": {
+      "cartographicDegrees": [
+        -0.373,
+        51.482,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1942-07-09 • Heston (302 'Poznań' Sqn)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1942-07-09</b><br/>Heston (302 'Poznań' Sqn)<br/>Posted to 302 Sqn (1st Fighter Wing)</p>"
+  },
+  {
+    "id": "wp-1943-02-01-Kirton-in-Lindsey",
+    "position": {
+      "cartographicDegrees": [
+        -0.59,
+        53.49,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1943-02-01 • Kirton-in-Lindsey",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1943-02-01</b><br/>Kirton-in-Lindsey<br/>302 Sqn rest</p>"
+  },
+  {
+    "id": "wp-1943-04-01-Hutton_Cranswick",
+    "position": {
+      "cartographicDegrees": [
+        -0.43,
+        53.95,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1943-04-01 • Hutton Cranswick",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1943-04-01</b><br/>Hutton Cranswick<br/>Takes over B Flt on May 17</p>"
+  },
+  {
+    "id": "wp-1943-06-10-Belgium_coast_(Knock",
+    "position": {
+      "cartographicDegrees": [
+        2.92,
+        51.217,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1943-06-10 • Belgium coast (Knocke–Ostend)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1943-06-10</b><br/>Belgium coast (Knocke–Ostend)<br/>Ramrod 86: Fw 190 downed</p>"
+  },
+  {
+    "id": "wp-1943-06-20-Perranporth",
+    "position": {
+      "cartographicDegrees": [
+        -5.155,
+        50.344,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1943-06-20 • Perranporth",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1943-06-20</b><br/>Perranporth<br/>302 Sqn moved</p>"
+  },
+  {
+    "id": "wp-1943-08-19-Fairlop_(3rd_Wing_op",
+    "position": {
+      "cartographicDegrees": [
+        0.083,
+        51.593,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1943-08-19 • Fairlop (3rd Wing ops)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1943-08-19</b><br/>Fairlop (3rd Wing ops)<br/>Transfers to Fairlop</p>"
+  },
+  {
+    "id": "wp-1943-09-08-Lille_area,_France",
+    "position": {
+      "cartographicDegrees": [
+        3.057,
+        50.629,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1943-09-08 • Lille area, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1943-09-08</b><br/>Lille area, France<br/>Major battle: Bf 109 (sure) + Fw 190 (prob)</p>"
+  },
+  {
+    "id": "wp-1943-09-30-RAF_Northolt_(Spitfi",
+    "position": {
+      "cartographicDegrees": [
+        -0.418,
+        51.548,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1943-09-30 • RAF Northolt (Spitfire F.IX)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1943-09-30</b><br/>RAF Northolt (Spitfire F.IX)<br/>Re-equipped; flies F.IX 3.5 months</p>"
+  },
+  {
+    "id": "wp-1944-01-10-Blackpool_(retired,_",
+    "position": {
+      "cartographicDegrees": [
+        -3.055,
+        53.817,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-01-10 • Blackpool (retired, briefly)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-01-10</b><br/>Blackpool (retired, briefly)<br/>Formally retired; soon volunteers USAAF</p>"
+  },
+  {
+    "id": "wp-1944-02-02-Halesworth_(61st_FS,",
+    "position": {
+      "cartographicDegrees": [
+        1.5,
+        52.35,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-02-02 • Halesworth (61st FS, 56th FG)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-02-02</b><br/>Halesworth (61st FS, 56th FG)<br/>Joins USAAF; P‑47 Thunderbolt</p>"
+  },
+  {
+    "id": "wp-1944-02-21-IJsselmeer,_Netherla",
+    "position": {
+      "cartographicDegrees": [
+        5.3,
+        52.8,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-02-21 • IJsselmeer, Netherlands",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-02-21</b><br/>IJsselmeer, Netherlands<br/>Shoots down two Bf 109</p>"
+  },
+  {
+    "id": "wp-1944-03-06-Vechta_Airfield,_Ger",
+    "position": {
+      "cartographicDegrees": [
+        8.29,
+        52.736,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-03-06 • Vechta Airfield, Germany",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-03-06</b><br/>Vechta Airfield, Germany<br/>Fw 190 destroyed on ground</p>"
+  },
+  {
+    "id": "wp-1944-03-08-Berlin_/_low-alt_com",
+    "position": {
+      "cartographicDegrees": [
+        13.405,
+        52.52,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-03-08 • Berlin / low-alt combat; ditch",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-03-08</b><br/>Berlin / low-alt combat; ditch<br/>Fw 190 down; fuel out; bails near coast</p>"
+  },
+  {
+    "id": "wp-1944-03-08-Alderton/Hollesley,_",
+    "position": {
+      "cartographicDegrees": [
+        1.42,
+        52.05,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-03-08 • Alderton/Hollesley, Suffolk",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-03-08</b><br/>Alderton/Hollesley, Suffolk<br/>Parachutes; P‑47 crashes at Aviary Farm</p>"
+  },
+  {
+    "id": "wp-1944-03-27-Angers,_France",
+    "position": {
+      "cartographicDegrees": [
+        -0.563,
+        47.478,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-03-27 • Angers, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-03-27</b><br/>Angers, France<br/>Bf 109 shot after pilot bailed; certain</p>"
+  },
+  {
+    "id": "wp-1944-04-15-Boxted_(61st_FS_move",
+    "position": {
+      "cartographicDegrees": [
+        0.91,
+        51.93,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-04-15 • Boxted (61st FS moved)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-04-15</b><br/>Boxted (61st FS moved)<br/>56th FG base shift</p>"
+  },
+  {
+    "id": "wp-1944-04-25-Metz_Airfield_attack",
+    "position": {
+      "cartographicDegrees": [
+        6.175,
+        49.119,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-04-25 • Metz Airfield attack",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-04-25</b><br/>Metz Airfield attack<br/>Damages multiple aircraft on ground</p>"
+  },
+  {
+    "id": "wp-1944-06-06-Normandy_beachhead",
+    "position": {
+      "cartographicDegrees": [
+        -0.56,
+        49.33,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-06-06 • Normandy beachhead",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-06-06</b><br/>Normandy beachhead<br/>D‑Day air battles start</p>"
+  },
+  {
+    "id": "wp-1944-06-07-Normandy_beachhead",
+    "position": {
+      "cartographicDegrees": [
+        -0.56,
+        49.33,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-06-07 • Normandy beachhead",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-06-07</b><br/>Normandy beachhead<br/>Continued D‑Day air combat</p>"
+  },
+  {
+    "id": "wp-1944-06-15-Watnall_(12_Group_HQ",
+    "position": {
+      "cartographicDegrees": [
+        -1.25,
+        53.03,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-06-15 • Watnall (12 Group HQ)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-06-15</b><br/>Watnall (12 Group HQ)<br/>Assigned liaison to RAF 12 Group</p>"
+  },
+  {
+    "id": "wp-1944-07-05-France_(Operation_Sh",
+    "position": {
+      "cartographicDegrees": [
+        2.3522,
+        48.8566,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-07-05 • France (Operation Shuttle return cover)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-07-05</b><br/>France (Operation Shuttle return cover)<br/>Bf 109 shot down (unauthorised sortie)</p>"
+  },
+  {
+    "id": "wp-1944-08-12-Maubeuge,_France",
+    "position": {
+      "cartographicDegrees": [
+        3.97,
+        50.28,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-08-12 • Maubeuge, France",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-08-12</b><br/>Maubeuge, France<br/>Ju 88 shot down</p>"
+  },
+  {
+    "id": "wp-1944-08-25-Back_to_61st_FS_(Box",
+    "position": {
+      "cartographicDegrees": [
+        0.91,
+        51.93,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-08-25 • Back to 61st FS (Boxted)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-08-25</b><br/>Back to 61st FS (Boxted)<br/>Reassigned to Americans</p>"
+  },
+  {
+    "id": "wp-1944-09-21-Arnhem,_Netherlands",
+    "position": {
+      "cartographicDegrees": [
+        5.898,
+        51.985,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1944-09-21 • Arnhem, Netherlands",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1944-09-21</b><br/>Arnhem, Netherlands<br/>Two Bf 109 shot down (Market Garden)</p>"
+  },
+  {
+    "id": "wp-1945-04-06-Boxted_(last_combat_",
+    "position": {
+      "cartographicDegrees": [
+        0.91,
+        51.93,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1945-04-06 • Boxted (last combat mission)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1945-04-06</b><br/>Boxted (last combat mission)<br/>Last mission with 61st FS</p>"
+  },
+  {
+    "id": "wp-1945-10-18-UK_(56th_FG_departs)",
+    "position": {
+      "cartographicDegrees": [
+        0.0,
+        52.0,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1945-10-18 • UK (56th FG departs)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1945-10-18</b><br/>UK (56th FG departs)<br/>FG leaves Britain; Gladych remains, soon retires</p>"
+  },
+  {
+    "id": "wp-1945-11-30-Saint_John,_New_Brun",
+    "position": {
+      "cartographicDegrees": [
+        -66.063,
+        45.273,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1945-11-30 • Saint John, New Brunswick",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1945-11-30</b><br/>Saint John, New Brunswick<br/>Arrives via SS Manchester Shipper</p>"
+  },
+  {
+    "id": "wp-1946-01-15-New_York,_USA",
+    "position": {
+      "cartographicDegrees": [
+        -74.006,
+        40.7128,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1946-01-15 • New York, USA",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1946-01-15</b><br/>New York, USA<br/>Settles; flies cargo/passenger</p>"
+  },
+  {
+    "id": "wp-1951-08-01-Fort_Clayton,_Panama",
+    "position": {
+      "cartographicDegrees": [
+        -79.55,
+        8.983,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1951-08-01 • Fort Clayton, Panama (CIA)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1951-08-01</b><br/>Fort Clayton, Panama (CIA)<br/>Project Architoke (to 1953)</p>"
+  },
+  {
+    "id": "wp-1958-06-01-Seattle,_USA_(Boeing",
+    "position": {
+      "cartographicDegrees": [
+        -122.332,
+        47.606,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1958-06-01 • Seattle, USA (Boeing)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1958-06-01</b><br/>Seattle, USA (Boeing)<br/>Joins Boeing; PR and travel</p>"
+  },
+  {
+    "id": "wp-1973-06-01-Seattle_area_(Patent",
+    "position": {
+      "cartographicDegrees": [
+        -122.332,
+        47.606,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1973-06-01 • Seattle area (Patent filed)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1973-06-01</b><br/>Seattle area (Patent filed)<br/>Free-flying airplane patent</p>"
+  },
+  {
+    "id": "wp-1985-01-01-Bellevue,_WA_(Therap",
+    "position": {
+      "cartographicDegrees": [
+        -122.2015,
+        47.6101,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1985-01-01 • Bellevue, WA (Therapy work)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1985-01-01</b><br/>Bellevue, WA (Therapy work)<br/>Steve Brashen Foundation</p>"
+  },
+  {
+    "id": "wp-1995-06-01-Poland_(visit;_meets",
+    "position": {
+      "cartographicDegrees": [
+        21.0122,
+        52.2297,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "1995-06-01 • Poland (visit; meets Skalski)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>1995-06-01</b><br/>Poland (visit; meets Skalski)<br/>Post-war family visit</p>"
+  },
+  {
+    "id": "wp-2011-07-12-Marysville,_WA_(Deat",
+    "position": {
+      "cartographicDegrees": [
+        -122.177,
+        48.051,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "2011-07-12 • Marysville, WA (Death)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>2011-07-12</b><br/>Marysville, WA (Death)<br/>Dies aged 93</p>"
+  },
+  {
+    "id": "wp-2011-08-01-Issaquah,_WA_(later_",
+    "position": {
+      "cartographicDegrees": [
+        -122.032,
+        47.53,
+        0.0
+      ]
+    },
+    "point": {
+      "pixelSize": 8,
+      "color": {
+        "rgba": [
+          255,
+          215,
+          0,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 1
+    },
+    "label": {
+      "text": "2011-08-01 • Issaquah, WA (later life home)",
+      "font": "12pt sans-serif",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -18
+        ]
+      }
+    },
+    "description": "<p><b>2011-08-01</b><br/>Issaquah, WA (later life home)<br/>Home in later years (chronology note)</p>"
+  }
+]
