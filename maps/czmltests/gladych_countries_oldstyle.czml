@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "document",
+    "name": "Gladych — Countries Traversed (Old-Style Highlight)",
+    "version": "1.0",
+    "clock": {
+      "interval": "1939-09-01T12:00:00Z/1951-09-01T12:00:00Z",
+      "currentTime": "1939-09-01T12:00:00Z",
+      "multiplier": 60,
+      "range": "LOOP_STOP",
+      "step": "SYSTEM_CLOCK_MULTIPLIER"
+    }
+  },
+  {
+    "id": "rect-0-Poland",
+    "name": "Poland",
+    "description": "<h2>Poland</h2><p><b>1939-09</b> — Evacuation after Soviet invasion</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          14.0,
+          49.0,
+          24.5,
+          54.9
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1939-09-01T12:00:00Z/1939-10-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-0-Poland",
+    "name": "Poland border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          14.0,
+          49.0,
+          0,
+          24.5,
+          49.0,
+          0,
+          24.5,
+          49.0,
+          0,
+          24.5,
+          54.9,
+          0,
+          24.5,
+          54.9,
+          0,
+          14.0,
+          54.9,
+          0,
+          14.0,
+          54.9,
+          0,
+          14.0,
+          49.0,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1939-09-01T12:00:00Z/1939-10-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-0-Poland",
+    "position": {
+      "cartographicDegrees": [
+        19.25,
+        51.95,
+        0
+      ]
+    },
+    "label": {
+      "text": "Poland — 1939-09\nEvacuation after Soviet invasion",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1939-09-01T12:00:00Z/1939-10-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-1-Romania",
+    "name": "Romania",
+    "description": "<h2>Romania</h2><p><b>1939-09</b> — Interned; multiple escapes</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          20.2,
+          43.6,
+          29.7,
+          48.3
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1939-09-01T12:00:00Z/1939-10-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-1-Romania",
+    "name": "Romania border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          20.2,
+          43.6,
+          0,
+          29.7,
+          43.6,
+          0,
+          29.7,
+          43.6,
+          0,
+          29.7,
+          48.3,
+          0,
+          29.7,
+          48.3,
+          0,
+          20.2,
+          48.3,
+          0,
+          20.2,
+          48.3,
+          0,
+          20.2,
+          43.6,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1939-09-01T12:00:00Z/1939-10-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-1-Romania",
+    "position": {
+      "cartographicDegrees": [
+        24.95,
+        45.95,
+        0
+      ]
+    },
+    "label": {
+      "text": "Romania — 1939-09\nInterned; multiple escapes",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1939-09-01T12:00:00Z/1939-10-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-2-Bulgaria",
+    "name": "Bulgaria",
+    "description": "<h2>Bulgaria</h2><p><b>1939-10</b> — Staging at Balchik for transport</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          22.3,
+          41.2,
+          28.6,
+          44.3
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1939-10-01T12:00:00Z/1939-10-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-2-Bulgaria",
+    "name": "Bulgaria border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          22.3,
+          41.2,
+          0,
+          28.6,
+          41.2,
+          0,
+          28.6,
+          41.2,
+          0,
+          28.6,
+          44.3,
+          0,
+          28.6,
+          44.3,
+          0,
+          22.3,
+          44.3,
+          0,
+          22.3,
+          44.3,
+          0,
+          22.3,
+          41.2,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1939-10-01T12:00:00Z/1939-10-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-2-Bulgaria",
+    "position": {
+      "cartographicDegrees": [
+        25.450000000000003,
+        42.75,
+        0
+      ]
+    },
+    "label": {
+      "text": "Bulgaria — 1939-10\nStaging at Balchik for transport",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1939-10-01T12:00:00Z/1939-10-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-3-Malta",
+    "name": "Malta",
+    "description": "<h2>Malta</h2><p><b>1939-11</b> — Transit stop aboard SS Patris</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          14.2,
+          35.7,
+          14.7,
+          36.1
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1939-11-01T12:00:00Z/1939-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-3-Malta",
+    "name": "Malta border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          14.2,
+          35.7,
+          0,
+          14.7,
+          35.7,
+          0,
+          14.7,
+          35.7,
+          0,
+          14.7,
+          36.1,
+          0,
+          14.7,
+          36.1,
+          0,
+          14.2,
+          36.1,
+          0,
+          14.2,
+          36.1,
+          0,
+          14.2,
+          35.7,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1939-11-01T12:00:00Z/1939-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-3-Malta",
+    "position": {
+      "cartographicDegrees": [
+        14.45,
+        35.900000000000006,
+        0
+      ]
+    },
+    "label": {
+      "text": "Malta — 1939-11\nTransit stop aboard SS Patris",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1939-11-01T12:00:00Z/1939-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-4-France",
+    "name": "France",
+    "description": "<h2>France</h2><p><b>1939-11</b> — Training & combat; evacuation to UK</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          -5.5,
+          41.0,
+          9.6,
+          51.1
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1939-11-01T12:00:00Z/1939-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-4-France",
+    "name": "France border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -5.5,
+          41.0,
+          0,
+          9.6,
+          41.0,
+          0,
+          9.6,
+          41.0,
+          0,
+          9.6,
+          51.1,
+          0,
+          9.6,
+          51.1,
+          0,
+          -5.5,
+          51.1,
+          0,
+          -5.5,
+          51.1,
+          0,
+          -5.5,
+          41.0,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1939-11-01T12:00:00Z/1939-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-4-France",
+    "position": {
+      "cartographicDegrees": [
+        2.05,
+        46.05,
+        0
+      ]
+    },
+    "label": {
+      "text": "France — 1939-11\nTraining & combat; evacuation to UK",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1939-11-01T12:00:00Z/1939-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-5-United_Kingdom",
+    "name": "United Kingdom",
+    "description": "<h2>United Kingdom</h2><p><b>1940-06</b> — RAF service (303/302 Sqns)</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          -8.6,
+          49.8,
+          1.8,
+          59.3
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1940-06-01T12:00:00Z/1940-07-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-5-United_Kingdom",
+    "name": "United Kingdom border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -8.6,
+          49.8,
+          0,
+          1.8,
+          49.8,
+          0,
+          1.8,
+          49.8,
+          0,
+          1.8,
+          59.3,
+          0,
+          1.8,
+          59.3,
+          0,
+          -8.6,
+          59.3,
+          0,
+          -8.6,
+          59.3,
+          0,
+          -8.6,
+          49.8,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1940-06-01T12:00:00Z/1940-07-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-5-United_Kingdom",
+    "position": {
+      "cartographicDegrees": [
+        -3.4,
+        54.55,
+        0
+      ]
+    },
+    "label": {
+      "text": "United Kingdom — 1940-06\nRAF service (303/302 Sqns)",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1940-06-01T12:00:00Z/1940-07-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-6-Belgium",
+    "name": "Belgium",
+    "description": "<h2>Belgium</h2><p><b>1943-06</b> — Escort & air battles over coast</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          2.5,
+          49.5,
+          6.4,
+          51.5
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1943-06-01T12:00:00Z/1943-07-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-6-Belgium",
+    "name": "Belgium border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          2.5,
+          49.5,
+          0,
+          6.4,
+          49.5,
+          0,
+          6.4,
+          49.5,
+          0,
+          6.4,
+          51.5,
+          0,
+          6.4,
+          51.5,
+          0,
+          2.5,
+          51.5,
+          0,
+          2.5,
+          51.5,
+          0,
+          2.5,
+          49.5,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1943-06-01T12:00:00Z/1943-07-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-6-Belgium",
+    "position": {
+      "cartographicDegrees": [
+        4.45,
+        50.5,
+        0
+      ]
+    },
+    "label": {
+      "text": "Belgium — 1943-06\nEscort & air battles over coast",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1943-06-01T12:00:00Z/1943-07-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-7-Netherlands",
+    "name": "Netherlands",
+    "description": "<h2>Netherlands</h2><p><b>1944-02</b> — IJsselmeer victories; Market Garden</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          3.2,
+          50.7,
+          7.2,
+          53.7
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1944-02-01T12:00:00Z/1944-03-02T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-7-Netherlands",
+    "name": "Netherlands border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          3.2,
+          50.7,
+          0,
+          7.2,
+          50.7,
+          0,
+          7.2,
+          50.7,
+          0,
+          7.2,
+          53.7,
+          0,
+          7.2,
+          53.7,
+          0,
+          3.2,
+          53.7,
+          0,
+          3.2,
+          53.7,
+          0,
+          3.2,
+          50.7,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1944-02-01T12:00:00Z/1944-03-02T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-7-Netherlands",
+    "position": {
+      "cartographicDegrees": [
+        5.2,
+        52.2,
+        0
+      ]
+    },
+    "label": {
+      "text": "Netherlands — 1944-02\nIJsselmeer victories; Market Garden",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1944-02-01T12:00:00Z/1944-03-02T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-8-Germany",
+    "name": "Germany",
+    "description": "<h2>Germany</h2><p><b>1944-03</b> — Airfield attacks; Berlin sortie</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          5.9,
+          47.3,
+          15.0,
+          55.1
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1944-03-01T12:00:00Z/1944-03-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-8-Germany",
+    "name": "Germany border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          5.9,
+          47.3,
+          0,
+          15.0,
+          47.3,
+          0,
+          15.0,
+          47.3,
+          0,
+          15.0,
+          55.1,
+          0,
+          15.0,
+          55.1,
+          0,
+          5.9,
+          55.1,
+          0,
+          5.9,
+          55.1,
+          0,
+          5.9,
+          47.3,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1944-03-01T12:00:00Z/1944-03-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-8-Germany",
+    "position": {
+      "cartographicDegrees": [
+        10.45,
+        51.2,
+        0
+      ]
+    },
+    "label": {
+      "text": "Germany — 1944-03\nAirfield attacks; Berlin sortie",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1944-03-01T12:00:00Z/1944-03-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-9-Canada",
+    "name": "Canada",
+    "description": "<h2>Canada</h2><p><b>1945-11</b> — Arrival at Saint John, NB</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          -68.0,
+          44.5,
+          -63.0,
+          47.5
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1945-11-01T12:00:00Z/1945-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-9-Canada",
+    "name": "Canada border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -68.0,
+          44.5,
+          0,
+          -63.0,
+          44.5,
+          0,
+          -63.0,
+          44.5,
+          0,
+          -63.0,
+          47.5,
+          0,
+          -63.0,
+          47.5,
+          0,
+          -68.0,
+          47.5,
+          0,
+          -68.0,
+          47.5,
+          0,
+          -68.0,
+          44.5,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1945-11-01T12:00:00Z/1945-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-9-Canada",
+    "position": {
+      "cartographicDegrees": [
+        -65.5,
+        46.0,
+        0
+      ]
+    },
+    "label": {
+      "text": "Canada — 1945-11\nArrival at Saint John, NB",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1945-11-01T12:00:00Z/1945-12-01T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-10-United_States",
+    "name": "United States",
+    "description": "<h2>United States</h2><p><b>1945-12</b> — New York; later Seattle/Boeing</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          -125.0,
+          24.0,
+          -66.0,
+          49.0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1945-12-01T12:00:00Z/1945-12-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-10-United_States",
+    "name": "United States border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -125.0,
+          24.0,
+          0,
+          -66.0,
+          24.0,
+          0,
+          -66.0,
+          24.0,
+          0,
+          -66.0,
+          49.0,
+          0,
+          -66.0,
+          49.0,
+          0,
+          -125.0,
+          49.0,
+          0,
+          -125.0,
+          49.0,
+          0,
+          -125.0,
+          24.0,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1945-12-01T12:00:00Z/1945-12-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-10-United_States",
+    "position": {
+      "cartographicDegrees": [
+        -95.5,
+        36.5,
+        0
+      ]
+    },
+    "label": {
+      "text": "United States — 1945-12\nNew York; later Seattle/Boeing",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1945-12-01T12:00:00Z/1945-12-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "rect-11-Panama",
+    "name": "Panama",
+    "description": "<h2>Panama</h2><p><b>1951-08</b> — CIA Project 'Architoke' (to 1953)</p>",
+    "rectangle": {
+      "coordinates": {
+        "wsenDegrees": [
+          -83.1,
+          7.2,
+          -77.1,
+          9.8
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              233,
+              216,
+              166,
+              90
+            ]
+          }
+        }
+      },
+      "outline": false,
+      "show": [
+        {
+          "interval": "1951-08-01T12:00:00Z/1951-08-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "border-11-Panama",
+    "name": "Panama border",
+    "polyline": {
+      "positions": {
+        "cartographicDegrees": [
+          -83.1,
+          7.2,
+          0,
+          -77.1,
+          7.2,
+          0,
+          -77.1,
+          7.2,
+          0,
+          -77.1,
+          9.8,
+          0,
+          -77.1,
+          9.8,
+          0,
+          -83.1,
+          9.8,
+          0,
+          -83.1,
+          9.8,
+          0,
+          -83.1,
+          7.2,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              102,
+              74,
+              36,
+              255
+            ]
+          }
+        }
+      },
+      "width": 8,
+      "arcType": "NONE",
+      "clampToGround": true,
+      "show": [
+        {
+          "interval": "1951-08-01T12:00:00Z/1951-08-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "label-11-Panama",
+    "position": {
+      "cartographicDegrees": [
+        -80.1,
+        8.5,
+        0
+      ]
+    },
+    "label": {
+      "text": "Panama — 1951-08\nCIA Project 'Architoke' (to 1953)",
+      "font": "18pt serif",
+      "fillColor": {
+        "rgba": [
+          60,
+          40,
+          20,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          200
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          -10
+        ]
+      },
+      "horizontalOrigin": "CENTER",
+      "verticalOrigin": "BOTTOM",
+      "show": [
+        {
+          "interval": "1951-08-01T12:00:00Z/1951-08-31T12:00:00Z",
+          "boolean": true
+        }
+      ]
+    }
+  }
+]
