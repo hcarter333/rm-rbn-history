@@ -90,7 +90,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -225,7 +225,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -360,7 +360,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -495,7 +495,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -630,7 +630,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -765,7 +765,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -900,7 +900,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -1035,7 +1035,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -1170,7 +1170,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -1305,7 +1305,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -1440,7 +1440,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
@@ -1575,7 +1575,7 @@
         }
       },
       "width": 8,
-      "arcType": "NONE",
+      "arcType": "GEODESIC",
       "clampToGround": true,
       "show": [
         {
