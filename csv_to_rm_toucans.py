@@ -48,7 +48,7 @@ def parse_cutoff(ts: str) -> datetime:
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("csv_path", help="Input CSV path")
-    p.add_argument("--after", required=True, help="Cutoff timestamp YYYY/MM/DD HH:MM:SS")
+    p.add_argument("--after", help="Cutoff timestamp YYYY/MM/DD HH:MM:SS")
     p.add_argument("--db", default="rm_toucans.db", help="SQLite DB path")
     return p.parse_args()
 
@@ -83,9 +83,36 @@ def coerce_types(row: dict) -> dict:
             out[k] = str(v)
     return out
 
+def cutoff_from_db(db_path: str) -> datetime:
+    query = """
+        select
+        max(timestamp)
+        from
+          rm_rnb_history_pres
+        order by
+          rowid
+        limit
+          101
+    """
+    if not Path(db_path).exists():
+        raise FileNotFoundError(f"Database not found: {db_path}")
+    try:
+        with sqlite3.connect(db_path) as conn:
+            result = conn.execute(query).fetchone()
+    except sqlite3.OperationalError as exc:
+        raise sqlite3.OperationalError(
+            f"Unable to read rm_rnb_history_pres from {db_path}: {exc}"
+        ) from exc
+    if not result or result[0] is None:
+        return datetime.min
+    return parse_cutoff(result[0])
+
 def main():
     args = parse_args()
-    cutoff_dt = parse_cutoff(args.after)
+    if args.after:
+        cutoff_dt = parse_cutoff(args.after)
+    else:
+        cutoff_dt = cutoff_from_db(args.db)
 
     # Prepare insert SQL
     placeholders = ", ".join(["?"]*len(TABLE_COLUMNS))
