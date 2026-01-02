@@ -1,7 +1,7 @@
 # csv_to_rm_toucans.py
 
 Convert new rows from a CSV export into the SQLite table `rm_rnb_history_pres` in `rm_toucans.db`.  
-Rows are **filtered to only those strictly after** a user-supplied cutoff timestamp, CSV timestamps are converted to ISO 8601, obvious numeric fields are coerced, and two extra columns are added as `NULL` placeholders (`f2m`, `launchangle`).
+Rows are **filtered to only those strictly after** a cutoff timestamp (either supplied by `--after` or looked up from the database), CSV timestamps are converted to ISO 8601, obvious numeric fields are coerced, and two extra columns are added as `NULL` placeholders (`f2m`, `launchangle`).
 
 ---
 
@@ -9,7 +9,7 @@ Rows are **filtered to only those strictly after** a user-supplied cutoff timest
 
 1. **Reads** a CSV file with the required header fields (see schema below).
 2. **Parses** each row’s `timestamp` (`YYYY/MM/DD HH:MM:SS` in the CSV).
-3. **Keeps only** rows with `timestamp` **strictly greater than** the `--after` cutoff.
+3. **Keeps only** rows with `timestamp` **strictly greater than** the cutoff (`--after` or derived from the DB).
 4. **Converts** timestamps to ISO 8601 (`YYYY-MM-DDTHH:MM:SS`) for the DB.
 5. **Coerces** select fields to numeric types (integers / floats) when possible; blanks become `NULL`.
 6. **Adds** `f2m` and `launchangle` columns as `NULL` on insert.
@@ -102,19 +102,34 @@ Additionally:
 
 ## Cutoff semantics (`--after`)
 
-- **Required** argument.
+- **Optional** argument.
 - Accepts either:
   - CSV style: `YYYY/MM/DD HH:MM:SS` (e.g., `2025/10/01 00:00:00`)
   - ISO style: `YYYY-MM-DDTHH:MM:SS` (e.g., `2025-10-01T00:00:00`)
 - The script **keeps only rows with CSV `timestamp` strictly greater than** the cutoff (`>`).
+- If `--after` is **omitted**, the script queries the database and uses the result of:
+
+```sql
+select
+max(timestamp)
+from
+  rm_rnb_history_pres
+order by
+  rowid
+limit
+  101
+```
+
+- If the query returns `NULL` (empty table), the script uses the minimum possible timestamp, effectively importing **all** rows from the CSV.
+- The database file must exist and include the `rm_rnb_history_pres` table.
 
 ---
 
 ## Usage
 
 ```bash
-# Basic usage (default DB: ./rm_toucans.db)
-python3 csv_to_rm_toucans.py path/to/input.csv --after "2025/10/01 00:00:00"
+# Basic usage (default DB: ./rm_toucans.db). If --after is omitted, use the DB's max timestamp.
+python3 csv_to_rm_toucans.py path/to/input.csv
 
 # Using ISO style cutoff
 python3 csv_to_rm_toucans.py path/to/input.csv --after "2025-10-01T00:00:00"
@@ -137,4 +152,3 @@ python3 csv_to_rm_toucans.py path/to/input.csv --after "2025/10/01 00:00:00" --d
 *(There is no “dry run” mode; consider copying the DB before running.)*
 
 ---
-
