@@ -432,3 +432,77 @@ def test_cutoff_from_db_requires_table(tmp_path: Path) -> None:
         conn.execute("create table example(id integer)")
     with pytest.raises(sqlite3.OperationalError, match="rm_rnb_history_pres"):
         cutoff_from_db(db_path)
+
+
+def test_reports_earliest_and_latest_inserted_timestamps(tmp_path: Path) -> None:
+    db_path = tmp_path / "rm_toucans.db"
+    csv_path = tmp_path / "rm_rnb_history_pres.csv"
+
+    existing_rows = []
+    csv_rows = []
+    for idx in range(1, 11):
+        csv_rows.append(
+            [
+                float(idx),
+                -100.0,
+                40.0,
+                -101.0,
+                41.0,
+                f"2024/02/{idx:02d} 12:00:00",
+                10 + idx,
+                7.0 + idx / 10,
+                f"SPOT{idx}",
+                "USA",
+                "CO",
+                "Test",
+                "City",
+                1,
+                "N",
+                "",
+                "",
+                599,
+                "",
+                "",
+                f"CALL{idx}",
+                "",
+                1234,
+            ]
+        )
+        if idx <= 5:
+            existing_rows.append(
+                (
+                    float(idx),
+                    -100.0,
+                    40.0,
+                    -101.0,
+                    41.0,
+                    f"2024-02-{idx:02d}T12:00:00",
+                    10 + idx,
+                    7.0 + idx / 10,
+                    f"SPOT{idx}",
+                    "USA",
+                    "CO",
+                    "Test",
+                    "City",
+                    1,
+                    "N",
+                    "",
+                    "",
+                    599,
+                    "",
+                    "",
+                    f"CALL{idx}",
+                    "",
+                    1234,
+                    None,
+                    None,
+                )
+            )
+
+    seed_db(db_path, existing_rows)
+    write_csv(csv_path, csv_rows)
+
+    result = run_script(csv_path, db_path)
+    assert "Inserted 5 rows" in result.stdout
+    assert "Earliest inserted timestamp: 2024-02-06T12:00:00" in result.stdout
+    assert "Latest inserted timestamp: 2024-02-10T12:00:00" in result.stdout

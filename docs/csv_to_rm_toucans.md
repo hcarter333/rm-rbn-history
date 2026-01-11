@@ -144,6 +144,10 @@ python3 csv_to_rm_toucans.py path/to/input.csv --after "2025/10/01 00:00:00" --d
 
 - Prints a one-line summary:  
   `Done. Inserted <N> rows. Skipped <M> rows.`
+- Prints the earliest and latest timestamps (ISO 8601) among the newly inserted rows:
+  - `Earliest inserted timestamp: YYYY-MM-DDTHH:MM:SS`
+  - `Latest inserted timestamp: YYYY-MM-DDTHH:MM:SS`
+- If no new rows are inserted, both timestamps are reported as `N/A`.
 - Reasons a row can be **skipped**:
   - CSV `timestamp` missing or invalid
   - Row’s timestamp is **not after** the cutoff (it’s `<=`)
