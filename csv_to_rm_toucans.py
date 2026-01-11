@@ -122,6 +122,8 @@ def main():
     conn = sqlite3.connect(args.db)
     inserted = 0
     skipped = 0
+    earliest_inserted = None
+    latest_inserted = None
 
     with open(args.csv_path,newline="",encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -149,12 +151,22 @@ def main():
             try:
                 conn.execute(sql, values)
                 inserted += 1
+                if earliest_inserted is None or dt < earliest_inserted:
+                    earliest_inserted = dt
+                if latest_inserted is None or dt > latest_inserted:
+                    latest_inserted = dt
             except Exception:
                 skipped += 1
 
     conn.commit()
     conn.close()
     print(f"Done. Inserted {inserted} rows. Skipped {skipped} rows.")
+    if inserted:
+        print(f"Earliest inserted timestamp: {to_db_timestamp(earliest_inserted)}")
+        print(f"Latest inserted timestamp: {to_db_timestamp(latest_inserted)}")
+    else:
+        print("Earliest inserted timestamp: N/A")
+        print("Latest inserted timestamp: N/A")
 
 if __name__ == "__main__":
     main()
