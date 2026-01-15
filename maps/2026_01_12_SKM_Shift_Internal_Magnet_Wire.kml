@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document><name>2026_01_12 SKM Shift Internal Magnet Wire</name>
+<description>Tried out the magnet wire antenna rather extensively. It worked great!
+</description>
+<Style id="RBN">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal5/icon17.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="QSO">
+<IconStyle>
+<Icon>
+<href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1529-broadcast_4x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>ka4upi</name>
+<description><![CDATA[<h1>ka4upi</h1>Date/Time GMT: <div><br></div>2023/01/12 15:16:00]]></description>
+<TimeStamp>2023-01-12T15:16:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-82.7774144,32.5681847,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>ka4upi</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-01-12T15:16:00</TimeStamp>
+<Point>
+<coordinates>-82.7774144,32.5681847</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>wa7rv</name>
+<description><![CDATA[<h1>wa7rv</h1>Date/Time GMT: <div><br></div>2023/01/12 15:16:00]]></description>
+<TimeStamp>2023-01-12T15:16:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-111.3576573,34.259094,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ff82004b</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>wa7rv</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-01-12T15:16:00</TimeStamp>
+<Point>
+<coordinates>-111.3576573,34.259094</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>w2bug</name>
+<description><![CDATA[<h1>w2bug</h1>Date/Time GMT: <div><br></div>2023/01/12 16:38:00]]></description>
+<TimeStamp>2023-01-12T16:38:00</TimeStamp>
+<LineString><tessellate>1</tessellate><coordinates>
+-122.42293617440531,37.72489522009444,0.
+-112.1202446,33.8697359,0.
+</coordinates></LineString>
+<Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
+</Placemark>
+<Placemark>
+<name>w2bug</name>
+<styleUrl>#QSO</styleUrl>
+<TimeStamp>2023-01-12T16:38:00</TimeStamp>
+<Point>
+<coordinates>-112.1202446,33.8697359</coordinates>
+</Point>
+</Placemark>
+</Document> </kml>
