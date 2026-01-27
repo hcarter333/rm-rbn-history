@@ -1,16 +1,5 @@
-2026-01-25 US-7577 Valley of Fires POTA
-Way noiser remote operation. I suspect the issue was the 2 meter ranger antenna behind me. I need to check recording to see if it was just my headphones or radio as well.
--105.9230947711124
-33.68267250345286
-ac5k,2026/01/25 23:25:01,449,439
-k7sps,2026/01/25 23:30:01,449,599
-kb9lbe,2026/01/25 23:31:54,339,339
-kb0row,2026/01/25 23:35:49,339,339
-n7bbq,2026/01/25 23:38:02,559,579
-ki7f,2026/01/25 23:39:32,449,599
-wd0nn,2026/01/25 23:45:47,219,559
-ni6l,2026/01/25 23:47:38,339,449
-n7mzz,2026/01/25 23:48:55,579,599
-n5of,2026/01/25 23:50:37,559,559
-wd5eei,2026/01/25 23:51:36,559,339
-kf9r,2026/01/25 23:55:43,559,559
+Title of map
+Any notes you would like to add; next two lines are location of tx station; final line has call,date time,transmitted rst, received rst
+-122.42293617440531
+37.72489522009444
+CALL,2023/10/30 18:28:00,539,449
