@@ -1153,7 +1153,7 @@
 <TimeStamp>2026-01-30T02:39:37</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.603164,37.903279,0.
-ca,539,0.
+-122.2581495,37.8184999,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1162,7 +1162,7 @@ ca,539,0.
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2026-01-30T02:39:37</TimeStamp>
 <Point>
-<coordinates>ca,539</coordinates>
+<coordinates>-122.2581495,37.8184999</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -1171,7 +1171,7 @@ ca,539,0.
 <TimeStamp>2026-01-30T02:44:12</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.603164,37.903279,0.
-wy,539,0.
+-105.6191057,41.3159328,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00a5ff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1180,7 +1180,7 @@ wy,539,0.
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2026-01-30T02:44:12</TimeStamp>
 <Point>
-<coordinates>wy,539</coordinates>
+<coordinates>-105.6191057,41.3159328</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -1189,7 +1189,7 @@ wy,539,0.
 <TimeStamp>2026-01-30T03:16:24</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.603164,37.903279,0.
-hi,559,0.
+-155.1686078,19.9382406,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff00ff00</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1198,7 +1198,7 @@ hi,559,0.
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2026-01-30T03:16:24</TimeStamp>
 <Point>
-<coordinates>hi,559</coordinates>
+<coordinates>-155.1686078,19.9382406</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -1207,7 +1207,7 @@ hi,559,0.
 <TimeStamp>2026-01-30T03:25:04</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.603164,37.903279,0.
-mi,319,0.
+-86.1678771,43.3103841,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ff004b96</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1216,7 +1216,7 @@ mi,319,0.
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2026-01-30T03:25:04</TimeStamp>
 <Point>
-<coordinates>mi,319</coordinates>
+<coordinates>-86.1678771,43.3103841</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -1225,7 +1225,7 @@ mi,319,0.
 <TimeStamp>2026-01-30T03:37:45</TimeStamp>
 <LineString><tessellate>1</tessellate><coordinates>
 -122.603164,37.903279,0.
-ut,599,0.
+-95.1753016,29.5039857,0.
 </coordinates></LineString>
 <Style><LineStyle><color>#ffffffff</color><width>4</width></LineStyle></Style>
 </Placemark>
@@ -1234,7 +1234,7 @@ ut,599,0.
 <styleUrl>#QSO</styleUrl>
 <TimeStamp>2026-01-30T03:37:45</TimeStamp>
 <Point>
-<coordinates>ut,599</coordinates>
+<coordinates>-95.1753016,29.5039857</coordinates>
 </Point>
 </Placemark>
 </Document> </kml>
