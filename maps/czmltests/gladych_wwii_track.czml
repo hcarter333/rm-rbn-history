@@ -1,10 +1,10 @@
 [
   {
     "id": "document",
-    "name": "Gladych WWII Locations 1939-1945",
+    "name": "Gladych WWII Track 1939-1945",
     "version": "1.0",
     "clock": {
-      "interval": "1939-09-01T00:00:00Z/1945-04-06T00:00:00Z",
+      "interval": "1939-09-01T00:00:00Z/1945-04-07T00:00:00Z",
       "currentTime": "1939-09-01T00:00:00Z",
       "multiplier": 432000,
       "range": "LOOP_STOP",
@@ -13,9 +13,9 @@
   },
   {
     "id": "pt_warsaw",
-    "name": "Warsaw, Poland",
-    "description": "<p>Home city. War breaks out 1 Sep 1939.</p>",
-    "availability": "1939-09-01T00:00:00Z/1939-09-09T00:00:00Z",
+    "name": "Warsaw",
+    "description": "<p><b>Warsaw</b><br/>Home city. War breaks out 1 Sep 1939.</p>",
+    "availability": "1939-09-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         21.0122,
@@ -45,8 +45,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Warsaw, Poland",
-      "font": "bold 13px Helvetica",
+      "text": "Warsaw",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           255,
@@ -72,14 +72,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_deblin",
-    "name": "D\u0119blin, Poland",
-    "description": "<p>Awaiting aircraft and orders.</p>",
-    "availability": "1939-09-01T00:00:00Z/1939-09-09T00:00:00Z",
+    "name": "D\u0119blin",
+    "description": "<p><b>D\u0119blin</b><br/>Aviation Cadet School. Awaiting aircraft and orders.</p>",
+    "availability": "1939-09-01T06:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         21.8539,
@@ -109,8 +110,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "D\u0119blin, Poland",
-      "font": "bold 13px Helvetica",
+      "text": "D\u0119blin",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           255,
@@ -136,14 +137,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_wielicka",
-    "name": "Wielicka Airfield, Poland",
-    "description": "<p>Assigned 9 Sep 1939 with PZL P.7s.</p>",
-    "availability": "1939-09-09T00:00:00Z/1939-09-17T00:00:00Z",
+    "name": "Wielicka Airfield",
+    "description": "<p><b>Wielicka Airfield</b><br/>Assigned 9 Sep 1939 with PZL P.7s to 15th Bomber Sqn airfield.</p>",
+    "availability": "1939-09-09T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         20.05,
@@ -173,8 +175,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Wielicka Airfield, Poland",
-      "font": "bold 13px Helvetica",
+      "text": "Wielicka Airfield",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           255,
@@ -200,14 +202,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_frecatei",
     "name": "Frec\u0103\u021bei, Romania",
-    "description": "<p>Crossed Romanian border 17 Sep 1939. Interned near Tulcea.</p>",
-    "availability": "1939-09-17T00:00:00Z/1939-10-09T00:00:00Z",
+    "description": "<p><b>Frec\u0103\u021bei, Romania</b><br/>Crossed Romanian border 17 Sep 1939. Interned near Tulcea.</p>",
+    "availability": "1939-09-17T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         28.9667,
@@ -238,7 +241,7 @@
     },
     "label": {
       "text": "Frec\u0103\u021bei, Romania",
-      "font": "bold 13px Helvetica",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           255,
@@ -264,14 +267,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_turnu",
-    "name": "Turnu Severin, Romania",
-    "description": "<p>Failed Yugoslav border crossing \u2192 sent here. Escaped 20 Oct.</p>",
-    "availability": "1939-10-09T00:00:00Z/1939-10-20T00:00:00Z",
+    "name": "Turnu Severin",
+    "description": "<p><b>Turnu Severin</b><br/>Failed Yugoslav border crossing \u2192 sent to Turnu Severin. Escaped 20 Oct.</p>",
+    "availability": "1939-10-09T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         22.6556,
@@ -301,8 +305,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Turnu Severin, Romania",
-      "font": "bold 13px Helvetica",
+      "text": "Turnu Severin",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           255,
@@ -328,14 +332,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_balchik",
     "name": "Balchik, Bulgaria",
-    "description": "<p>Gathered with airmen awaiting Polish transport ship.</p>",
-    "availability": "1939-10-20T00:00:00Z/1939-11-05T00:00:00Z",
+    "description": "<p><b>Balchik, Bulgaria</b><br/>Gathered with airmen awaiting Polish transport (SS Patris).</p>",
+    "availability": "1939-10-20T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         28.2378,
@@ -366,7 +371,7 @@
     },
     "label": {
       "text": "Balchik, Bulgaria",
-      "font": "bold 13px Helvetica",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           255,
@@ -392,14 +397,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_malta",
-    "name": "Malta",
-    "description": "<p>Brief stop en route to Marseille via Mediterranean.</p>",
-    "availability": "1939-11-08T00:00:00Z/1939-11-10T00:00:00Z",
+    "name": "Malta (transit)",
+    "description": "<p><b>Malta (transit)</b><br/>Brief Mediterranean stop en route to Marseille.</p>",
+    "availability": "1939-11-08T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         14.3754,
@@ -429,8 +435,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Malta",
-      "font": "bold 13px Helvetica",
+      "text": "Malta (transit)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           255,
@@ -456,14 +462,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_marseille",
-    "name": "Marseille, France",
-    "description": "<p>Arrived 12 Nov 1939 aboard SS Patris.</p>",
-    "availability": "1939-11-12T00:00:00Z/1939-11-13T00:00:00Z",
+    "name": "Marseille",
+    "description": "<p><b>Marseille</b><br/>Arrived 12 Nov 1939 aboard SS Patris.</p>",
+    "availability": "1939-11-12T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         5.3698,
@@ -493,8 +500,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Marseille, France",
-      "font": "bold 13px Helvetica",
+      "text": "Marseille",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           100,
@@ -520,14 +527,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_lyon",
-    "name": "Lyon-Bron, France",
-    "description": "<p>Reported 13 Nov 1939. Trained on CR.714 Cyclones & MS.406s.</p>",
-    "availability": "1939-11-13T00:00:00Z/1940-05-15T00:00:00Z",
+    "name": "Lyon-Bron",
+    "description": "<p><b>Lyon-Bron</b><br/>Reported to Lyon-Bron 13 Nov 1939. Trained on CR.714 Cyclones & MS.406s.</p>",
+    "availability": "1939-11-13T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         5.0822,
@@ -557,8 +565,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Lyon-Bron, France",
-      "font": "bold 13px Helvetica",
+      "text": "Lyon-Bron",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           100,
@@ -584,14 +592,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_villacoublay",
-    "name": "Villacoublay, France",
-    "description": "<p>Sqn received CR.714 fighters; defended southern Paris sectors.</p>",
-    "availability": "1940-05-15T00:00:00Z/1940-06-10T00:00:00Z",
+    "name": "Villacoublay",
+    "description": "<p><b>Villacoublay</b><br/>1/145 'Warsaw' Sqn received CR.714s; defended southern Paris sectors.</p>",
+    "availability": "1940-05-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         2.1914,
@@ -621,8 +630,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Villacoublay, France",
-      "font": "bold 13px Helvetica",
+      "text": "Villacoublay",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           100,
@@ -648,14 +657,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_dreux",
-    "name": "Dreux, France",
-    "description": "<p>1/145 Sqn operated from Dreux over the front.</p>",
-    "availability": "1940-06-10T00:00:00Z/1940-06-19T00:00:00Z",
+    "name": "Dreux",
+    "description": "<p><b>Dreux</b><br/>1/145 Sqn operated over the front from Dreux Airport.</p>",
+    "availability": "1940-06-10T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         1.3658,
@@ -685,8 +695,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Dreux, France",
-      "font": "bold 13px Helvetica",
+      "text": "Dreux",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           100,
@@ -712,14 +722,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_larochelle",
-    "name": "La Rochelle, France",
-    "description": "<p>Sailed 19 Jun 1940 aboard SS Alderpool for Britain.</p>",
-    "availability": "1940-06-19T00:00:00Z/1940-06-19T12:00:00Z",
+    "name": "La Rochelle",
+    "description": "<p><b>La Rochelle</b><br/>Evacuated 19 Jun 1940 on SS Alderpool.</p>",
+    "availability": "1940-06-19T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -1.1511,
@@ -749,8 +760,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "La Rochelle, France",
-      "font": "bold 13px Helvetica",
+      "text": "La Rochelle",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           100,
@@ -776,14 +787,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_plymouth",
-    "name": "Plymouth, England",
-    "description": "<p>Arrived 22 Jun 1940.</p>",
-    "availability": "1940-06-22T00:00:00Z/1940-06-25T00:00:00Z",
+    "name": "Plymouth",
+    "description": "<p><b>Plymouth</b><br/>Arrived in UK 22 Jun 1940.</p>",
+    "availability": "1940-06-22T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -4.1427,
@@ -813,8 +825,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Plymouth, England",
-      "font": "bold 13px Helvetica",
+      "text": "Plymouth",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -840,14 +852,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_westkirby",
-    "name": "West Kirby, England",
-    "description": "<p>Brief stay before formal RAF registration.</p>",
-    "availability": "1940-06-25T00:00:00Z/1940-07-01T00:00:00Z",
+    "name": "West Kirby",
+    "description": "<p><b>West Kirby</b><br/>Temporary pilot camp.</p>",
+    "availability": "1940-06-25T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -3.1851,
@@ -877,8 +890,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "West Kirby, England",
-      "font": "bold 13px Helvetica",
+      "text": "West Kirby",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -904,14 +917,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_blackpool1",
-    "name": "Blackpool, England",
-    "description": "<p>Entered RAF register #P-1392; Ground Training Centre; No. 302 Sqn translator.</p>",
-    "availability": "1940-07-01T00:00:00Z/1941-03-21T00:00:00Z",
+    "name": "Blackpool (RAF reg.)",
+    "description": "<p><b>Blackpool (RAF reg.)</b><br/>Entered RAF register #P-1392; Ground Training; translator No.302 Sqn.</p>",
+    "availability": "1940-07-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -3.0357,
@@ -941,8 +955,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Blackpool, England",
-      "font": "bold 13px Helvetica",
+      "text": "Blackpool (RAF reg.)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -968,14 +982,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_hawarden",
-    "name": "Hawarden, Wales",
-    "description": "<p>Fighter training on Spitfires, 21 Mar \u2013 20 Apr 1941.</p>",
-    "availability": "1941-03-21T00:00:00Z/1941-04-21T00:00:00Z",
+    "name": "Hawarden (57 OTU)",
+    "description": "<p><b>Hawarden (57 OTU)</b><br/>57 OTU Spitfire course, 21 Mar \u2013 20 Apr 1941.</p>",
+    "availability": "1941-03-21T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -2.9886,
@@ -1005,8 +1020,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Hawarden, Wales",
-      "font": "bold 13px Helvetica",
+      "text": "Hawarden (57 OTU)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1032,14 +1047,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_northolt1",
-    "name": "Northolt, England",
-    "description": "<p>Spitfire IIs. Non-Stop Offensive; first kills 23 Jun 1941. Skull fracture in crash.</p>",
-    "availability": "1941-04-21T00:00:00Z/1941-08-29T00:00:00Z",
+    "name": "Northolt (303 Sqn)",
+    "description": "<p><b>Northolt (303 Sqn)</b><br/>No.303 'Ko\u015bciuszko' Sqn. Non-Stop Offensive. 3 kills 23 Jun 1941 \u2014 skull fracture in crash near Manston.</p>",
+    "availability": "1941-04-21T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.4179,
@@ -1069,8 +1085,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Northolt, England",
-      "font": "bold 13px Helvetica",
+      "text": "Northolt (303 Sqn)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1096,14 +1112,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_speke",
-    "name": "Speke (Liverpool), England",
-    "description": "<p>Rest & training with Hurricanes/Spitfire Is before returning.</p>",
-    "availability": "1941-08-29T00:00:00Z/1941-10-01T00:00:00Z",
+    "name": "Speke / Liverpool",
+    "description": "<p><b>Speke / Liverpool</b><br/>No.303 rest & transition to Spitfire VBs.</p>",
+    "availability": "1941-08-29T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -2.8499,
@@ -1133,8 +1150,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Speke (Liverpool), England",
-      "font": "bold 13px Helvetica",
+      "text": "Speke / Liverpool",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1160,14 +1177,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_northolt2",
-    "name": "Northolt, England",
-    "description": "<p>Re-equipped with Spitfire VBs; Fw 190 kill 24 Oct 1941.</p>",
-    "availability": "1941-10-01T00:00:00Z/1942-02-08T00:00:00Z",
+    "name": "Northolt (return)",
+    "description": "<p><b>Northolt (return)</b><br/>Return. Fw 190 kill 24 Oct 1941 \u2014 one of first ever.</p>",
+    "availability": "1941-10-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.4185,
@@ -1197,8 +1215,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Northolt, England",
-      "font": "bold 13px Helvetica",
+      "text": "Northolt (return)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1224,14 +1242,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_grp10hq",
-    "name": "Box / Rudloe Manor, Wiltshire",
-    "description": "<p>Advanced Air Intelligence course, 8 Feb \u2013 19 Apr 1942.</p>",
-    "availability": "1942-02-08T00:00:00Z/1942-04-19T00:00:00Z",
+    "name": "No.10 Grp HQ (Box)",
+    "description": "<p><b>No.10 Grp HQ (Box)</b><br/>Advanced Air Intelligence course, 8 Feb \u2013 19 Apr 1942.</p>",
+    "availability": "1942-02-08T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -2.24,
@@ -1261,8 +1280,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Box / Rudloe Manor, Wiltshire",
-      "font": "bold 13px Helvetica",
+      "text": "No.10 Grp HQ (Box)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1288,14 +1307,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_northolt3",
-    "name": "Northolt, England",
-    "description": "<p>5th kill over Le Havre 5 Jun 1942 \u2192 'ace'.</p>",
-    "availability": "1942-04-19T00:00:00Z/1942-06-15T00:00:00Z",
+    "name": "Northolt (ace kill)",
+    "description": "<p><b>Northolt (ace kill)</b><br/>5th kill over Le Havre 5 Jun 1942 \u2192 confirmed ace.</p>",
+    "availability": "1942-04-19T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.4186,
@@ -1325,8 +1345,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Northolt, England",
-      "font": "bold 13px Helvetica",
+      "text": "Northolt (ace kill)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1352,14 +1372,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_kirton1",
-    "name": "Kirton-in-Lindsey, England",
-    "description": "<p>Patrol; Ju 88 engagement ~50 km east of Grimsby.</p>",
-    "availability": "1942-06-15T00:00:00Z/1942-07-09T00:00:00Z",
+    "name": "Kirton-in-Lindsey",
+    "description": "<p><b>Kirton-in-Lindsey</b><br/>Patrol; Ju 88 engagement over North Sea.</p>",
+    "availability": "1942-06-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.5957,
@@ -1389,8 +1410,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Kirton-in-Lindsey, England",
-      "font": "bold 13px Helvetica",
+      "text": "Kirton-in-Lindsey",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1416,14 +1437,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_heston1",
-    "name": "Heston, England",
-    "description": "<p>Spitfire VBs, 1st Fighter Wing.</p>",
-    "availability": "1942-07-09T00:00:00Z/1943-02-01T00:00:00Z",
+    "name": "Heston (302 Sqn)",
+    "description": "<p><b>Heston (302 Sqn)</b><br/>No.302 'Pozna\u0144' Sqn, Spitfire VBs, 1st Fighter Wing.</p>",
+    "availability": "1942-07-09T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.378,
@@ -1453,8 +1475,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Heston, England",
-      "font": "bold 13px Helvetica",
+      "text": "Heston (302 Sqn)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1480,14 +1502,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_kirton2",
-    "name": "Kirton-in-Lindsey, England",
-    "description": "<p>Rest period, winter 1943.</p>",
-    "availability": "1943-02-01T00:00:00Z/1943-04-01T00:00:00Z",
+    "name": "Kirton (302 rest)",
+    "description": "<p><b>Kirton (302 rest)</b><br/>Rest period, winter 1943.</p>",
+    "availability": "1943-02-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.5958,
@@ -1517,8 +1540,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Kirton-in-Lindsey, England",
-      "font": "bold 13px Helvetica",
+      "text": "Kirton (302 rest)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1544,14 +1567,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_hutton",
-    "name": "Hutton Cranswick, England",
-    "description": "<p>Gladych takes command of B Squadron 17 May 1943.</p>",
-    "availability": "1943-04-01T00:00:00Z/1943-06-01T00:00:00Z",
+    "name": "Hutton Cranswick",
+    "description": "<p><b>Hutton Cranswick</b><br/>Gladych takes command of B Squadron 17 May 1943.</p>",
+    "availability": "1943-04-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.4833,
@@ -1581,8 +1605,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Hutton Cranswick, England",
-      "font": "bold 13px Helvetica",
+      "text": "Hutton Cranswick",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1608,14 +1632,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_heston2",
-    "name": "Heston, England",
-    "description": "<p>Langebrugge power plant escort 10 Jun 1943; Fw 190 kill.</p>",
-    "availability": "1943-06-01T00:00:00Z/1943-06-20T00:00:00Z",
+    "name": "Heston (return)",
+    "description": "<p><b>Heston (return)</b><br/>Langebrugge power-plant escort 10 Jun 1943; Fw 190 kill.</p>",
+    "availability": "1943-06-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.3781,
@@ -1645,8 +1670,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Heston, England",
-      "font": "bold 13px Helvetica",
+      "text": "Heston (return)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1672,14 +1697,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_perranporth",
-    "name": "Perranporth, Cornwall",
-    "description": "<p>SW England ops.</p>",
-    "availability": "1943-06-20T00:00:00Z/1943-08-19T00:00:00Z",
+    "name": "Perranporth",
+    "description": "<p><b>Perranporth</b><br/>Southwest England operations.</p>",
+    "availability": "1943-06-20T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -5.1558,
@@ -1709,8 +1735,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Perranporth, Cornwall",
-      "font": "bold 13px Helvetica",
+      "text": "Perranporth",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1736,14 +1762,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_fairlop",
-    "name": "Fairlop, Essex",
-    "description": "<p>Major battle near Lille 8 Sep 1943: Bf 109 + probable Fw 190.</p>",
-    "availability": "1943-08-19T00:00:00Z/1943-09-01T00:00:00Z",
+    "name": "Fairlop (3rd Wing)",
+    "description": "<p><b>Fairlop (3rd Wing)</b><br/>3rd Fighter Wing. Major battle near Lille 8 Sep 1943.</p>",
+    "availability": "1943-08-19T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         0.0799,
@@ -1773,8 +1800,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Fairlop, Essex",
-      "font": "bold 13px Helvetica",
+      "text": "Fairlop (3rd Wing)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1800,14 +1827,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_northolt4",
-    "name": "Northolt, England",
-    "description": "<p>Re-equipped with modern Spitfire F.IXs.</p>",
-    "availability": "1943-09-01T00:00:00Z/1944-01-10T00:00:00Z",
+    "name": "Northolt (Spit IX)",
+    "description": "<p><b>Northolt (Spit IX)</b><br/>Re-equipped with Spitfire F.IXs.</p>",
+    "availability": "1943-09-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -0.4187,
@@ -1837,8 +1865,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Northolt, England",
-      "font": "bold 13px Helvetica",
+      "text": "Northolt (Spit IX)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1864,14 +1892,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_blackpool2",
-    "name": "Blackpool, England",
-    "description": "<p>Retired from Polish Air Force rolls; recruited by Gabreski for USAAF.</p>",
-    "availability": "1944-01-10T00:00:00Z/1944-02-02T00:00:00Z",
+    "name": "Blackpool (USAAF xfr)",
+    "description": "<p><b>Blackpool (USAAF xfr)</b><br/>Retired from Polish AF rolls; recruited by Gabreski for USAAF.</p>",
+    "availability": "1944-01-10T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -3.0358,
@@ -1901,8 +1930,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Blackpool, England",
-      "font": "bold 13px Helvetica",
+      "text": "Blackpool (USAAF xfr)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -1928,14 +1957,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_halesworth",
-    "name": "Halesworth, Suffolk",
-    "description": "<p>P-47 Thunderbolts. Kills over IJsselmeer 21 Feb; Vechta 6 Mar; Berlin 8 Mar.</p>",
-    "availability": "1944-02-02T00:00:00Z/1944-04-15T00:00:00Z",
+    "name": "Halesworth (P-47)",
+    "description": "<p><b>Halesworth (P-47)</b><br/>P-47 Thunderbolts. IJsselmeer kills 21 Feb; Vechta 6 Mar; Berlin 8 Mar. Silver Star.</p>",
+    "availability": "1944-02-02T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         1.5046,
@@ -1965,8 +1995,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Halesworth, Suffolk",
-      "font": "bold 13px Helvetica",
+      "text": "Halesworth (P-47)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           220,
@@ -1992,14 +2022,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_boxted1",
-    "name": "Boxted, Essex",
-    "description": "<p>Metz strafing 25 Apr; D-Day kills 6\u20137 Jun 1944.</p>",
-    "availability": "1944-04-15T00:00:00Z/1944-06-15T00:00:00Z",
+    "name": "Boxted (D-Day ops)",
+    "description": "<p><b>Boxted (D-Day ops)</b><br/>D-Day kills 6\u20137 Jun 1944. Metz strafing 25 Apr 1944.</p>",
+    "availability": "1944-04-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         0.9167,
@@ -2029,8 +2060,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Boxted, Essex",
-      "font": "bold 13px Helvetica",
+      "text": "Boxted (D-Day ops)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           220,
@@ -2056,14 +2087,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_watnall",
-    "name": "Watnall, Nottinghamshire",
-    "description": "<p>Officially liaison officer but regularly flew unauthorized missions from Boxted.</p>",
-    "availability": "1944-06-15T00:00:00Z/1944-08-25T00:00:00Z",
+    "name": "Watnall (liaison)",
+    "description": "<p><b>Watnall (liaison)</b><br/>Officially 12 Group RAF liaison \u2014 repeatedly flew unauthorized missions from Boxted.</p>",
+    "availability": "1944-06-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -1.25,
@@ -2093,8 +2125,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Watnall, Nottinghamshire",
-      "font": "bold 13px Helvetica",
+      "text": "Watnall (liaison)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           220,
@@ -2120,14 +2152,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_boxted2",
-    "name": "Boxted, Essex",
-    "description": "<p>Officially returned. Arnhem kills 21 Sep (Market Garden). Last mission 6 Apr 1945.</p>",
-    "availability": "1944-08-25T00:00:00Z/1944-10-29T00:00:00Z",
+    "name": "Boxted (Arnhem)",
+    "description": "<p><b>Boxted (Arnhem)</b><br/>Officially reassigned 25 Aug. Arnhem kills 21 Sep (Market Garden). Last mission 6 Apr 1945.</p>",
+    "availability": "1944-08-25T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         0.9168,
@@ -2157,8 +2190,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Boxted, Essex",
-      "font": "bold 13px Helvetica",
+      "text": "Boxted (Arnhem)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           220,
@@ -2184,14 +2217,15 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
     "id": "pt_blackpool3",
-    "name": "Blackpool, England",
-    "description": "<p>12 months unpaid leave granted. Placed inactive 1 Jan 1945.</p>",
-    "availability": "1944-10-29T00:00:00Z/1945-04-06T00:00:00Z",
+    "name": "Blackpool (leave)",
+    "description": "<p><b>Blackpool (leave)</b><br/>12 months unpaid leave. Inactive 1 Jan 1945. Demobbed Apr 1947.</p>",
+    "availability": "1944-10-29T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
         -3.0359,
@@ -2221,8 +2255,8 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "Blackpool, England",
-      "font": "bold 13px Helvetica",
+      "text": "Blackpool (leave)",
+      "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
           80,
@@ -2248,17 +2282,18 @@
           -14
         ]
       },
-      "heightReference": "CLAMP_TO_GROUND"
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
     }
   },
   {
-    "id": "leg_warsaw_to_deblin",
-    "name": "Warsaw, Poland \u2192 D\u0119blin, Poland",
-    "availability": "1939-09-09T00:00:00Z/1939-09-09T01:00:00Z",
+    "id": "leg_warsaw_deblin",
+    "name": "Warsaw \u2192 D\u0119blin",
+    "availability": "1939-09-01T06:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-09-09T00:00:00Z/1939-09-09T01:00:00Z",
+          "interval": "1939-09-01T06:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2273,7 +2308,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               255,
@@ -2284,19 +2319,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_deblin_to_wielicka",
-    "name": "D\u0119blin, Poland \u2192 Wielicka Airfield, Poland",
-    "availability": "1939-09-09T00:00:00Z/1939-09-09T01:00:00Z",
+    "id": "leg_deblin_wielicka",
+    "name": "D\u0119blin \u2192 Wielicka Airfield",
+    "availability": "1939-09-09T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-09-09T00:00:00Z/1939-09-09T01:00:00Z",
+          "interval": "1939-09-09T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2311,7 +2346,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               255,
@@ -2322,19 +2357,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_wielicka_to_frecatei",
-    "name": "Wielicka Airfield, Poland \u2192 Frec\u0103\u021bei, Romania",
-    "availability": "1939-09-17T00:00:00Z/1939-09-17T01:00:00Z",
+    "id": "leg_wielicka_frecatei",
+    "name": "Wielicka Airfield \u2192 Frec\u0103\u021bei, Romania",
+    "availability": "1939-09-17T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-09-17T00:00:00Z/1939-09-17T01:00:00Z",
+          "interval": "1939-09-17T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2349,7 +2384,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               255,
@@ -2360,19 +2395,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_frecatei_to_turnu",
-    "name": "Frec\u0103\u021bei, Romania \u2192 Turnu Severin, Romania",
-    "availability": "1939-10-09T00:00:00Z/1939-10-09T01:00:00Z",
+    "id": "leg_frecatei_turnu",
+    "name": "Frec\u0103\u021bei, Romania \u2192 Turnu Severin",
+    "availability": "1939-10-09T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-10-09T00:00:00Z/1939-10-09T01:00:00Z",
+          "interval": "1939-10-09T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2387,7 +2422,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               255,
@@ -2398,19 +2433,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_turnu_to_balchik",
-    "name": "Turnu Severin, Romania \u2192 Balchik, Bulgaria",
-    "availability": "1939-10-20T00:00:00Z/1939-10-20T01:00:00Z",
+    "id": "leg_turnu_balchik",
+    "name": "Turnu Severin \u2192 Balchik, Bulgaria",
+    "availability": "1939-10-20T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-10-20T00:00:00Z/1939-10-20T01:00:00Z",
+          "interval": "1939-10-20T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2425,7 +2460,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               255,
@@ -2436,19 +2471,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_balchik_to_malta",
-    "name": "Balchik, Bulgaria \u2192 Malta",
-    "availability": "1939-11-05T00:00:00Z/1939-11-08T00:00:00Z",
+    "id": "leg_balchik_malta",
+    "name": "Balchik, Bulgaria \u2192 Malta (transit)",
+    "availability": "1939-11-08T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-11-05T00:00:00Z/1939-11-08T00:00:00Z",
+          "interval": "1939-11-08T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2463,7 +2498,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               255,
@@ -2474,19 +2509,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_malta_to_marseille",
-    "name": "Malta \u2192 Marseille, France",
-    "availability": "1939-11-10T00:00:00Z/1939-11-12T00:00:00Z",
+    "id": "leg_malta_marseille",
+    "name": "Malta (transit) \u2192 Marseille",
+    "availability": "1939-11-12T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-11-10T00:00:00Z/1939-11-12T00:00:00Z",
+          "interval": "1939-11-12T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2501,7 +2536,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               255,
@@ -2512,19 +2547,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_marseille_to_lyon",
-    "name": "Marseille, France \u2192 Lyon-Bron, France",
-    "availability": "1939-11-13T00:00:00Z/1939-11-13T01:00:00Z",
+    "id": "leg_marseille_lyon",
+    "name": "Marseille \u2192 Lyon-Bron",
+    "availability": "1939-11-13T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1939-11-13T00:00:00Z/1939-11-13T01:00:00Z",
+          "interval": "1939-11-13T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2539,7 +2574,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               100,
@@ -2550,19 +2585,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_lyon_to_villacoublay",
-    "name": "Lyon-Bron, France \u2192 Villacoublay, France",
-    "availability": "1940-05-15T00:00:00Z/1940-05-15T01:00:00Z",
+    "id": "leg_lyon_villacoublay",
+    "name": "Lyon-Bron \u2192 Villacoublay",
+    "availability": "1940-05-15T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1940-05-15T00:00:00Z/1940-05-15T01:00:00Z",
+          "interval": "1940-05-15T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2577,7 +2612,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               100,
@@ -2588,19 +2623,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_villacoublay_to_dreux",
-    "name": "Villacoublay, France \u2192 Dreux, France",
-    "availability": "1940-06-10T00:00:00Z/1940-06-10T01:00:00Z",
+    "id": "leg_villacoublay_dreux",
+    "name": "Villacoublay \u2192 Dreux",
+    "availability": "1940-06-10T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1940-06-10T00:00:00Z/1940-06-10T01:00:00Z",
+          "interval": "1940-06-10T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2615,7 +2650,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               100,
@@ -2626,19 +2661,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_dreux_to_larochelle",
-    "name": "Dreux, France \u2192 La Rochelle, France",
-    "availability": "1940-06-19T00:00:00Z/1940-06-19T01:00:00Z",
+    "id": "leg_dreux_larochelle",
+    "name": "Dreux \u2192 La Rochelle",
+    "availability": "1940-06-19T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1940-06-19T00:00:00Z/1940-06-19T01:00:00Z",
+          "interval": "1940-06-19T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2653,7 +2688,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               100,
@@ -2664,19 +2699,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_larochelle_to_plymouth",
-    "name": "La Rochelle, France \u2192 Plymouth, England",
-    "availability": "1940-06-19T12:00:00Z/1940-06-22T00:00:00Z",
+    "id": "leg_larochelle_plymouth",
+    "name": "La Rochelle \u2192 Plymouth",
+    "availability": "1940-06-22T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1940-06-19T12:00:00Z/1940-06-22T00:00:00Z",
+          "interval": "1940-06-22T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2691,7 +2726,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               100,
@@ -2702,19 +2737,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_plymouth_to_westkirby",
-    "name": "Plymouth, England \u2192 West Kirby, England",
-    "availability": "1940-06-25T00:00:00Z/1940-06-25T01:00:00Z",
+    "id": "leg_plymouth_westkirby",
+    "name": "Plymouth \u2192 West Kirby",
+    "availability": "1940-06-25T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1940-06-25T00:00:00Z/1940-06-25T01:00:00Z",
+          "interval": "1940-06-25T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2729,7 +2764,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -2740,19 +2775,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_westkirby_to_blackpool1",
-    "name": "West Kirby, England \u2192 Blackpool, England",
-    "availability": "1940-07-01T00:00:00Z/1940-07-01T01:00:00Z",
+    "id": "leg_westkirby_blackpool1",
+    "name": "West Kirby \u2192 Blackpool (RAF reg.)",
+    "availability": "1940-07-01T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1940-07-01T00:00:00Z/1940-07-01T01:00:00Z",
+          "interval": "1940-07-01T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2767,7 +2802,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -2778,19 +2813,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_blackpool1_to_hawarden",
-    "name": "Blackpool, England \u2192 Hawarden, Wales",
-    "availability": "1941-03-21T00:00:00Z/1941-03-21T01:00:00Z",
+    "id": "leg_blackpool1_hawarden",
+    "name": "Blackpool (RAF reg.) \u2192 Hawarden (57 OTU)",
+    "availability": "1941-03-21T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1941-03-21T00:00:00Z/1941-03-21T01:00:00Z",
+          "interval": "1941-03-21T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2805,7 +2840,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -2816,19 +2851,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_hawarden_to_northolt1",
-    "name": "Hawarden, Wales \u2192 Northolt, England",
-    "availability": "1941-04-21T00:00:00Z/1941-04-21T01:00:00Z",
+    "id": "leg_hawarden_northolt1",
+    "name": "Hawarden (57 OTU) \u2192 Northolt (303 Sqn)",
+    "availability": "1941-04-21T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1941-04-21T00:00:00Z/1941-04-21T01:00:00Z",
+          "interval": "1941-04-21T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2843,7 +2878,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -2854,19 +2889,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_northolt1_to_speke",
-    "name": "Northolt, England \u2192 Speke (Liverpool), England",
-    "availability": "1941-08-29T00:00:00Z/1941-08-29T01:00:00Z",
+    "id": "leg_northolt1_speke",
+    "name": "Northolt (303 Sqn) \u2192 Speke / Liverpool",
+    "availability": "1941-08-29T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1941-08-29T00:00:00Z/1941-08-29T01:00:00Z",
+          "interval": "1941-08-29T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2881,7 +2916,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -2892,19 +2927,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_speke_to_northolt2",
-    "name": "Speke (Liverpool), England \u2192 Northolt, England",
-    "availability": "1941-10-01T00:00:00Z/1941-10-01T01:00:00Z",
+    "id": "leg_speke_northolt2",
+    "name": "Speke / Liverpool \u2192 Northolt (return)",
+    "availability": "1941-10-01T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1941-10-01T00:00:00Z/1941-10-01T01:00:00Z",
+          "interval": "1941-10-01T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2919,7 +2954,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -2930,19 +2965,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_northolt2_to_grp10hq",
-    "name": "Northolt, England \u2192 Box / Rudloe Manor, Wiltshire",
-    "availability": "1942-02-08T00:00:00Z/1942-02-08T01:00:00Z",
+    "id": "leg_northolt2_grp10hq",
+    "name": "Northolt (return) \u2192 No.10 Grp HQ (Box)",
+    "availability": "1942-02-08T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1942-02-08T00:00:00Z/1942-02-08T01:00:00Z",
+          "interval": "1942-02-08T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2957,7 +2992,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -2968,19 +3003,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_grp10hq_to_northolt3",
-    "name": "Box / Rudloe Manor, Wiltshire \u2192 Northolt, England",
-    "availability": "1942-04-19T00:00:00Z/1942-04-19T01:00:00Z",
+    "id": "leg_grp10hq_northolt3",
+    "name": "No.10 Grp HQ (Box) \u2192 Northolt (ace kill)",
+    "availability": "1942-04-19T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1942-04-19T00:00:00Z/1942-04-19T01:00:00Z",
+          "interval": "1942-04-19T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -2995,7 +3030,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3006,19 +3041,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_northolt3_to_kirton1",
-    "name": "Northolt, England \u2192 Kirton-in-Lindsey, England",
-    "availability": "1942-06-15T00:00:00Z/1942-06-15T01:00:00Z",
+    "id": "leg_northolt3_kirton1",
+    "name": "Northolt (ace kill) \u2192 Kirton-in-Lindsey",
+    "availability": "1942-06-15T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1942-06-15T00:00:00Z/1942-06-15T01:00:00Z",
+          "interval": "1942-06-15T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3033,7 +3068,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3044,19 +3079,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_kirton1_to_heston1",
-    "name": "Kirton-in-Lindsey, England \u2192 Heston, England",
-    "availability": "1942-07-09T00:00:00Z/1942-07-09T01:00:00Z",
+    "id": "leg_kirton1_heston1",
+    "name": "Kirton-in-Lindsey \u2192 Heston (302 Sqn)",
+    "availability": "1942-07-09T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1942-07-09T00:00:00Z/1942-07-09T01:00:00Z",
+          "interval": "1942-07-09T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3071,7 +3106,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3082,19 +3117,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_heston1_to_kirton2",
-    "name": "Heston, England \u2192 Kirton-in-Lindsey, England",
-    "availability": "1943-02-01T00:00:00Z/1943-02-01T01:00:00Z",
+    "id": "leg_heston1_kirton2",
+    "name": "Heston (302 Sqn) \u2192 Kirton (302 rest)",
+    "availability": "1943-02-01T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1943-02-01T00:00:00Z/1943-02-01T01:00:00Z",
+          "interval": "1943-02-01T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3109,7 +3144,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3120,19 +3155,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_kirton2_to_hutton",
-    "name": "Kirton-in-Lindsey, England \u2192 Hutton Cranswick, England",
-    "availability": "1943-04-01T00:00:00Z/1943-04-01T01:00:00Z",
+    "id": "leg_kirton2_hutton",
+    "name": "Kirton (302 rest) \u2192 Hutton Cranswick",
+    "availability": "1943-04-01T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1943-04-01T00:00:00Z/1943-04-01T01:00:00Z",
+          "interval": "1943-04-01T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3147,7 +3182,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3158,19 +3193,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_hutton_to_heston2",
-    "name": "Hutton Cranswick, England \u2192 Heston, England",
-    "availability": "1943-06-01T00:00:00Z/1943-06-01T01:00:00Z",
+    "id": "leg_hutton_heston2",
+    "name": "Hutton Cranswick \u2192 Heston (return)",
+    "availability": "1943-06-01T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1943-06-01T00:00:00Z/1943-06-01T01:00:00Z",
+          "interval": "1943-06-01T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3185,7 +3220,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3196,19 +3231,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_heston2_to_perranporth",
-    "name": "Heston, England \u2192 Perranporth, Cornwall",
-    "availability": "1943-06-20T00:00:00Z/1943-06-20T01:00:00Z",
+    "id": "leg_heston2_perranporth",
+    "name": "Heston (return) \u2192 Perranporth",
+    "availability": "1943-06-20T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1943-06-20T00:00:00Z/1943-06-20T01:00:00Z",
+          "interval": "1943-06-20T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3223,7 +3258,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3234,19 +3269,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_perranporth_to_fairlop",
-    "name": "Perranporth, Cornwall \u2192 Fairlop, Essex",
-    "availability": "1943-08-19T00:00:00Z/1943-08-19T01:00:00Z",
+    "id": "leg_perranporth_fairlop",
+    "name": "Perranporth \u2192 Fairlop (3rd Wing)",
+    "availability": "1943-08-19T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1943-08-19T00:00:00Z/1943-08-19T01:00:00Z",
+          "interval": "1943-08-19T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3261,7 +3296,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3272,19 +3307,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_fairlop_to_northolt4",
-    "name": "Fairlop, Essex \u2192 Northolt, England",
-    "availability": "1943-09-01T00:00:00Z/1943-09-01T01:00:00Z",
+    "id": "leg_fairlop_northolt4",
+    "name": "Fairlop (3rd Wing) \u2192 Northolt (Spit IX)",
+    "availability": "1943-09-01T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1943-09-01T00:00:00Z/1943-09-01T01:00:00Z",
+          "interval": "1943-09-01T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3299,7 +3334,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3310,19 +3345,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_northolt4_to_blackpool2",
-    "name": "Northolt, England \u2192 Blackpool, England",
-    "availability": "1944-01-10T00:00:00Z/1944-01-10T01:00:00Z",
+    "id": "leg_northolt4_blackpool2",
+    "name": "Northolt (Spit IX) \u2192 Blackpool (USAAF xfr)",
+    "availability": "1944-01-10T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1944-01-10T00:00:00Z/1944-01-10T01:00:00Z",
+          "interval": "1944-01-10T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3337,7 +3372,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3348,19 +3383,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_blackpool2_to_halesworth",
-    "name": "Blackpool, England \u2192 Halesworth, Suffolk",
-    "availability": "1944-02-02T00:00:00Z/1944-02-02T01:00:00Z",
+    "id": "leg_blackpool2_halesworth",
+    "name": "Blackpool (USAAF xfr) \u2192 Halesworth (P-47)",
+    "availability": "1944-02-02T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1944-02-02T00:00:00Z/1944-02-02T01:00:00Z",
+          "interval": "1944-02-02T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3375,7 +3410,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               80,
@@ -3386,19 +3421,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_halesworth_to_boxted1",
-    "name": "Halesworth, Suffolk \u2192 Boxted, Essex",
-    "availability": "1944-04-15T00:00:00Z/1944-04-15T01:00:00Z",
+    "id": "leg_halesworth_boxted1",
+    "name": "Halesworth (P-47) \u2192 Boxted (D-Day ops)",
+    "availability": "1944-04-15T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1944-04-15T00:00:00Z/1944-04-15T01:00:00Z",
+          "interval": "1944-04-15T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3413,7 +3448,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               220,
@@ -3424,19 +3459,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_boxted1_to_watnall",
-    "name": "Boxted, Essex \u2192 Watnall, Nottinghamshire",
-    "availability": "1944-06-15T00:00:00Z/1944-06-15T01:00:00Z",
+    "id": "leg_boxted1_watnall",
+    "name": "Boxted (D-Day ops) \u2192 Watnall (liaison)",
+    "availability": "1944-06-15T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1944-06-15T00:00:00Z/1944-06-15T01:00:00Z",
+          "interval": "1944-06-15T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3451,7 +3486,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               220,
@@ -3462,19 +3497,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_watnall_to_boxted2",
-    "name": "Watnall, Nottinghamshire \u2192 Boxted, Essex",
-    "availability": "1944-08-25T00:00:00Z/1944-08-25T01:00:00Z",
+    "id": "leg_watnall_boxted2",
+    "name": "Watnall (liaison) \u2192 Boxted (Arnhem)",
+    "availability": "1944-08-25T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1944-08-25T00:00:00Z/1944-08-25T01:00:00Z",
+          "interval": "1944-08-25T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3489,7 +3524,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               220,
@@ -3500,19 +3535,19 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
   },
   {
-    "id": "leg_boxted2_to_blackpool3",
-    "name": "Boxted, Essex \u2192 Blackpool, England",
-    "availability": "1944-10-29T00:00:00Z/1944-10-29T01:00:00Z",
+    "id": "leg_boxted2_blackpool3",
+    "name": "Boxted (Arnhem) \u2192 Blackpool (leave)",
+    "availability": "1944-10-29T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
         {
-          "interval": "1944-10-29T00:00:00Z/1944-10-29T01:00:00Z",
+          "interval": "1944-10-29T00:00:00Z/1945-04-07T00:00:00Z",
           "boolean": true
         }
       ],
@@ -3527,7 +3562,7 @@
         ]
       },
       "material": {
-        "polylineArrow": {
+        "solidColor": {
           "color": {
             "rgba": [
               220,
@@ -3538,7 +3573,7 @@
           }
         }
       },
-      "width": 3,
+      "width": 2.5,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
