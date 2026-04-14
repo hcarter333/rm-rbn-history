@@ -1,7 +1,7 @@
 [
   {
     "id": "document",
-    "name": "Gladych WWII Track 1939-1945",
+    "name": "Gladych WWII Track + Encounter Reports",
     "version": "1.0",
     "clock": {
       "interval": "1939-09-01T00:00:00Z/1945-04-07T00:00:00Z",
@@ -14,7 +14,7 @@
   {
     "id": "pt_warsaw",
     "name": "Warsaw",
-    "description": "<p><b>Warsaw</b><br/>Home city. War breaks out 1 Sep 1939.</p>",
+    "description": "<p><b>Warsaw</b><br/>Home city. War 1 Sep 1939.</p>",
     "availability": "1939-09-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -79,7 +79,7 @@
   {
     "id": "pt_deblin",
     "name": "D\u0119blin",
-    "description": "<p><b>D\u0119blin</b><br/>Aviation Cadet School. Awaiting aircraft and orders.</p>",
+    "description": "<p><b>D\u0119blin</b><br/>Aviation Cadet School.</p>",
     "availability": "1939-09-01T06:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -144,7 +144,7 @@
   {
     "id": "pt_wielicka",
     "name": "Wielicka Airfield",
-    "description": "<p><b>Wielicka Airfield</b><br/>Assigned 9 Sep 1939 with PZL P.7s to 15th Bomber Sqn airfield.</p>",
+    "description": "<p><b>Wielicka Airfield</b><br/>15th Bomber Sqn airfield; 9 Sep 1939.</p>",
     "availability": "1939-09-09T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -209,7 +209,7 @@
   {
     "id": "pt_frecatei",
     "name": "Frec\u0103\u021bei, Romania",
-    "description": "<p><b>Frec\u0103\u021bei, Romania</b><br/>Crossed Romanian border 17 Sep 1939. Interned near Tulcea.</p>",
+    "description": "<p><b>Frec\u0103\u021bei, Romania</b><br/>Romanian internment; 17 Sep 1939.</p>",
     "availability": "1939-09-17T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -274,7 +274,7 @@
   {
     "id": "pt_turnu",
     "name": "Turnu Severin",
-    "description": "<p><b>Turnu Severin</b><br/>Failed Yugoslav border crossing \u2192 sent to Turnu Severin. Escaped 20 Oct.</p>",
+    "description": "<p><b>Turnu Severin</b><br/>2nd internment camp; escaped 20 Oct 1939.</p>",
     "availability": "1939-10-09T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -339,7 +339,7 @@
   {
     "id": "pt_balchik",
     "name": "Balchik, Bulgaria",
-    "description": "<p><b>Balchik, Bulgaria</b><br/>Gathered with airmen awaiting Polish transport (SS Patris).</p>",
+    "description": "<p><b>Balchik, Bulgaria</b><br/>Waiting for SS Patris.</p>",
     "availability": "1939-10-20T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -404,7 +404,7 @@
   {
     "id": "pt_malta",
     "name": "Malta (transit)",
-    "description": "<p><b>Malta (transit)</b><br/>Brief Mediterranean stop en route to Marseille.</p>",
+    "description": "<p><b>Malta (transit)</b><br/>Mediterranean transit.</p>",
     "availability": "1939-11-08T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -469,7 +469,7 @@
   {
     "id": "pt_marseille",
     "name": "Marseille",
-    "description": "<p><b>Marseille</b><br/>Arrived 12 Nov 1939 aboard SS Patris.</p>",
+    "description": "<p><b>Marseille</b><br/>Arrived 12 Nov 1939.</p>",
     "availability": "1939-11-12T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -534,7 +534,7 @@
   {
     "id": "pt_lyon",
     "name": "Lyon-Bron",
-    "description": "<p><b>Lyon-Bron</b><br/>Reported to Lyon-Bron 13 Nov 1939. Trained on CR.714 Cyclones & MS.406s.</p>",
+    "description": "<p><b>Lyon-Bron</b><br/>Trained on CR.714 Cyclones & MS.406s.</p>",
     "availability": "1939-11-13T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -599,7 +599,7 @@
   {
     "id": "pt_villacoublay",
     "name": "Villacoublay",
-    "description": "<p><b>Villacoublay</b><br/>1/145 'Warsaw' Sqn received CR.714s; defended southern Paris sectors.</p>",
+    "description": "<p><b>Villacoublay</b><br/>1/145 'Warsaw' Sqn; CR.714s.</p>",
     "availability": "1940-05-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -664,7 +664,7 @@
   {
     "id": "pt_dreux",
     "name": "Dreux",
-    "description": "<p><b>Dreux</b><br/>1/145 Sqn operated over the front from Dreux Airport.</p>",
+    "description": "<p><b>Dreux</b><br/>Front operations.</p>",
     "availability": "1940-06-10T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -729,7 +729,7 @@
   {
     "id": "pt_larochelle",
     "name": "La Rochelle",
-    "description": "<p><b>La Rochelle</b><br/>Evacuated 19 Jun 1940 on SS Alderpool.</p>",
+    "description": "<p><b>La Rochelle</b><br/>Evacuation 19 Jun 1940.</p>",
     "availability": "1940-06-19T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -794,7 +794,7 @@
   {
     "id": "pt_plymouth",
     "name": "Plymouth",
-    "description": "<p><b>Plymouth</b><br/>Arrived in UK 22 Jun 1940.</p>",
+    "description": "<p><b>Plymouth</b><br/>Arrived UK 22 Jun 1940.</p>",
     "availability": "1940-06-22T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -924,7 +924,7 @@
   {
     "id": "pt_blackpool1",
     "name": "Blackpool (RAF reg.)",
-    "description": "<p><b>Blackpool (RAF reg.)</b><br/>Entered RAF register #P-1392; Ground Training; translator No.302 Sqn.</p>",
+    "description": "<p><b>Blackpool (RAF reg.)</b><br/>RAF register #P-1392.</p>",
     "availability": "1940-07-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -989,7 +989,7 @@
   {
     "id": "pt_hawarden",
     "name": "Hawarden (57 OTU)",
-    "description": "<p><b>Hawarden (57 OTU)</b><br/>57 OTU Spitfire course, 21 Mar \u2013 20 Apr 1941.</p>",
+    "description": "<p><b>Hawarden (57 OTU)</b><br/>57 OTU Spitfire course.</p>",
     "availability": "1941-03-21T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1054,7 +1054,7 @@
   {
     "id": "pt_northolt1",
     "name": "Northolt (303 Sqn)",
-    "description": "<p><b>Northolt (303 Sqn)</b><br/>No.303 'Ko\u015bciuszko' Sqn. Non-Stop Offensive. 3 kills 23 Jun 1941 \u2014 skull fracture in crash near Manston.</p>",
+    "description": "<p><b>Northolt (303 Sqn)</b><br/>No.303 Sqn. Kills & skull fracture 23 Jun 1941.</p>",
     "availability": "1941-04-21T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1119,7 +1119,7 @@
   {
     "id": "pt_speke",
     "name": "Speke / Liverpool",
-    "description": "<p><b>Speke / Liverpool</b><br/>No.303 rest & transition to Spitfire VBs.</p>",
+    "description": "<p><b>Speke / Liverpool</b><br/>No.303 rest.</p>",
     "availability": "1941-08-29T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1184,7 +1184,7 @@
   {
     "id": "pt_northolt2",
     "name": "Northolt (return)",
-    "description": "<p><b>Northolt (return)</b><br/>Return. Fw 190 kill 24 Oct 1941 \u2014 one of first ever.</p>",
+    "description": "<p><b>Northolt (return)</b><br/>Fw 190 kill 24 Oct 1941.</p>",
     "availability": "1941-10-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1248,8 +1248,8 @@
   },
   {
     "id": "pt_grp10hq",
-    "name": "No.10 Grp HQ (Box)",
-    "description": "<p><b>No.10 Grp HQ (Box)</b><br/>Advanced Air Intelligence course, 8 Feb \u2013 19 Apr 1942.</p>",
+    "name": "No.10 Grp HQ",
+    "description": "<p><b>No.10 Grp HQ</b><br/>Air Intelligence course, 8 Feb\u201319 Apr 1942.</p>",
     "availability": "1942-02-08T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1280,7 +1280,7 @@
       "heightReference": "CLAMP_TO_GROUND"
     },
     "label": {
-      "text": "No.10 Grp HQ (Box)",
+      "text": "No.10 Grp HQ",
       "font": "bold 12px Helvetica",
       "fillColor": {
         "rgba": [
@@ -1314,7 +1314,7 @@
   {
     "id": "pt_northolt3",
     "name": "Northolt (ace kill)",
-    "description": "<p><b>Northolt (ace kill)</b><br/>5th kill over Le Havre 5 Jun 1942 \u2192 confirmed ace.</p>",
+    "description": "<p><b>Northolt (ace kill)</b><br/>5th kill (ace) Le Havre 5 Jun 1942.</p>",
     "availability": "1942-04-19T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1379,7 +1379,7 @@
   {
     "id": "pt_kirton1",
     "name": "Kirton-in-Lindsey",
-    "description": "<p><b>Kirton-in-Lindsey</b><br/>Patrol; Ju 88 engagement over North Sea.</p>",
+    "description": "<p><b>Kirton-in-Lindsey</b><br/>Ju 88 North Sea engagement.</p>",
     "availability": "1942-06-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1444,7 +1444,7 @@
   {
     "id": "pt_heston1",
     "name": "Heston (302 Sqn)",
-    "description": "<p><b>Heston (302 Sqn)</b><br/>No.302 'Pozna\u0144' Sqn, Spitfire VBs, 1st Fighter Wing.</p>",
+    "description": "<p><b>Heston (302 Sqn)</b><br/>No.302 'Pozna\u0144' Sqn, Spitfire VBs.</p>",
     "availability": "1942-07-09T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1574,7 +1574,7 @@
   {
     "id": "pt_hutton",
     "name": "Hutton Cranswick",
-    "description": "<p><b>Hutton Cranswick</b><br/>Gladych takes command of B Squadron 17 May 1943.</p>",
+    "description": "<p><b>Hutton Cranswick</b><br/>B Sqn command 17 May 1943.</p>",
     "availability": "1943-04-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1639,7 +1639,7 @@
   {
     "id": "pt_heston2",
     "name": "Heston (return)",
-    "description": "<p><b>Heston (return)</b><br/>Langebrugge power-plant escort 10 Jun 1943; Fw 190 kill.</p>",
+    "description": "<p><b>Heston (return)</b><br/>Langebrugge escort; Fw 190 kill.</p>",
     "availability": "1943-06-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1704,7 +1704,7 @@
   {
     "id": "pt_perranporth",
     "name": "Perranporth",
-    "description": "<p><b>Perranporth</b><br/>Southwest England operations.</p>",
+    "description": "<p><b>Perranporth</b><br/>SW England ops.</p>",
     "availability": "1943-06-20T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1769,7 +1769,7 @@
   {
     "id": "pt_fairlop",
     "name": "Fairlop (3rd Wing)",
-    "description": "<p><b>Fairlop (3rd Wing)</b><br/>3rd Fighter Wing. Major battle near Lille 8 Sep 1943.</p>",
+    "description": "<p><b>Fairlop (3rd Wing)</b><br/>3rd Fighter Wing; Lille 8 Sep 1943.</p>",
     "availability": "1943-08-19T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1834,7 +1834,7 @@
   {
     "id": "pt_northolt4",
     "name": "Northolt (Spit IX)",
-    "description": "<p><b>Northolt (Spit IX)</b><br/>Re-equipped with Spitfire F.IXs.</p>",
+    "description": "<p><b>Northolt (Spit IX)</b><br/>Spitfire F.IXs.</p>",
     "availability": "1943-09-01T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1899,7 +1899,7 @@
   {
     "id": "pt_blackpool2",
     "name": "Blackpool (USAAF xfr)",
-    "description": "<p><b>Blackpool (USAAF xfr)</b><br/>Retired from Polish AF rolls; recruited by Gabreski for USAAF.</p>",
+    "description": "<p><b>Blackpool (USAAF xfr)</b><br/>Left Polish AF; recruited by Gabreski.</p>",
     "availability": "1944-01-10T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -1964,7 +1964,7 @@
   {
     "id": "pt_halesworth",
     "name": "Halesworth (P-47)",
-    "description": "<p><b>Halesworth (P-47)</b><br/>P-47 Thunderbolts. IJsselmeer kills 21 Feb; Vechta 6 Mar; Berlin 8 Mar. Silver Star.</p>",
+    "description": "<p><b>Halesworth (P-47)</b><br/>P-47 Thunderbolts. IJsselmeer; Vechta; Berlin. Silver Star.</p>",
     "availability": "1944-02-02T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -2029,7 +2029,7 @@
   {
     "id": "pt_boxted1",
     "name": "Boxted (D-Day ops)",
-    "description": "<p><b>Boxted (D-Day ops)</b><br/>D-Day kills 6\u20137 Jun 1944. Metz strafing 25 Apr 1944.</p>",
+    "description": "<p><b>Boxted (D-Day ops)</b><br/>Relocated Apr 1944. Metz 25 Apr; D-Day kills.</p>",
     "availability": "1944-04-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -2094,7 +2094,7 @@
   {
     "id": "pt_watnall",
     "name": "Watnall (liaison)",
-    "description": "<p><b>Watnall (liaison)</b><br/>Officially 12 Group RAF liaison \u2014 repeatedly flew unauthorized missions from Boxted.</p>",
+    "description": "<p><b>Watnall (liaison)</b><br/>12 Grp RAF liaison \u2013 flew unauthorized missions.</p>",
     "availability": "1944-06-15T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -2159,7 +2159,7 @@
   {
     "id": "pt_boxted2",
     "name": "Boxted (Arnhem)",
-    "description": "<p><b>Boxted (Arnhem)</b><br/>Officially reassigned 25 Aug. Arnhem kills 21 Sep (Market Garden). Last mission 6 Apr 1945.</p>",
+    "description": "<p><b>Boxted (Arnhem)</b><br/>Reassigned 25 Aug. Arnhem 21 Sep. Last mission 6 Apr 1945.</p>",
     "availability": "1944-08-25T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -2224,7 +2224,7 @@
   {
     "id": "pt_blackpool3",
     "name": "Blackpool (leave)",
-    "description": "<p><b>Blackpool (leave)</b><br/>12 months unpaid leave. Inactive 1 Jan 1945. Demobbed Apr 1947.</p>",
+    "description": "<p><b>Blackpool (leave)</b><br/>12 months unpaid leave; inactive 1 Jan 1945.</p>",
     "availability": "1944-10-29T00:00:00Z/1945-04-07T00:00:00Z",
     "position": {
       "cartographicDegrees": [
@@ -2972,7 +2972,7 @@
   },
   {
     "id": "leg_northolt2_grp10hq",
-    "name": "Northolt (return) \u2192 No.10 Grp HQ (Box)",
+    "name": "Northolt (return) \u2192 No.10 Grp HQ",
     "availability": "1942-02-08T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
@@ -3010,7 +3010,7 @@
   },
   {
     "id": "leg_grp10hq_northolt3",
-    "name": "No.10 Grp HQ (Box) \u2192 Northolt (ace kill)",
+    "name": "No.10 Grp HQ \u2192 Northolt (ace kill)",
     "availability": "1942-04-19T00:00:00Z/1945-04-07T00:00:00Z",
     "polyline": {
       "show": [
@@ -3574,6 +3574,2169 @@
         }
       },
       "width": 2.5,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_bethune",
+    "name": "B\u00e9thune \u2013 Circus 19",
+    "description": "<p><b>B\u00e9thune \u2013 Circus 19</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> RF-G &nbsp;|&nbsp; <b>Time:</b> morning</p><p><b>Enemy:</b> Bf 109</p><p><b>Result:</b> 1 dest, 1 probable</p><p><b>Ammo:</b> \u2014</p><p><i>Spitfire IIB P8338 303Sqn</i></p>",
+    "availability": "1941-06-23T07:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        2.64,
+        50.53,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "B\u00e9thune \u2013 Circus 19",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_bethune",
+    "name": "Sortie to B\u00e9thune \u2013 Circus 19",
+    "availability": "1941-06-23T07:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1941-06-23T07:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.4179,
+          51.553,
+          0,
+          2.64,
+          50.53,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_desvres",
+    "name": "Desvres / Ramming \u2013 Circus 20",
+    "description": "<p><b>Desvres / Ramming \u2013 Circus 20</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> RF-D &nbsp;|&nbsp; <b>Time:</b> afternoon</p><p><b>Enemy:</b> Bf 109</p><p><b>Result:</b> 2 dest (ramming); skull fracture</p><p><b>Ammo:</b> \u2014</p><p><i>Spitfire IIB P8330 303Sqn</i></p>",
+    "availability": "1941-06-23T14:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        1.8333,
+        50.6667,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Desvres / Ramming \u2013 Circus 20",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_desvres",
+    "name": "Sortie to Desvres / Ramming \u2013 Circus 20",
+    "availability": "1941-06-23T14:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1941-06-23T14:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.4179,
+          51.553,
+          0,
+          1.8333,
+          50.6667,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_manston",
+    "name": "Manston \u2013 Emergency Landing",
+    "description": "<p><b>Manston \u2013 Emergency Landing</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> \u2014 &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> \u2014</p><p><b>Result:</b> Crash-landed w/o gear; fractured skull</p><p><b>Ammo:</b> \u2014</p><p><i></i></p>",
+    "availability": "1941-06-23T16:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        1.344,
+        51.345,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Manston \u2013 Emergency Landing",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_manston",
+    "name": "Sortie to Manston \u2013 Emergency Landing",
+    "availability": "1941-06-23T16:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1941-06-23T16:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.4179,
+          51.553,
+          0,
+          1.344,
+          51.345,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_calais",
+    "name": "Calais / Cape Gris Nez \u2013 Sweep",
+    "description": "<p><b>Calais / Cape Gris Nez \u2013 Sweep</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> RF-Q &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Fw 190</p><p><b>Result:</b> 1 dest (one of first ever)</p><p><b>Ammo:</b> \u2014</p><p><i>Spitfire VB W3764 303Sqn</i></p>",
+    "availability": "1941-10-24T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        1.8597,
+        50.9303,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Calais / Cape Gris Nez \u2013 Sweep",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_calais",
+    "name": "Sortie to Calais / Cape Gris Nez \u2013 Sweep",
+    "availability": "1941-10-24T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1941-10-24T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.4185,
+          51.5533,
+          0,
+          1.8597,
+          50.9303,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_lehavre",
+    "name": "Le Havre \u2013 Circus 188B",
+    "description": "<p><b>Le Havre \u2013 Circus 188B</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> RF-W &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Fw 190</p><p><b>Result:</b> 1 dest \u2014 ACE (5th kill)</p><p><b>Ammo:</b> \u2014</p><p><i>Spitfire VB AD198 303Sqn</i></p>",
+    "availability": "1942-06-05T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        0.1079,
+        49.4944,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Le Havre \u2013 Circus 188B",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_lehavre",
+    "name": "Sortie to Le Havre \u2013 Circus 188B",
+    "availability": "1942-06-05T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1942-06-05T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.4186,
+          51.5534,
+          0,
+          0.1079,
+          49.4944,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_grimsby",
+    "name": "~50 km E Grimsby \u2013 Patrol",
+    "description": "<p><b>~50 km E Grimsby \u2013 Patrol</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> RF-U &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Ju 88</p><p><b>Result:</b> \u00bd dest (shared w/ Sobiecki)</p><p><b>Ammo:</b> \u2014</p><p><i>Spitfire VB AA935 303Sqn</i></p>",
+    "availability": "1942-06-25T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        0.8,
+        53.57,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "~50 km E Grimsby \u2013 Patrol",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_grimsby",
+    "name": "Sortie to ~50 km E Grimsby \u2013 Patrol",
+    "availability": "1942-06-25T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1942-06-25T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.5957,
+          53.4741,
+          0,
+          0.8,
+          53.57,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_langebrugge",
+    "name": "Langebrugge/Ostend \u2013 Ramrod 86",
+    "description": "<p><b>Langebrugge/Ostend \u2013 Ramrod 86</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> WX-V &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Fw 190</p><p><b>Result:</b> 1 dest</p><p><b>Ammo:</b> \u2014</p><p><i>Spitfire VB AR377 302Sqn</i></p>",
+    "availability": "1943-06-10T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        3.74,
+        51.1,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Langebrugge/Ostend \u2013 Ramrod 86",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_langebrugge",
+    "name": "Sortie to Langebrugge/Ostend \u2013 Ramrod 86",
+    "availability": "1943-06-10T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1943-06-10T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.3781,
+          51.4841,
+          0,
+          3.74,
+          51.1,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_lille",
+    "name": "Lille \u2013 Ramrod S.41",
+    "description": "<p><b>Lille \u2013 Ramrod S.41</b></p><p><b>F.O.:</b> \u2014 &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> WX-V &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Bf109+Fw190</p><p><b>Result:</b> 1 Bf109 dest, 1 Fw190 probable</p><p><b>Ammo:</b> \u2014</p><p><i>Spitfire VB EE683 302Sqn</i></p>",
+    "availability": "1943-09-08T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        3.0573,
+        50.6292,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Lille \u2013 Ramrod S.41",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_lille",
+    "name": "Sortie to Lille \u2013 Ramrod S.41",
+    "availability": "1943-09-08T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1943-09-08T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -0.4187,
+          51.5535,
+          0,
+          3.0573,
+          50.6292,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_zuider",
+    "name": "Zuider Zee (IJsselmeer)",
+    "description": "<p><b>Zuider Zee (IJsselmeer)</b></p><p><b>F.O.:</b> F.O. 246 &nbsp;|&nbsp; <b>Pilot:</b> Capt. M. Gladych</p><p><b>Callsign:</b> Halstead White Four &nbsp;|&nbsp; <b>Time:</b> 1540 hrs</p><p><b>Enemy:</b> Me-109 F/G</p><p><b>Result:</b> 2 dest</p><p><b>Ammo:</b> 204 rds .50-cal API</p><p><i>P-47D HV-S (42-75393) 61st Sqn 56FG \u00b7 AAF Sta F-365 APO 637</i></p>",
+    "availability": "1944-02-21T15:40:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        5.3,
+        52.6,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 16,
+      "color": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Zuider Zee (IJsselmeer)",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_zuider",
+    "name": "Sortie to Zuider Zee (IJsselmeer)",
+    "availability": "1944-02-21T15:40:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-02-21T15:40:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          1.5046,
+          52.3498,
+          0,
+          5.3,
+          52.6,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              80,
+              255,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_vechta_straf",
+    "name": "Vechta Airport \u2013 Ground Strafe",
+    "description": "<p><b>Vechta Airport \u2013 Ground Strafe</b></p><p><b>F.O.:</b> Bajan &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> HV-I &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Fw 190</p><p><b>Result:</b> 1 dest on ground</p><p><b>Ammo:</b> \u2014</p><p><i>P-47D-4 HV-I (42-22744) 61st Sqn</i></p>",
+    "availability": "1944-03-06T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        8.2833,
+        52.7333,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Vechta Airport \u2013 Ground Strafe",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_vechta_straf",
+    "name": "Sortie to Vechta Airport \u2013 Ground Strafe",
+    "availability": "1944-03-06T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-03-06T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          1.5046,
+          52.3498,
+          0,
+          8.2833,
+          52.7333,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_berlin",
+    "name": "Berlin \u2013 Escort / Fw 190 Combat",
+    "description": "<p><b>Berlin \u2013 Escort / Fw 190 Combat</b></p><p><b>F.O.:</b> Bajan/Silver Star &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> HV-M 'Ole Cock' &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Fw 190</p><p><b>Result:</b> 1 dest + 3 dam; bail-out at coast; Silver Star</p><p><b>Ammo:</b> \u2014</p><p><i>P-47D-11 HV-M (42-75410) 61st Sqn</i></p>",
+    "availability": "1944-03-08T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        13.405,
+        52.52,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Berlin \u2013 Escort / Fw 190 Combat",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_berlin",
+    "name": "Sortie to Berlin \u2013 Escort / Fw 190 Combat",
+    "availability": "1944-03-08T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-03-08T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          1.5046,
+          52.3498,
+          0,
+          13.405,
+          52.52,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_vechta_escape",
+    "name": "Vechta \u2013 Faked Landing / Escape",
+    "description": "<p><b>Vechta \u2013 Faked Landing / Escape</b></p><p><b>F.O.:</b> Narrative &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> HV-M &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> \u2014</p><p><b>Result:</b> Faked landing; opened fire; escaped</p><p><b>Ammo:</b> \u2014</p><p><i></i></p>",
+    "availability": "1944-03-08T06:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        8.2834,
+        52.7334,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Vechta \u2013 Faked Landing / Escape",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_vechta_escape",
+    "name": "Sortie to Vechta \u2013 Faked Landing / Escape",
+    "availability": "1944-03-08T06:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-03-08T06:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          1.5046,
+          52.3498,
+          0,
+          8.2834,
+          52.7334,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_alderton",
+    "name": "Alderton \u2013 Bail-out",
+    "description": "<p><b>Alderton \u2013 Bail-out</b></p><p><b>F.O.:</b> Narrative &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> \u2014 &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> \u2014</p><p><b>Result:</b> Fuel exhausted; bailed Woodbridge Rd; P-47 crashed Aviary Farm Hollesey</p><p><b>Ammo:</b> \u2014</p><p><i></i></p>",
+    "availability": "1944-03-08T12:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        1.416,
+        52.005,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Alderton \u2013 Bail-out",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_alderton",
+    "name": "Sortie to Alderton \u2013 Bail-out",
+    "availability": "1944-03-08T12:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-03-08T12:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          1.5046,
+          52.3498,
+          0,
+          1.416,
+          52.005,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_angers",
+    "name": "Angers \u2013 B-17 Escort Return",
+    "description": "<p><b>Angers \u2013 B-17 Escort Return</b></p><p><b>F.O.:</b> F.O. 282 &nbsp;|&nbsp; <b>Pilot:</b> Capt. M. Gladych</p><p><b>Callsign:</b> Keyworth White Four &nbsp;|&nbsp; <b>Time:</b> 1615 hrs</p><p><b>Enemy:</b> Me-109</p><p><b>Result:</b> 1 dest \u2014 pilot bailed; Gladych fired 600 yds; a/c crashed ~5 mi S of Angers</p><p><b>Ammo:</b> 60 rds .50-cal AP&I</p><p><i>P-47D HV-O (42-75224) 61st Sqn 56FG \u00b7 AAF Sta F-365 APO 637 \u00b7 To Col. Avery</i></p>",
+    "availability": "1944-03-27T16:15:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        -0.59,
+        47.35,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 16,
+      "color": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Angers \u2013 B-17 Escort Return",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_angers",
+    "name": "Sortie to Angers \u2013 B-17 Escort Return",
+    "availability": "1944-03-27T16:15:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-03-27T16:15:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          1.5046,
+          52.3498,
+          0,
+          -0.59,
+          47.35,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              80,
+              255,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_metz",
+    "name": "Metz Airfield \u2013 Strafing",
+    "description": "<p><b>Metz Airfield \u2013 Strafing</b></p><p><b>F.O.:</b> Bajan &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> HV-Q &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Ground</p><p><b>Result:</b> Fw190+Ju87+unknown twin damaged</p><p><b>Ammo:</b> \u2014</p><p><i>P-47D-20 HV-Q (42-76458) 61st Sqn</i></p>",
+    "availability": "1944-04-25T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        6.1757,
+        49.1196,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Metz Airfield \u2013 Strafing",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_metz",
+    "name": "Sortie to Metz Airfield \u2013 Strafing",
+    "availability": "1944-04-25T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-04-25T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          0.9167,
+          51.9333,
+          0,
+          6.1757,
+          49.1196,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_croisy",
+    "name": "Croisy \u2013 D-Day (6 Jun)",
+    "description": "<p><b>Croisy \u2013 D-Day (6 Jun)</b></p><p><b>F.O.:</b> F.O. 372 &nbsp;|&nbsp; <b>Pilot:</b> Capt. B. M. Gladych</p><p><b>Callsign:</b> Whippet Red Three &nbsp;|&nbsp; <b>Time:</b> 2100 hrs</p><p><b>Enemy:</b> Me-109</p><p><b>Result:</b> 1 dest \u2014 circling convoy; 4/5 Me-109s from East at 100 ft; e/a spun into ground</p><p><b>Ammo:</b> 307 rds .50-cal AP&I</p><p><i>P-47D HV-V 61st Sqn 56FG \u00b7 AAF Sta F-150 APO 637 \u00b7 Reg. 56D-76B</i></p>",
+    "availability": "1944-06-06T21:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        1.38,
+        49.42,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 16,
+      "color": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Croisy \u2013 D-Day (6 Jun)",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_croisy",
+    "name": "Sortie to Croisy \u2013 D-Day (6 Jun)",
+    "availability": "1944-06-06T21:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-06-06T21:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          0.9167,
+          51.9333,
+          0,
+          1.38,
+          49.42,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              80,
+              255,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_houdan",
+    "name": "15 mi SE of Houdan (7 Jun)",
+    "description": "<p><b>15 mi SE of Houdan (7 Jun)</b></p><p><b>F.O.:</b> F.O. 375 &nbsp;|&nbsp; <b>Pilot:</b> Capt. B. M. Gladych P.A.F.</p><p><b>Callsign:</b> Whippet Red One &nbsp;|&nbsp; <b>Time:</b> 1240 hrs</p><p><b>Enemy:</b> Me-109</p><p><b>Result:</b> 1 dest \u2014 90\u00b0 deflection shot; Hun dove emitting white smoke, hit ground</p><p><b>Ammo:</b> 374 rds .50-cal AP&I</p><p><i>P-47D HV-L 61st Sqn 56FG \u00b7 AAF Sta F-150 APO 637 \u00b7 Reg. 56D-76M \u00b7 led Red flight w/ Col. Gabreski</i></p>",
+    "availability": "1944-06-07T12:40:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        1.85,
+        48.67,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 16,
+      "color": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "15 mi SE of Houdan (7 Jun)",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_houdan",
+    "name": "Sortie to 15 mi SE of Houdan (7 Jun)",
+    "availability": "1944-06-07T12:40:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-06-07T12:40:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          0.9167,
+          51.9333,
+          0,
+          1.85,
+          48.67,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              80,
+              255,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_france_shuttle",
+    "name": "France \u2013 Op. Shuttle Escort",
+    "description": "<p><b>France \u2013 Op. Shuttle Escort</b></p><p><b>F.O.:</b> Bajan &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> HV-Z &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Bf 109</p><p><b>Result:</b> 1 dest</p><p><b>Ammo:</b> \u2014</p><p><i>P-47D (42-26044) 61st Sqn</i></p>",
+    "availability": "1944-07-05T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        2.0,
+        46.5,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "France \u2013 Op. Shuttle Escort",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_france_shuttle",
+    "name": "Sortie to France \u2013 Op. Shuttle Escort",
+    "availability": "1944-07-05T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-07-05T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -1.25,
+          52.9833,
+          0,
+          2.0,
+          46.5,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_maubeuge",
+    "name": "Maubeuge Marshalling Yard",
+    "description": "<p><b>Maubeuge Marshalling Yard</b></p><p><b>F.O.:</b> Bajan &nbsp;|&nbsp; <b>Pilot:</b> Gladych</p><p><b>Callsign:</b> HV-Z &nbsp;|&nbsp; <b>Time:</b> \u2014</p><p><b>Enemy:</b> Ju 88</p><p><b>Result:</b> 1 dest</p><p><b>Ammo:</b> \u2014</p><p><i>P-47D (42-26044) 61st Sqn</i></p>",
+    "availability": "1944-08-12T00:00:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        3.97,
+        50.28,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 12,
+      "color": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "Maubeuge Marshalling Yard",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          255,
+          100,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_maubeuge",
+    "name": "Sortie to Maubeuge Marshalling Yard",
+    "availability": "1944-08-12T00:00:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-08-12T00:00:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          -1.25,
+          52.9833,
+          0,
+          3.97,
+          50.28,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              255,
+              100,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_arnhem",
+    "name": "E of Arnhem / N of Gorinchem \u2013 Market Garden",
+    "description": "<p><b>E of Arnhem / N of Gorinchem \u2013 Market Garden</b></p><p><b>F.O.:</b> F.O. 582 &nbsp;|&nbsp; <b>Pilot:</b> Maj. Michael Gladych P.A.F.</p><p><b>Callsign:</b> Whippet White One &nbsp;|&nbsp; <b>Time:</b> 1515 hrs</p><p><b>Enemy:</b> Fw-190</p><p><b>Result:</b> 2 dest (air) + confirmed 1 by wingman Lt. Kyler; North of Gorinchem tail aircraft burst into flames</p><p><b>Ammo:</b> 1022 rds .50-cal API</p><p><i>P-47D-28 HV-M (44-19718) 61st Sqn 56FG \u00b7 AAF Sta F-150 APO 558 \u00b7 led Whippet sqn as top cover \u00b7 See also Kyler report</i></p>",
+    "availability": "1944-09-21T15:15:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        5.98,
+        51.99,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 16,
+      "color": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "E of Arnhem / N of Gorinchem \u2013 Market Garden",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_arnhem",
+    "name": "Sortie to E of Arnhem / N of Gorinchem \u2013 Market Garden",
+    "availability": "1944-09-21T15:15:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-09-21T15:15:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          0.9168,
+          51.9334,
+          0,
+          5.98,
+          51.99,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              80,
+              255,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
+      "arcType": "GEODESIC",
+      "clampToGround": true
+    }
+  },
+  {
+    "id": "mis_m_deventer",
+    "name": "10 mi E of Deventer \u2013 Getz under Gladych",
+    "description": "<p><b>10 mi E of Deventer \u2013 Getz under Gladych</b></p><p><b>F.O.:</b> F.O. 582 &nbsp;|&nbsp; <b>Pilot:</b> 1Lt. Stuart H. Getz</p><p><b>Callsign:</b> Whippet White Three &nbsp;|&nbsp; <b>Time:</b> 1515 hrs</p><p><b>Enemy:</b> Fw-190</p><p><b>Result:</b> 1 dest shared w/ Lt. Osborne \u2014 Gladych leading Whippet sqn</p><p><b>Ammo:</b> 1925 rds .50-cal API</p><p><i>61st Sqn 56FG \u00b7 AAF Sta F-150 APO 558 \u00b7 Confirms Gladych ('Major Gladych') leading squadron</i></p>",
+    "availability": "1944-09-21T15:15:00Z/1945-04-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [
+        6.38,
+        52.255,
+        0
+      ]
+    },
+    "point": {
+      "pixelSize": 16,
+      "color": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "outlineWidth": 3,
+      "heightReference": "CLAMP_TO_GROUND"
+    },
+    "label": {
+      "text": "10 mi E of Deventer \u2013 Getz under Gladych",
+      "font": "11px Helvetica",
+      "fillColor": {
+        "rgba": [
+          255,
+          80,
+          255,
+          255
+        ]
+      },
+      "outlineColor": {
+        "rgba": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": {
+        "cartesian2": [
+          0,
+          10
+        ]
+      },
+      "heightReference": "CLAMP_TO_GROUND",
+      "disableDepthTestDistance": 10000000000.0
+    }
+  },
+  {
+    "id": "spoke_m_deventer",
+    "name": "Sortie to 10 mi E of Deventer \u2013 Getz under Gladych",
+    "availability": "1944-09-21T15:15:00Z/1945-04-07T00:00:00Z",
+    "polyline": {
+      "show": [
+        {
+          "interval": "1944-09-21T15:15:00Z/1945-04-07T00:00:00Z",
+          "boolean": true
+        }
+      ],
+      "positions": {
+        "cartographicDegrees": [
+          0.9168,
+          51.9334,
+          0,
+          6.38,
+          52.255,
+          0
+        ]
+      },
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              80,
+              255,
+              130
+            ]
+          }
+        }
+      },
+      "width": 1.2,
       "arcType": "GEODESIC",
       "clampToGround": true
     }
