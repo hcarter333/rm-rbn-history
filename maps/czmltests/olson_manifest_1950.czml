@@ -1,0 +1,92 @@
+[
+  {
+    "id": "document",
+    "name": "olson-1950-5-21-nf — addresses surfaced in findings",
+    "version": "1.0",
+    "description": "Pin set for every address surfaced across the findings of MATS Trip A-134 (17-21 May 1950, plane 5521, Argentia <-> Lagens <-> Port Lyautey <-> Westover). Each Packet links back to the per-page findings file and the manifest image. Coordinates are city-level approximations; refine before publication."
+  },
+  {
+    "id": "addr-frederick-md",
+    "name": "Frederick, Maryland (Camp Detrick / Fort Detrick company town)",
+    "description": "<p><b>Frederick, Md.</b> -- residence of <b>Frank R. Olson</b> (39 M, born Wisconsin, USPP # 15403), the Camp Detrick / Special Operations Division biological-warfare aerobiologist who was the head of SOD as of early 1950 and who in November 1953 went out of a 13th-floor window of the Hotel Statler in NYC nine days after Sidney Gottlieb dosed him with LSD at Deep Creek Lake. The form lists the town address rather than 'Camp Detrick' -- standard Detrick civilian-contract practice in 1950.</p><p>Source: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> (line 1) -- <a href=\"41260_322713-00727.jpg\">image</a>.</p>",
+    "position": { "cartographicDegrees": [-77.4105, 39.4143, 0] },
+    "point": { "pixelSize": 8, "color": { "rgba": [200, 60, 60, 255] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-chalfont-pa",
+    "name": "Box 129, Chalfont, Pennsylvania (Bucks County)",
+    "description": "<p><b>Box 129, Chalfont, Penn.</b> -- residence-of-record for <b>Bertha F. Keck</b> (24 F, born 1-29-1926 Philadelphia) and her daughter <b>Pamela L. Keck</b> (3 F, born 4-3-1947 Topeka KS). Husband <b>LTJG C.B. Keck USN</b> (Naval Aviator, designator 1310, sn 378559) appears on the military half of the same flight without a civilian address. Most plausibly the wife's family-of-origin Bucks County address used as a stateside mailing point during the husband's NAS Argentia tour.</p><p>Sources: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> (lines 2-3) -- <a href=\"41260_322713-00727.jpg\">image</a>; <a href=\"findings/41260_322713-00728.md\">00728 findings</a> (line 1, husband C.B. Keck) -- <a href=\"41260_322713-00728.jpg\">image</a>.</p>",
+    "position": { "cartographicDegrees": [-75.2087, 40.2887, 0] },
+    "point": { "pixelSize": 8, "color": { "rgba": [80, 140, 220, 255] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-engelhard-nc",
+    "name": "P.O. Box 25, Engelhard, North Carolina (Hyde County)",
+    "description": "<p><b>P.O. Box 25, Engelhard, No. Car.</b> -- household of <b>R.S. Cox</b> (USN GMC[?] / CWO, sn 262 22 88) and <b>Mary R./E. Cox</b> (27 F, born NC, USPP # 30397). Engelhard is a tiny unincorporated village on the south shore of Pamlico Sound; the Cox couple boarded MATS Trip A-134 at NAF Port Lyautey, French Morocco, with a low-number U.S. Government dependent passport for Mary -- consistent with returning from a dependent tour at NAF Port Lyautey.</p><p>Sources: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> (line 4, Mary R. Cox) -- <a href=\"41260_322713-00727.jpg\">image</a>; <a href=\"findings/41260_322713-00730.md\">00730 findings</a> (lines 12-14, R.S. Cox + Mary E. Cox) -- <a href=\"41260_322713-00730.jpg\">image</a>.</p>",
+    "position": { "cartographicDegrees": [-76.0213, 35.5102, 0] },
+    "point": { "pixelSize": 8, "color": { "rgba": [80, 140, 220, 255] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-westover-field-ma",
+    "name": "Westover Field, Chicopee, Massachusetts (8th Air Force HQ; MATS Atlantic Division terminal)",
+    "description": "<p><b>Westover Field, Chicopee, Mass.</b> -- the U.S. point of entry for MATS Trip A-134 on the morning of 21 May 1950. In 1950 Westover was 8th Air Force HQ and the standard East-Coast disembarkation point for U.S. officials returning from Britain or Europe via the Newfoundland-Iceland air bridge. The INS round-stamp 'EXAMINED AND CLEARED -- U.S. IMMIGRATION -- WESTOVER FIELD, CHICOPEE, MASS. -- MAY 21 1950' is the operative customs entry mark for the entire aircraft. Westover-to-Camp-Detrick is a ~6-hour surface drive.</p><p>All five sheets cite Westover as the manifest destination: <a href=\"findings/41260_322713-00725.md\">00725</a> (<a href=\"41260_322713-00725.jpg\">image</a>); <a href=\"findings/41260_322713-00727.md\">00727</a> (<a href=\"41260_322713-00727.jpg\">image</a>); <a href=\"findings/41260_322713-00728.md\">00728</a> (<a href=\"41260_322713-00728.jpg\">image</a>); <a href=\"findings/41260_322713-00729.md\">00729</a> (<a href=\"41260_322713-00729.jpg\">image</a>); <a href=\"findings/41260_322713-00730.md\">00730</a> (<a href=\"41260_322713-00730.jpg\">image</a>).</p>",
+    "position": { "cartographicDegrees": [-72.5340, 42.1995, 0] },
+    "point": { "pixelSize": 10, "color": { "rgba": [240, 180, 60, 255] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-nas-argentia-nfld",
+    "name": "Naval Station Argentia, Newfoundland (NUP, U.S. point of clearance)",
+    "description": "<p><b>NAS Argentia, NFLD</b> -- the U.S. point of clearance for MATS Trip A-134 and the originating station for sub-manifest NUP-50-341-NAS (the Argentia-originating military half). On 21 May 1950 the LTJG C.B. Keck USN family and SN R.E. Cobb USN boarded here. The NAS Argentia in 1950 was the U.S. Navy's principal North-Atlantic ASW base, home to rotating VP (patrol) squadrons (P2V Neptunes, PBM Mariners, PB4Y-2 Privateers) flying long-range cold-water patrol against Soviet submarine activity.</p><p>Sources: <a href=\"findings/41260_322713-00725.md\">00725</a> (<a href=\"41260_322713-00725.jpg\">image</a>); <a href=\"findings/41260_322713-00728.md\">00728</a> (<a href=\"41260_322713-00728.jpg\">image</a>); <a href=\"findings/41260_322713-00729.md\">00729</a> (<a href=\"41260_322713-00729.jpg\">image</a>); <a href=\"findings/41260_322713-00730.md\">00730</a> (<a href=\"41260_322713-00730.jpg\">image</a>).</p>",
+    "position": { "cartographicDegrees": [-53.9862, 47.2967, 0] },
+    "point": { "pixelSize": 8, "color": { "rgba": [120, 200, 120, 255] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-lajes-azores",
+    "name": "Lajes Field (Lagens), Terceira, Azores",
+    "description": "<p><b>Lagens / Lajes Field, Terceira, Azores</b> -- the standard mid-Atlantic refueling stop on MATS Atlantic Division routes 1948-1955. Plane 5521 staged through Lajes outbound (17-18 May 1950) and inbound (20 May 1950) per the General Declaration.</p><p>Sources: <a href=\"findings/41260_322713-00725.md\">00725</a> (<a href=\"41260_322713-00725.jpg\">image</a>); <a href=\"findings/41260_322713-00729.md\">00729</a> (<a href=\"41260_322713-00729.jpg\">image</a>); <a href=\"findings/41260_322713-00730.md\">00730</a> (<a href=\"41260_322713-00730.jpg\">image</a>).</p>",
+    "position": { "cartographicDegrees": [-27.0908, 38.7616, 0] },
+    "point": { "pixelSize": 8, "color": { "rgba": [120, 200, 120, 255] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-naf-port-lyautey",
+    "name": "NAF Port Lyautey, French Morocco (later Kenitra)",
+    "description": "<p><b>NAF Port Lyautey, French Morocco</b> -- the operationally load-bearing non-CONUS address of MATS Trip A-134 and the boarding station for Frank R. Olson and the Cox couple on 19 May 1950. Home base of <b>VP-26 Detachment A</b> whose <b>PB4Y-2 'Turbulent Turtle' (BuNo 59645)</b> had been shot down by four Soviet La-11 fighters off Liepaja, Latvia on 8 April 1950 -- the first U.S.-vs-USSR aerial combat loss of the Cold War, six weeks before this flight. The 22 December 1950 U.S.-French Air Base Agreement formally turning Port Lyautey into a major U.S. forward base was eight months in the future; May 1950 sits inside the negotiation-and-survey window. The Institut Pasteur du Maroc (Casablanca) and the Tangier International Zone are within road distance.</p><p>Sources: <a href=\"findings/41260_322713-00725.md\">00725</a> (<a href=\"41260_322713-00725.jpg\">image</a>) (itinerary); <a href=\"findings/41260_322713-00729.md\">00729</a> (<a href=\"41260_322713-00729.jpg\">image</a>) (PEY-50-299, courier originating); <a href=\"findings/41260_322713-00730.md\">00730</a> (<a href=\"41260_322713-00730.jpg\">image</a>) (PEY-50-298, Olson + Cox originating).</p>",
+    "position": { "cartographicDegrees": [-6.5950, 34.2986, 0] },
+    "point": { "pixelSize": 12, "color": { "rgba": [220, 60, 220, 255] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-philadelphia-pa",
+    "name": "Philadelphia, Pennsylvania (place of birth, Bertha F. Keck)",
+    "description": "<p><b>Philadelphia, Penn.</b> -- place of birth of <b>Bertha F. Keck</b> on <b>29 January 1926</b>.</p><p>Source: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> (line 2) -- <a href=\"41260_322713-00727.jpg\">image</a>.</p>",
+    "position": { "cartographicDegrees": [-75.1652, 39.9526, 0] },
+    "point": { "pixelSize": 6, "color": { "rgba": [160, 160, 200, 220] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-topeka-ks",
+    "name": "Topeka, Kansas (place of birth, Pamela L. Keck)",
+    "description": "<p><b>Topeka, Kansas</b> -- place of birth of <b>Pamela L. Keck</b> on <b>3 April 1947</b>. Topeka Army Air Field (later Forbes AFB) was the principal SAC training and B-29/B-47 base in central Kansas in the late 1940s; nearby NAS Olathe was the Plains' primary Navy training and reserve base. The 1947 Topeka birth back-traces C.B. Keck's prior duty station to the Naval Aviation Cadet pipeline at Olathe ca. 1947.</p><p>Source: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> (line 3) -- <a href=\"41260_322713-00727.jpg\">image</a>.</p>",
+    "position": { "cartographicDegrees": [-95.6752, 39.0473, 0] },
+    "point": { "pixelSize": 6, "color": { "rgba": [160, 160, 200, 220] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-hurley-wi",
+    "name": "Hurley, Iron County, Wisconsin (place of birth, Frank R. Olson)",
+    "description": "<p><b>Hurley, Iron County, Wisconsin</b> -- place of birth of <b>Frank Rudolph Olson</b> on <b>17 July 1910</b> (the manifest entry says 'Born Wisc.'). Wisconsin is the home-state stamp on the file of a man whose own academic family -- Ira Baldwin (UW Madison bacteriology, advised both Olson PhD 1938 and Sidney Gottlieb PhD 1943) -- would later arrange the events that ended his life.</p><p>Source: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> (line 1) -- <a href=\"41260_322713-00727.jpg\">image</a> (state-level only on form; Hurley used as the documented birthplace from biographical record).</p>",
+    "position": { "cartographicDegrees": [-90.1843, 46.4471, 0] },
+    "point": { "pixelSize": 6, "color": { "rgba": [160, 160, 200, 220] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-pepperrell-afb-nfld",
+    "name": "Pepperrell AFB, St. John's, Newfoundland",
+    "description": "<p><b>Pepperrell AFB</b> at St. John's, Newfoundland -- a U.S. Air Force / Northeast Air Command base on the east side of the island. Polecat findings flag Pepperrell as one of two plausible specific Newfoundland departure airfields when the I-444 simply records 'NEWFOUNDLAND', and as the leading candidate origin code for the manifest's 'PET' string on parallel sub-manifests in the same trip cluster. Not a confirmed boarding station for any named Trip A-134 passenger -- referenced atmospherically.</p><p>Source: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> -- <a href=\"41260_322713-00727.jpg\">image</a>; <a href=\"findings/41260_322713-00728.md\">00728 findings</a> -- <a href=\"41260_322713-00728.jpg\">image</a>.</p>",
+    "position": { "cartographicDegrees": [-52.7126, 47.5615, 0] },
+    "point": { "pixelSize": 5, "color": { "rgba": [120, 200, 120, 200] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  },
+  {
+    "id": "addr-harmon-afb-nfld",
+    "name": "Harmon AFB, Stephenville, Newfoundland",
+    "description": "<p><b>Harmon AFB</b> at Stephenville, Newfoundland -- the second of the two plausible specific Newfoundland departure airfields when the I-444 records only 'NEWFOUNDLAND'. Atmospheric reference, not a confirmed boarding station for any named Trip A-134 passenger.</p><p>Source: <a href=\"findings/41260_322713-00727.md\">00727 findings</a> -- <a href=\"41260_322713-00727.jpg\">image</a>.</p>",
+    "position": { "cartographicDegrees": [-58.5503, 48.5320, 0] },
+    "point": { "pixelSize": 5, "color": { "rgba": [120, 200, 120, 200] }, "outlineColor": { "rgba": [0, 0, 0, 255] }, "outlineWidth": 1 }
+  }
+]
