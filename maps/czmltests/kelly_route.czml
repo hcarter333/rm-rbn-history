@@ -803,27 +803,15 @@
    "event_id": 1,
    "kind": "birth",
    "date": "1924-05-07",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary",
-    "self_account"
-   ],
+   "bases": "document, summary, self_account",
    "place_id": 48,
    "place": "Medkovets",
    "place_kind": "village",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    40,
-    57,
-    62,
-    65,
-    66,
-    117
-   ]
+   "pages": "40, 57, 62, 65, 66, 117"
   }
  },
  {
@@ -864,27 +852,15 @@
    "event_id": 1,
    "kind": "birth",
    "date": "1924-05-07",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary",
-    "self_account"
-   ],
+   "bases": "document, summary, self_account",
    "place_id": 49,
    "place": "Montana (Bulgaria)",
    "place_kind": "town",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    40,
-    57,
-    62,
-    65,
-    66,
-    117
-   ]
+   "pages": "40, 57, 62, 65, 66, 117"
   }
  },
  {
@@ -928,18 +904,13 @@
    "end_date": "1942",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 43,
    "place": "Sofia",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    29,
-    62
-   ]
+   "pages": "29, 62"
   }
  },
  {
@@ -983,20 +954,13 @@
    "end_date": "1943",
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 44,
    "place": "Sofia University",
    "place_kind": "building",
    "role": "at",
    "location_type": "ROOFTOP",
-   "pages": [
-    29,
-    37,
-    117
-   ]
+   "pages": "29, 37, 117"
   }
  },
  {
@@ -1037,22 +1001,15 @@
    "event_id": 4,
    "kind": "membership",
    "date": "1942",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 2,
    "place": "Bulgaria",
    "place_kind": "country",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    29,
-    117
-   ]
+   "pages": "29, 117"
   }
  },
  {
@@ -1093,23 +1050,15 @@
    "event_id": 5,
    "kind": "underground",
    "date": "1943",
-   "end_date": null,
    "date_quality": "claimed",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 35,
    "place": "Macedonia",
    "place_kind": "region",
    "role": "at",
    "location_type": "MANUAL",
-   "pages": [
-    4,
-    29,
-    107
-   ]
+   "pages": "4, 29, 107"
   }
  },
  {
@@ -1150,22 +1099,15 @@
    "event_id": 6,
    "kind": "underground",
    "date": "1943",
-   "end_date": null,
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 2,
    "place": "Bulgaria",
    "place_kind": "country",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    137,
-    138,
-    147
-   ]
+   "pages": "137, 138, 147"
   }
  },
  {
@@ -1206,22 +1148,15 @@
    "event_id": 6,
    "kind": "underground",
    "date": "1943",
-   "end_date": null,
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 35,
    "place": "Macedonia",
    "place_kind": "region",
    "role": "at",
    "location_type": "MANUAL",
-   "pages": [
-    137,
-    138,
-    147
-   ]
+   "pages": "137, 138, 147"
   }
  },
  {
@@ -1265,20 +1200,13 @@
    "end_date": "1945",
    "date_quality": "claimed",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 37,
    "place": "Vardar Macedonia",
    "place_kind": "region",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    37,
-    67,
-    138
-   ]
+   "pages": "37, 67, 138"
   }
  },
  {
@@ -1319,21 +1247,15 @@
    "event_id": 7,
    "kind": "underground",
    "date": "1944-09-02",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 2,
    "place": "Bulgaria",
    "place_kind": "country",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    29,
-    66
-   ]
+   "pages": "29, 66"
   }
  },
  {
@@ -1374,22 +1296,15 @@
    "event_id": 8,
    "kind": "underground",
    "date": "1944-09-09",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 2,
    "place": "Bulgaria",
    "place_kind": "country",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    29,
-    117
-   ]
+   "pages": "29, 117"
   }
  },
  {
@@ -1433,18 +1348,13 @@
    "end_date": "1945",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 49,
    "place": "Montana (Bulgaria)",
    "place_kind": "town",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    29,
-    67
-   ]
+   "pages": "29, 67"
   }
  },
  {
@@ -1488,18 +1398,13 @@
    "end_date": "1945",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 47,
    "place": "Lom",
    "place_kind": "town",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    29,
-    67
-   ]
+   "pages": "29, 67"
   }
  },
  {
@@ -1540,22 +1445,15 @@
    "event_id": 12,
    "kind": "underground",
    "date": "1945",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 4,
    "place": "Yugoslavia",
    "place_kind": "country",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    30,
-    62,
-    138
-   ]
+   "pages": "30, 62, 138"
   }
  },
  {
@@ -1596,22 +1494,15 @@
    "event_id": 13,
    "kind": "escape",
    "date": "1945",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 43,
    "place": "Sofia",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    30,
-    98,
-    138
-   ]
+   "pages": "30, 98, 138"
   }
  },
  {
@@ -1655,19 +1546,13 @@
    "end_date": "1946",
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 2,
    "place": "Bulgaria",
    "place_kind": "country",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    30,
-    98,
-    139
-   ]
+   "pages": "30, 98, 139"
   }
  },
  {
@@ -1711,18 +1596,13 @@
    "end_date": "1945-05",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 43,
    "place": "Sofia",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    30,
-    67
-   ]
+   "pages": "30, 67"
   }
  },
  {
@@ -1766,18 +1646,13 @@
    "end_date": "1945-05",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 62,
    "place": "Skopje",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    30,
-    67
-   ]
+   "pages": "30, 67"
   }
  },
  {
@@ -1818,21 +1693,15 @@
    "event_id": 15,
    "kind": "speech",
    "date": "1945-11-18",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 46,
    "place": "Vratsa",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    30,
-    62
-   ]
+   "pages": "30, 62"
   }
  },
  {
@@ -1873,27 +1742,15 @@
    "event_id": 16,
    "kind": "arrest",
    "date": "1946-08-16",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 43,
    "place": "Sofia",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    5,
-    30,
-    67,
-    107,
-    117,
-    139,
-    147
-   ]
+   "pages": "5, 30, 67, 107, 117, 139, 147"
   }
  },
  {
@@ -1937,19 +1794,13 @@
    "end_date": "1946-11-11",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 46,
    "place": "Vratsa",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68,
-    98
-   ]
+   "pages": "31, 68, 98"
   }
  },
  {
@@ -1990,21 +1841,15 @@
    "event_id": 19,
    "kind": "detention",
    "date": "1947-06",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 46,
    "place": "Vratsa",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68
-   ]
+   "pages": "31, 68"
   }
  },
  {
@@ -2045,21 +1890,15 @@
    "event_id": 18,
    "kind": "trial",
    "date": "1947-06-02",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 47,
    "place": "Lom",
    "place_kind": "town",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68
-   ]
+   "pages": "31, 68"
   }
  },
  {
@@ -2100,23 +1939,15 @@
    "event_id": 20,
    "kind": "escape",
    "date": "1947-07-08",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 46,
    "place": "Vratsa",
    "place_kind": "city",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68,
-    98,
-    139
-   ]
+   "pages": "31, 68, 98, 139"
   }
  },
  {
@@ -2157,23 +1988,15 @@
    "event_id": 20,
    "kind": "escape",
    "date": "1947-07-08",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 51,
    "place": "Mezdra",
    "place_kind": "town",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68,
-    98,
-    139
-   ]
+   "pages": "31, 68, 98, 139"
   }
  },
  {
@@ -2214,23 +2037,15 @@
    "event_id": 20,
    "kind": "escape",
    "date": "1947-07-08",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 52,
    "place": "Zverino",
    "place_kind": "village",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68,
-    98,
-    139
-   ]
+   "pages": "31, 68, 98, 139"
   }
  },
  {
@@ -2271,23 +2086,15 @@
    "event_id": 20,
    "kind": "escape",
    "date": "1947-07-08",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 43,
    "place": "Sofia",
    "place_kind": "city",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68,
-    98,
-    139
-   ]
+   "pages": "31, 68, 98, 139"
   }
  },
  {
@@ -2328,23 +2135,15 @@
    "event_id": 20,
    "kind": "escape",
    "date": "1947-07-08",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 45,
    "place": "Simeonovo",
    "place_kind": "village",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68,
-    98,
-    139
-   ]
+   "pages": "31, 68, 98, 139"
   }
  },
  {
@@ -2385,23 +2184,15 @@
    "event_id": 20,
    "kind": "escape",
    "date": "1947-07-08",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 53,
    "place": "Plovdiv",
    "place_kind": "city",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68,
-    98,
-    139
-   ]
+   "pages": "31, 68, 98, 139"
   }
  },
  {
@@ -2442,26 +2233,15 @@
    "event_id": 21,
    "kind": "flight",
    "date": "1947-07-23",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 54,
    "place": "Zlatograd",
    "place_kind": "town",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    6,
-    31,
-    57,
-    68,
-    99,
-    117
-   ]
+   "pages": "6, 31, 57, 68, 99, 117"
   }
  },
  {
@@ -2502,26 +2282,15 @@
    "event_id": 21,
    "kind": "flight",
    "date": "1947-07-23",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 55,
    "place": "Greek-Bulgarian frontier south of Zlatograd",
    "place_kind": "frontier",
    "role": "at",
    "location_type": "GEOMETRIC_CENTER",
-   "pages": [
-    6,
-    31,
-    57,
-    68,
-    99,
-    117
-   ]
+   "pages": "6, 31, 57, 68, 99, 117"
   }
  },
  {
@@ -2562,26 +2331,15 @@
    "event_id": 21,
    "kind": "flight",
    "date": "1947-07-23",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 1,
    "place": "Greece",
    "place_kind": "country",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    6,
-    31,
-    57,
-    68,
-    99,
-    117
-   ]
+   "pages": "6, 31, 57, 68, 99, 117"
   }
  },
  {
@@ -2622,22 +2380,15 @@
    "event_id": 22,
    "kind": "arrest",
    "date": "1947-07-24",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 79,
    "place": "Echinos",
    "place_kind": "village",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    99,
-    139
-   ]
+   "pages": "31, 99, 139"
   }
  },
  {
@@ -2681,18 +2432,13 @@
    "end_date": "1947-09",
    "date_quality": "circa",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 78,
    "place": "Xanthi",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68
-   ]
+   "pages": "31, 68"
   }
  },
  {
@@ -2736,18 +2482,13 @@
    "end_date": "1947-09",
    "date_quality": "circa",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 77,
    "place": "Thessaloniki",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68
-   ]
+   "pages": "31, 68"
   }
  },
  {
@@ -2791,18 +2532,13 @@
    "end_date": "1948-06",
    "date_quality": "circa",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68
-   ]
+   "pages": "31, 68"
   }
  },
  {
@@ -2846,18 +2582,13 @@
    "end_date": "1948-06",
    "date_quality": "circa",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 73,
    "place": "Lavrion refugee camp",
    "place_kind": "camp",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    68
-   ]
+   "pages": "31, 68"
   }
  },
  {
@@ -2901,17 +2632,13 @@
    "end_date": "1949",
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    139
-   ]
+   "pages": "139"
   }
  },
  {
@@ -2955,17 +2682,13 @@
    "end_date": "1949",
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 82,
    "place": "Bari",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    139
-   ]
+   "pages": "139"
   }
  },
  {
@@ -3009,17 +2732,13 @@
    "end_date": "1949",
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 1,
    "place": "Greece",
    "place_kind": "country",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    139
-   ]
+   "pages": "139"
   }
  },
  {
@@ -3063,21 +2782,13 @@
    "end_date": "1950-10",
    "date_quality": "circa",
    "basis": "document",
-   "bases": [
-    "document",
-    "self_account"
-   ],
+   "bases": "document, self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    62,
-    68,
-    84
-   ]
+   "pages": "31, 62, 68, 84"
   }
  },
  {
@@ -3121,19 +2832,13 @@
    "end_date": "1949-11",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    38,
-    39,
-    99
-   ]
+   "pages": "38, 39, 99"
   }
  },
  {
@@ -3177,19 +2882,13 @@
    "end_date": "1949-11",
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 83,
    "place": "Rome",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    38,
-    39,
-    99
-   ]
+   "pages": "38, 39, 99"
   }
  },
  {
@@ -3233,22 +2932,13 @@
    "end_date": "1949-04-10",
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    31,
-    32,
-    83,
-    104,
-    106
-   ]
+   "pages": "31, 32, 83, 104, 106"
   }
  },
  {
@@ -3292,19 +2982,13 @@
    "end_date": "1950",
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "self_account"
-   ],
+   "bases": "document, self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    69,
-    100
-   ]
+   "pages": "69, 100"
   }
  },
  {
@@ -3345,20 +3029,15 @@
    "event_id": 31,
    "kind": "correspondence",
    "date": "1950-04-15",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 71,
    "place": "Hotel Action, New Phaleron",
    "place_kind": "hotel",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    81
-   ]
+   "pages": "81"
   }
  },
  {
@@ -3399,23 +3078,15 @@
    "event_id": 32,
    "kind": "organizing",
    "date": "1950-04-30",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 73,
    "place": "Lavrion refugee camp",
    "place_kind": "camp",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    7,
-    33,
-    70
-   ]
+   "pages": "7, 33, 70"
   }
  },
  {
@@ -3456,20 +3127,15 @@
    "event_id": 33,
    "kind": "recruitment",
    "date": "1950-08",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 67,
    "place": "American Embassy, Athens",
    "place_kind": "embassy",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    100
-   ]
+   "pages": "100"
   }
  },
  {
@@ -3510,22 +3176,15 @@
    "event_id": 34,
    "kind": "speech",
    "date": "1950-09-23",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 73,
    "place": "Lavrion refugee camp",
    "place_kind": "camp",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    33,
-    72
-   ]
+   "pages": "33, 72"
   }
  },
  {
@@ -3566,23 +3225,15 @@
    "event_id": 35,
    "kind": "organizing",
    "date": "1950-10",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 73,
    "place": "Lavrion refugee camp",
    "place_kind": "camp",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    58,
-    59,
-    128
-   ]
+   "pages": "58, 59, 128"
   }
  },
  {
@@ -3623,21 +3274,15 @@
    "event_id": 40,
    "kind": "organizing",
    "date": "1950-11-01",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 73,
    "place": "Lavrion refugee camp",
    "place_kind": "camp",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    12,
-    59
-   ]
+   "pages": "12, 59"
   }
  },
  {
@@ -3678,21 +3323,15 @@
    "event_id": 40,
    "kind": "organizing",
    "date": "1950-11-01",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    12,
-    59
-   ]
+   "pages": "12, 59"
   }
  },
  {
@@ -3733,22 +3372,15 @@
    "event_id": 65,
    "kind": "trial",
    "date": "1951",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary"
-   ],
+   "bases": "summary",
    "place_id": 43,
    "place": "Sofia",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    13,
-    34,
-    104
-   ]
+   "pages": "13, 34, 104"
   }
  },
  {
@@ -3789,20 +3421,15 @@
    "event_id": 46,
    "kind": "organizing",
    "date": "1951-02",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 66,
    "place": "13 Patissia Street, Athens",
    "place_kind": "address",
    "role": "at",
    "location_type": "RANGE_INTERPOLATED",
-   "pages": [
-    111
-   ]
+   "pages": "111"
   }
  },
  {
@@ -3843,21 +3470,15 @@
    "event_id": 47,
    "kind": "agreement",
    "date": "1951-03-03",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    17,
-    84
-   ]
+   "pages": "17, 84"
   }
  },
  {
@@ -3898,21 +3519,15 @@
    "event_id": 52,
    "kind": "contact",
    "date": "1951-04-12",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    22,
-    83
-   ]
+   "pages": "22, 83"
   }
  },
  {
@@ -3956,20 +3571,13 @@
    "end_date": "1951-04-17",
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    23,
-    33,
-    115
-   ]
+   "pages": "23, 33, 115"
   }
  },
  {
@@ -4010,28 +3618,15 @@
    "event_id": 55,
    "kind": "pickup",
    "date": "1951-04-18",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary",
-    "self_account"
-   ],
+   "bases": "document, summary, self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    33,
-    95,
-    101,
-    108,
-    112,
-    117,
-    140
-   ]
+   "pages": "33, 95, 101, 108, 112, 117, 140"
   }
  },
  {
@@ -4072,22 +3667,15 @@
    "event_id": 61,
    "kind": "transfer",
    "date": "1951-04-29",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "self_account"
-   ],
+   "bases": "document, self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    118,
-    140
-   ]
+   "pages": "118, 140"
   }
  },
  {
@@ -4128,22 +3716,15 @@
    "event_id": 61,
    "kind": "transfer",
    "date": "1951-04-29",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "self_account"
-   ],
+   "bases": "document, self_account",
    "place_id": 74,
    "place": "Makronisos",
    "place_kind": "island",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    118,
-    140
-   ]
+   "pages": "118, 140"
   }
  },
  {
@@ -4184,24 +3765,15 @@
    "event_id": 66,
    "kind": "transfer",
    "date": "1951-09",
-   "end_date": null,
    "date_quality": "circa",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    35,
-    38,
-    104,
-    140
-   ]
+   "pages": "35, 38, 104, 140"
   }
  },
  {
@@ -4242,24 +3814,15 @@
    "event_id": 66,
    "kind": "transfer",
    "date": "1951-09",
-   "end_date": null,
    "date_quality": "circa",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 85,
    "place": "Frankfurt am Main",
    "place_kind": "city",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    35,
-    38,
-    104,
-    140
-   ]
+   "pages": "35, 38, 104, 140"
   }
  },
  {
@@ -4300,24 +3863,15 @@
    "event_id": 66,
    "kind": "transfer",
    "date": "1951-09",
-   "end_date": null,
    "date_quality": "circa",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 27,
    "place": "Azores",
    "place_kind": "region",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    35,
-    38,
-    104,
-    140
-   ]
+   "pages": "35, 38, 104, 140"
   }
  },
  {
@@ -4358,24 +3912,15 @@
    "event_id": 66,
    "kind": "transfer",
    "date": "1951-09",
-   "end_date": null,
    "date_quality": "circa",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 26,
    "place": "Bermuda",
    "place_kind": "region",
    "role": "via",
    "location_type": "APPROXIMATE",
-   "pages": [
-    35,
-    38,
-    104,
-    140
-   ]
+   "pages": "35, 38, 104, 140"
   }
  },
  {
@@ -4416,24 +3961,15 @@
    "event_id": 66,
    "kind": "transfer",
    "date": "1951-09",
-   "end_date": null,
    "date_quality": "circa",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    35,
-    38,
-    104,
-    140
-   ]
+   "pages": "35, 38, 104, 140"
   }
  },
  {
@@ -4474,26 +4010,15 @@
    "event_id": 67,
    "kind": "detention",
    "date": "1951-09-04",
-   "end_date": null,
    "date_quality": "conflicting",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    35,
-    38,
-    57,
-    101,
-    129,
-    134
-   ]
+   "pages": "35, 38, 57, 101, 129, 134"
   }
  },
  {
@@ -4537,19 +4062,13 @@
    "end_date": "1951-10-14",
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    129,
-    140
-   ]
+   "pages": "129, 140"
   }
  },
  {
@@ -4590,20 +4109,15 @@
    "event_id": 70,
    "kind": "correspondence",
    "date": "1951-11-07",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    112
-   ]
+   "pages": "112"
   }
  },
  {
@@ -4644,20 +4158,15 @@
    "event_id": 76,
    "kind": "correspondence",
    "date": "1951-12-27",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    113
-   ]
+   "pages": "113"
   }
  },
  {
@@ -4698,23 +4207,15 @@
    "event_id": 79,
    "kind": "transfer",
    "date": "1952-03",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    35,
-    101,
-    141
-   ]
+   "pages": "35, 101, 141"
   }
  },
  {
@@ -4758,18 +4259,13 @@
    "end_date": "1953-05",
    "date_quality": "circa",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    101,
-    141
-   ]
+   "pages": "101, 141"
   }
  },
  {
@@ -4810,20 +4306,15 @@
    "event_id": 84,
    "kind": "detention",
    "date": "1953-05-15",
-   "end_date": null,
    "date_quality": "circa",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    97
-   ]
+   "pages": "97"
   }
  },
  {
@@ -4867,21 +4358,13 @@
    "end_date": "1953-05-27",
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    45,
-    97,
-    127,
-    134
-   ]
+   "pages": "45, 97, 127, 134"
   }
  },
  {
@@ -4925,22 +4408,13 @@
    "end_date": "1954-02",
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    38,
-    57,
-    129,
-    135,
-    141
-   ]
+   "pages": "38, 57, 129, 135, 141"
   }
  },
  {
@@ -4984,22 +4458,13 @@
    "end_date": "1954-02",
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 76,
    "place": "Syros refugee detention camp",
    "place_kind": "camp",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    38,
-    57,
-    129,
-    135,
-    141
-   ]
+   "pages": "38, 57, 129, 135, 141"
   }
  },
  {
@@ -5043,21 +4508,13 @@
    "end_date": "1954-01-12",
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 108,
    "place": "Fort Clayton",
    "place_kind": "base",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    45,
-    123,
-    124,
-    135
-   ]
+   "pages": "45, 123, 124, 135"
   }
  },
  {
@@ -5098,23 +4555,15 @@
    "event_id": 91,
    "kind": "immigration",
    "date": "1955-10",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 76,
    "place": "Syros refugee detention camp",
    "place_kind": "camp",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    119,
-    129,
-    135
-   ]
+   "pages": "119, 129, 135"
   }
  },
  {
@@ -5155,23 +4604,15 @@
    "event_id": 92,
    "kind": "immigration",
    "date": "1956-11-26",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 117,
    "place": "New York City",
    "place_kind": "city",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    36,
-    57,
-    141
-   ]
+   "pages": "36, 57, 141"
   }
  },
  {
@@ -5212,23 +4653,15 @@
    "event_id": 92,
    "kind": "immigration",
    "date": "1956-11-26",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary",
-    "self_account"
-   ],
+   "bases": "summary, self_account",
    "place_id": 125,
    "place": "Newark, New Jersey",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    36,
-    57,
-    141
-   ]
+   "pages": "36, 57, 141"
   }
  },
  {
@@ -5269,20 +4702,15 @@
    "event_id": 93,
    "kind": "immigration",
    "date": "1956-12-28",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "summary",
-   "bases": [
-    "summary"
-   ],
+   "bases": "summary",
    "place_id": 129,
    "place": "US District Court, Chicago",
    "place_kind": "building",
    "role": "at",
    "location_type": "ROOFTOP",
-   "pages": [
-    36
-   ]
+   "pages": "36"
   }
  },
  {
@@ -5323,20 +4751,15 @@
    "event_id": 94,
    "kind": "correspondence",
    "date": "1957-03-19",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 124,
    "place": "29-19 37th Avenue, Astoria",
    "place_kind": "address",
    "role": "to",
    "location_type": "RANGE_INTERPOLATED",
-   "pages": [
-    122
-   ]
+   "pages": "122"
   }
  },
  {
@@ -5377,20 +4800,15 @@
    "event_id": 95,
    "kind": "correspondence",
    "date": "1957-04-12",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 126,
    "place": "9 Hillside Avenue, Newark",
    "place_kind": "address",
    "role": "to",
    "location_type": "ROOFTOP",
-   "pages": [
-    121
-   ]
+   "pages": "121"
   }
  },
  {
@@ -5431,23 +4849,15 @@
    "event_id": 96,
    "kind": "memo",
    "date": "1957-05-14",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 114,
    "place": "2036 P Street NW, Washington",
    "place_kind": "address",
    "role": "at",
    "location_type": "RANGE_INTERPOLATED",
-   "pages": [
-    46,
-    119,
-    135
-   ]
+   "pages": "46, 119, 135"
   }
  },
  {
@@ -5488,20 +4898,15 @@
    "event_id": 97,
    "kind": "correspondence",
    "date": "1957-07-20",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 134,
    "place": "1236 S. Menlo Avenue, Los Angeles",
    "place_kind": "address",
    "role": "to",
    "location_type": "ROOFTOP",
-   "pages": [
-    149
-   ]
+   "pages": "149"
   }
  },
  {
@@ -5542,20 +4947,15 @@
    "event_id": 98,
    "kind": "speech",
    "date": "1958-01-14",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 133,
    "place": "Hotel Knickerbocker, Hollywood",
    "place_kind": "hotel",
    "role": "at",
    "location_type": "ROOFTOP",
-   "pages": [
-    148
-   ]
+   "pages": "148"
   }
  },
  {
@@ -5596,20 +4996,15 @@
    "event_id": 99,
    "kind": "publication",
    "date": "1958-04-10",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 131,
    "place": "Los Angeles",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    147
-   ]
+   "pages": "147"
   }
  },
  {
@@ -5650,20 +5045,15 @@
    "event_id": 100,
    "kind": "correspondence",
    "date": "1958-05-12",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 135,
    "place": "1424 S. Kenmore Avenue, Los Angeles",
    "place_kind": "address",
    "role": "to",
    "location_type": "RANGE_INTERPOLATED",
-   "pages": [
-    145
-   ]
+   "pages": "145"
   }
  },
  {
@@ -5704,22 +5094,15 @@
    "event_id": 101,
    "kind": "correspondence",
    "date": "1958-05-27",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "self_account"
-   ],
+   "bases": "document, self_account",
    "place_id": 135,
    "place": "1424 S. Kenmore Avenue, Los Angeles",
    "place_kind": "address",
    "role": "to",
    "location_type": "RANGE_INTERPOLATED",
-   "pages": [
-    142,
-    144
-   ]
+   "pages": "142, 144"
   }
  },
  {
@@ -5760,20 +5143,15 @@
    "event_id": 102,
    "kind": "correspondence",
    "date": "1959-12",
-   "end_date": null,
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 131,
    "place": "Los Angeles",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    142
-   ]
+   "pages": "142"
   }
  },
  {
@@ -5817,21 +5195,13 @@
    "end_date": "1960-06-28",
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 115,
    "place": "Lettermen's Tourist Home, 2939 F Street NW, Washington",
    "place_kind": "address",
    "role": "at",
    "location_type": "RANGE_INTERPOLATED",
-   "pages": [
-    46,
-    132,
-    137,
-    143
-   ]
+   "pages": "46, 132, 137, 143"
   }
  },
  {
@@ -5872,22 +5242,15 @@
    "event_id": 105,
    "kind": "correspondence",
    "date": "1961-06-15",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 131,
    "place": "Los Angeles",
    "place_kind": "city",
    "role": "from",
    "location_type": "APPROXIMATE",
-   "pages": [
-    38,
-    133
-   ]
+   "pages": "38, 133"
   }
  },
  {
@@ -5928,22 +5291,15 @@
    "event_id": 106,
    "kind": "request",
    "date": "1961-09-29",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document",
-    "summary"
-   ],
+   "bases": "document, summary",
    "place_id": 109,
    "place": "Washington, D.C.",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    47,
-    132
-   ]
+   "pages": "47, 132"
   }
  },
  {
@@ -5984,21 +5340,15 @@
    "event_id": 107,
    "kind": "interview",
    "date": "1961-10-02",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 109,
    "place": "Washington, D.C.",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    132,
-    133
-   ]
+   "pages": "132, 133"
   }
  },
  {
@@ -6039,20 +5389,15 @@
    "event_id": 110,
    "kind": "contact",
    "date": "1962-04",
-   "end_date": null,
    "date_quality": "claimed",
    "basis": "self_account",
-   "bases": [
-    "self_account"
-   ],
+   "bases": "self_account",
    "place_id": 109,
    "place": "Washington, D.C.",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    44
-   ]
+   "pages": "44"
   }
  },
  {
@@ -6093,20 +5438,15 @@
    "event_id": 111,
    "kind": "marriage",
    "date": "1962-07-04",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 6,
    "place": "Italy",
    "place_kind": "country",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    40
-   ]
+   "pages": "40"
   }
  },
  {
@@ -6147,22 +5487,15 @@
    "event_id": 125,
    "kind": "publication",
    "date": "1964-03-24",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 117,
    "place": "New York City",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    54,
-    55,
-    56
-   ]
+   "pages": "54, 55, 56"
   }
  },
  {
@@ -6203,20 +5536,15 @@
    "event_id": 113,
    "kind": "trace",
    "date": "1965",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 90,
    "place": "Madrid",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    40
-   ]
+   "pages": "40"
   }
  },
  {
@@ -6257,22 +5585,15 @@
    "event_id": 126,
    "kind": "interview",
    "date": "1965-01-22",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 90,
    "place": "Madrid",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    40,
-    52,
-    53
-   ]
+   "pages": "40, 52, 53"
   }
  },
  {
@@ -6313,20 +5634,15 @@
    "event_id": 127,
    "kind": "interview",
    "date": "1965-08",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 117,
    "place": "New York City",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    51
-   ]
+   "pages": "51"
   }
  },
  {
@@ -6367,20 +5683,15 @@
    "event_id": 127,
    "kind": "interview",
    "date": "1965-08",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 90,
    "place": "Madrid",
    "place_kind": "city",
    "role": "to",
    "location_type": "APPROXIMATE",
-   "pages": [
-    51
-   ]
+   "pages": "51"
   }
  },
  {
@@ -6421,20 +5732,15 @@
    "event_id": 114,
    "kind": "speech",
    "date": "1967-02-19",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 118,
    "place": "Park Sheraton Hotel, New York",
    "place_kind": "hotel",
    "role": "at",
    "location_type": "ROOFTOP",
-   "pages": [
-    49
-   ]
+   "pages": "49"
   }
  },
  {
@@ -6475,20 +5781,15 @@
    "event_id": 115,
    "kind": "award",
    "date": "1967-03-10",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 117,
    "place": "New York City",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    50
-   ]
+   "pages": "50"
   }
  },
  {
@@ -6532,19 +5833,13 @@
    "end_date": "1967-03-31",
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 109,
    "place": "Washington, D.C.",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    44,
-    45,
-    47
-   ]
+   "pages": "44, 45, 47"
   }
  },
  {
@@ -6585,21 +5880,15 @@
    "event_id": 117,
    "kind": "meeting",
    "date": "1967-03-31",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 116,
    "place": "Astoria Restaurant, Washington",
    "place_kind": "hotel",
    "role": "at",
    "location_type": "MANUAL",
-   "pages": [
-    42,
-    43
-   ]
+   "pages": "42, 43"
   }
  },
  {
@@ -6640,20 +5929,15 @@
    "event_id": 118,
    "kind": "speech",
    "date": "1967-04-01",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 119,
    "place": "Columbia University Club, 4 W. 43rd Street, New York",
    "place_kind": "building",
    "role": "at",
    "location_type": "ROOFTOP",
-   "pages": [
-    48
-   ]
+   "pages": "48"
   }
  },
  {
@@ -6694,20 +5978,15 @@
    "event_id": 121,
    "kind": "contact",
    "date": "1968-04",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 67,
    "place": "American Embassy, Athens",
    "place_kind": "embassy",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    38
-   ]
+   "pages": "38"
   }
  },
  {
@@ -6748,21 +6027,15 @@
    "event_id": 122,
    "kind": "trace",
    "date": "1969-07",
-   "end_date": null,
    "date_quality": "stated",
    "basis": "document",
-   "bases": [
-    "document"
-   ],
+   "bases": "document",
    "place_id": 65,
    "place": "Athens",
    "place_kind": "city",
    "role": "at",
    "location_type": "APPROXIMATE",
-   "pages": [
-    37,
-    40
-   ]
+   "pages": "37, 40"
   }
  },
  {
